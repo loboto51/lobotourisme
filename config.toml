@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "fr-FR"
+title = "Loboto51"
+theme = "hugo-clarity"
+
+defaultContentLanguage = "fr"
+
+[params]
+	DateFormat = "2 Jan 2006"
