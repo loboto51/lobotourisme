@@ -1,12 +1,76 @@
-<!doctype html><html lang=fr data-figures class=home><head><meta name=generator content="Hugo 0.82.1"><title>Loboto51</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta http-equiv=x-ua-compatible content="IE=edge"><meta property="og:locale" content="fr"><meta property="og:type" content="website"><meta name=description content><meta name=twitter:card content="summary"><meta name=twitter:creator content><meta name=twitter:title content="Loboto51"><meta property="og:url" content="https://loboto51.github.io/"><meta property="og:title" content="Loboto51"><meta property="og:description" content><meta property="og:image" content="https://loboto51.github.io/"><link rel=apple-touch-icon sizes=180x180 href=https://loboto51.github.io/icons/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://loboto51.github.io/icons/favicon-32x32.png><link rel=manifest href=https://loboto51.github.io/icons/site.webmanifest><link rel=canonical href=https://loboto51.github.io/><link rel=alternate type=application/rss+xml href=https://loboto51.github.io/index.xml title=Loboto51><link rel=preload href=https://loboto51.github.io/css/styles.f447efe4c4b72136d91de28493ae7ef4ecc0c35f80359801224320ede7871c488414b1dfba5913dffd7a1ed5f70440802a87e8795f124086b949e35e6579b5d9.css integrity="sha512-9Efv5MS3ITbZHeKEk65+9OzAw1+ANZgBIkMg7eeHHEiEFLHfulkT3/16HtX3BECAKofoeV8SQIa5SeNeZXm12Q==" as=style crossorigin=anonymous><link rel=preload href=https://loboto51.github.io/js/bundle.min.914aa30d4155982cbb5dc6e3efcf3a12c142073d5e5a9e04cc5e01f92fcc35f096fe9d4800f1563fdd7ee2b83eedb5e791445c976cb84bbbf8bc825c038a7833.js as=script integrity="sha512-kUqjDUFVmCy7Xcbj7886EsFCBz1eWp4EzF4B+S/MNfCW/p1IAPFWP91+4rg+7bXnkURcl2y4S7v4vIJcA4p4Mw==" crossorigin=anonymous><link rel=stylesheet type=text/css href=https://loboto51.github.io/css/styles.f447efe4c4b72136d91de28493ae7ef4ecc0c35f80359801224320ede7871c488414b1dfba5913dffd7a1ed5f70440802a87e8795f124086b949e35e6579b5d9.css integrity="sha512-9Efv5MS3ITbZHeKEk65+9OzAw1+ANZgBIkMg7eeHHEiEFLHfulkT3/16HtX3BECAKofoeV8SQIa5SeNeZXm12Q==" crossorigin=anonymous></head><body data-code=100 data-lines=false id=documentTop><header class=nav_header><nav class=nav><a href=https://loboto51.github.io/ class="nav_brand nav_item" title=Loboto51>Loboto51<div class=nav_close><div><svg class="icon"><use xlink:href="#open-menu"/></svg><svg class="icon"><use xlink:href="#closeme"/></svg></div></div></a><div class="nav_body nav_body_"><div class=follow><div class=color_mode><input type=checkbox class=color_choice id=mode></div></div></div></nav></header><main><div class="grid-inverse wrap content"><ul class=posts id=posts><li class=post_item><div class=excerpt><div class=excerpt_header><h3 class=post_link><a href=https://loboto51.github.io/post/2021-04-22_-_deployer-hugo-sur-github-pages/ title="Déployer un site web statique Hugo sur github Pages">Déployer un site web statique Hugo sur github Pages</a></h3><div class=post_meta><span><svg class="icon"><use xlink:href="#calendar"/></svg></span><span class=post_date>22 Apr 2021</span>
+<!doctype html><html lang=fr data-figures class=page><head><title>Déployer un site web statique Hugo sur github Pages | Loboto51</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta http-equiv=x-ua-compatible content="IE=edge"><meta property="og:locale" content="fr"><meta property="og:type" content="article"><meta name=description content="Préparer dépôt github : Pour être disponible via Github Pages le repository github doit être public et créé avec le nom :
+{user github}.github.io  Créer une …"><meta name=twitter:card content="summary"><meta name=twitter:creator content><meta name=twitter:title content="Déployer un site web statique Hugo sur github Pages"><meta property="og:url" content="https://loboto51.github.io/post/2021-04-22_-_deployer-hugo-sur-github-pages/"><meta property="og:title" content="Déployer un site web statique Hugo sur github Pages"><meta property="og:description" content="Préparer dépôt github : Pour être disponible via Github Pages le repository github doit être public et créé avec le nom :
+{user github}.github.io  Créer une …"><meta property="og:image" content="https://loboto51.github.io/"><link rel=apple-touch-icon sizes=180x180 href=https://loboto51.github.io/icons/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=https://loboto51.github.io/icons/favicon-32x32.png><link rel=manifest href=https://loboto51.github.io/icons/site.webmanifest><link rel=canonical href=https://loboto51.github.io/post/2021-04-22_-_deployer-hugo-sur-github-pages/><link rel=preload href=https://loboto51.github.io/css/styles.f447efe4c4b72136d91de28493ae7ef4ecc0c35f80359801224320ede7871c488414b1dfba5913dffd7a1ed5f70440802a87e8795f124086b949e35e6579b5d9.css integrity="sha512-9Efv5MS3ITbZHeKEk65+9OzAw1+ANZgBIkMg7eeHHEiEFLHfulkT3/16HtX3BECAKofoeV8SQIa5SeNeZXm12Q==" as=style crossorigin=anonymous><link rel=preload href=https://loboto51.github.io/js/bundle.min.914aa30d4155982cbb5dc6e3efcf3a12c142073d5e5a9e04cc5e01f92fcc35f096fe9d4800f1563fdd7ee2b83eedb5e791445c976cb84bbbf8bc825c038a7833.js as=script integrity="sha512-kUqjDUFVmCy7Xcbj7886EsFCBz1eWp4EzF4B+S/MNfCW/p1IAPFWP91+4rg+7bXnkURcl2y4S7v4vIJcA4p4Mw==" crossorigin=anonymous><link rel=stylesheet type=text/css href=https://loboto51.github.io/css/styles.f447efe4c4b72136d91de28493ae7ef4ecc0c35f80359801224320ede7871c488414b1dfba5913dffd7a1ed5f70440802a87e8795f124086b949e35e6579b5d9.css integrity="sha512-9Efv5MS3ITbZHeKEk65+9OzAw1+ANZgBIkMg7eeHHEiEFLHfulkT3/16HtX3BECAKofoeV8SQIa5SeNeZXm12Q==" crossorigin=anonymous></head><body data-code=100 data-lines=false id=documentTop><header class=nav_header><nav class=nav><a href=https://loboto51.github.io/ class="nav_brand nav_item" title=Loboto51>Loboto51<div class=nav_close><div><svg class="icon"><use xlink:href="#open-menu"/></svg><svg class="icon"><use xlink:href="#closeme"/></svg></div></div></a><div class="nav_body nav_body_"><div class=follow><div class=color_mode><input type=checkbox class=color_choice id=mode></div></div></div></nav></header><main><div class="grid-inverse wrap content"><article class=post_content><h1 class=post_title>Déployer un site web statique Hugo sur github Pages</h1><div class=post_meta><span><svg class="icon"><use xlink:href="#calendar"/></svg></span><span class=post_date>22 Apr 2021</span>
 <span class=post_time>· 2 min read&nbsp;</span>
 <span>·
 <a href=https://loboto51.github.io/tags/hugo title=hugo class="post_tag button button_translucent">hugo</a> ·
 <a href=https://loboto51.github.io/tags/github-pages title="github pages" class="post_tag button button_translucent">github pages</a></span>
 <span class=page_only>·<div class=post_share>Partager sur:
-<a href="https://twitter.com/intent/tweet?text=D%c3%a9ployer%20un%20site%20web%20statique%20Hugo%20sur%20github%20Pages&url=https%3a%2f%2floboto51.github.io%2fpost%2f2021-04-22_-_deployer-hugo-sur-github-pages%2f&tw_p=tweetbutton" class=twitter title="Partager sur Twitter" target=_blank rel=nofollow><svg class="icon"><use xlink:href="#twitter"/></svg></a><a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2floboto51.github.io%2fpost%2f2021-04-22_-_deployer-hugo-sur-github-pages%2f&t=D%c3%a9ployer%20un%20site%20web%20statique%20Hugo%20sur%20github%20Pages" class=facebook title="Partager sur Facebook" target=_blank rel=nofollow><svg class="icon"><use xlink:href="#facebook"/></svg></a><a href=#linkedinshare id=linkedinshare class=linkedin title="Partager sur LinkedIn" rel=nofollow><svg class="icon"><use xlink:href="#linkedin"/></svg></a><a href=https://loboto51.github.io/post/2021-04-22_-_deployer-hugo-sur-github-pages/ title="Copy Link" class="link link_yank"><svg class="icon"><use xlink:href="#copy"/></svg></a></div></span></div></div><div class=excerpt_footer><div><p class=pale>Préparer dépôt github : Pour être disponible via Github Pages le repository github doit être public et créé avec le nom :
-{user github}.github.io Créer une copie locale :
-mkdir loboto51.github.io cd loboto51.github.io echo "# loboto51.github.io" >> README.md git init git add README.md git commit -m …</p><a href=https://loboto51.github.io/post/2021-04-22_-_deployer-hugo-sur-github-pages/ title="Lire la suite…" class="excerpt_more button">Lire la suite…</a></div></div></div></li><li></li></ul><aside class=sidebar><section class=sidebar_inner><h2 class=mt-4>Billets récents</h2><ul class=flex-column><li><a href=https://loboto51.github.io/post/2021-04-22_-_deployer-hugo-sur-github-pages/ class=nav-link title="Déployer un site web statique Hugo sur github Pages">Déployer un site web statique Hugo sur github Pages</a></li></ul><div><h2 class="mt-4 taxonomy" id=categories-section>Catégories</h2><nav class=tags_nav><a href=https://loboto51.github.io/categories/dev/ class="post_tag button button_translucent" title=dev>DEV
+<a href="https://twitter.com/intent/tweet?text=D%c3%a9ployer%20un%20site%20web%20statique%20Hugo%20sur%20github%20Pages&url=https%3a%2f%2floboto51.github.io%2fpost%2f2021-04-22_-_deployer-hugo-sur-github-pages%2f&tw_p=tweetbutton" class=twitter title="Partager sur Twitter" target=_blank rel=nofollow><svg class="icon"><use xlink:href="#twitter"/></svg></a><a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2floboto51.github.io%2fpost%2f2021-04-22_-_deployer-hugo-sur-github-pages%2f&t=D%c3%a9ployer%20un%20site%20web%20statique%20Hugo%20sur%20github%20Pages" class=facebook title="Partager sur Facebook" target=_blank rel=nofollow><svg class="icon"><use xlink:href="#facebook"/></svg></a><a href=#linkedinshare id=linkedinshare class=linkedin title="Partager sur LinkedIn" rel=nofollow><svg class="icon"><use xlink:href="#linkedin"/></svg></a><a href=https://loboto51.github.io/post/2021-04-22_-_deployer-hugo-sur-github-pages/ title="Copy Link" class="link link_yank"><svg class="icon"><use xlink:href="#copy"/></svg></a></div></span></div><h1 id=préparer-dépôt-github->Préparer dépôt github :</h1><p>Pour être disponible via Github Pages le repository github doit être public et créé avec le nom :</p><pre><code>{user github}.github.io
+</code></pre><p>Créer une copie locale :</p><pre><code>mkdir loboto51.github.io
+cd loboto51.github.io
+echo &quot;# loboto51.github.io&quot; &gt;&gt; README.md
+git init
+git add README.md
+git commit -m &quot;first commit&quot;
+git remote add origin https://github.com/loboto51/loboto51.github.io.git
+git branch -M main
+git push -u origin main
+</code></pre><h1 id=hugo->Hugo :</h1><h2 id=package->Package :</h2><p>Récupérer dernière version (ici ubuntu) :</p><pre><code>wget https://github.com/gohugoio/hugo/releases/download/v0.82.1/hugo_extended_0.82.1_Linux-64bit.deb
+sudo dpkg -i hugo_extended_0.82.1_Linux-64bit.deb
+</code></pre><p>si erreurs de dépendances :</p><pre><code>sudo apt-get install -f
+</code></pre><h2 id=créer-un-socle-de-site->Créer un socle de site :</h2><pre><code>cd loboto51.github.io
+hugo new site .
+</code></pre><p>Installer un thème (ici <a href=https://themes.gohugo.io/hugo-clarity/>hugo-clarity</a>):</p><pre><code>cd loboto51.github.io/themes
+git clone https://github.com/chipzoller/hugo-clarity.git
+</code></pre><p>Enlever les éléments inutiles du theme :</p><pre><code>rm -Rf hugo-clarity/.git*
+rm -Rf hugo-clarity/exampleSite
+</code></pre><p>Pour créer une page de test (sinon n&rsquo;importe que .md dans le rep post/ fait l&rsquo;affaire) :</p><pre><code>hugo new post/testpage.md
+</code></pre><h2 id=vérification-que-ça-marche->Vérification que ça marche :</h2><p>Lancer serveur Hugo en local pour tester :</p><pre><code>hugo server -D
+</code></pre><p>ouvrir :
+<a href=http://localhost:1313/>http://localhost:1313/</a></p><p>Si tout se passe bien on peut poursuivre.</p><h1 id=génération-automatique-des-pages-sur-le-dépôt->Génération automatique des pages sur le dépôt :</h1><p>Ajouter un fichier de conf au dépôt pour générer automatiquement les pages Hugo à chaque push (<a href=https://gohugo.io/hosting-and-deployment/hosting-on-github/>doc Hugo : hosting on github</a>) :</p><pre><code>cd loboto51.github.io
+mkdir -p .github/workflows/
+touch .github/workflows/gh-pages.yml
+</code></pre><p>Y mettre la conf auto suivante.
+Elle génère les pages statiques Hugo dans une branche gh-pages :</p><pre><code>name: github pages
+
+on:
+  push:
+    branches:
+      - main  # Set a branch to deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          # extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+</code></pre><h1 id=push-et-dernières-confs-sur-github->Push et dernières confs sur github :</h1><pre><code>cd loboto51.github.io
+git commit -a -m &quot;init&quot;
+git push
+</code></pre><p>Se connecter au dépôt git, dans &ldquo;Action&rdquo; on voit le traitement se dérouler (et éventuellement planter).
+Aller dans la conf du dépot : Pages > Source
+Choisir :</p><pre><code>[Branch : gh-pages] [/root]
+</code></pre><p>Aller sur le site :
+<a href=loboto51.github.io>loboto51.github.io</a>
+En théorie tout marche.</p><h1 id=liens-utiles->Liens utiles :</h1><p>Hugo sur github :</p><ul><li><a href=https://youngkin.github.io/post/createafreeblogsite/>Create a Free Blog Site Using GitHub Pages and Hugo</a></li><li><a href=https://gohugo.io/hosting-and-deployment/hosting-on-github/>doc Hugo : hosting on github</a></li></ul><p>Markdown :</p><ul><li><a href=http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html>Quick Markdown Example - page de référence bourrée d&rsquo;exemple</a></li></ul></article><aside class=sidebar><section class=sidebar_inner><h2 class=mt-4>Billets récents</h2><ul class=flex-column></ul><div><h2 class="mt-4 taxonomy" id=categories-section>Catégories</h2><nav class=tags_nav><a href=https://loboto51.github.io/categories/dev/ class="post_tag button button_translucent" title=dev>DEV
 <span class=button_tally>1</span></a></nav></div><div><h2 class="mt-4 taxonomy" id=tags-section>Tags</h2><nav class=tags_nav><a href=https://loboto51.github.io/tags/github-pages/ class="post_tag button button_translucent" title=github-pages>GITHUB-PAGES
 <span class=button_tally>1</span></a>
 <a href=https://loboto51.github.io/tags/hugo/ class="post_tag button button_translucent" title=hugo>HUGO
