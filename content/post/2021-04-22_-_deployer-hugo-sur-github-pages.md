@@ -21,16 +21,17 @@ Pour être disponible via Github Pages le repository github doit être public et
 
 Créer une copie locale :
 
-    mkdir loboto51.github.io
-    cd loboto51.github.io
-    echo "# loboto51.github.io" >> README.md
-    git init
-    git add README.md
-    git commit -m "first commit"
-    git remote add origin https://github.com/loboto51/loboto51.github.io.git
-    git branch -M main
-    git push -u origin main
-
+```sh
+mkdir loboto51.github.io
+cd loboto51.github.io
+echo "# loboto51.github.io" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/loboto51/loboto51.github.io.git
+git branch -M main
+git push -u origin main
+```
 
 Hugo :
 ======
@@ -40,33 +41,44 @@ Package :
 
 Récupérer dernière version (ici ubuntu) :
 
-    wget https://github.com/gohugoio/hugo/releases/download/v0.82.1/hugo_extended_0.82.1_Linux-64bit.deb
-    sudo dpkg -i hugo_extended_0.82.1_Linux-64bit.deb
+```sh
+wget https://github.com/gohugoio/hugo/releases/download/v0.82.1/hugo_extended_0.82.1_Linux-64bit.deb
+sudo dpkg -i hugo_extended_0.82.1_Linux-64bit.deb
+```
 
 si erreurs de dépendances :
 
-    sudo apt-get install -f
-
+```sh
+sudo apt-get install -f
+```
 
 Créer un socle de site :
 -----------------------
 
-    cd loboto51.github.io
-    hugo new site .
+```sh
+cd loboto51.github.io
+hugo new site .
+```
 
 Installer un thème (ici [hugo-clarity](https://themes.gohugo.io/hugo-clarity/)):
 
-    cd loboto51.github.io/themes
-    git clone https://github.com/chipzoller/hugo-clarity.git
+```sh
+cd loboto51.github.io/themes
+git clone https://github.com/chipzoller/hugo-clarity.git
+```
 
 Enlever les éléments inutiles du theme :
 
-    rm -Rf hugo-clarity/.git*
-    rm -Rf hugo-clarity/exampleSite
+```sh
+rm -Rf hugo-clarity/.git*
+rm -Rf hugo-clarity/exampleSite
+```
 
 Pour créer une page de test (sinon n'importe que .md dans le rep post/ fait l'affaire) :
 
-    hugo new post/testpage.md
+```sh
+hugo new post/testpage.md
+```
 
 
 Vérification que ça marche :
@@ -74,7 +86,9 @@ Vérification que ça marche :
 
 Lancer serveur Hugo en local pour tester :
 
-    hugo server -D
+```sh
+hugo server -D
+```
 
 ouvrir :
 [http://localhost:1313/](http://localhost:1313/)
@@ -87,51 +101,56 @@ Génération automatique des pages sur le dépôt :
 
 Ajouter un fichier de conf au dépôt pour générer automatiquement les pages Hugo à chaque push ([doc Hugo : hosting on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)) :
 
-    cd loboto51.github.io
-    mkdir -p .github/workflows/
-    touch .github/workflows/gh-pages.yml
+```sh
+cd loboto51.github.io
+mkdir -p .github/workflows/
+touch .github/workflows/gh-pages.yml
+```
 
 Y mettre la conf auto suivante.
 Elle génère les pages statiques Hugo dans une branche gh-pages :
 
-    name: github pages
-    
-    on:
-      push:
-        branches:
-          - main  # Set a branch to deploy
-    
-    jobs:
-      deploy:
-        runs-on: ubuntu-18.04
-        steps:
-          - uses: actions/checkout@v2
-            with:
-              submodules: true  # Fetch Hugo themes (true OR recursive)
-              fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-    
-          - name: Setup Hugo
-            uses: peaceiris/actions-hugo@v2
-            with:
-              hugo-version: 'latest'
-              # extended: true
-    
-          - name: Build
-            run: hugo --minify
-    
-          - name: Deploy
-            uses: peaceiris/actions-gh-pages@v3
-            with:
-              github_token: ${{ secrets.GITHUB_TOKEN }}
-              publish_dir: ./public
+```yml
+name: github pages
 
+on:
+  push:
+    branches:
+      - main  # Set a branch to deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          # extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+```
 
 Push et dernières confs sur github :
 ====================================
 
-    cd loboto51.github.io
-    git commit -a -m "init"
-    git push
+```sh
+cd loboto51.github.io
+git commit -a -m "init"
+git push
+```
 
 Se connecter au dépôt git, dans "Action" on voit le traitement se dérouler (et éventuellement planter).
 Aller dans la conf du dépot : Pages > Source
