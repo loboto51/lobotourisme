@@ -1,90 +1,84 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Loboto51</title><link>https://loboto51.github.io/</link><description>Recent content on Loboto51</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><lastBuildDate>Thu, 22 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Déployer un site web statique Hugo sur github Pages</title><link>https://loboto51.github.io/post/2021-04-22_-_deployer-hugo-sur-github-pages/</link><pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/2021-04-22_-_deployer-hugo-sur-github-pages/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lobotomi51</title><link>https://example.com/</link><description>Recent content on Lobotomi51</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><lastBuildDate>Thu, 22 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Déployer un site web statique Hugo sur github Pages</title><link>https://example.com/post/2021-04-22_-_deployer-hugo-sur-github-pages/</link><pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate><guid>https://example.com/post/2021-04-22_-_deployer-hugo-sur-github-pages/</guid><description>
 &lt;h1 id="préparer-dépôt-github-">Préparer dépôt github :&lt;/h1>
 &lt;p>Pour être disponible via Github Pages le repository github doit être public et créé avec le nom :&lt;/p>
 &lt;pre>&lt;code>{user github}.github.io
 &lt;/code>&lt;/pre>
 &lt;p>Créer une copie locale :&lt;/p>
-&lt;pre>&lt;code>mkdir loboto51.github.io
-cd loboto51.github.io
-echo &amp;quot;# loboto51.github.io&amp;quot; &amp;gt;&amp;gt; README.md
-git init
-git add README.md
-git commit -m &amp;quot;first commit&amp;quot;
-git remote add origin https://github.com/loboto51/loboto51.github.io.git
-git branch -M main
-git push -u origin main
-&lt;/code>&lt;/pre>
-&lt;h1 id="hugo-">Hugo :&lt;/h1>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>mkdir loboto51.github.io
+&lt;span class="ln">2&lt;/span>&lt;span class="nb">cd&lt;/span> loboto51.github.io
+&lt;span class="ln">3&lt;/span>&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;# loboto51.github.io&amp;#34;&lt;/span> &amp;gt;&amp;gt; README.md
+&lt;span class="ln">4&lt;/span>git init
+&lt;span class="ln">5&lt;/span>git add README.md
+&lt;span class="ln">6&lt;/span>git commit -m &lt;span class="s2">&amp;#34;first commit&amp;#34;&lt;/span>
+&lt;span class="ln">7&lt;/span>git remote add origin https://github.com/loboto51/loboto51.github.io.git
+&lt;span class="ln">8&lt;/span>git branch -M main
+&lt;span class="ln">9&lt;/span>git push -u origin main
+&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="hugo-">Hugo :&lt;/h1>
 &lt;h2 id="package-">Package :&lt;/h2>
 &lt;p>Récupérer dernière version (ici ubuntu) :&lt;/p>
-&lt;pre>&lt;code>wget https://github.com/gohugoio/hugo/releases/download/v0.82.1/hugo_extended_0.82.1_Linux-64bit.deb
-sudo dpkg -i hugo_extended_0.82.1_Linux-64bit.deb
-&lt;/code>&lt;/pre>
-&lt;p>si erreurs de dépendances :&lt;/p>
-&lt;pre>&lt;code>sudo apt-get install -f
-&lt;/code>&lt;/pre>
-&lt;h2 id="créer-un-socle-de-site-">Créer un socle de site :&lt;/h2>
-&lt;pre>&lt;code>cd loboto51.github.io
-hugo new site .
-&lt;/code>&lt;/pre>
-&lt;p>Installer un thème (ici &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-clarity&lt;/a>):&lt;/p>
-&lt;pre>&lt;code>cd loboto51.github.io/themes
-git clone https://github.com/chipzoller/hugo-clarity.git
-&lt;/code>&lt;/pre>
-&lt;p>Enlever les éléments inutiles du theme :&lt;/p>
-&lt;pre>&lt;code>rm -Rf hugo-clarity/.git*
-rm -Rf hugo-clarity/exampleSite
-&lt;/code>&lt;/pre>
-&lt;p>Pour créer une page de test (sinon n&amp;rsquo;importe que .md dans le rep post/ fait l&amp;rsquo;affaire) :&lt;/p>
-&lt;pre>&lt;code>hugo new post/testpage.md
-&lt;/code>&lt;/pre>
-&lt;h2 id="vérification-que-ça-marche-">Vérification que ça marche :&lt;/h2>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>wget https://github.com/gohugoio/hugo/releases/download/v0.82.1/hugo_extended_0.82.1_Linux-64bit.deb
+&lt;span class="ln">2&lt;/span>sudo dpkg -i hugo_extended_0.82.1_Linux-64bit.deb
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>si erreurs de dépendances :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>sudo apt-get install -f
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="créer-un-socle-de-site-">Créer un socle de site :&lt;/h2>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> loboto51.github.io
+&lt;span class="ln">2&lt;/span>hugo new site .
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Installer un thème (ici &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-clarity&lt;/a>):&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> loboto51.github.io/themes
+&lt;span class="ln">2&lt;/span>git clone https://github.com/chipzoller/hugo-clarity.git
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Enlever les éléments inutiles du theme :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>rm -Rf hugo-clarity/.git*
+&lt;span class="ln">2&lt;/span>rm -Rf hugo-clarity/exampleSite
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Pour créer une page de test (sinon n'importe que .md dans le rep post/ fait l'affaire) :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>hugo new post/testpage.md
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="vérification-que-ça-marche-">Vérification que ça marche :&lt;/h2>
 &lt;p>Lancer serveur Hugo en local pour tester :&lt;/p>
-&lt;pre>&lt;code>hugo server -D
-&lt;/code>&lt;/pre>
-&lt;p>ouvrir :
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>hugo server -D
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>ouvrir :
 &lt;a href="http://localhost:1313/">http://localhost:1313/&lt;/a>&lt;/p>
 &lt;p>Si tout se passe bien on peut poursuivre.&lt;/p>
 &lt;h1 id="génération-automatique-des-pages-sur-le-dépôt-">Génération automatique des pages sur le dépôt :&lt;/h1>
 &lt;p>Ajouter un fichier de conf au dépôt pour générer automatiquement les pages Hugo à chaque push (&lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">doc Hugo : hosting on github&lt;/a>) :&lt;/p>
-&lt;pre>&lt;code>cd loboto51.github.io
-mkdir -p .github/workflows/
-touch .github/workflows/gh-pages.yml
-&lt;/code>&lt;/pre>
-&lt;p>Y mettre la conf auto suivante.
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> loboto51.github.io
+&lt;span class="ln">2&lt;/span>mkdir -p .github/workflows/
+&lt;span class="ln">3&lt;/span>touch .github/workflows/gh-pages.yml
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Y mettre la conf auto suivante.
 Elle génère les pages statiques Hugo dans une branche gh-pages :&lt;/p>
-&lt;pre>&lt;code>name: github pages
-on:
-push:
-branches:
-- main # Set a branch to deploy
-jobs:
-deploy:
-runs-on: ubuntu-18.04
-steps:
-- uses: actions/checkout@v2
-with:
-submodules: true # Fetch Hugo themes (true OR recursive)
-fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
-- name: Setup Hugo
-uses: peaceiris/actions-hugo@v2
-with:
-hugo-version: 'latest'
-# extended: true
-- name: Build
-run: hugo --minify
-- name: Deploy
-uses: peaceiris/actions-gh-pages@v3
-with:
-github_token: ${{ secrets.GITHUB_TOKEN }}
-publish_dir: ./public
-&lt;/code>&lt;/pre>
-&lt;h1 id="push-et-dernières-confs-sur-github-">Push et dernières confs sur github :&lt;/h1>
-&lt;pre>&lt;code>cd loboto51.github.io
-git commit -a -m &amp;quot;init&amp;quot;
-git push
-&lt;/code>&lt;/pre>
-&lt;p>Se connecter au dépôt git, dans &amp;ldquo;Action&amp;rdquo; on voit le traitement se dérouler (et éventuellement planter).
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="ln"> 1&lt;/span>&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">github pages&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln"> 2&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln"> 3&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln"> 4&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">push&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln"> 5&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">branches&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln"> 6&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="l">main &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Set a branch to deploy&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln"> 7&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln"> 8&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln"> 9&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">deploy&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">10&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">runs-on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ubuntu-18.04&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">11&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">12&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/checkout@v2&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">13&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">14&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">submodules&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch Hugo themes (true OR recursive)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">15&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">fetch-depth&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch all history for .GitInfo and .Lastmod&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">16&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">17&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Setup Hugo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">18&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-hugo@v2&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">19&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">20&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">hugo-version&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;latest&amp;#39;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">21&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># extended: true&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">22&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">23&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Build&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">24&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">hugo --minify&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">25&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">26&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Deploy&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">27&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-gh-pages@v3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">28&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">29&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">github_token&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ secrets.GITHUB_TOKEN }}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">30&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">publish_dir&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">./public&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="push-et-dernières-confs-sur-github-">Push et dernières confs sur github :&lt;/h1>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> loboto51.github.io
+&lt;span class="ln">2&lt;/span>git commit -a -m &lt;span class="s2">&amp;#34;init&amp;#34;&lt;/span>
+&lt;span class="ln">3&lt;/span>git push
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Se connecter au dépôt git, dans &amp;quot;Action&amp;quot; on voit le traitement se dérouler (et éventuellement planter).
 Aller dans la conf du dépot : Pages &amp;gt; Source
 Choisir :&lt;/p>
 &lt;pre>&lt;code>[Branch : gh-pages] [/root]
@@ -100,5 +94,5 @@ En théorie tout marche.&lt;/p>
 &lt;/ul>
 &lt;p>Markdown :&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html">Quick Markdown Example - page de référence bourrée d&amp;rsquo;exemple&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html">Quick Markdown Example - page de référence bourrée d'exemple&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>
