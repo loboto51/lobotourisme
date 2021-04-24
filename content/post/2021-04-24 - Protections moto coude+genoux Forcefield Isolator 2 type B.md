@@ -1,8 +1,8 @@
 +++
 title = "Protections moto coude+genoux Forcefield Isolator 2 type B"
 date = "2021-04-24"
-categories = ["protection moto"]
-tags = ["Forcefield Isolator 2", "genoux", "coudes"]
+categories = ["protections moto"]
+tags = ["Forcefield Isolator 2", "protection moto genoux", "protection moto coudes"]
 +++
 
 Notes :

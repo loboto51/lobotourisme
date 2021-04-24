@@ -1,9 +1,9 @@
 +++
 title = "About"
-description = "Mon bloc note"
+description = "Le bloc-note de Loboto"
 date = "2021-04-23"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Loboto"
 +++
 
-Ceci est un site "bloc note" qui me sert à stocker différentes docs et infos.
+L'absolu ne doit pas être annihilé par l'illusoire précarité de nos amours destituées et Vice et Versa.
