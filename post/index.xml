@@ -1,58 +1,121 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Lobotomi51</title><link>https://loboto51.github.io/post/</link><description>Recent content in Posts on Lobotomi51</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 24 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Protections moto coude+genoux Forcefield Isolator 2 type B</title><link>https://loboto51.github.io/post/2021-04-24-protections-moto-coude+genoux-forcefield-isolator-2-type-b/</link><pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/2021-04-24-protections-moto-coude+genoux-forcefield-isolator-2-type-b/</guid><description>
-&lt;h2 id="notes-">Notes :&lt;/h2>
-&lt;p>La norme prévoit 2 tailles pour les protections coude et genoux marquées: elbow : A (petit)/B (grand) et knee A/B (idem).&lt;/p>
-&lt;p>Pour ce modèle je n'ai vu de références qu'à un elbow/knee type B.&lt;/p>
-&lt;p>Je ne suis pas certain qu'un autre modèle existe.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Lobotomi51</title><link>https://loboto51.github.io/post/</link><description>Recent content in Posts on Lobotomi51</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sat, 24 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Protections moto membres Forcefield Isolator 2</title><link>https://loboto51.github.io/post/protections-moto-membres-forcefield-isolator-2/</link><pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/protections-moto-membres-forcefield-isolator-2/</guid><description>
 &lt;h2 id="synthèse-">Synthèse :&lt;/h2>
+&lt;p>Modèles coude/genou B (E/K B), genou B (K B), hanche B (H B), épaule B (S B) :&lt;/p>
 &lt;ul>
-&lt;li>Protection : Niveau 2 T- T+&lt;/li>
-&lt;li>Absorption : 10.6kN transmis (meilleur score)&lt;/li>
-&lt;li>T- : oui&lt;/li>
-&lt;li>T+ : oui&lt;/li>
-&lt;li>Poids : 91g&lt;/li>
+&lt;li>Certification : Niveau 2 T+ T- &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;li>Protection réelle : Le fabricant annonce descendre jusqu'à 10,6kN, donc entre 10,6 kN et 30 kN (maximum autorisé)&lt;/li>
 &lt;li>Fabrication : UK&lt;/li>
 &lt;li>Longévité annoncée : 2 à 3 ans&lt;/li>
 &lt;li>Type de matériaux : Souple (&amp;gt; D3O), s'ajuste avec la chaleur corporelle&lt;/li>
 &lt;li>Aération: Bonne&lt;/li>
 &lt;/ul>
-&lt;h2 id="compatibilité-">Compatibilité :&lt;/h2>
+&lt;h2 id="dimensions-et-poids-">Dimensions et poids :&lt;/h2>
 &lt;ul>
-&lt;li>Vestes Alpinestar :&lt;/li>
+&lt;li>Genou (K) B : 24 cm x 16.5 cm - 114 g&lt;/li>
+&lt;li>Hanche (H) B : 23 cm x 11.5 cm - 80 g&lt;/li>
+&lt;li>Coude/genou (E/K) B : 24.5 cm x 16 cm - 114 g&lt;/li>
+&lt;li>Epaule (S) B : 20.5 cm x 15 cm - 96 g&lt;/li>
 &lt;/ul>
+&lt;p>NB :
+Le modèle coude/genou est type B pour les 2 articulations, alors que la Rev'It Seeflex RV10 L2 plus longue (photo plus bas) n'est que coude B, genou A.
+Peut-être qu'elle couvre moins le genou latéralement ?&lt;/p>
+&lt;h2 id="confort-et-comparaison-avec-les-autres-marques-">Confort et comparaison avec les autres marques :&lt;/h2>
+&lt;p>Synthèse (détails plus bas) :&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>(-) Forcefield Isolator L2&lt;/th>
+&lt;th>(+) Knox Microlock L2&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Aération&lt;/td>
+&lt;td>Couverture + ajustement + souplesse par temps froid&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>(+) Forcefield Isolator L2&lt;/th>
+&lt;th>(-) D3O&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Ajustement + souplesse + protection&lt;/td>
+&lt;td>N/A (prix ?)&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="température-">Température :&lt;/h3>
 &lt;blockquote>
-&lt;p>&amp;quot;Just right for Alpinestar jackets&amp;quot;
-— &lt;cite>advrider cblais19 [^3]&lt;/cite>&lt;/p>
+&lt;p>&amp;quot;pads do go very stiff in cold temperatures and take a while to soften&amp;quot;
+— &lt;cite>advrider cblais19&lt;/cite>&lt;/p>
 &lt;/blockquote>
-&lt;h2 id="souplesse-et-ressenti-">Souplesse et ressenti :&lt;/h2>
+&lt;h3 id="comparaison-avec-les-knox-micro-lock-l2-sas-tec-et-d3o-">Comparaison avec les Knox Micro-lock L2, SAS-Tec et D3O :&lt;/h3>
 &lt;blockquote>
-&lt;p>&amp;quot;Compared to D3O’s &lt;a href="https://www.mcgearhub.com/motorcycle-armor/d3o-knee-elbow-armor-review-t5-evo-pro-x/">T5 EVO Pro X armor&lt;/a> (which is also CE-certi ed as Level 2), the Forcefield Isolator 2 armor is signicantly more contouring, wrapping and compliant.&amp;quot;
+&lt;p>The softest high protection (CE2) armor I've found is the Knox MicroLock. It's more pliable then Forcefield, SasTec, or D3O; and has a softer feel when joint pressure is applied.
+— &lt;cite>&lt;a href="https://advrider.com/f/threads/comfortable-knee-armor.1371777/#post-37833963">advrider cblais19&lt;/a>&lt;/cite>&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="comparaison-avec-le-d3o-">Comparaison avec le D3O :&lt;/h3>
+&lt;blockquote>
+&lt;p>&amp;quot;Compared to D3O’s &lt;a href="https://www.mcgearhub.com/motorcycle-armor/d3o-knee-elbow-armor-review-t5-evo-pro-x/">T5 EVO Pro X armor&lt;/a> (which is also CE-certified as Level 2), the Forcefield Isolator 2 armor is signicantly more contouring, wrapping and compliant.&amp;quot;
 — &lt;cite>&lt;a href="https://www.mcgearhub.com/motorcycle-armor/forcefield-isolator-2-armor-review-all-pads/">mcgearhub.com&lt;/a>&lt;/cite>&lt;/p>
 &lt;/blockquote>
 &lt;blockquote>
 &lt;p>&amp;quot;And Brian Van also said: &amp;quot;Forcefield is better [than D30] for sure. D3O is a nice low profile armor that helps to reduce bulk and increase comfort. You will find the Forcefield to be thicker as compared to the D3O which I feel is necessary to provide a higher level of protection.&amp;quot;
 — &lt;cite>&lt;a href="https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/page-4#post-40897652">advrider Valentino&lt;/a>&lt;/cite>&lt;/p>
 &lt;/blockquote>
+&lt;h3 id="comparaison-avec-les-knox-micro-lock-l2-">Comparaison avec les Knox Micro-lock L2 :&lt;/h3>
 &lt;blockquote>
-&lt;p>&amp;quot;pads do go very stiff in cold temperatures and take a while to soften&amp;quot;
-— &lt;cite>advrider cblais19&lt;/cite>&lt;/p>
+&lt;p>++ for Microlock. I've tried all the molecular/soft armors and the Knox is by far the most compliant at all temps. Forcefield Isolator is also good, but has a stiffer matrix at all times. I've got a bunch of Isolator CE2 pads that I'm actually replacing with Microlock due to the comfort difference.
+— &lt;cite>&lt;a href="https://advrider.com/f/threads/comfortable-knee-armor.1371777/#post-37211909">advrider cblais19&lt;/a>&lt;/cite>&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Knox Microlock has much larger coverage for the elbow/knee armors (wash on the shoulders) - and a compound that is softer to the touch. Forcefield has larger vent holes [...]. I also find that Forcefield takes longer to warm up in cool temps, and is extremely stiff until the - both are rated as temp stable however.
+— &lt;cite>&lt;a href="https://advrider.com/f/threads/would-like-recommendations-for-cool-armored-gear.1389835/#post-37841358">advrider cblais19&lt;/a>&lt;/cite>&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="photos-">Photos :&lt;/h2>
-&lt;p>Face, dos et notations (source : &lt;a href="(https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/)">advrider&lt;/a>) :&lt;/p>
-&lt;p>&lt;img src="https://loboto51.github.io/images/protectionsmoto/forcefield_isolator_2_B_source_advrider_face.jpg" alt="forcefield_isolator_2_source_advrider_face.jpg"> &lt;img src="https://loboto51.github.io/images/protectionsmoto/forcefield_isolator_2_B_source_advrider_dos.jpg" alt="forcefield_isolator_2_source_advrider_dos.jpg">
-&lt;img src="https://loboto51.github.io/images/protectionsmoto/forcefield_isolator_2_B_source_advrider_notations.png" alt="forcefield_isolator_2_B_source_advrider_notations.png">&lt;/p>
-&lt;p>Comparaison avec la Alpinestar Bio Armor Air type B (source : &lt;a href="(https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/)">advrider&lt;/a>) :&lt;/p>
-&lt;p>&lt;img src="https://loboto51.github.io/images/protectionsmoto/alpinestars_bio_armor_air_B_coude_face_vs_forcefield_isolator_2_B_coude_face_source_advrider.jpg" alt="alpinestars_bio_armor_air_B_coude_face_vs_forcefield_isolator_2_coude_face_source_advrider.jpg"> &lt;img src="https://loboto51.github.io/images/protectionsmoto/alpinestars_bio_armor_air_B_coude_dos_vs_forcefield_isolator_2_B_coude_face_source_advrider.jpg" alt="alpinestars_bio_armor_air_B_coude_dos_vs_forcefield_isolator_2_B_coude_face_source_advrider.jpg">&lt;/p>
-&lt;p>Comparaison avec la Rev'It Seeflex RV10 L2 type B (source : &lt;a href="(https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/page-4#post-40913774)">advrider&lt;/a>) :&lt;/p>
-&lt;p>&lt;img src="https://loboto51.github.io/images/protectionsmoto/revit_seeflex_RV10_L2_B_coude_face_vs_forcefield_isolator_2_B_coude_face_source_advrider.jpg" alt="revit_seeflex_RV10_L2_B_coude_face_vs_forcefield_isolator_2_B_coude_face_source_advrider.jpg"> &lt;img src="https://loboto51.github.io/images/protectionsmoto/revit_seeflex_RV10_L2_B_coude_dos_vs_forcefield_isolator_2_B_coude_dos_source_advrider.jpg" alt="revit_seeflex_RV10_L2_B_coude_dos_vs_forcefield_isolator_2_B_coude_dos_source_advrider.jpg">&lt;/p>
-&lt;h2 id="docs-">Docs :&lt;/h2>
 &lt;p>Fiches constructeur :&lt;/p>
-&lt;p>&lt;img src="https://loboto51.github.io/images/protectionsmoto/forcefield_isolator_2_fiche_genou.jpg" alt="fiche constructeur pour le genou">&lt;/p>
-&lt;p>&lt;img src="https://loboto51.github.io/images/protectionsmoto/forcefield_isolator_2_fiche.jpg" alt="fiche constructeur pour la collection">&lt;/p>
+&lt;p>&lt;img src="https://loboto51.github.io/images/protectionsmoto/forcefield_isolator_2_fiche_collection.jpg" alt="forcefield_isolator_2_fiche_collection.jpg">
+&lt;img src="https://loboto51.github.io/images/protectionsmoto/forcefield_isolator_2_fiche_membres.jpg" alt="forcefield_isolator_2_fiche_membres.jpg">&lt;/p>
+&lt;p>Face, dos et notations (source : &lt;a href="(https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/)">advrider&lt;/a>) :&lt;/p>
+&lt;p>&lt;img src="https://loboto51.github.io/images/protectionsmoto/forcefield_isolator_2_EKB_dos_source_advrider.jpg" alt="forcefield_isolator_2_EKB_dos_source_advrider.jpg">
+&lt;img src="https://loboto51.github.io/images/protectionsmoto/forcefield_isolator_2_EKB_face_source_advrider.jpg" alt="forcefield_isolator_2_EKB_face_source_advrider.jpg">
+&lt;img src="https://loboto51.github.io/images/protectionsmoto/forcefield_isolator_2_EKB_source_advrider_notations.png" alt="forcefield_isolator_2_EKB_source_advrider_notations.png">&lt;/p>
+&lt;p>Comparaison Forcefield Isolator 2 E/K B avec Alpinestar Bio Armor Air E/K B (source : &lt;a href="(https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/)">advrider&lt;/a>) :&lt;/p>
+&lt;p>&lt;img src="https://loboto51.github.io/images/protectionsmoto/alpinestars_bio_armor_air_EBKA_dos_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg" alt="alpinestars_bio_armor_air_EBKA_dos_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg">
+&lt;img src="https://loboto51.github.io/images/protectionsmoto/alpinestars_bio_armor_air_EBKA_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg" alt="alpinestars_bio_armor_air_EBKA_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg">&lt;/p>
+&lt;p>Comparaison Forcefield Isolator 2 E/K B avec Rev'It Seeflex RV10 L2 E/K B (source : &lt;a href="(https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/page-4#post-40913774)">advrider&lt;/a>) :&lt;/p>
+&lt;p>&lt;img src="https://loboto51.github.io/images/protectionsmoto/revit_seeflex_RV10_L2_EKB_dos_vs_forcefield_isolator_2_EKB_dos_source_advrider.jpg" alt="revit_seeflex_RV10_L2_EKB_dos_vs_forcefield_isolator_2_EKB_dos_source_advrider.jpg">
+&lt;img src="https://loboto51.github.io/images/protectionsmoto/revit_seeflex_RV10_L2_EKB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg" alt="revit_seeflex_RV10_L2_EKB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg">&lt;/p>
+&lt;p>Comparaison Forcefield Isolator 2 K B avec Knox Micro-lock E/K B (source : &lt;a href="(https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/)">advrider&lt;/a>) :&lt;/p>
+&lt;p>&lt;img src="https://loboto51.github.io/images/protectionsmoto/knox_micro-lock_363_EKB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpeg" alt="knox_micro-lock_363_EKB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpeg">&lt;/p>
+&lt;p>Comparaison Forcefield Isolator 2 E/K B avec BMW NP2 EB (source : &lt;a href="(https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/)">advrider&lt;/a>) :&lt;/p>
+&lt;p>&lt;img src="https://loboto51.github.io/images/protectionsmoto/BMW_NP2_EB_dos_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg" alt="BMW_NP2_EB_dos_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg">
+&lt;img src="https://loboto51.github.io/images/protectionsmoto/BMW_NP2_EB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg" alt="BMW_NP2_EB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg">&lt;/p>
+&lt;p>Comparaison Forcefield Isolator 2 E/K B avec Alpinestars Nucleon Flex Pro EB (source : &lt;a href="(https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/)">advrider&lt;/a>) :&lt;/p>
+&lt;p>&lt;img src="https://loboto51.github.io/images/protectionsmoto/alpinestars_nucleon_flex_pro_EB_dos_vs_forcefield_isolator_2_EKB_dos_source_advrider.jpg" alt="alpinestars_nucleon_flex_pro_EB_dos_vs_forcefield_isolator_2_EKB_dos_source_advrider.jpg">
+&lt;img src="https://loboto51.github.io/images/protectionsmoto/alpinestars_nucleon_flex_pro_EB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg" alt="alpinestars_nucleon_flex_pro_EB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg">&lt;/p>
 &lt;p>Lectures :&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://www.mcgearhub.com/motorcycle-armor/forcefield-isolator-2-armor-review-all-pads/">mcgearhub.com : FORCEFIELD ISOLATOR 2 ARMOR REVIEW (ALL PADS)&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/">advrider.com : CE2 Replacement Armor Database / Comparison&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Déployer un site web statique Hugo sur github Pages</title><link>https://loboto51.github.io/post/2021-04-22_-_deployer-hugo-sur-github-pages/</link><pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/2021-04-22_-_deployer-hugo-sur-github-pages/</guid><description>
+&lt;/ul>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>Norme CE EN 1621-1 (protections épaules, hanches, membres) : Un poids de 5 kg est lâché avec une force de 50 joules sur la pièce, 9 fois.&lt;br />
+Niveau 1 : Moyenne &amp;lt;35 kN. Aucun choc ne dépasse 50 kN.&lt;br />
+Niveau 2 : Moyenne &amp;lt;20 kN. Aucun choc ne dépasse 30 kN.&lt;br />
+T+ : La protection reste la même jusqu'à 40°C.&lt;br />
+T- : La protection reste la même jusqu'à -10°C. &lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item><item><title>Déployer un site web statique Hugo sur github Pages</title><link>https://loboto51.github.io/post/2021-04-22_-_deployer-hugo-sur-github-pages/</link><pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/2021-04-22_-_deployer-hugo-sur-github-pages/</guid><description>
 &lt;h1 id="préparer-dépôt-github-">Préparer dépôt github :&lt;/h1>
 &lt;p>Pour être disponible via Github Pages le repository github doit être public et créé avec le nom :&lt;/p>
 &lt;pre>&lt;code>{user github}.github.io
