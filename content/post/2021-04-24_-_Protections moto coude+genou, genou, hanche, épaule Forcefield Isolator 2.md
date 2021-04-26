@@ -1,35 +1,28 @@
 +++
-title = "Protections moto membres Forcefield Isolator 2"
+title = "Protections moto coude+genou, genou, hanche, épaule Forcefield Isolator 2"
 date = "2021-04-24"
 categories = ["protections moto"]
 tags = ["Forcefield Isolator 2", "protection moto genoux", "protection moto coudes", "protection moto hanches", "protection moto épaules"]
 +++
 
-
 Synthèse :
 ----------
 
-Modèles coude/genou B (E/K B), genou B (K B), hanche B (H B), épaule B (S B) :
+4 modèles :
+- Genou B (K B) : 24 cm x 16.5 cm - 114 g
+- Hanche B (H B) : 23 cm x 11.5 cm - 80 g
+- Coude B/genou B (EB /K B) : 24.5 cm x 16 cm - 114 g
+- Epaule B (S B) : 20.5 cm x 15 cm - 96 g
+
+Caractéristiques :
 
 - Certification : Niveau 2 T+ T- [^1]
 - Protection réelle : Le fabricant annonce descendre jusqu'à 10,6kN, donc entre 10,6 kN et 30 kN (maximum autorisé)
 - Fabrication : UK
 - Longévité annoncée : 2 à 3 ans
-- Type de matériaux : Souple (> D3O), s'ajuste avec la chaleur corporelle
+- Type de matériaux : Visco-élastique souple (> D3O), s'ajuste avec la chaleur corporelle
 - Aération:	Bonne
-
-Dimensions et poids :
----------------------
-
-- Genou (K) B : 24 cm x 16.5 cm - 114 g
-- Hanche (H) B : 23 cm x 11.5 cm - 80 g
-- Coude/genou (E/K) B : 24.5 cm x 16 cm - 114 g
-- Epaule (S) B : 20.5 cm x 15 cm - 96 g
-
-NB :
-Le modèle coude/genou est type B pour les 2 articulations, alors que la Rev'It Seeflex RV10 L2 plus longue (photo plus bas) n'est que coude B, genou A.
-Peut-être qu'elle couvre moins le genou latéralement ?
-
+- Prix :Environ 30e par paire
 
 Confort et comparaison avec les autres marques : 
 ------------------------------------------------
@@ -86,7 +79,7 @@ Face, dos et notations (source : [advrider]((https://advrider.com/f/threads/ce2-
 
 ![forcefield_isolator_2_EKB_dos_source_advrider.jpg](/images/protectionsmoto/forcefield_isolator_2_EKB_dos_source_advrider.jpg)
 ![forcefield_isolator_2_EKB_face_source_advrider.jpg](/images/protectionsmoto/forcefield_isolator_2_EKB_face_source_advrider.jpg)
-![forcefield_isolator_2_EKB_source_advrider_notations.png](/images/protectionsmoto/forcefield_isolator_2_EKB_source_advrider_notations.png)
+![forcefield_isolator_2_EKB_source_advrider_notations.jpg](/images/protectionsmoto/forcefield_isolator_2_EKB_source_advrider_notations.jpg)
 
 
 Comparaison Forcefield Isolator 2 E/K B avec Alpinestar Bio Armor Air E/K B (source : [advrider]((https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/))) :
