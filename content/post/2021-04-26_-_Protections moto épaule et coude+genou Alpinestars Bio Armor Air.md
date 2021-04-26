@@ -18,7 +18,7 @@ Synthèse :
 Caractéristiques :
 
 - Certification : Niveau 2 T+ T- [^1]
-- Protection réelle : Le fabricant annonce < 16 kN (vs une moyenne de 20 kN et max 30 kN pour la norme)
+- Protection réelle : Le fabricant annonce < 16 kN, les tests MotoCAP donnent environ 13 kN en moyenne et 17 kN maximum  (vs une moyenne de 20 kN et max 30 kN pour la norme)
 - Fabrication : Italie
 - Longévité annoncée : ?
 - Type de matériaux : Matériaux vulcanisé rigide, ne s'ajuste pas avec la chaleur corporelle
