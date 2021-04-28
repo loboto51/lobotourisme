@@ -1,8 +1,8 @@
 +++
-title = "Protections moto coude+genou+épaule, coude+genou Rev'it Seeflex RV10-RV16"
+title = "Protections moto Rev'it Seeflex"
 date = "2021-04-26"
 categories = ["protections moto"]
-tags = ["REV'IT SEEFLEX", "protection moto genoux", "protection moto coudes", "protection moto épaules"]
+tags = ["REV'IT SEEFLEX", "protection moto genoux", "protection moto coudes", "protection moto épaules", "protection moto jambes"]
 +++
 
 Synthèse :
@@ -21,7 +21,7 @@ Synthèse :
 Caractéristiques :
 
 - Certification : Niveau 2 T+ T- [^1]
-- Protection réelle : Le fabricant ne donne pas de chiffre. MotoCAP a mesuré une moyenne de 18,9 kN pour le coude.
+- Protection réelle : Le fabricant ne donne pas de chiffre. MotoCAP aurait (source : advrider) mesuré une moyenne de 18,9 kN pour le coude (norme : 20 kN en moyenne, maximum 30 kN)
 - Fabrication : ?
 - Longévité annoncée : ?
 - Type de matériaux : Matériaux vulcanisé rigide, ne s'ajuste pas avec la chaleur corporelle
@@ -55,18 +55,36 @@ Confort et comparaison avec les autres marques :
 Photos :
 --------
 
-![revit_seeflex_fiche_collection.jpg](/images/protectionsmoto/revit_seeflex_fiche_collection.jpg)
-![revit_seeflex_fiche_collection_2.jpg](/images/protectionsmoto/revit_seeflex_fiche_collection_2.jpg)
+Note : La plupart des photos viennent de la conversation [advrider.com : CE2 Replacement Armor Database / Comparison](https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/).
 
-![revit_seeflex_RV10_L2_EKB_notations_source_advrider.jpg](/images/protectionsmoto/revit_seeflex_RV10_L2_EKB_notations_source_advrider.jpg)
-![revit_seeflex_RV12_L2_LKB_dimensions2.jpg](/images/protectionsmoto/revit_seeflex_RV12_L2_LKB_dimensions2.jpg)
-![revit_seeflex_RV12_L2_LKB_dimensions.jpg](/images/protectionsmoto/revit_seeflex_RV12_L2_LKB_dimensions.jpg)
+### Fiches constructeur :
 
-Comparaison Rev'It Seeflex RV10 L2 E/K B avec Forcefield Isolator 2 E/K B (source : [advrider]((https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/page-4#post-40913774))) :
+![revit-seeflex_fiche_collection_2.jpg](/images/protectionsmoto/revit-seeflex_fiche_collection_2.jpg)
 
-![revit_seeflex_RV10_L2_EKB_dos_vs_forcefield_isolator_2_EKB_dos_source_advrider.jpg](/images/protectionsmoto/revit_seeflex_RV10_L2_EKB_dos_vs_forcefield_isolator_2_EKB_dos_source_advrider.jpg)
-![revit_seeflex_RV10_L2_EKB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg](/images/protectionsmoto/revit_seeflex_RV10_L2_EKB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg)
+![revit-seeflex_fiche_collection.jpg](/images/protectionsmoto/revit-seeflex_fiche_collection.jpg)
 
+
+### Photos générales :
+
+![revit-seeflex-rv10-l2_EB-KB_niv2_notations__source_advrider.jpg](/images/protectionsmoto/revit-seeflex-rv10-l2_EB-KB_niv2_notations__source_advrider.jpg)
+
+![revit-seeflex-rv12-l2_KB-LB_niv2_face_dimensions.jpg](/images/protectionsmoto/revit-seeflex-rv12-l2_KB-LB_niv2_face_dimensions.jpg)
+
+![revit-seeflex-rv12-l2_KB-LB_niv2_profil_dimensions.jpg](/images/protectionsmoto/revit-seeflex-rv12-l2_KB-LB_niv2_profil_dimensions.jpg)
+
+
+### Comparaisons :
+
+#### Forcefield Isolator 2 :
+
+![revit-seeflex-rv10-l2_EB-KB_niv2_dos__vs__forcefield-isolator-2_EB-KB_niv2_dos__source_advrider.jpg](/images/protectionsmoto/revit-seeflex-rv10-l2_EB-KB_niv2_dos__vs__forcefield-isolator-2_EB-KB_niv2_dos__source_advrider.jpg)
+
+![revit-seeflex-rv10-l2_EB-KB_niv2_face__vs__forcefield-isolator-2_EB-KB_niv2_face__source_advrider.jpg](/images/protectionsmoto/revit-seeflex-rv10-l2_EB-KB_niv2_face__vs__forcefield-isolator-2_EB-KB_niv2_face__source_advrider.jpg)
+
+Lectures :
+----------
+
+- [advrider.com : CE2 Replacement Armor Database / Comparison](https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/)
 
 [^1]: Norme CE EN 1621-1 (protections épaules, hanches, membres) : Un poids de 5 kg est lâché avec une force de 50 joules sur la pièce, 9 fois.<br />
 Niveau 1 : Moyenne <35 kN. Aucun choc ne dépasse 50 kN.<br />

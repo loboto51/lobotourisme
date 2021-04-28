@@ -1,5 +1,5 @@
 +++
-title = "Protections moto coude+genou, genou, hanche, épaule Forcefield Isolator 2"
+title = "Protections moto Forcefield Isolator 2"
 date = "2021-04-24"
 categories = ["protections moto"]
 tags = ["Forcefield Isolator 2", "protection moto genoux", "protection moto coudes", "protection moto hanches", "protection moto épaules"]
@@ -9,16 +9,16 @@ Synthèse :
 ----------
 
 4 modèles :
-- Genou B (K B) : 24 cm x 16.5 cm - 114 g
-- Hanche B (H B) : 23 cm x 11.5 cm - 80 g
-- Coude B/genou B (EB /K B) : 24.5 cm x 16 cm - 114 g
-- Epaule B (S B) : 20.5 cm x 15 cm - 96 g
+- Genou B ("K B") : 24 cm x 16.5 cm - 114 g
+- Hanche B ("H B") : 23 cm x 11.5 cm - 80 g
+- Coude B/genou B ("E/K B") : 24.5 cm x 16 cm - 114 g
+- Epaule B ("S B") : 20.5 cm x 15 cm - 96 g
 
 Caractéristiques :
 
 - Certification : Niveau 2 T+ T- [^1]
-- Protection réelle : Le fabricant annonce descendre jusqu'à 10,6kN, donc entre 10,6 kN et 30 kN (maximum autorisé)
-- Fabrication : UK
+- Protection réelle : Le fabricant annonce un minimum de 10,6kN => donc entre 10,6 kN et 30 kN (norme : 20 kN en moyenne, maximum 30 kN)
+- Fabrication : Royaume-Uni
 - Longévité annoncée : 2 à 3 ans
 - Type de matériaux : Visco-élastique souple (> D3O), s'ajuste avec la chaleur corporelle
 - Aération:	Bonne
@@ -69,45 +69,63 @@ Ajustement + souplesse + protection| N/A (prix ?)
 Photos :
 --------
 
-Fiches constructeur :
+Note : La plupart des photos viennent de la conversation [advrider.com : CE2 Replacement Armor Database / Comparison](https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/) ou de [mcgearhub.com : FORCEFIELD ISOLATOR 2 ARMOR REVIEW (ALL PADS)](https://www.mcgearhub.com/motorcycle-armor/forcefield-isolator-2-armor-review-all-pads/).
 
-![forcefield_isolator_2_fiche_collection.jpg](/images/protectionsmoto/forcefield_isolator_2_fiche_collection.jpg)
-![forcefield_isolator_2_fiche_membres.jpg](/images/protectionsmoto/forcefield_isolator_2_fiche_membres.jpg)
 
+### Fiches constructeur :
+
+![forcefield-isolator-2_fiche_collection.jpg](/images/protectionsmoto/forcefield-isolator-2_fiche_collection.jpg)
+
+![forcefield-isolator-2_fiche_membres.jpg](/images/protectionsmoto/forcefield-isolator-2_fiche_membres.jpg)
+
+### Photos générales :
 
 Face, dos et notations (source : [advrider]((https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/))) :
 
-![forcefield_isolator_2_EKB_dos_source_advrider.jpg](/images/protectionsmoto/forcefield_isolator_2_EKB_dos_source_advrider.jpg)
-![forcefield_isolator_2_EKB_face_source_advrider.jpg](/images/protectionsmoto/forcefield_isolator_2_EKB_face_source_advrider.jpg)
-![forcefield_isolator_2_EKB_source_advrider_notations.jpg](/images/protectionsmoto/forcefield_isolator_2_EKB_source_advrider_notations.jpg)
+![forcefield-isolator-2_EB-KB_niv2_dos__source_advrider.jpg](/images/protectionsmoto/forcefield-isolator-2_EB-KB_niv2_dos__source_advrider.jpg)
+
+![forcefield-isolator-2_EB-KB_niv2_face__source_advrider.jpg](/images/protectionsmoto/forcefield-isolator-2_EB-KB_niv2_face__source_advrider.jpg)
+
+![forcefield-isolator-2_EB-KB_niv2__source_advrider_notations.jpg](/images/protectionsmoto/forcefield-isolator-2_EB-KB_niv2__source_advrider_notations.jpg)
 
 
-Comparaison Forcefield Isolator 2 E/K B avec Alpinestar Bio Armor Air E/K B (source : [advrider]((https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/))) :
 
-![alpinestars_bio_armor_air_EBKA_dos_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg](/images/protectionsmoto/alpinestars_bio_armor_air_EBKA_dos_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg)
-![alpinestars_bio_armor_air_EBKA_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg](/images/protectionsmoto/alpinestars_bio_armor_air_EBKA_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg)
+### Comparaisons :
 
-Comparaison Forcefield Isolator 2 E/K B avec Rev'It Seeflex RV10 L2 E/K B (source : [advrider]((https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/page-4#post-40913774))) :
+#### Alpinestar Bio Armor Air :
 
-![revit_seeflex_RV10_L2_EKB_dos_vs_forcefield_isolator_2_EKB_dos_source_advrider.jpg](/images/protectionsmoto/revit_seeflex_RV10_L2_EKB_dos_vs_forcefield_isolator_2_EKB_dos_source_advrider.jpg)
-![revit_seeflex_RV10_L2_EKB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg](/images/protectionsmoto/revit_seeflex_RV10_L2_EKB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg)
+![forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_dos__source_advrider.jpg](/images/protectionsmoto/forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_dos__source_advrider.jpg)
 
-Comparaison Forcefield Isolator 2 K B avec Knox Micro-lock E/K B (source : [advrider]((https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/))) :
+![forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_face__source_advrider.jpg](/images/protectionsmoto/forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_face__source_advrider.jpg)
 
-![knox_micro-lock_363_EKB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpeg](/images/protectionsmoto/knox_micro-lock_363_EKB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpeg)
 
-Comparaison Forcefield Isolator 2 E/K B avec BMW NP2 EB (source : [advrider]((https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/))) :
+#### BMW NP2 :
 
-![BMW_NP2_EB_dos_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg](/images/protectionsmoto/BMW_NP2_EB_dos_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg)
-![BMW_NP2_EB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg](/images/protectionsmoto/BMW_NP2_EB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg)
+![forcefield-isolator-2_EB-KB_niv2_face__vs__bmw-np2_EB_niv2_dos__source_advrider.jpg](/images/protectionsmoto/forcefield-isolator-2_EB-KB_niv2_face__vs__bmw-np2_EB_niv2_dos__source_advrider.jpg)
 
-Comparaison Forcefield Isolator 2 E/K B avec Alpinestars Nucleon Flex Pro EB (source : [advrider]((https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/))) :
+![forcefield-isolator-2_EB-KB_niv2_face__vs__bmw-np2_EB_niv2_face__source_advrider.jpg](/images/protectionsmoto/forcefield-isolator-2_EB-KB_niv2_face__vs__bmw-np2_EB_niv2_face__source_advrider.jpg)
+
+
+#### Rev'It Seeflex :
+
+![revit-seeflex-rv10-l2_EB-KB_niv2_dos__vs__forcefield-isolator-2_EB-KB_niv2_dos__source_advrider.jpg](/images/protectionsmoto/revit-seeflex-rv10-l2_EB-KB_niv2_dos__vs__forcefield-isolator-2_EB-KB_niv2_dos__source_advrider.jpg)
+
+![revit-seeflex-rv10-l2_EB-KB_niv2_face__vs__forcefield-isolator-2_EB-KB_niv2_face__source_advrider.jpg](/images/protectionsmoto/revit-seeflex-rv10-l2_EB-KB_niv2_face__vs__forcefield-isolator-2_EB-KB_niv2_face__source_advrider.jpg)
+
+
+#### Knox Micro-lock  :
+
+![knox_micro-lock-363_EB-KB_niv2_face__vs__forcefield-isolator-2_EB-KB_niv2_face__source_advrider.jpg](/images/protectionsmoto/knox_micro-lock-363_EB-KB_niv2_face__vs__forcefield-isolator-2_EB-KB_niv2_face__source_advrider.jpg)
+
+
+#### Alpinesars Nucleon Flex Pro :
 
 ![alpinestars_nucleon_flex_pro_EB_dos_vs_forcefield_isolator_2_EKB_dos_source_advrider.jpg](/images/protectionsmoto/alpinestars_nucleon_flex_pro_EB_dos_vs_forcefield_isolator_2_EKB_dos_source_advrider.jpg)
 ![alpinestars_nucleon_flex_pro_EB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg](/images/protectionsmoto/alpinestars_nucleon_flex_pro_EB_face_vs_forcefield_isolator_2_EKB_face_source_advrider.jpg)
 
 
 Lectures :
+----------
 
 - [mcgearhub.com : FORCEFIELD ISOLATOR 2 ARMOR REVIEW (ALL PADS)](https://www.mcgearhub.com/motorcycle-armor/forcefield-isolator-2-armor-review-all-pads/)
 - [advrider.com : CE2 Replacement Armor Database / Comparison](https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/)

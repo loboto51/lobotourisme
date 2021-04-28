@@ -1,5 +1,5 @@
 +++
-title = "Protections moto coude+genou+épaule, coude+genou SAS-TEC SC-1/EVO1 NEW, SC-1/EVO2 NEW et SC-1/EVO3 NEW"
+title = "Protections moto SAS-TEC SC-1-EVO1 NEW, SC-1-EVO2 NEW, SC-1-EVO3 NEW"
 date = "2021-04-26"
 categories = ["protections moto"]
 tags = ["SAS-TEC SC-1/EVO", "protection moto genoux", "protection moto coudes", "protection moto épaules"]
@@ -17,28 +17,42 @@ Synthèse :
 Caractéristiques :
 
 - Certification : Niveau 2 [^1]
-- Protection réelle : Le fabricant annonce une majorité < 10 kN (vs une moyenne de 20 kN et max 30 kN pour la norme)
+- Protection réelle : Le fabricant annonce une majorité < 10 kN (norme : 20 kN en moyenne, maximum 30 kN)
 - Fabrication : ?
 - Longévité annoncée : 10 ans
 - Type de matériaux : Visco-élastique souple (>> D3O, > Forcefield), s'ajuste avec la chaleur corporelle
-- Aération :	Bonne
+- Aération : Bonne
 - Prix : Environ 18e par paire
 
 
 Confort et comparaison avec les autres marques : 
 ------------------------------------------------
 
-Avis personnel : Le visco-élastique SAS-TEC est très souple, s'ajuste rapidement à la température corporelle, et ne tient pas chaud.
+Avis personnel : Mon expérience avec les SC1-06 EVO (très bonnes protections genou + jambe) est que le visco-élastique SAS-TEC est très souple, s'ajuste rapidement à la température corporelle, et ne tient pas chaud.
 
 Photos :
 --------
 
-![sastec_sc1-evo1-new.jpg](/images/protectionsmoto/sastec_sc1-evo1-new.jpg)
-![sastec_sc1-evo2-new.jpg](/images/protectionsmoto/sastec_sc1-evo2-new.jpg)
-![sastec_sc1-evo3-new.jpg](/images/protectionsmoto/sastec_sc1-evo3-new.jpg)
+### Fiches constructeur :
+
+- [SAS-TEC SC-1/EVO1 NEW](https://www.sas-tec.de/en/products/sc-1-evo1/)
+- [SAS-TEC SC-1/EVO2 NEW](https://www.sas-tec.de/en/products/sc-1-evo2/)
+- [SAS-TEC SC-1/EVO3 NEW](https://www.sas-tec.de/en/products/sc-1-evo3/)
+
+### Photos générales :
+
+![sastec-sc1-evo1-new__EA-KA-SB_niv2__source_sastec.jpg](/images/protectionsmoto/sastec-sc1-evo1-new__EA-KA-SB_niv2__source_sastec.jpg)
+
+![sastec-sc1-evo2-new__EA-KB-SA_niv2__source_sastec.jpg](/images/protectionsmoto/sastec-sc1-evo2-new__EA-KB-SA_niv2__source_sastec.jpg)
+
+![sastec-sc1-evo3-new__EB-KB_niv2__source_sastec.jpg](/images/protectionsmoto/sastec-sc1-evo3-new__EB-KB_niv2__source_sastec.jpg)
+
+### Comparaisons :
+
+N/A
 
 Lectures :
-
+----------
 
 - [SAS-TEC SC-1/EVO1 NEW](https://www.sas-tec.de/en/products/sc-1-evo1/)
 - [SAS-TEC SC-1/EVO2 NEW](https://www.sas-tec.de/en/products/sc-1-evo2/)
