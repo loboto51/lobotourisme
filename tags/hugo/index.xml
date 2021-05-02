@@ -1,49 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo on Lobotourisme</title><link>https://loboto51.github.io/tags/hugo/</link><description>Recent content in hugo on Lobotourisme</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 22 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Déployer un site web statique Hugo sur github Pages</title><link>https://loboto51.github.io/post/2021-04-22_-_deployer-hugo-sur-github-pages/</link><pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/2021-04-22_-_deployer-hugo-sur-github-pages/</guid><description>
-&lt;h1 id="préparer-dépôt-github-">Préparer dépôt github :&lt;/h1>
-&lt;p>Pour être disponible via Github Pages le repository github doit être public et créé avec le nom :&lt;/p>
-&lt;pre>&lt;code>{user github}.github.io
-&lt;/code>&lt;/pre>
-&lt;p>Créer une copie locale :&lt;/p>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>mkdir loboto51.github.io
-&lt;span class="ln">2&lt;/span>&lt;span class="nb">cd&lt;/span> loboto51.github.io
-&lt;span class="ln">3&lt;/span>&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;# loboto51.github.io&amp;#34;&lt;/span> &amp;gt;&amp;gt; README.md
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo on Lobotourisme</title><link>https://loboto51.github.io/tags/hugo/</link><description>Recent content in hugo on Lobotourisme</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 22 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Déployer un site web statique Hugo sur Github Pages</title><link>https://loboto51.github.io/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/</link><pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/</guid><description>
+&lt;p>&lt;em>Résumé :&lt;/em>&lt;/p>
+&lt;p>Le site que vous consultez a été construit en suivant la méthode décrite ci-dessous.&lt;/p>
+&lt;p>La fonctionnalité &lt;a href="https://pages.github.com/">&lt;em>Github Pages&lt;/em>&lt;/a> de &lt;a href="https://github.com/">&lt;em>Github&lt;/em>&lt;/a> permet d'exposer à l'adresse &lt;em>MONUSER.github.io&lt;/em> un site web statique dont le code (html + css + pas grand chose d'autre) est disponible sur le dépôt du même nom : &lt;em>MONUSER.github.io&lt;/em>.&lt;/p>
+&lt;p>&lt;a href="https://gohugo.io/">&lt;em>Hugo&lt;/em>&lt;/a> est un générateur de sites webs statiques : On écrit des pages en markdown, on lance Hugo, et il génère tout le html et la structure de site que &lt;em>Github Pages&lt;/em> exposera.&lt;/p>
+&lt;p>Mode opératoire :&lt;/p>
+&lt;h2 id="_github_">&lt;em>Github&lt;/em>&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://github.com/">Créer un compte &lt;em>Github&lt;/em>&lt;/a> si ce n'est pas fait (Attention le nom sera dans l'adresse du site).&lt;/li>
+&lt;li>Créer un dépôt (&amp;quot;&lt;em>New repository&lt;/em>&amp;quot;) public au nom de &amp;quot;MONLOGINGITHUB.github.io&amp;quot; (&lt;em>Github Pages&lt;/em> est disponible gratuitement pour ce dépôt uniquement)&lt;/li>
+&lt;/ol>
+&lt;p>Créons une copie locale dans laquelle nous ferons la suite :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>mkdir MONLOGINGITHUB.github.io
+&lt;span class="ln">2&lt;/span>&lt;span class="nb">cd&lt;/span> MONLOGINGITHUB.github.io
+&lt;span class="ln">3&lt;/span>&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;# MONLOGINGITHUB.github.io&amp;#34;&lt;/span> &amp;gt;&amp;gt; README.md
 &lt;span class="ln">4&lt;/span>git init
 &lt;span class="ln">5&lt;/span>git add README.md
 &lt;span class="ln">6&lt;/span>git commit -m &lt;span class="s2">&amp;#34;first commit&amp;#34;&lt;/span>
-&lt;span class="ln">7&lt;/span>git remote add origin https://github.com/loboto51/loboto51.github.io.git
+&lt;span class="ln">7&lt;/span>git remote add origin https://github.com/MONLOGINGITHUB/MONLOGINGITHUB.github.io.git
 &lt;span class="ln">8&lt;/span>git branch -M main
 &lt;span class="ln">9&lt;/span>git push -u origin main
-&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="hugo-">Hugo :&lt;/h1>
-&lt;h2 id="package-">Package :&lt;/h2>
-&lt;p>Récupérer dernière version (ici ubuntu) :&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="_hugo_">&lt;em>Hugo&lt;/em>&lt;/h2>
+&lt;h3 id="installation">Installation&lt;/h3>
+&lt;p>Sous &lt;em>Ubuntu&lt;/em> la version dispo dans les dépôts est dépassée. Le plus simple est d'aller récupérer le dernier .deb dans les &lt;em>releases&lt;/em> &lt;em>Hugo&lt;/em> :&lt;/p>
+&lt;p>&lt;a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases&lt;/a>&lt;/p>
+&lt;p>Ensuite :&lt;/p>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>wget https://github.com/gohugoio/hugo/releases/download/v0.82.1/hugo_extended_0.82.1_Linux-64bit.deb
 &lt;span class="ln">2&lt;/span>sudo dpkg -i hugo_extended_0.82.1_Linux-64bit.deb
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>si erreurs de dépendances :&lt;/p>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>sudo apt-get install -f
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="créer-un-socle-de-site-">Créer un socle de site :&lt;/h2>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> loboto51.github.io
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="créer-un-socle-de-site">Créer un socle de site&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> MONLOGINGITHUB.github.io
 &lt;span class="ln">2&lt;/span>hugo new site .
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Installer un thème (ici &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-clarity&lt;/a>):&lt;/p>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> loboto51.github.io/themes
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Choisir et télécharger un thème : &lt;a href="https://themes.gohugo.io/">Hugo Themes&lt;/a>&lt;/p>
+&lt;p>J'utilise &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-clarity&lt;/a> qui est très complet et fonctionne bien sur mobile :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> MONLOGINGITHUB.github.io/themes/
 &lt;span class="ln">2&lt;/span>git clone https://github.com/chipzoller/hugo-clarity.git
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Enlever les éléments inutiles du theme :&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Enlever les éléments inutiles du thème :&lt;/p>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>rm -Rf hugo-clarity/.git*
 &lt;span class="ln">2&lt;/span>rm -Rf hugo-clarity/exampleSite
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Pour créer une page de test (sinon n'importe que .md dans le rep post/ fait l'affaire) :&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>J'ai copié l'exemple de site puis&lt;/p>
+&lt;p>Pour créer une page de test et vérifier que ça marche :&lt;/p>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>hugo new post/testpage.md
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="vérification-que-ça-marche-">Vérification que ça marche :&lt;/h2>
-&lt;p>Lancer serveur Hugo en local pour tester :&lt;/p>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>hugo server -D
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>ouvrir :
+&lt;span class="ln">2&lt;/span>hugo server -D
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Ouvrir :
 &lt;a href="http://localhost:1313/">http://localhost:1313/&lt;/a>&lt;/p>
-&lt;p>Si tout se passe bien on peut poursuivre.&lt;/p>
-&lt;h1 id="génération-automatique-des-pages-sur-le-dépôt-">Génération automatique des pages sur le dépôt :&lt;/h1>
-&lt;p>Ajouter un fichier de conf au dépôt pour générer automatiquement les pages Hugo à chaque push (&lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">doc Hugo : hosting on github&lt;/a>) :&lt;/p>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> loboto51.github.io
+&lt;p>&lt;strong>Note :&lt;/strong> Le thème &lt;em>hugo-clarity&lt;/em> demande pas mal de conf. Plutôt que partir de zéro j'ai suivi le conseil que donne sa doc d'install et déployé le site exemple, que j'ai ensuite modifié :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> MONLOGINGITHUB.github.io
+&lt;span class="ln">2&lt;/span>cp -R themes/hugo-clarity/exampleSite/* .
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="générer-le-_html_-statique-directement-côté-_github_">Générer le &lt;em>html&lt;/em> statique directement côté &lt;em>Github&lt;/em>&lt;/h2>
+&lt;p>On peut se contenter de générer le &lt;em>html&lt;/em> statique à plat &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> et le pousser sur &lt;em>Github&lt;/em>, cela fonctionnera très bien.&lt;/p>
+&lt;p>Mais &lt;em>Github&lt;/em> fournit aussi la possibilité de déclencher des scripts à chaque &lt;em>git push&lt;/em>, et on peut leur faire exécuter un &lt;em>Hugo&lt;/em> :
+Cela permet de se contenter de versionner les fichiers sources (le &lt;em>Hugo&lt;/em> local sert juste aux tests), et à chaque &lt;em>git push&lt;/em>, &lt;em>Github&lt;/em> génèrera le code statique tout seul.&lt;/p>
+&lt;p>&lt;strong>Note :&lt;/strong> Cette technique et le script ci-dessous sont repris de la doc &lt;em>Hugo&lt;/em> : &lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">hosting on github&lt;/a>.&lt;/p>
+&lt;p>Le script génère le site statique dans une branche &lt;em>gh-pages&lt;/em> dédiée, qui servira uniquement à &lt;em>Github Pages&lt;/em>. Ainsi les sources et le code généré restent bien séparés.&lt;/p>
+&lt;p>A faire :&lt;/p>
+&lt;ol>
+&lt;li>Ajouter un fichier de conf &lt;em>.github/workflows/gh-pages.yml&lt;/em> que &lt;em>Github&lt;/em> exécutera à chaque push :&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> MONLOGINGITHUB.github.io
 &lt;span class="ln">2&lt;/span>mkdir -p .github/workflows/
 &lt;span class="ln">3&lt;/span>touch .github/workflows/gh-pages.yml
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Y mettre la conf auto suivante.
-Elle génère les pages statiques Hugo dans une branche gh-pages :&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>Y mettre la conf auto suivante.
+Elle déclenche &lt;em>Hugo&lt;/em> et lui fait générer les pages statiques dans une branche dédiée &lt;em>gh-pages&lt;/em> :&lt;/li>
+&lt;/ol>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="ln"> 1&lt;/span>&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">github pages&lt;/span>&lt;span class="w">
 &lt;/span>&lt;span class="ln"> 2&lt;/span>&lt;span class="w">
 &lt;/span>&lt;span class="ln"> 3&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
@@ -74,25 +94,129 @@ Elle génère les pages statiques Hugo dans une branche gh-pages :&lt;/p>
 &lt;/span>&lt;span class="ln">28&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;span class="ln">29&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">github_token&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ secrets.GITHUB_TOKEN }}&lt;/span>&lt;span class="w">
 &lt;/span>&lt;span class="ln">30&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">publish_dir&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">./public&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="push-et-dernières-confs-sur-github-">Push et dernières confs sur github :&lt;/h1>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> loboto51.github.io
-&lt;span class="ln">2&lt;/span>git commit -a -m &lt;span class="s2">&amp;#34;init&amp;#34;&lt;/span>
-&lt;span class="ln">3&lt;/span>git push
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Se connecter au dépôt git, dans &amp;quot;Action&amp;quot; on voit le traitement se dérouler (et éventuellement planter).
-Aller dans la conf du dépot : Pages &amp;gt; Source
-Choisir :&lt;/p>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="on-configure-_github-pages_">On configure &lt;em>Github Pages&lt;/em>&lt;/h2>
+&lt;p>Ouvrir le dépôt &lt;em>github&lt;/em> dans un navigateur : &lt;a href="https://github.com/MONLOGINGITHUB/MONLOGINGITHUB.github.io">https://github.com/MONLOGINGITHUB/MONLOGINGITHUB.github.io&lt;/a>&lt;/p>
+&lt;p>Aller dans la conf du dépot : Settings &amp;gt; Pages &amp;gt; Source et choisir :&lt;/p>
 &lt;pre>&lt;code>[Branch : gh-pages] [/root]
 &lt;/code>&lt;/pre>
-&lt;p>Aller sur le site :
-&lt;a href="loboto51.github.io">loboto51.github.io&lt;/a>
-En théorie tout marche.&lt;/p>
-&lt;h1 id="liens-utiles-">Liens utiles :&lt;/h1>
-&lt;p>Hugo sur github :&lt;/p>
+&lt;h2 id="on-envoie-tout-sur-_github_-et-on-voit-si-ça-marche">On envoie tout sur &lt;em>Github&lt;/em> et on voit si ça marche&lt;/h2>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> MONLOGINGITHUB.github.io
+&lt;span class="ln">2&lt;/span>git commit -a -m &lt;span class="s2">&amp;#34;init&amp;#34;&lt;/span>
+&lt;span class="ln">3&lt;/span>git push
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>En cliquant sur l'onglet &lt;em>&amp;quot;Action&amp;quot;&lt;/em> du dépôt on voit le traitement se dérouler (et éventuellement planter si on a fait des bêtises).
+La branche &lt;em>gh-pages&lt;/em> a dû être créée.&lt;/p>
+&lt;p>Aller sur le site &lt;em>Github Pages&lt;/em> résultant :
+&lt;a href="MONLOGINGITHUB.github.io">MONLOGINGITHUB.github.io&lt;/a>&lt;/p>
+&lt;p>En théorie tout y est.&lt;/p>
+&lt;h2 id="annexes">Annexes&lt;/h2>
+&lt;h3 id="mise-en-place-des-commentaires-sur-les-articles">Mise en place des commentaires sur les articles&lt;/h3>
+&lt;p>La doc &lt;em>Hugo&lt;/em> de référence : &lt;a href="https://gohugo.io/content-management/comments/">https://gohugo.io/content-management/comments/&lt;/a>&lt;/p>
+&lt;p>Supports possibles selon la doc + analyse perso :&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://youngkin.github.io/post/createafreeblogsite/">Create a Free Blog Site Using GitHub Pages and Hugo&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">doc Hugo : hosting on github&lt;/a>&lt;/li>
+&lt;li>/ &lt;strong>Disqus&lt;/strong>
+&lt;ul>
+&lt;li>[-] Stockage des messages : Chez &lt;em>Disqus&lt;/em>&lt;/li>
+&lt;li>[+] Commentaire invité&lt;/li>
+&lt;li>[-] Pubs : oui&lt;/li>
+&lt;li>Doc d'install : &lt;a href="https://gohugo.io/content-management/comments/">https://gohugo.io/content-management/comments/&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>Markdown :&lt;/p>
+&lt;/li>
+&lt;li>? &lt;strong>Staticman&lt;/strong>
+&lt;ul>
+&lt;li>[+] Open source&lt;/li>
+&lt;li>[+] Stockage des messages : &lt;em>Github issues&lt;/em>&lt;/li>
+&lt;li>[?] Commentaire invité : ?&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Talkyard&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Auto-hébergé&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>IntenseDebate&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Wordpress&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Graph Comment&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Payant&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Muut&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Payant&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Isso&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Auto-hébergé&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>V &lt;strong>Utterances&lt;/strong>
+&lt;ul>
+&lt;li>[+] Open source&lt;/li>
+&lt;li>[+] Stockage des messages : &lt;em>Github issues&lt;/em>&lt;/li>
+&lt;li>[~] Commentaire invité : ?&lt;/li>
+&lt;li>[+] Pubs : non&lt;/li>
+&lt;li>Doc d'install ici :&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Remark&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Auto-hébergé&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Commento&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Payant&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Hyvor Talk&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Stockage des messages : Chez &lt;em>Hyvor&lt;/em>&lt;/li>
+&lt;li>[+] Commentaire invité : Oui&lt;/li>
+&lt;li>[+] Pubs : non&lt;/li>
+&lt;li>Docs d'install :
+&lt;ul>
+&lt;li>&lt;a href="https://youngkin.github.io/post/createafreeblogsite/#add-support-for-comments">Create a Free Blog Site Using GitHub Pages and Hugo#comments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://talk.hyvor.com/">https://talk.hyvor.com/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Autres pistes :&lt;/p>
+&lt;ul>
+&lt;li>Utiliser Twitter comme système de commentaire :
+&lt;ul>
+&lt;li>&lt;a href="https://pakstech.com/blog/switching-to-twitter-comments/">PÄKSTECH - I'm Switching to Twitter for My Blog Comments&lt;/a>&lt;/li>
+&lt;li>Inspiré par le précédent : &lt;a href="https://theprogress.site/2020-06-30-how-to-use-twitter-as-comment-section-in-your-static-blog/">How to use Twitter as comment section in your static blog and automatically create a tweet per post&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="liens-utiles">Liens utiles&lt;/h2>
+&lt;p>Docs sur Hugo sur github :&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://youngkin.github.io/post/createafreeblogsite/">Create a Free Blog Site Using GitHub Pages and Hugo&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">doc Hugo : hosting on github&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>3 manières possibles d'organiser ses contenus &lt;em>Hugo&lt;/em> : &lt;a href="https://discourse.gohugo.io/t/discussion-content-organization-best-practice/6360/9">discourse.gohugo.io - content-organization-best-practice&lt;/a> (j'ai opté pour l'organisation B : Un répertoire par publication contenant le .md et les pièces jointes. Cela évite les fausses manips, et sera plus pratique si un jour il y en a beaucoup)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Références Markdown :&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html">Quick Markdown Example - page de référence bourrée d'exemple&lt;/a>&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul>
+&lt;section class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1" role="doc-endnote">
+&lt;p>En lançant la commande &amp;quot;hugo&amp;quot; seule, le &lt;em>html&lt;/em> statique est généré dans un répertoire &lt;em>public/&lt;/em>, on pourrait pousser ce répertoire tel-quel à &lt;em>Github&lt;/em>, qui saurait très bien l'exposer.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/section></description></item></channel></rss>
