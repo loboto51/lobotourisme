@@ -205,17 +205,21 @@ En théorie tout y est.
 
 La doc _Hugo_ de référence : [https://gohugo.io/content-management/comments/](https://gohugo.io/content-management/comments/)
 
-Supports possibles selon la doc + analyse perso :
+Supports possibles selon la doc + analyse perso  (V quand possible avec la solution _Hugo_ + _Github Pages_):
 
-- / __Disqus__
+- V __Disqus__
     - [-] Stockage des messages : Chez _Disqus_
     - [+] Commentaire invité
     - [-] Pubs : oui
-    - Doc d'install : [https://gohugo.io/content-management/comments/](https://gohugo.io/content-management/comments/)
-- ? __Staticman__
+    - [-] Trackers : oui ( beaucoup)
+    - Lectures :
+        - Vie privée, etc. : [Gazoo.vrv - Replacing Disqus with Github Comments](http://donw.io/post/github-comments/)
+        - Doc d'install : [https://gohugo.io/content-management/comments/](https://gohugo.io/content-management/comments/)
+- V __Staticman__
     - [+] Open source
     - [+] Stockage des messages : _Github issues_
-    - [?] Commentaire invité : ?
+    - [-] Commentaire invité : non (compte _Github_)
+    - Comparaison avec _Utterances_ : [BARTEKR - testing-utterances-comments](https://blog.bartekr.net/2021/01/17/testing-utterances-comments/)
 - X ~~__Talkyard__~~
     - [!] Auto-hébergé
 - X ~~__IntenseDebate__~~
@@ -229,14 +233,15 @@ Supports possibles selon la doc + analyse perso :
 - V __Utterances__
     - [+] Open source
     - [+] Stockage des messages : _Github issues_
-    - [~] Commentaire invité : ?
+    - [-] Commentaire invité : non (compte _Github_)
     - [+] Pubs : non
+    - Comparaison avec _Staticman_ : [BARTEKR - testing-utterances-comments](https://blog.bartekr.net/2021/01/17/testing-utterances-comments/)
     - Doc d'install ici :
 - X ~~__Remark__~~
     - [!] Auto-hébergé
 - X ~~__Commento__~~
     - [!] Payant
-- X ~~__Hyvor Talk__~~
+- V __Hyvor Talk__
     - [!] Stockage des messages : Chez _Hyvor_
     - [+] Commentaire invité : Oui
     - [+] Pubs : non
@@ -246,9 +251,18 @@ Supports possibles selon la doc + analyse perso :
 
 Autres pistes :
 
-- Utiliser Twitter comme système de commentaire : 
-    - [PÄKSTECH - I'm Switching to Twitter for My Blog Comments](https://pakstech.com/blog/switching-to-twitter-comments/)
-    - Inspiré par le précédent : [How to use Twitter as comment section in your static blog and automatically create a tweet per post](https://theprogress.site/2020-06-30-how-to-use-twitter-as-comment-section-in-your-static-blog/)
+- ? __Github Issue API__
+    - Décrit ici :
+        - [Gazoo.vrv - Replacing Disqus with Github Comments](http://donw.io/post/github-comments/)
+- ? __Twitter__
+    - Décrit ici :
+        - [PÄKSTECH - I'm Switching to Twitter for My Blog Comments](https://pakstech.com/blog/switching-to-twitter-comments/)
+        - [How to use Twitter as comment section in your static blog and automatically create a tweet per post](https://theprogress.site/2020-06-30-how-to-use-twitter-as-comment-section-in-your-static-blog/) (Inspiré par le précédent)
+    - [!] Stockage des messages : Chez _Twitter_
+    - [-] Commentaire invité : Non
+    - [+] Pubs : non
+    - [?] Intégration pas évidente
+    - Docs d'install : 
 
 
 ## Liens utiles

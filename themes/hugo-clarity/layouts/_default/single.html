@@ -21,6 +21,7 @@
     <h2>{{ T "overview" }}</h2>
     {{ .TableOfContents }}
     {{ end }}
+    <blockquote><p>Dernière mise à jour : {{ $.Page.Lastmod.Format (default "Jan 2, 2006" $.Site.Params.dateFormat) }}</p></blockquote>
     {{- .Content }}
     {{- $showComments := true }}
     {{- if eq $s.comments false }}

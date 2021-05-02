@@ -8,6 +8,8 @@ author = "Loboto"
 paginate = 10
 theme = "hugo-clarity"
 
+EnableGitInfo = true
+
 disqusShortname = ""
 
 DefaultContentLanguage = "fr"
