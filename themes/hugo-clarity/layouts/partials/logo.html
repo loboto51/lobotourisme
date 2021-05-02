@@ -3,8 +3,7 @@
   {{- with .logo }}
   <img src="{{ absURL . }}" class="logo" alt="{{ $t }}">
   {{- else -}}
-   Lobotourisme &#x2687; &#9992;
-<!--    {{- $t -}} -->
+   <h1>Lobotourisme &#x2687; &#9992;</h1>
   {{- end }}
   {{- if ne (strings.HasSuffix .class "center") true }}
   <div class="nav_close">

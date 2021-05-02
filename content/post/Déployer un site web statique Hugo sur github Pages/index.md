@@ -201,6 +201,8 @@ En théorie tout y est.
 
 ## Annexes
 
+
+
 ### Mise en place des commentaires sur les articles
 
 La doc _Hugo_ de référence : [https://gohugo.io/content-management/comments/](https://gohugo.io/content-management/comments/)

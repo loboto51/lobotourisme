@@ -1,4 +1,4 @@
 +++
 author = "Loboto"
-description = "Bloc note perso"
+description = "Lobotourisme"
 +++

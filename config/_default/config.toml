@@ -1,23 +1,18 @@
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
 baseurl = "https://loboto51.github.io/"  # Include trailing slash
-title = "Le bloc-note de Loboto"
+title = "Lobotourisme"
 author = "Loboto"
 #copyright = "Aucun copyright."
 # canonifyurls = true
 paginate = 10
 theme = "hugo-clarity"
 
-EnableGitInfo = true
+enableGitInfo = true
 
 disqusShortname = ""
 
 DefaultContentLanguage = "fr"
-# [languages]
-# config/_default/languages.toml
-
-# [menus]
-# config/_default/menus/menu.xx.toml
 
 [taxonomies]
 category = "categories"
