@@ -41,27 +41,27 @@ Note : La plupart des photos viennent de la conversation [advrider.com : CE2 Rep
 
 ### Fiches constructeur :
 
-![rukka-d3o-air-xtr_fiche_collection__source_advrider.jpg](/images/protectionsmoto/rukka-d3o-air-xtr_fiche_collection__source_advrider.jpg)
+![rukka-d3o-air-xtr_fiche_collection__source_advrider.jpg](rukka-d3o-air-xtr_fiche_collection__source_advrider.jpg)
 
 ### Photos générales :
 
-![rukka-d3o-air-xtr_collection.jpg](/images/protectionsmoto/rukka-d3o-air-xtr_collection.jpg)
+![rukka-d3o-air-xtr_collection.jpg](rukka-d3o-air-xtr_collection.jpg)
 
-![rukka-d3o-air-xtr_EB_niv2_dos__source_mcgearhub.jpg](/images/protectionsmoto/rukka-d3o-air-xtr_EB_niv2_dos__source_mcgearhub.jpg)
+![rukka-d3o-air-xtr_EB_niv2_dos__source_mcgearhub.jpg](rukka-d3o-air-xtr_EB_niv2_dos__source_mcgearhub.jpg)
 
-![rukka-d3o-air-xtr_EB_niv2_face__source_mcgearhub.jpg](/images/protectionsmoto/rukka-d3o-air-xtr_EB_niv2_face__source_mcgearhub.jpg)
+![rukka-d3o-air-xtr_EB_niv2_face__source_mcgearhub.jpg](rukka-d3o-air-xtr_EB_niv2_face__source_mcgearhub.jpg)
 
-![rukka-d3o-air-xtr_EB_niv2_notations__source_mcgearhub.jpg](/images/protectionsmoto/rukka-d3o-air-xtr_EB_niv2_notations__source_mcgearhub.jpg)
+![rukka-d3o-air-xtr_EB_niv2_notations__source_mcgearhub.jpg](rukka-d3o-air-xtr_EB_niv2_notations__source_mcgearhub.jpg)
 
-![rukka-d3o-air-xtr_HB_niv2_notations__source_mcgearhub.jpg](/images/protectionsmoto/rukka-d3o-air-xtr_HB_niv2_notations__source_mcgearhub.jpg)
+![rukka-d3o-air-xtr_HB_niv2_notations__source_mcgearhub.jpg](rukka-d3o-air-xtr_HB_niv2_notations__source_mcgearhub.jpg)
 
-![rukka-d3o-air-xtr_KB-LB_niv2_face_dimension__source_advrider.jpg](/images/protectionsmoto/rukka-d3o-air-xtr_KB-LB_niv2_face_dimension__source_advrider.jpg)
+![rukka-d3o-air-xtr_KB-LB_niv2_face_dimension__source_advrider.jpg](rukka-d3o-air-xtr_KB-LB_niv2_face_dimension__source_advrider.jpg)
 
-![rukka-d3o-air-xtr_KB-LB_niv2_notations__source_mcgearhub.jpg](/images/protectionsmoto/rukka-d3o-air-xtr_KB-LB_niv2_notations__source_mcgearhub.jpg)
+![rukka-d3o-air-xtr_KB-LB_niv2_notations__source_mcgearhub.jpg](rukka-d3o-air-xtr_KB-LB_niv2_notations__source_mcgearhub.jpg)
 
-![rukka-d3o-air-xtr_EB_niv2_face__vs__rukka-d3o-air-xtr_SB_niv2__source_mcgearhub.jpg](/images/protectionsmoto/rukka-d3o-air-xtr_EB_niv2_face__vs__rukka-d3o-air-xtr_SB_niv2__source_mcgearhub.jpg)
+![rukka-d3o-air-xtr_EB_niv2_face__vs__rukka-d3o-air-xtr_SB_niv2__source_mcgearhub.jpg](rukka-d3o-air-xtr_EB_niv2_face__vs__rukka-d3o-air-xtr_SB_niv2__source_mcgearhub.jpg)
 
-![rukka-d3o-air-xtr_SB_niv2_notations__source_mcgearhub.jpg](/images/protectionsmoto/rukka-d3o-air-xtr_SB_niv2_notations__source_mcgearhub.jpg)
+![rukka-d3o-air-xtr_SB_niv2_notations__source_mcgearhub.jpg](rukka-d3o-air-xtr_SB_niv2_notations__source_mcgearhub.jpg)
 
 
 
@@ -69,12 +69,12 @@ Note : La plupart des photos viennent de la conversation [advrider.com : CE2 Rep
 
 #### Knox Micro-lock :
 
-![rukka-d3o-air-xtr_EB_niv2_face__vs__knox_micro-lock-363_EB-KB_niv2_face__source_advrider.jpg](/images/protectionsmoto/rukka-d3o-air-xtr_EB_niv2_face__vs__knox_micro-lock-363_EB-KB_niv2_face__source_advrider.jpg)
+![rukka-d3o-air-xtr_EB_niv2_face__vs__knox_micro-lock-363_EB-KB_niv2_face__source_advrider.jpg](rukka-d3o-air-xtr_EB_niv2_face__vs__knox_micro-lock-363_EB-KB_niv2_face__source_advrider.jpg)
 
 
 #### D3O T5 Evo :
 
-![d3o-t5-evo_KA_niv1_face__vs__rukka-d3o-air-xtr_KB-LB_niv2.jpg](/images/protectionsmoto/d3o-t5-evo_KA_niv1_face__vs__rukka-d3o-air-xtr_KB-LB_niv2.jpg)
+![d3o-t5-evo_KA_niv1_face__vs__rukka-d3o-air-xtr_KB-LB_niv2.jpg](d3o-t5-evo_KA_niv1_face__vs__rukka-d3o-air-xtr_KB-LB_niv2.jpg)
 
 
 

@@ -43,15 +43,15 @@ N/A
 
 ### Photos générales :
 
-![alpinestars-bio-armor-air_EA_niv2_dos__vs__alpinestars-bio-armor-air_SA_niv2_dos.jpg](/images/protectionsmoto/alpinestars-bio-armor-air_EA_niv2_dos__vs__alpinestars-bio-armor-air_SA_niv2_dos.jpg)
+![alpinestars-bio-armor-air_EA_niv2_dos__vs__alpinestars-bio-armor-air_SA_niv2_dos.jpg](alpinestars-bio-armor-air_EA_niv2_dos__vs__alpinestars-bio-armor-air_SA_niv2_dos.jpg)
 
-![alpinestars-bio-armor-air_EB-KA_niv2_dos__vs__alpinestars-bio-armor-air_SB_niv2_dos.jpg](/images/protectionsmoto/alpinestars-bio-armor-air_EB-KA_niv2_dos__vs__alpinestars-bio-armor-air_SB_niv2_dos.jpg)
+![alpinestars-bio-armor-air_EB-KA_niv2_dos__vs__alpinestars-bio-armor-air_SB_niv2_dos.jpg](alpinestars-bio-armor-air_EB-KA_niv2_dos__vs__alpinestars-bio-armor-air_SB_niv2_dos.jpg)
 
-![alpinestars-bio-armor-air_EB-KA_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face.jpg](/images/protectionsmoto/alpinestars-bio-armor-air_EB-KA_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face.jpg)
+![alpinestars-bio-armor-air_EB-KA_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face.jpg](alpinestars-bio-armor-air_EB-KA_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face.jpg)
 
-![alpinestars-bio-armor-air_EB-KA_niv2_notations__source_advrider.jpg](/images/protectionsmoto/alpinestars-bio-armor-air_EB-KA_niv2_notations__source_advrider.jpg)
+![alpinestars-bio-armor-air_EB-KA_niv2_notations__source_advrider.jpg](alpinestars-bio-armor-air_EB-KA_niv2_notations__source_advrider.jpg)
 
-![alpinestars-bio-armor-air_SB_niv2_notations__source_web.jpg](/images/protectionsmoto/alpinestars-bio-armor-air_SB_niv2_notations__source_web.jpg)
+![alpinestars-bio-armor-air_SB_niv2_notations__source_web.jpg](alpinestars-bio-armor-air_SB_niv2_notations__source_web.jpg)
 
 
 
@@ -59,14 +59,14 @@ N/A
 
 #### Forcefield Isolator 2 :
 
-![forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_dos__source_advrider.jpg](/images/protectionsmoto/forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_dos__source_advrider.jpg)
+![forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_dos__source_advrider.jpg](forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_dos__source_advrider.jpg)
 
-![forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_face__source_advrider.jpg](/images/protectionsmoto/forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_face__source_advrider.jpg)
+![forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_face__source_advrider.jpg](forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_face__source_advrider.jpg)
 
 
 #### Rev'It Seeflex & Alpinestars Nucleon Flex Pro & D3O :
 
-![revit-seeflex-rv11-l2_SB_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face__vs__alpinestars-nucleon-flex-pro_SA_SB_niv2_face.jpg](/images/protectionsmoto/revit-seeflex-rv11-l2_SB_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face__vs__alpinestars-nucleon-flex-pro_SA_SB_niv2_face.jpg)
+![revit-seeflex-rv11-l2_SB_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face__vs__alpinestars-nucleon-flex-pro_SA_SB_niv2_face.jpg](revit-seeflex-rv11-l2_SB_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face__vs__alpinestars-nucleon-flex-pro_SA_SB_niv2_face.jpg)
 
 
 Lectures :
