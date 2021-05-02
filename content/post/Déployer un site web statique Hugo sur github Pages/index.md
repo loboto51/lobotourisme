@@ -1,6 +1,7 @@
 +++
 title = "Déployer un site web statique Hugo sur Github Pages"
 date = "2021-04-22"
+lastmod = "2021-05-02"
 categories = [
     "dev"
 ]

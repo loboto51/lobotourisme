@@ -50,8 +50,6 @@ author = "Loboto"
 paginate = 10
 theme = "hugo-clarity"
 
-enableGitInfo = true
-
 DefaultContentLanguage = "fr"
 
 [taxonomies]
@@ -80,8 +78,9 @@ Très long fichier, principales modifs :
 author = "Loboto"
 introDescription = "(...)"
 enforceDarkMode = true
-dateFormat = "2006-01-02"
+dateFormat = "02/01/2006"
 since = 2021
+footerLogo = "logos/logo.png"
 
 ```
 
@@ -127,13 +126,14 @@ description = "Lobotourisme"
 
 ### Template des articles _single.html_
 
-Dans _themes/hugo-clarity/layouts/_default/single.html_, ajout de la date de dernière mise à jour :
+Dans _themes/hugo-clarity/layouts/_default/single.html_, ajout de la date de dernière mise à jour si le paramètre _lastmod_ existe :
 
 ```html
-     {{ if $.GitInfo }}
-     <blockquote><p>Dernière mise à jour : <time datetime="{{ .GitInfo.AuthorDate.Format "Mon Jan 10 17:13:38 2020 -0700" }}" class="text-muted">{{ .GitInfo.AuthorDate.Format (default "Jan 2, 2006" $.Site.Params.dateFormat) }}</time></p></blockquote>
-     {{ end }}
+    {{ if $p.lastmod }}
+    <blockquote><p>Dernière mise à jour : <time datetime="{{ $p.lastmod.Format "Mon Jan 10 17:13:38 2020 -0700" }}">{{ $p.lastmod.Format (default "Jan 2, 2006" $.Site.Params.dateFormat) }}</time></p></blockquote>
+    {{ end }}
 ```
+
 
 
 ### Template du logo _logo.html_
