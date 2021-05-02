@@ -111,21 +111,28 @@ La branche &lt;em>gh-pages&lt;/em> a dû être créée.&lt;/p>
 &lt;h2 id="annexes">Annexes&lt;/h2>
 &lt;h3 id="mise-en-place-des-commentaires-sur-les-articles">Mise en place des commentaires sur les articles&lt;/h3>
 &lt;p>La doc &lt;em>Hugo&lt;/em> de référence : &lt;a href="https://gohugo.io/content-management/comments/">https://gohugo.io/content-management/comments/&lt;/a>&lt;/p>
-&lt;p>Supports possibles selon la doc + analyse perso :&lt;/p>
+&lt;p>Supports possibles selon la doc + analyse perso (V quand possible avec la solution &lt;em>Hugo&lt;/em> + &lt;em>Github Pages&lt;/em>):&lt;/p>
 &lt;ul>
-&lt;li>/ &lt;strong>Disqus&lt;/strong>
+&lt;li>V &lt;strong>Disqus&lt;/strong>
 &lt;ul>
 &lt;li>[-] Stockage des messages : Chez &lt;em>Disqus&lt;/em>&lt;/li>
 &lt;li>[+] Commentaire invité&lt;/li>
 &lt;li>[-] Pubs : oui&lt;/li>
+&lt;li>[-] Trackers : oui ( beaucoup)&lt;/li>
+&lt;li>Lectures :
+&lt;ul>
+&lt;li>Vie privée, etc. : &lt;a href="http://donw.io/post/github-comments/">Gazoo.vrv - Replacing Disqus with Github Comments&lt;/a>&lt;/li>
 &lt;li>Doc d'install : &lt;a href="https://gohugo.io/content-management/comments/">https://gohugo.io/content-management/comments/&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>? &lt;strong>Staticman&lt;/strong>
+&lt;/ul>
+&lt;/li>
+&lt;li>V &lt;strong>Staticman&lt;/strong>
 &lt;ul>
 &lt;li>[+] Open source&lt;/li>
 &lt;li>[+] Stockage des messages : &lt;em>Github issues&lt;/em>&lt;/li>
-&lt;li>[?] Commentaire invité : ?&lt;/li>
+&lt;li>[-] Commentaire invité : non (compte &lt;em>Github&lt;/em>)&lt;/li>
+&lt;li>Comparaison avec &lt;em>Utterances&lt;/em> : &lt;a href="https://blog.bartekr.net/2021/01/17/testing-utterances-comments/">BARTEKR - testing-utterances-comments&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>X &lt;del>&lt;strong>Talkyard&lt;/strong>&lt;/del>
@@ -157,8 +164,9 @@ La branche &lt;em>gh-pages&lt;/em> a dû être créée.&lt;/p>
 &lt;ul>
 &lt;li>[+] Open source&lt;/li>
 &lt;li>[+] Stockage des messages : &lt;em>Github issues&lt;/em>&lt;/li>
-&lt;li>[~] Commentaire invité : ?&lt;/li>
+&lt;li>[-] Commentaire invité : non (compte &lt;em>Github&lt;/em>)&lt;/li>
 &lt;li>[+] Pubs : non&lt;/li>
+&lt;li>Comparaison avec &lt;em>Staticman&lt;/em> : &lt;a href="https://blog.bartekr.net/2021/01/17/testing-utterances-comments/">BARTEKR - testing-utterances-comments&lt;/a>&lt;/li>
 &lt;li>Doc d'install ici :&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -172,7 +180,7 @@ La branche &lt;em>gh-pages&lt;/em> a dû être créée.&lt;/p>
 &lt;li>[!] Payant&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>X &lt;del>&lt;strong>Hyvor Talk&lt;/strong>&lt;/del>
+&lt;li>V &lt;strong>Hyvor Talk&lt;/strong>
 &lt;ul>
 &lt;li>[!] Stockage des messages : Chez &lt;em>Hyvor&lt;/em>&lt;/li>
 &lt;li>[+] Commentaire invité : Oui&lt;/li>
@@ -188,10 +196,28 @@ La branche &lt;em>gh-pages&lt;/em> a dû être créée.&lt;/p>
 &lt;/ul>
 &lt;p>Autres pistes :&lt;/p>
 &lt;ul>
-&lt;li>Utiliser Twitter comme système de commentaire :
+&lt;li>? &lt;strong>Github Issue API&lt;/strong>
+&lt;ul>
+&lt;li>Décrit ici :
+&lt;ul>
+&lt;li>&lt;a href="http://donw.io/post/github-comments/">Gazoo.vrv - Replacing Disqus with Github Comments&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>? &lt;strong>Twitter&lt;/strong>
+&lt;ul>
+&lt;li>Décrit ici :
 &lt;ul>
 &lt;li>&lt;a href="https://pakstech.com/blog/switching-to-twitter-comments/">PÄKSTECH - I'm Switching to Twitter for My Blog Comments&lt;/a>&lt;/li>
-&lt;li>Inspiré par le précédent : &lt;a href="https://theprogress.site/2020-06-30-how-to-use-twitter-as-comment-section-in-your-static-blog/">How to use Twitter as comment section in your static blog and automatically create a tweet per post&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://theprogress.site/2020-06-30-how-to-use-twitter-as-comment-section-in-your-static-blog/">How to use Twitter as comment section in your static blog and automatically create a tweet per post&lt;/a> (Inspiré par le précédent)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>[!] Stockage des messages : Chez &lt;em>Twitter&lt;/em>&lt;/li>
+&lt;li>[-] Commentaire invité : Non&lt;/li>
+&lt;li>[+] Pubs : non&lt;/li>
+&lt;li>[?] Intégration pas évidente&lt;/li>
+&lt;li>Docs d'install :&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
