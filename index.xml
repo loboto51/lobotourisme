@@ -1,4 +1,89 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lobotourisme</title><link>https://loboto51.github.io/</link><description>Recent content on Lobotourisme</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://loboto51.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Protections moto hanche Alpinestars Nucleon Racing KR-HR et Nucleon KR-H</title><link>https://loboto51.github.io/post/protections-moto-hanche-alpinestars-nucleon-racing-kr-hr-et-nucleon-kr-h/</link><pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/protections-moto-hanche-alpinestars-nucleon-racing-kr-hr-et-nucleon-kr-h/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lobotourisme</title><link>https://loboto51.github.io/</link><description>Recent content on Lobotourisme</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://loboto51.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Mémo des modifications du thème hugo-clarify</title><link>https://loboto51.github.io/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarify/</link><pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarify/</guid><description>
+&lt;p>&lt;em>Résumé :&lt;/em>&lt;/p>
+&lt;p>Ce site est construit en combinant &lt;em>Hugo&lt;/em> + &lt;em>Github Pages&lt;/em>.
+J'utilise le thème &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-clarity&lt;/a>. Ce &lt;em>post&lt;/em> récapitule les configurations et modifications que j'y ai apporté.&lt;/p>
+&lt;p>Le thème &lt;em>hugo-clarity&lt;/em> demande pas mal de conf. Plutôt que partir de zéro j'ai suivi le conseil que donne sa doc d'install et je suis parti du &lt;em>examplesite/&lt;/em> fourni dans le thème, que j'ai ensuite modifié.&lt;/p>
+&lt;h2 id="documents-non-utilisés">documents non-utilisés&lt;/h2>
+&lt;h3 id="suppression-des-exemples-en-portugais">Suppression des exemples en portugais&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>rm ./config/_default/menus/menu.pt.toml
+&lt;span class="ln">2&lt;/span>rm ./content/about.pt.md
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="suppression-des-pages-exemples-dans-_content_">Suppression des pages exemples dans &lt;em>./content&lt;/em>&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>rm ./content/archives.md
+&lt;span class="ln">2&lt;/span>rm ./content/homepage/about.md
+&lt;span class="ln">3&lt;/span>rm ./content/homepage/work.md
+&lt;span class="ln">4&lt;/span>rm ./content/post/* &lt;span class="c1"># exemples de pages&lt;/span>
+&lt;span class="ln">5&lt;/span>rm ./static/images/* &lt;span class="c1"># images non utilisées&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="modification-des-fichiers-de-conf">Modification des fichiers de conf&lt;/h2>
+&lt;h3 id="modification-de-_config_defaultconfigtoml_">Modification de _./config/&lt;em>default/config.toml&lt;/em>&lt;/h3>
+&lt;p>Modifié :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="ln"> 1&lt;/span>&lt;span class="nx">baseurl&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;https://loboto51.github.io/&amp;#34;&lt;/span>
+&lt;span class="ln"> 2&lt;/span>&lt;span class="nx">title&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>
+&lt;span class="ln"> 3&lt;/span>&lt;span class="nx">author&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Loboto&amp;#34;&lt;/span>
+&lt;span class="ln"> 4&lt;/span>&lt;span class="nx">paginate&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">10&lt;/span>
+&lt;span class="ln"> 5&lt;/span>&lt;span class="nx">theme&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;hugo-clarity&amp;#34;&lt;/span>
+&lt;span class="ln"> 6&lt;/span>
+&lt;span class="ln"> 7&lt;/span>&lt;span class="nx">enableGitInfo&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;span class="ln"> 8&lt;/span>
+&lt;span class="ln"> 9&lt;/span>&lt;span class="nx">DefaultContentLanguage&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;fr&amp;#34;&lt;/span>
+&lt;span class="ln">10&lt;/span>
+&lt;span class="ln">11&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="nx">taxonomies&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="ln">12&lt;/span>&lt;span class="nx">category&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;categories&amp;#34;&lt;/span>
+&lt;span class="ln">13&lt;/span>&lt;span class="nx">tag&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;tags&amp;#34;&lt;/span>
+&lt;span class="ln">14&lt;/span>&lt;span class="nx">series&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;series&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="modification-de-_config_defaultlanguagestoml_">Modification de _./config/&lt;em>default/languages.toml&lt;/em>&lt;/h3>
+&lt;p>Modifié :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="ln">1&lt;/span>
+&lt;span class="ln">2&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="nx">fr&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="ln">3&lt;/span> &lt;span class="nx">title&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>
+&lt;span class="ln">4&lt;/span> &lt;span class="nx">LanguageName&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;French&amp;#34;&lt;/span>
+&lt;span class="ln">5&lt;/span> &lt;span class="nx">weight&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">1&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="modification-de-_config_defaultparamstoml_">Modification de _./config/&lt;em>default/params.toml&lt;/em>&lt;/h3>
+&lt;p>Très long fichier, principales modifs :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="ln">1&lt;/span>&lt;span class="nx">author&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Loboto&amp;#34;&lt;/span>
+&lt;span class="ln">2&lt;/span>&lt;span class="nx">introDescription&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;(...)&amp;#34;&lt;/span>
+&lt;span class="ln">3&lt;/span>&lt;span class="nx">enforceDarkMode&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;span class="ln">4&lt;/span>&lt;span class="nx">dateFormat&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;2006-01-02&amp;#34;&lt;/span>
+&lt;span class="ln">5&lt;/span>&lt;span class="nx">since&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">2021&lt;/span>
+&lt;span class="ln">6&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="création-dun-_menufrtoml_-à-partir-de-_menuentoml_">Création d'un &lt;em>menu.fr.toml&lt;/em> à partir de &lt;em>menu.en.toml&lt;/em>&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>mv ./config/_default/menus/menu.en.toml ./config/_default/menus/menu.fr.toml
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Modifié pour le restreindre à 2 blocs :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="ln"> 1&lt;/span>&lt;span class="p">[[&lt;/span>&lt;span class="nx">main&lt;/span>&lt;span class="p">]]&lt;/span>
+&lt;span class="ln"> 2&lt;/span> &lt;span class="nx">name&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;A propos&amp;#34;&lt;/span>
+&lt;span class="ln"> 3&lt;/span> &lt;span class="nx">url&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;about/&amp;#34;&lt;/span>
+&lt;span class="ln"> 4&lt;/span> &lt;span class="nx">weight&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">-107&lt;/span>
+&lt;span class="ln"> 5&lt;/span>
+&lt;span class="ln"> 6&lt;/span>&lt;span class="c"># social menu links&lt;/span>
+&lt;span class="ln"> 7&lt;/span>
+&lt;span class="ln"> 8&lt;/span>&lt;span class="p">[[&lt;/span>&lt;span class="nx">social&lt;/span>&lt;span class="p">]]&lt;/span>
+&lt;span class="ln"> 9&lt;/span> &lt;span class="nx">name&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;rss&amp;#34;&lt;/span>
+&lt;span class="ln">10&lt;/span> &lt;span class="nx">weight&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">4&lt;/span>
+&lt;span class="ln">11&lt;/span> &lt;span class="nx">url&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;index.xml&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="modification-des-pages-principales">Modification des pages principales&lt;/h2>
+&lt;h3 id="modification-de-_contentaboutmd_">Modification de &lt;em>./content/about.md&lt;/em>&lt;/h3>
+&lt;p>Il s'agit juste d'une page normale, affichée lorsqu'on clique sur &amp;quot;à propos&amp;quot;.&lt;/p>
+&lt;h3 id="modification-de-_content_indexmd_">Modification de _./content/&lt;em>index.md&lt;/em>&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="ln">1&lt;/span>&lt;span class="err">+++&lt;/span>
+&lt;span class="ln">2&lt;/span>&lt;span class="nx">author&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Loboto&amp;#34;&lt;/span>
+&lt;span class="ln">3&lt;/span>&lt;span class="nx">description&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>
+&lt;span class="ln">4&lt;/span>&lt;span class="err">+++&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="modification-des-templates">Modification des templates&lt;/h2>
+&lt;h3 id="template-des-articles-_singlehtml_">Template des articles &lt;em>single.html&lt;/em>&lt;/h3>
+&lt;p>Dans _themes/hugo-clarity/layouts/&lt;em>default/single.html&lt;/em>, ajout de la date de dernière mise à jour :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="ln">1&lt;/span> {{ if $.GitInfo }}
+&lt;span class="ln">2&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">blockquote&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Dernière mise à jour : &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">time&lt;/span> &lt;span class="na">datetime&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .GitInfo.AuthorDate.Format &amp;#34;&lt;/span>&lt;span class="na">Mon&lt;/span> &lt;span class="na">Jan&lt;/span> &lt;span class="na">10&lt;/span> &lt;span class="na">17:13:38&lt;/span> &lt;span class="na">2020&lt;/span> &lt;span class="na">-0700&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">}}&amp;#34;&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;text-muted&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ .GitInfo.AuthorDate.Format (default &amp;#34;Jan 2, 2006&amp;#34; $.Site.Params.dateFormat) }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">time&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">blockquote&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln">3&lt;/span> {{ end }}
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="template-du-logo-_logohtml_">Template du logo &lt;em>logo.html&lt;/em>&lt;/h3>
+&lt;p>Dans &lt;em>themes/hugo-clarity/layouts/partials/logo.html&lt;/em>, ajout du titre de site en dur avec ses 2 emojis :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="ln">1&lt;/span>(...)
+&lt;span class="ln">2&lt;/span> {{- with .logo }}
+&lt;span class="ln">3&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ absURL . }}&amp;#34;&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;logo&amp;#34;&lt;/span> &lt;span class="na">alt&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ $t }}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln">4&lt;/span> {{- else -}}
+&lt;span class="ln">5&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Lobotourisme &lt;span class="ni">&amp;amp;#x2687;&lt;/span> &lt;span class="ni">&amp;amp;#9992;&lt;/span>&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln">6&lt;/span> {{- end }}
+&lt;span class="ln">7&lt;/span>(...)
+&lt;span class="ln">8&lt;/span>&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Protections moto hanche Alpinestars Nucleon Racing KR-HR et Nucleon KR-H</title><link>https://loboto51.github.io/post/protections-moto-hanche-alpinestars-nucleon-racing-kr-hr-et-nucleon-kr-h/</link><pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/protections-moto-hanche-alpinestars-nucleon-racing-kr-hr-et-nucleon-kr-h/</guid><description>
 &lt;h2 id="synthèse-">Synthèse :&lt;/h2>
 &lt;p>2 modèles, en taille A ou B :&lt;/p>
 &lt;ul>
