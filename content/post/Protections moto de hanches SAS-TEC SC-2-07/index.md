@@ -22,7 +22,7 @@ Caractéristiques :
 - Longévité annoncée : 10 ans
 - Type de matériaux : Visco-élastique souple, s'ajuste avec la chaleur corporelle
 - Aération : Bonne
-- Prix : ~30e niveau 1, ~40e niveau 2
+- Prix : ~16e (dispos sur [fc-moto.de](https://www.fc-moto.de/epages/fcm.sf/de_DE/?ObjectID=502396174&ViewAction=ViewProduct))
 
 Fiche constructeur :
 - [SAS-TEC SC-2/07](https://www.sas-tec.de/en/products/sc-2-07/)
