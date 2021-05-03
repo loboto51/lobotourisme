@@ -17,12 +17,18 @@ Synthèse :
 Caractéristiques :
 
 - Certification : Niveau 2 [^1]
-- Protection réelle : Le fabricant annonce une majorité < 10 kN (norme : 20 kN en moyenne, maximum 30 kN)
+- Protection réelle : Le fabricant annonce une majorité < 10 kN (norme : 20 kN en moyenne, maximum 30 kN) SAS-TEC indique aussi une résistance à l'échauffement allant jusqu'à 100°C.
 - Fabrication : ?
 - Longévité annoncée : 10 ans
 - Type de matériaux : Visco-élastique souple (>> D3O, > Forcefield), s'ajuste avec la chaleur corporelle
 - Aération : Bonne
 - Prix : 14-18e par paire (difficiles à trouver : dispos sur [ebay](https://www.ebay.fr/sch/i.html?_from=R40&_nkw=sas+tec+evo&_sacat=0&LH_PrefLoc=3&_sop=15) et [motoinn.de](https://www.motoin.de/search.php?keywords=evo&manuid%5B%5D=79))
+
+Fiches constructeur :
+
+- [SAS-TEC SC-1/EVO1 NEW](https://www.sas-tec.de/en/products/sc-1-evo1/)
+- [SAS-TEC SC-1/EVO2 NEW](https://www.sas-tec.de/en/products/sc-1-evo2/)
+- [SAS-TEC SC-1/EVO3 NEW](https://www.sas-tec.de/en/products/sc-1-evo3/)
 
 
 Confort et comparaison avec les autres marques : 
@@ -33,12 +39,6 @@ Avis personnel : Mon expérience avec les SC1-06 EVO (très bonnes protections g
 Photos :
 --------
 
-### Fiches constructeur :
-
-- [SAS-TEC SC-1/EVO1 NEW](https://www.sas-tec.de/en/products/sc-1-evo1/)
-- [SAS-TEC SC-1/EVO2 NEW](https://www.sas-tec.de/en/products/sc-1-evo2/)
-- [SAS-TEC SC-1/EVO3 NEW](https://www.sas-tec.de/en/products/sc-1-evo3/)
-
 ### Photos générales :
 
 ![sastec-sc1-evo1-new__EA-KA-SB_niv2__source_sastec.jpg](sastec-sc1-evo1-new__EA-KA-SB_niv2__source_sastec.jpg)
@@ -47,9 +47,6 @@ Photos :
 
 ![sastec-sc1-evo3-new__EB-KB_niv2__source_sastec.jpg](sastec-sc1-evo3-new__EB-KB_niv2__source_sastec.jpg)
 
-### Comparaisons :
-
-N/A
 
 Lectures :
 ----------
