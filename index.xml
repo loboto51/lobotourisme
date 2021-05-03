@@ -67,21 +67,68 @@ J'utilise le thème &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-cla
 &lt;span class="ln">3&lt;/span>&lt;span class="nx">description&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>
 &lt;span class="ln">4&lt;/span>&lt;span class="err">+++&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="modification-des-templates">Modification des templates&lt;/h2>
+&lt;p>Point important :
+&lt;em>Hugo&lt;/em> permet de passer outre n'importe quel élément du thème en mettant une version locale dans le site.&lt;/p>
+&lt;p>Exemple :
+_./layouts/&lt;em>default/single.html&lt;/em> sera pris en priorité sur _./themes/hugo-clarity/layouts/&lt;em>default/single.html&lt;/em>&lt;/p>
+&lt;p>Cela permet de modifier son site tout en ne touchant pas aux sources du thème. On peut donc toujours se référer à l'original ou revenir en arrière.&lt;/p>
 &lt;h3 id="template-des-articles-_singlehtml_">Template des articles &lt;em>single.html&lt;/em>&lt;/h3>
-&lt;p>Dans _themes/hugo-clarity/layouts/&lt;em>default/single.html&lt;/em>, ajout de la date de dernière mise à jour si le paramètre &lt;em>lastmod&lt;/em> existe :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>mkdir -p ./layouts/_default
+&lt;span class="ln">2&lt;/span>cp ./themes/hugo-clarity/layouts/_default/single.html ./layouts/_default/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>J'ai ajouté la date de dernière mise à jour si le paramètre &lt;em>lastmod&lt;/em> existe :&lt;/p>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="ln">1&lt;/span> {{ if $p.lastmod }}
 &lt;span class="ln">2&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">blockquote&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Dernière mise à jour : &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">time&lt;/span> &lt;span class="na">datetime&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ $p.lastmod.Format &amp;#34;&lt;/span>&lt;span class="na">Mon&lt;/span> &lt;span class="na">Jan&lt;/span> &lt;span class="na">10&lt;/span> &lt;span class="na">17:13:38&lt;/span> &lt;span class="na">2020&lt;/span> &lt;span class="na">-0700&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">}}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ $p.lastmod.Format (default &amp;#34;Jan 2, 2006&amp;#34; $.Site.Params.dateFormat) }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">time&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">blockquote&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;span class="ln">3&lt;/span> {{ end }}
 &lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="template-du-logo-_logohtml_">Template du logo &lt;em>logo.html&lt;/em>&lt;/h3>
-&lt;p>Dans &lt;em>themes/hugo-clarity/layouts/partials/logo.html&lt;/em>, ajout du titre de site en dur avec ses 2 emojis :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>mkdir -p ./layouts/partials
+&lt;span class="ln">2&lt;/span>cp ./themes/hugo-clarity/layouts/partials/logo.html ./layouts/partials/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>J'ai ajouté le titre de site en texte simple, à côté du logo :&lt;/p>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="ln">1&lt;/span>(...)
 &lt;span class="ln">2&lt;/span> {{- with .logo }}
-&lt;span class="ln">3&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ absURL . }}&amp;#34;&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;logo&amp;#34;&lt;/span> &lt;span class="na">alt&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ $t }}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln">3&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ absURL . }}&amp;#34;&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;logo&amp;#34;&lt;/span> &lt;span class="na">alt&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ $t }}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Lobotourisme&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;span class="ln">4&lt;/span> {{- else -}}
 &lt;span class="ln">5&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Lobotourisme &lt;span class="ni">&amp;amp;#x2687;&lt;/span> &lt;span class="ni">&amp;amp;#9992;&lt;/span>&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;span class="ln">6&lt;/span> {{- end }}
 &lt;span class="ln">7&lt;/span>(...)
 &lt;span class="ln">8&lt;/span>&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="icones-logo-etc">Icones, logo, etc.&lt;/h2>
+&lt;h3 id="image-originale">Image originale&lt;/h3>
+&lt;p>J'ai acheté une belle icône sur le très bon site &lt;a href="https://thenounproject.com/">The Noun Project&lt;/a> : &lt;a href="https://thenounproject.com/term/space/2217279/">Space dessinée par Adrien Coquet&lt;/a>.&lt;/p>
+&lt;p>Je l'ai modifiée dans Inkscape pour ajouter un peu de couleur, puis j'ai généré une version PNG de 256x256 &amp;quot;&lt;em>logo_large.png&lt;/em>&amp;quot; que j'ai mise dans &lt;em>./static/logos/&lt;/em>.&lt;/p>
+&lt;h4 id="génération-des-variantes">Génération des variantes&lt;/h4>
+&lt;p>J'ai généré toutes les variantes avec ImageMagick :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln"> 1&lt;/span>mkdir -p ./static/icons/
+&lt;span class="ln"> 2&lt;/span>
+&lt;span class="ln"> 3&lt;/span>&lt;span class="c1">#logo.png&lt;/span>
+&lt;span class="ln"> 4&lt;/span>convert ./static/logos/logo_large.png -resize 75x75 -unsharp 0x1 ./static/logos/logo2.png
+&lt;span class="ln"> 5&lt;/span>
+&lt;span class="ln"> 6&lt;/span>
+&lt;span class="ln"> 7&lt;/span>&lt;span class="c1">#favicon.ico&lt;/span>
+&lt;span class="ln"> 8&lt;/span>convert ./static/logos/logo_large.png -resize 48x48 -unsharp 0x1 ./static/icons/favicon.ico
+&lt;span class="ln"> 9&lt;/span>&lt;span class="c1">#favicon-16x16.png&lt;/span>
+&lt;span class="ln">10&lt;/span>convert ./static/logos/logo_large.png -resize 16x16 -unsharp 0x1 ./static/icons/favicon-16x16.png
+&lt;span class="ln">11&lt;/span>&lt;span class="c1">#favicon-32x32.png&lt;/span>
+&lt;span class="ln">12&lt;/span>convert ./static/logos/logo_large.png -resize 32x32 -unsharp 0x1 ./static/icons/favicon-32x32.png
+&lt;span class="ln">13&lt;/span>
+&lt;span class="ln">14&lt;/span>
+&lt;span class="ln">15&lt;/span>&lt;span class="c1">#android-chrome-192x192.png&lt;/span>
+&lt;span class="ln">16&lt;/span>convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x1 ./static/icons/android-chrome-192x192.png
+&lt;span class="ln">17&lt;/span>&lt;span class="c1">#android-chrome-256x256.png&lt;/span>
+&lt;span class="ln">18&lt;/span>cp ./static/logos/logo_large.png ./static/icons/android-chrome-256x256.png
+&lt;span class="ln">19&lt;/span>&lt;span class="c1">#apple-touch-icon.png&lt;/span>
+&lt;span class="ln">20&lt;/span>convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/apple-touch-icon.png
+&lt;span class="ln">21&lt;/span>&lt;span class="c1">#apple-touch-icon.png&lt;/span>
+&lt;span class="ln">22&lt;/span>convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/apple-touch-icon.png
+&lt;span class="ln">23&lt;/span>
+&lt;span class="ln">24&lt;/span>&lt;span class="c1">#mstile-150x150.png&lt;/span>
+&lt;span class="ln">25&lt;/span>convert ./static/logos/logo_large.png -resize 150x150 -unsharp 0x1 -bordercolor transparent -border &lt;span class="m">60&lt;/span> ./static/icons/mstile-150x150.png
+&lt;span class="ln">26&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="webmanifest">webmanifest&lt;/h3>
+&lt;p>J'ai copié l'original :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>cp ./themes/hugo-clarity/static/icons/site.webmanifest ./static/icons/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Et je l'ai modifié pour ajouter le nom du site :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="ln">1&lt;/span> &lt;span class="s2">&amp;#34;name&amp;#34;&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;span class="ln">2&lt;/span> &lt;span class="s2">&amp;#34;short_name&amp;#34;&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>&lt;span class="err">,&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Protections moto hanche Alpinestars Nucleon Racing KR-HR et Nucleon KR-H</title><link>https://loboto51.github.io/post/protections-moto-hanche-alpinestars-nucleon-racing-kr-hr-et-nucleon-kr-h/</link><pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/protections-moto-hanche-alpinestars-nucleon-racing-kr-hr-et-nucleon-kr-h/</guid><description>
 &lt;h2 id="synthèse-">Synthèse :&lt;/h2>
 &lt;p>2 modèles, en taille A ou B :&lt;/p>
