@@ -124,9 +124,23 @@ description = "Lobotourisme"
 
 ## Modification des templates
 
+Point important :
+_Hugo_ permet de passer outre n'importe quel élément du thème en mettant une version locale dans le site.
+
+Exemple :
+_./layouts/_default/single.html_ sera pris en priorité sur _./themes/hugo-clarity/layouts/_default/single.html_
+
+Cela permet de modifier son site tout en ne touchant pas aux sources du thème. On peut donc toujours se référer à l'original ou revenir en arrière.
+
+
 ### Template des articles _single.html_
 
-Dans _themes/hugo-clarity/layouts/_default/single.html_, ajout de la date de dernière mise à jour si le paramètre _lastmod_ existe :
+```sh
+mkdir -p ./layouts/_default
+cp ./themes/hugo-clarity/layouts/_default/single.html ./layouts/_default/
+```
+
+J'ai ajouté la date de dernière mise à jour si le paramètre _lastmod_ existe :
 
 ```html
     {{ if $p.lastmod }}
@@ -138,12 +152,17 @@ Dans _themes/hugo-clarity/layouts/_default/single.html_, ajout de la date de der
 
 ### Template du logo _logo.html_
 
-Dans _themes/hugo-clarity/layouts/partials/logo.html_, ajout du titre de site en dur avec ses 2 emojis :
+```sh
+mkdir -p ./layouts/partials
+cp ./themes/hugo-clarity/layouts/partials/logo.html ./layouts/partials/
+```
+
+J'ai ajouté le titre de site en texte simple, à côté du logo :
 
 ```html
 (...)
   {{- with .logo }}
-  <img src="{{ absURL . }}" class="logo" alt="{{ $t }}">
+  <img src="{{ absURL . }}" class="logo" alt="{{ $t }}"><h1>Lobotourisme</h1> 
   {{- else -}}
    <h1>Lobotourisme &#x2687; &#9992;</h1>
   {{- end }}
@@ -151,8 +170,58 @@ Dans _themes/hugo-clarity/layouts/partials/logo.html_, ajout du titre de site en
 </a>
 ```
 
+## Icones, logo, etc.
+
+### Image originale
+
+J'ai acheté une belle icône sur le très bon site [The Noun Project](https://thenounproject.com/) : [Space dessinée par Adrien Coquet](https://thenounproject.com/term/space/2217279/). 
+
+Je l'ai modifiée dans Inkscape pour ajouter un peu de couleur, puis j'ai généré une version PNG de 256x256 "_logo_large.png_" que j'ai mise dans _./static/logos/_.
+
+#### Génération des variantes
+
+J'ai généré toutes les variantes avec ImageMagick :
+
+```sh
+mkdir -p ./static/icons/
+
+#logo.png
+convert ./static/logos/logo_large.png -resize 75x75 -unsharp 0x1 ./static/logos/logo2.png
 
 
+#favicon.ico
+convert ./static/logos/logo_large.png -resize 48x48 -unsharp 0x1 ./static/icons/favicon.ico
+#favicon-16x16.png
+convert ./static/logos/logo_large.png -resize 16x16 -unsharp 0x1 ./static/icons/favicon-16x16.png
+#favicon-32x32.png
+convert ./static/logos/logo_large.png -resize 32x32 -unsharp 0x1 ./static/icons/favicon-32x32.png
 
 
+#android-chrome-192x192.png
+convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x1 ./static/icons/android-chrome-192x192.png
+#android-chrome-256x256.png
+cp ./static/logos/logo_large.png ./static/icons/android-chrome-256x256.png
+#apple-touch-icon.png
+convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/apple-touch-icon.png
+#apple-touch-icon.png
+convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/apple-touch-icon.png
 
+#mstile-150x150.png
+convert ./static/logos/logo_large.png -resize 150x150 -unsharp 0x1 -bordercolor transparent -border 60 ./static/icons/mstile-150x150.png
+
+```
+
+### webmanifest
+
+J'ai copié l'original :
+
+```sh
+cp ./themes/hugo-clarity/static/icons/site.webmanifest ./static/icons/
+```
+
+Et je l'ai modifié pour ajouter le nom du site :
+
+```json
+    "name": "Lobotourisme",
+    "short_name": "Lobotourisme",
+```
