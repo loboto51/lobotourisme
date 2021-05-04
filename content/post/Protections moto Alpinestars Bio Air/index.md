@@ -1,8 +1,8 @@
 +++
 title = "Protections moto Alpinestars Bio Air"
 date = "2021-04-26"
-categories = ["protections moto"]
-tags = ["Alpinestars Bio Air", "protection moto genoux", "protection moto coudes", "protection moto épaules"]
+categories = ["protections moto", "protection moto genoux", "protection moto coudes", "protection moto épaules"]
+tags = ["Alpinestars", "Alpinestars Bio Air"]
 +++
 
 Synthèse :

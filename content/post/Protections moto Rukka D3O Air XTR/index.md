@@ -1,8 +1,8 @@
 +++
 title = "Protections moto Rukka D3O Air XTR"
 date = "2021-04-28"
-categories = ["protections moto"]
-tags = ["Rukka D3O Air XTR", "protection moto genoux", "protection moto coudes", "protection moto épaules", "protection moto hanches", "protection moto jambes"]
+categories = ["protections moto", "protection moto genoux", "protection moto coudes", "protection moto épaules", "protection moto hanches", "protection moto jambes"]
+tags = ["Rukka", "D3O", "Rukka D3O Air XTR"]
 +++
 
 Synthèse :

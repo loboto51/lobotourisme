@@ -1,8 +1,8 @@
 +++
 title = "Protections moto de hanches SAS-TEC SC-2/07"
 date = "2021-05-03"
-categories = ["protections moto"]
-tags = ["SAS-TEC  SC-2/07", "protection moto hanches" ]
+categories = ["protections moto", "protection moto hanches"]
+tags = ["SAS-TEC", "SC-2/07", "SAS-TEC SC-2/07" ]
 +++
 
 > Note préalable : Je possède ce modèle, les photos sont de moi.

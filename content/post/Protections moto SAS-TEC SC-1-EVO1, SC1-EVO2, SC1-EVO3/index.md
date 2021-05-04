@@ -1,8 +1,8 @@
 +++
 title = "Protections moto SAS-TEC SC-1/EVO1, SC-1/EVO2, SC-1/EVO3"
 date = "2021-04-26"
-categories = ["protections moto"]
-tags = ["SAS-TEC SC-1/EVO", "protection moto genoux", "protection moto coudes", "protection moto épaules"]
+categories = ["protections moto", "protection moto genoux", "protection moto coudes", "protection moto épaules"]
+tags = ["SAS-TEC", "SAS-TEC SC-1/EVO"]
 +++
 
 Synthèse :

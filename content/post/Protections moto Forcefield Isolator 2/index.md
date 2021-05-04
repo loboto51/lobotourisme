@@ -1,8 +1,8 @@
 +++
 title = "Protections moto Forcefield Isolator 2"
 date = "2021-04-24"
-categories = ["protections moto"]
-tags = ["Forcefield Isolator 2", "protection moto genoux", "protection moto coudes", "protection moto hanches", "protection moto épaules"]
+categories = ["protections moto", "protection moto genoux", "protection moto coudes", "protection moto hanches", "protection moto épaules"]
+tags = ["Forcefield", "Forcefield Isolator 2"]
 +++
 
 Synthèse :

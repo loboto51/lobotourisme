@@ -1,8 +1,8 @@
 +++
 title = "Protections moto hanches Alpinestars Nucleon Racing KR-HR et Nucleon KR-H"
 date = "2021-05-01"
-categories = ["protections moto"]
-tags = ["Alpinestars HR-KR", "protection moto hanches", "protection moto thorax" ]
+categories = ["protections moto", "protection moto hanches", "protection moto thorax"]
+tags = ["Alpinestars", "Alpinestars KR-H KR-HR" ]
 +++
 
 Synthèse :

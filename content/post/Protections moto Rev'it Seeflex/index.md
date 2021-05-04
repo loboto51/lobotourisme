@@ -1,8 +1,8 @@
 +++
 title = "Protections moto Rev'it Seeflex"
 date = "2021-04-26"
-categories = ["protections moto"]
-tags = ["REV'IT SEEFLEX", "protection moto genoux", "protection moto coudes", "protection moto épaules", "protection moto jambes"]
+categories = ["protections moto", "protection moto genoux", "protection moto coudes", "protection moto épaules", "protection moto jambes"]
+tags = ["REV'IT", "REV'IT SEEFLEX"]
 +++
 
 Synthèse :
