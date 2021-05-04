@@ -176,7 +176,7 @@ J'ai ajouté le titre de site en texte simple, à côté du logo :
 
 J'ai acheté une belle icône sur le très bon site [The Noun Project](https://thenounproject.com/) : [Space dessinée par Adrien Coquet](https://thenounproject.com/term/space/2217279/). 
 
-Je l'ai modifiée dans Inkscape pour ajouter un peu de couleur, puis j'ai généré une version PNG de 256x256 "_logo_large.png_" que j'ai mise dans _./static/logos/_.
+Je l'ai modifiée dans Inkscape pour ajouter un peu de couleur, puis j'ai généré une version PNG de 1024x1024 "_logo_large.png_" que j'ai mise dans _./static/logos/_.
 
 #### Génération des variantes
 
@@ -186,7 +186,7 @@ J'ai généré toutes les variantes avec ImageMagick :
 mkdir -p ./static/icons/
 
 #logo.png
-convert ./static/logos/logo_large.png -resize 75x75 -unsharp 0x1 ./static/logos/logo2.png
+convert ./static/logos/logo_large.png -resize 75x75 -unsharp 0x1 ./static/logos/logo.png
 
 
 #favicon.ico
