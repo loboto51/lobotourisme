@@ -147,7 +147,7 @@ _./layouts/&lt;em>default/single.html&lt;/em> sera pris en priorité sur _./them
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln"> 1&lt;/span>mkdir -p ./static/icons/
 &lt;span class="ln"> 2&lt;/span>
 &lt;span class="ln"> 3&lt;/span>&lt;span class="c1">#logo.png&lt;/span>
-&lt;span class="ln"> 4&lt;/span>convert ./static/logos/logo_large.png -resize 75x75 -unsharp 0x1 ./static/logos/logo.png
+&lt;span class="ln"> 4&lt;/span>convert ./static/logos/logo_large.png -resize 75x75 -unsharp 0x1 ./static/logos/logo_footer.png
 &lt;span class="ln"> 5&lt;/span>
 &lt;span class="ln"> 6&lt;/span>
 &lt;span class="ln"> 7&lt;/span>&lt;span class="c1">#favicon.ico&lt;/span>
@@ -161,7 +161,7 @@ _./layouts/&lt;em>default/single.html&lt;/em> sera pris en priorité sur _./them
 &lt;span class="ln">15&lt;/span>&lt;span class="c1">#android-chrome-192x192.png&lt;/span>
 &lt;span class="ln">16&lt;/span>convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x1 ./static/icons/android-chrome-192x192.png
 &lt;span class="ln">17&lt;/span>&lt;span class="c1">#android-chrome-256x256.png&lt;/span>
-&lt;span class="ln">18&lt;/span>cp ./static/logos/logo_large.png ./static/icons/android-chrome-256x256.png
+&lt;span class="ln">18&lt;/span>convert ./static/logos/logo_large.png -resize 256x256 -unsharp 0x1 ./static/icons/android-chrome-256x256.png
 &lt;span class="ln">19&lt;/span>&lt;span class="c1">#apple-touch-icon.png&lt;/span>
 &lt;span class="ln">20&lt;/span>convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/apple-touch-icon.png
 &lt;span class="ln">21&lt;/span>&lt;span class="c1">#apple-touch-icon.png&lt;/span>
