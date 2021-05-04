@@ -16,32 +16,19 @@ _Résumé :_
 
 Le site que vous consultez a été construit en suivant la méthode décrite ci-dessous.
 
-La fonctionnalité [_Github Pages_](https://pages.github.com/) de [_Github_](https://github.com/) permet d'exposer à l'adresse _MONUSER.github.io_ un site web statique dont le code (html + css + pas grand chose d'autre) est disponible sur le dépôt du même nom : _MONUSER.github.io_.
+[_Github_](https://github.com/) fournit la possibilité d'exposer un site _web_ statique pour chaque dépôt public du compte. Il suffit d'avoir :
 
-[_Hugo_](https://gohugo.io/) est un générateur de sites webs statiques : On écrit des pages en markdown, on lance Hugo, et il génère tout le html et la structure de site que _Github Pages_ exposera.
+- Du _html+css_ dans le dépôt ;
+- La fonctionnalité [_Github Pages_](https://pages.github.com/) activée ;
+- Un dépôt public nommé _MONLOGINGITHUB.github.io_, avec la même fonctionnalité [_Github Pages_](https://pages.github.com/) activée.
+
+Le code statique de chaque dépôt sera alors accessible à l'url :
+_https://MONLOGINGITHUB.github.io/MONDEPOT/_
+
+[_Hugo_](https://gohugo.io/) quand à lui est un générateur de sites _web_ statiques : On écrit des pages en markdown, on lance Hugo, et il génère tout le html et la structure de site que _Github_ exposera.
 
 
 Mode opératoire :
-
-## _Github_
-
-1. [Créer un compte _Github_](https://github.com/) si ce n'est pas fait (Attention le nom sera dans l'adresse du site).
-2. Créer un dépôt ("_New repository_") public au nom de "MONLOGINGITHUB.github.io" (_Github Pages_ est disponible gratuitement pour ce dépôt uniquement)
-
-
-Créons une copie locale dans laquelle nous ferons la suite :
-
-```sh
-mkdir MONLOGINGITHUB.github.io
-cd MONLOGINGITHUB.github.io
-echo "# MONLOGINGITHUB.github.io" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/MONLOGINGITHUB/MONLOGINGITHUB.github.io.git
-git branch -M main
-git push -u origin main
-```
 
 
 ## _Hugo_
@@ -72,7 +59,8 @@ sudo apt-get install -f
 
 
 ```sh
-cd MONLOGINGITHUB.github.io
+mkdir MONSITE
+cd MONSITE
 hugo new site .
 ```
 
@@ -82,18 +70,15 @@ Choisir et télécharger un thème : [Hugo Themes](https://themes.gohugo.io/)
 J'utilise [hugo-clarity](https://themes.gohugo.io/hugo-clarity/) qui est très complet et fonctionne bien sur mobile :
 
 ```sh
-cd MONLOGINGITHUB.github.io/themes/
-git clone https://github.com/chipzoller/hugo-clarity.git
+cd MONSITE/themes/
+git checkout https://github.com/chipzoller/hugo-clarity.git
 ```
 
-Enlever les éléments inutiles du thème :
+Enlever le suivi git du thème :
 
 ```sh
 rm -Rf hugo-clarity/.git*
-rm -Rf hugo-clarity/exampleSite
 ```
-
-J'ai copié l'exemple de site puis 
 
 Pour créer une page de test et vérifier que ça marche :
 
@@ -109,37 +94,63 @@ Ouvrir :
 **Note :** Le thème _hugo-clarity_ demande pas mal de conf. Plutôt que partir de zéro j'ai suivi le conseil que donne sa doc d'install et déployé le site exemple, que j'ai ensuite modifié : 
 
 ```sh
-cd MONLOGINGITHUB.github.io
+cd MONSITE
 cp -R themes/hugo-clarity/exampleSite/* .
+hugo server -D
 ```
 
+## _Github_
 
-## Générer le _html_ statique directement côté _Github_
+### Créer les 2 dépôts
 
-On peut se contenter de générer le _html_ statique à plat [^1] et le pousser sur _Github_, cela fonctionnera très bien.
+1. [Créer un compte _Github_](https://github.com/) "_MONLOGINGITHUB_" si ce n'est pas fait ;
+2. Créer deux dépôts ("_New repository_") publics :
+    * "_MONLOGINGITHUB.github.io_" avec juste un _README.md_ ;
+    * "_MONSITE_" qui contiendra nos pages.
 
-Mais _Github_ fournit aussi la possibilité de déclencher des scripts à chaque _git push_, et on peut leur faire exécuter un _Hugo_ :
-Cela permet de se contenter de versionner les fichiers sources (le _Hugo_ local sert juste aux tests), et à chaque _git push_, _Github_ génèrera le code statique tout seul.
+Dans le 1er dépôt, aller dans _Settings > Pages_ et activer _Pages_.
+
+
+### Premier commit pour pouvoir activer _Github Pages_
+
+Mettons notre site _Hugo_ sur le dépôt MONSITE :
+
+```sh
+cd MONSITE
+echo "# MONSITE" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/MONLOGINGITHUB/MONSITE.git
+git branch -M main
+git push -u origin main
+```
+
+Aller dans _Settings > Pages_ et activer _Pages_ avec comme source :
+
+    [Branch : gh-pages] [/root]
+
+
+### Générer le _html_ statique directement côté _Github_
 
 **Note :** Cette technique et le script ci-dessous sont repris de la doc _Hugo_ : [hosting on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/).
 
-Le script génère le site statique dans une branche _gh-pages_ dédiée, qui servira uniquement à _Github Pages_. Ainsi les sources et le code généré restent bien séparés.
+On pourrait générer le _html_ statique et le pousser sur _Github_, mais on peut aussi le faire faire par _Github_ :
 
-[^1]: En lançant la commande "hugo" seule, le _html_ statique est généré dans un répertoire _public/_, on pourrait pousser ce répertoire tel-quel à _Github_, qui saurait très bien l'exposer.
+En ajoutant un script d'action à nos sources, à chaque _git push_ on va lui faire :
 
+- Exécuter un _Hugo_ pour générer le html ;
+- Ecrire le répertoire _public/_ généré dans une branche dédiée _gh-branche_ que viendra lire _Github Pages_.
 
-A faire :
-
-1. Ajouter un fichier de conf _.github/workflows/gh-pages.yml_ que _Github_ exécutera à chaque push :
+Créer le fichier de conf :
 
 ```sh
-cd MONLOGINGITHUB.github.io
+cd MONSITE
 mkdir -p .github/workflows/
 touch .github/workflows/gh-pages.yml
 ```
 
-2. Y mettre la conf auto suivante.
-Elle déclenche _Hugo_ et lui fait générer les pages statiques dans une branche dédiée _gh-pages_ :
+2 - Y mettre la conf (j'ai activé l'option "_extended = true_" par rapport au modèle, pour les besoins du thème Clarity) :
 
 ```yml
 name: github pages
@@ -174,34 +185,25 @@ jobs:
           publish_dir: ./public
 ```
 
-## On configure _Github Pages_
-
-Ouvrir le dépôt _github_ dans un navigateur : [https://github.com/MONLOGINGITHUB/MONLOGINGITHUB.github.io](https://github.com/MONLOGINGITHUB/MONLOGINGITHUB.github.io)
-
-Aller dans la conf du dépot : Settings > Pages > Source et choisir :
-
-    [Branch : gh-pages] [/root]
-
-## On envoie tout sur _Github_ et on voit si ça marche
+### On envoie tout sur _Github_ et normalement ça marche
 
 ```sh
-cd MONLOGINGITHUB.github.io
+cd MONSITE
+git add .
 git commit -a -m "init"
 git push
 ```
 
-En cliquant sur l'onglet _"Action"_ du dépôt on voit le traitement se dérouler (et éventuellement planter si on a fait des bêtises).
+Dans l'onglet _"Action"_ du dépôt on voit le traitement se dérouler (et éventuellement planter si on a fait des bêtises).
 La branche _gh-pages_ a dû être créée.
 
-
 Aller sur le site _Github Pages_ résultant :
-[MONLOGINGITHUB.github.io](MONLOGINGITHUB.github.io)
+[MONLOGINGITHUB.github.io/MONSITE](MONLOGINGITHUB.github.io/MONSITE)
 
 En théorie tout y est.
 
 
 ## Annexes
-
 
 
 ### Mise en place des commentaires sur les articles
