@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lobotourisme</title><link>https://loboto51.github.io/</link><description>Recent content on Lobotourisme</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Protections moto de hanches SAS-TEC SC-2/07</title><link>https://loboto51.github.io/post/protections-moto-de-hanches-sas-tec-sc-2-07/</link><pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/protections-moto-de-hanches-sas-tec-sc-2-07/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/</link><description>Recent content on Lobotourisme</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 03 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/index.xml" rel="self" type="application/rss+xml"/><item><title>Protections moto de hanches SAS-TEC SC-2/07</title><link>https://loboto51.github.io/lobotourisme/post/protections-moto-de-hanches-sas-tec-sc-2-07/</link><pubDate>Mon, 03 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/protections-moto-de-hanches-sas-tec-sc-2-07/</guid><description>
 &lt;blockquote>
 &lt;p>Note préalable : Je possède ce modèle, les photos sont de moi.&lt;/p>
 &lt;/blockquote>
@@ -45,7 +45,7 @@ T+ : La protection reste la même jusqu'à 40°C.&lt;br />
 T- : La protection reste la même jusqu'à -10°C.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Mémo des modifications du thème hugo-clarify</title><link>https://loboto51.github.io/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarify/</link><pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarify/</guid><description>
+&lt;/section></description></item><item><title>Mémo des modifications du thème hugo-clarify</title><link>https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarify/</link><pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarify/</guid><description>
 &lt;p>&lt;em>Résumé :&lt;/em>&lt;/p>
 &lt;p>Ce site est construit en combinant &lt;em>Hugo&lt;/em> + &lt;em>Github Pages&lt;/em>.
 J'utilise le thème &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-clarity&lt;/a>. Ce &lt;em>post&lt;/em> récapitule les configurations et modifications que j'y ai apporté.&lt;/p>
@@ -176,7 +176,7 @@ _./layouts/&lt;em>default/single.html&lt;/em> sera pris en priorité sur _./them
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Et je l'ai modifié pour ajouter le nom du site :&lt;/p>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="ln">1&lt;/span> &lt;span class="s2">&amp;#34;name&amp;#34;&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>&lt;span class="err">,&lt;/span>
 &lt;span class="ln">2&lt;/span> &lt;span class="s2">&amp;#34;short_name&amp;#34;&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>&lt;span class="err">,&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Protections moto hanches Alpinestars Nucleon Racing KR-HR et Nucleon KR-H</title><link>https://loboto51.github.io/post/protections-moto-hanches-alpinestars-nucleon-racing-kr-hr-et-nucleon-kr-h/</link><pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/protections-moto-hanches-alpinestars-nucleon-racing-kr-hr-et-nucleon-kr-h/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Protections moto hanches Alpinestars Nucleon Racing KR-HR et Nucleon KR-H</title><link>https://loboto51.github.io/lobotourisme/post/protections-moto-hanches-alpinestars-nucleon-racing-kr-hr-et-nucleon-kr-h/</link><pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/protections-moto-hanches-alpinestars-nucleon-racing-kr-hr-et-nucleon-kr-h/</guid><description>
 &lt;h2 id="synthèse-">Synthèse :&lt;/h2>
 &lt;p>2 modèles, en taille A ou B :&lt;/p>
 &lt;ul>
@@ -262,7 +262,7 @@ T+ : La protection reste la même jusqu'à 40°C.&lt;br />
 T- : La protection reste la même jusqu'à -10°C.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Protections moto Rukka D3O Air XTR</title><link>https://loboto51.github.io/post/protections-moto-rukka-d3o-air-xtr/</link><pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/protections-moto-rukka-d3o-air-xtr/</guid><description>
+&lt;/section></description></item><item><title>Protections moto Rukka D3O Air XTR</title><link>https://loboto51.github.io/lobotourisme/post/protections-moto-rukka-d3o-air-xtr/</link><pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/protections-moto-rukka-d3o-air-xtr/</guid><description>
 &lt;h2 id="synthèse-">Synthèse :&lt;/h2>
 &lt;p>4 modèles dans la série :&lt;/p>
 &lt;ul>
@@ -320,7 +320,7 @@ T+ : La protection reste la même jusqu'à 40°C.&lt;br />
 T- : La protection reste la même jusqu'à -10°C.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Protections moto Alpinestars Bio Air</title><link>https://loboto51.github.io/post/protections-moto-alpinestars-bio-air/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/protections-moto-alpinestars-bio-air/</guid><description>
+&lt;/section></description></item><item><title>Protections moto Alpinestars Bio Air</title><link>https://loboto51.github.io/lobotourisme/post/protections-moto-alpinestars-bio-air/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/protections-moto-alpinestars-bio-air/</guid><description>
 &lt;h2 id="synthèse-">Synthèse :&lt;/h2>
 &lt;p>4 modèles :&lt;/p>
 &lt;ul>
@@ -372,7 +372,7 @@ T+ : La protection reste la même jusqu'à 40°C.&lt;br />
 T- : La protection reste la même jusqu'à -10°C.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Protections moto Rev'it Seeflex</title><link>https://loboto51.github.io/post/protections-moto-revit-seeflex/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/protections-moto-revit-seeflex/</guid><description>
+&lt;/section></description></item><item><title>Protections moto Rev'it Seeflex</title><link>https://loboto51.github.io/lobotourisme/post/protections-moto-revit-seeflex/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/protections-moto-revit-seeflex/</guid><description>
 &lt;h2 id="synthèse-">Synthèse :&lt;/h2>
 &lt;p>7 modèles :&lt;/p>
 &lt;ul>
@@ -449,7 +449,7 @@ T+ : La protection reste la même jusqu'à 40°C.&lt;br />
 T- : La protection reste la même jusqu'à -10°C.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Protections moto SAS-TEC SC-1/EVO1, SC-1/EVO2, SC-1/EVO3</title><link>https://loboto51.github.io/post/protections-moto-sas-tec-sc-1-evo1-sc1-evo2-sc1-evo3/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/protections-moto-sas-tec-sc-1-evo1-sc1-evo2-sc1-evo3/</guid><description>
+&lt;/section></description></item><item><title>Protections moto SAS-TEC SC-1/EVO1, SC-1/EVO2, SC-1/EVO3</title><link>https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-evo1-sc1-evo2-sc1-evo3/</link><pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-evo1-sc1-evo2-sc1-evo3/</guid><description>
 &lt;h2 id="synthèse-">Synthèse :&lt;/h2>
 &lt;p>3 modèles :&lt;/p>
 &lt;ul>
@@ -497,7 +497,7 @@ T+ : La protection reste la même jusqu'à 40°C.&lt;br />
 T- : La protection reste la même jusqu'à -10°C.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Protections moto Forcefield Isolator 2</title><link>https://loboto51.github.io/post/protections-moto-forcefield-isolator-2/</link><pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/protections-moto-forcefield-isolator-2/</guid><description>
+&lt;/section></description></item><item><title>Protections moto Forcefield Isolator 2</title><link>https://loboto51.github.io/lobotourisme/post/protections-moto-forcefield-isolator-2/</link><pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/protections-moto-forcefield-isolator-2/</guid><description>
 &lt;h2 id="synthèse-">Synthèse :&lt;/h2>
 &lt;p>4 modèles :&lt;/p>
 &lt;ul>
@@ -615,7 +615,7 @@ T+ : La protection reste la même jusqu'à 40°C.&lt;br />
 T- : La protection reste la même jusqu'à -10°C.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Déployer un site web statique Hugo sur Github Pages</title><link>https://loboto51.github.io/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/</link><pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/</guid><description>
+&lt;/section></description></item><item><title>Déployer un site web statique Hugo sur Github Pages</title><link>https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/</link><pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/</guid><description>
 &lt;p>&lt;em>Résumé :&lt;/em>&lt;/p>
 &lt;p>Le site que vous consultez a été construit en suivant la méthode décrite ci-dessous.&lt;/p>
 &lt;p>La fonctionnalité &lt;a href="https://pages.github.com/">&lt;em>Github Pages&lt;/em>&lt;/a> de &lt;a href="https://github.com/">&lt;em>Github&lt;/em>&lt;/a> permet d'exposer à l'adresse &lt;em>MONUSER.github.io&lt;/em> un site web statique dont le code (html + css + pas grand chose d'autre) est disponible sur le dépôt du même nom : &lt;em>MONUSER.github.io&lt;/em>.&lt;/p>
@@ -701,7 +701,7 @@ Elle déclenche &lt;em>Hugo&lt;/em> et lui fait générer les pages statiques da
 &lt;/span>&lt;span class="ln">18&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-hugo@v2&lt;/span>&lt;span class="w">
 &lt;/span>&lt;span class="ln">19&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;span class="ln">20&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">hugo-version&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;latest&amp;#39;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="ln">21&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># extended: true&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">21&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">extended&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w">
 &lt;/span>&lt;span class="ln">22&lt;/span>&lt;span class="w">
 &lt;/span>&lt;span class="ln">23&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Build&lt;/span>&lt;span class="w">
 &lt;/span>&lt;span class="ln">24&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">hugo --minify&lt;/span>&lt;span class="w">
