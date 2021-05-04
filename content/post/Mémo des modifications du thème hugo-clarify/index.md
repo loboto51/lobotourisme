@@ -186,7 +186,7 @@ J'ai généré toutes les variantes avec ImageMagick :
 mkdir -p ./static/icons/
 
 #logo.png
-convert ./static/logos/logo_large.png -resize 75x75 -unsharp 0x1 ./static/logos/logo.png
+convert ./static/logos/logo_large.png -resize 75x75 -unsharp 0x1 ./static/logos/logo_footer.png
 
 
 #favicon.ico
@@ -200,7 +200,7 @@ convert ./static/logos/logo_large.png -resize 32x32 -unsharp 0x1 ./static/icons/
 #android-chrome-192x192.png
 convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x1 ./static/icons/android-chrome-192x192.png
 #android-chrome-256x256.png
-cp ./static/logos/logo_large.png ./static/icons/android-chrome-256x256.png
+convert ./static/logos/logo_large.png -resize 256x256 -unsharp 0x1 ./static/icons/android-chrome-256x256.png
 #apple-touch-icon.png
 convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/apple-touch-icon.png
 #apple-touch-icon.png
