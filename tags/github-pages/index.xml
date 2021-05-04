@@ -94,13 +94,13 @@ _./layouts/&lt;em>default/single.html&lt;/em> sera pris en priorité sur _./them
 &lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="icones-logo-etc">Icones, logo, etc.&lt;/h2>
 &lt;h3 id="image-originale">Image originale&lt;/h3>
 &lt;p>J'ai acheté une belle icône sur le très bon site &lt;a href="https://thenounproject.com/">The Noun Project&lt;/a> : &lt;a href="https://thenounproject.com/term/space/2217279/">Space dessinée par Adrien Coquet&lt;/a>.&lt;/p>
-&lt;p>Je l'ai modifiée dans Inkscape pour ajouter un peu de couleur, puis j'ai généré une version PNG de 256x256 &amp;quot;&lt;em>logo_large.png&lt;/em>&amp;quot; que j'ai mise dans &lt;em>./static/logos/&lt;/em>.&lt;/p>
+&lt;p>Je l'ai modifiée dans Inkscape pour ajouter un peu de couleur, puis j'ai généré une version PNG de 1024x1024 &amp;quot;&lt;em>logo_large.png&lt;/em>&amp;quot; que j'ai mise dans &lt;em>./static/logos/&lt;/em>.&lt;/p>
 &lt;h4 id="génération-des-variantes">Génération des variantes&lt;/h4>
 &lt;p>J'ai généré toutes les variantes avec ImageMagick :&lt;/p>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln"> 1&lt;/span>mkdir -p ./static/icons/
 &lt;span class="ln"> 2&lt;/span>
 &lt;span class="ln"> 3&lt;/span>&lt;span class="c1">#logo.png&lt;/span>
-&lt;span class="ln"> 4&lt;/span>convert ./static/logos/logo_large.png -resize 75x75 -unsharp 0x1 ./static/logos/logo2.png
+&lt;span class="ln"> 4&lt;/span>convert ./static/logos/logo_large.png -resize 75x75 -unsharp 0x1 ./static/logos/logo.png
 &lt;span class="ln"> 5&lt;/span>
 &lt;span class="ln"> 6&lt;/span>
 &lt;span class="ln"> 7&lt;/span>&lt;span class="c1">#favicon.ico&lt;/span>
