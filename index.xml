@@ -621,8 +621,7 @@ T- : La protection reste la même jusqu'à -10°C.&amp;#160;&lt;a href="#fnref:1
 &lt;p>&lt;a href="https://github.com/">&lt;em>Github&lt;/em>&lt;/a> fournit la possibilité d'exposer un site &lt;em>web&lt;/em> statique pour chaque dépôt public du compte. Il suffit d'avoir :&lt;/p>
 &lt;ul>
 &lt;li>Du &lt;em>html+css&lt;/em> dans le dépôt ;&lt;/li>
-&lt;li>La fonctionnalité &lt;a href="https://pages.github.com/">&lt;em>Github Pages&lt;/em>&lt;/a> activée ;&lt;/li>
-&lt;li>Un dépôt public nommé &lt;em>MONLOGINGITHUB.github.io&lt;/em>, avec la même fonctionnalité &lt;a href="https://pages.github.com/">&lt;em>Github Pages&lt;/em>&lt;/a> activée.&lt;/li>
+&lt;li>La fonctionnalité &lt;a href="https://pages.github.com/">&lt;em>Github Pages&lt;/em>&lt;/a> activée.&lt;/li>
 &lt;/ul>
 &lt;p>Le code statique de chaque dépôt sera alors accessible à l'url :
 _&lt;a href="https://MONLOGINGITHUB.github.io/MONDEPOT/_">https://MONLOGINGITHUB.github.io/MONDEPOT/_&lt;/a>&lt;/p>
@@ -657,17 +656,22 @@ _&lt;a href="https://MONLOGINGITHUB.github.io/MONDEPOT/_">https://MONLOGINGITHUB
 &lt;span class="ln">2&lt;/span>cp -R themes/hugo-clarity/exampleSite/* .
 &lt;span class="ln">3&lt;/span>hugo server -D
 &lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="_github_">&lt;em>Github&lt;/em>&lt;/h2>
-&lt;h3 id="créer-les-2-dépôts">Créer les 2 dépôts&lt;/h3>
+&lt;h3 id="créer-le-dépôt">Créer le dépôt&lt;/h3>
 &lt;ol>
 &lt;li>&lt;a href="https://github.com/">Créer un compte &lt;em>Github&lt;/em>&lt;/a> &amp;quot;&lt;em>MONLOGINGITHUB&lt;/em>&amp;quot; si ce n'est pas fait ;&lt;/li>
-&lt;li>Créer deux dépôts (&amp;quot;&lt;em>New repository&lt;/em>&amp;quot;) publics :
-&lt;ul>
-&lt;li>&amp;quot;&lt;em>MONLOGINGITHUB.github.io&lt;/em>&amp;quot; avec juste un &lt;em>README.md&lt;/em> ;&lt;/li>
-&lt;li>&amp;quot;&lt;em>MONSITE&lt;/em>&amp;quot; qui contiendra nos pages.&lt;/li>
-&lt;/ul>
-&lt;/li>
+&lt;li>Créer un dépôt (&amp;quot;&lt;em>New repository&lt;/em>&amp;quot;) public qui contiendra nos pages.&lt;/li>
 &lt;/ol>
-&lt;p>Dans le 1er dépôt, aller dans &lt;em>Settings &amp;gt; Pages&lt;/em> et activer &lt;em>Pages&lt;/em>.&lt;/p>
+&lt;p>&lt;em>Astuce &lt;em>Github&lt;/em> :&lt;/em>&lt;/p>
+&lt;p>Par défaut les dépôts sont exposés dans &lt;a href="https://MONLOGINGITHUB.github.io/NOMDUDEPOT/">https://MONLOGINGITHUB.github.io/NOMDUDEPOT/&lt;/a>.&lt;/p>
+&lt;p>Mais si vous nommez votre dépôt &amp;quot;&lt;em>MONLOGINGITHUB.github.io&lt;/em>&amp;quot;, il sera accessible à la racine, dans &lt;a href="https://MONLOGINGITHUB.github.io/">https://MONLOGINGITHUB.github.io/&lt;/a>.&lt;/p>
+&lt;p>Si on le souhaite, cela permet d'avoir plusieurs dépôts &amp;quot;projet&amp;quot; dans les sous-repertoires et une &amp;quot;page perso&amp;quot; à la racine :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>Dépots Sites correspondants
+&lt;span class="ln">2&lt;/span>------ --------------------
+&lt;span class="ln">3&lt;/span>dayofthetentacle.github.io https//dayofthetentacle.github.io/
+&lt;span class="ln">4&lt;/span>├── ifeel ├── https//dayofthetentacle.github.io/ifeel/
+&lt;span class="ln">5&lt;/span>├── likeicould ├── https//dayofthetentacle.github.io/likeicould/
+&lt;span class="ln">6&lt;/span>├── takeovertheworld ├── https//dayofthetentacle.github.io/takeovertheworld/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Si vous créez un compte &lt;em>Github&lt;/em> uniquement pour héberger votre site, vous pouvez donc vous contenter du dépôt &lt;em>MONLOGINGITHUB.github.io&lt;/em>.&lt;/p>
 &lt;h3 id="premier-commit-pour-pouvoir-activer-_github-pages_">Premier commit pour pouvoir activer &lt;em>Github Pages&lt;/em>&lt;/h3>
 &lt;p>Mettons notre site &lt;em>Hugo&lt;/em> sur le dépôt MONSITE :&lt;/p>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> MONSITE
