@@ -26,8 +26,14 @@
   name = "A propos"
   url = "about/"
   weight = -107
-
-# social menu links
+[[main]]
+   name = "Moto"
+   url = "categories/protections-moto/"
+   weight = -108
+[[main]]
+   name = "Dev"
+   url = "categories/dev/"
+   weight = -109
 
 # [[social]]
 #   name = "github"

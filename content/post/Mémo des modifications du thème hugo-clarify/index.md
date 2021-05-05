@@ -1,15 +1,14 @@
-+++
-title = "Mémo des modifications du thème hugo-clarify"
-date = "2021-05-02"
-categories = [
-    "dev"
-]
-tags = [
-    "hugo",
-    "github pages"
-]
-toc = true
-+++
+---
+title: "Mémo des modifications du thème hugo-clarify"
+date: "2021-05-02"
+categories:
+- dev
+tags:
+- hugo
+- github pages
+toc: true
+thumbnail: "thumbnails/thumbnail_hugo.png"
+---
 
 _Résumé :_
 

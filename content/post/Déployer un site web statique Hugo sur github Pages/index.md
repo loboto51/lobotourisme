@@ -1,16 +1,17 @@
-+++
-title = "Déployer un site web statique Hugo sur Github Pages"
-date = "2021-04-22"
-lastmod = "2021-05-02"
-categories = [
-    "dev"
-]
-tags = [
-    "hugo",
-    "github pages"
-]
-toc = true
-+++
+---
+title: "Déployer un site web statique Hugo sur Github Pages"
+date: "2021-04-22"
+lastmod: "2021-05-05"
+categories: 
+- dev
+tags: 
+- hugo
+- github pages
+toc: true
+thumbnail: "thumbnails/thumbnail_hugo.png"
+---
+
+
 
 _Résumé :_
 
@@ -19,8 +20,7 @@ Le site que vous consultez a été construit en suivant la méthode décrite ci-
 [_Github_](https://github.com/) fournit la possibilité d'exposer un site _web_ statique pour chaque dépôt public du compte. Il suffit d'avoir :
 
 - Du _html+css_ dans le dépôt ;
-- La fonctionnalité [_Github Pages_](https://pages.github.com/) activée ;
-- Un dépôt public nommé _MONLOGINGITHUB.github.io_, avec la même fonctionnalité [_Github Pages_](https://pages.github.com/) activée.
+- La fonctionnalité [_Github Pages_](https://pages.github.com/) activée.
 
 Le code statique de chaque dépôt sera alors accessible à l'url :
 _https://MONLOGINGITHUB.github.io/MONDEPOT/_
@@ -101,14 +101,29 @@ hugo server -D
 
 ## _Github_
 
-### Créer les 2 dépôts
+### Créer le dépôt
 
 1. [Créer un compte _Github_](https://github.com/) "_MONLOGINGITHUB_" si ce n'est pas fait ;
-2. Créer deux dépôts ("_New repository_") publics :
-    * "_MONLOGINGITHUB.github.io_" avec juste un _README.md_ ;
-    * "_MONSITE_" qui contiendra nos pages.
+2. Créer un dépôt ("_New repository_") public qui contiendra nos pages.
 
-Dans le 1er dépôt, aller dans _Settings > Pages_ et activer _Pages_.
+*Astuce _Github_ :*
+
+Par défaut les dépôts sont exposés dans https://MONLOGINGITHUB.github.io/NOMDUDEPOT/.
+
+Mais si vous nommez votre dépôt "_MONLOGINGITHUB.github.io_", il sera accessible à la racine, dans https://MONLOGINGITHUB.github.io/.
+
+Si on le souhaite, cela permet d'avoir plusieurs dépôts "projet" dans les sous-repertoires et une "page perso" à la racine :
+
+```
+Dépots                          Sites correspondants
+------                          --------------------
+dayofthetentacle.github.io      https//dayofthetentacle.github.io/
+├── ifeel                       ├──  https//dayofthetentacle.github.io/ifeel/
+├── likeicould                  ├──  https//dayofthetentacle.github.io/likeicould/
+├── takeovertheworld            ├──  https//dayofthetentacle.github.io/takeovertheworld/
+```
+
+Si vous créez un compte _Github_ uniquement pour héberger votre site, vous pouvez donc vous contenter du dépôt _MONLOGINGITHUB.github.io_.
 
 
 ### Premier commit pour pouvoir activer _Github Pages_
@@ -204,7 +219,6 @@ En théorie tout y est.
 
 
 ## Annexes
-
 
 ### Mise en place des commentaires sur les articles
 
