@@ -1,13 +1,21 @@
 ---
 title: "Déployer un site web statique Hugo sur Github Pages"
+
 date: "2021-04-22"
+
 lastmod: "2021-05-05"
+
+description: "Réalisation d'un site web statique avec Github Pages et Hugo."
+
 categories: 
 - dev
+
 tags: 
 - hugo
 - github pages
+
 toc: true
+
 thumbnail: "thumbnails/thumbnail_hugo.png"
 ---
 
