@@ -1,53 +1,71 @@
-+++
-title = "Protections moto Alpinestars Bio Air"
-date = "2021-04-26"
-categories = ["protections moto", "protection moto genoux", "protection moto coudes", "protection moto épaules"]
-tags = ["Alpinestars", "Alpinestars Bio Air"]
-+++
+---
+title: "Protections moto Alpinestars Bio Air"
+date: "2021-04-26"
+categories: 
+- moto
+- protections moto
+tags:
+- Alpinestars
+- Alpinestars Bio Air
+- genoux
+- coudes
+- épaules
+thumbnail: "thumbnails/moto_epi_ES.png"
+---
 
-Synthèse :
-----------
+![:right](alpinestars-bio-armor-air_EB-KA_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face.jpg)
 
-4 modèles :
+Cette série de fiches a pour objet de mémoriser/partager les infos que je trouve sur les coques de protection disponibles sur le marché.
 
-- Coude B/genou A (E B/K A) : ? cm x ? cm - ? g
-- Coude A (E A) : ? cm x ? cm - ? g
-- Epaule B (S B) : ? cm x ? cm - ? g
-- Epaule A (S A) : ? cm x ? cm - ? g
+Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection _Alpinestars Bio Air_ de niveau 2.
 
-Caractéristiques :
+_Synthèse :_ Protection très bonne (25% au dessus de la norme), aération très bonne, et tarif raisonnable.
+
+
+Commercialisation :
+-------------------
+
+Vendues en kit complets épaules + coudes, autours de 33e :
+
+- Kit en taille B :
+    - Coude B/genou A : Dimensions et poids non trouvés
+    - Epaule B : Dimensions et poids non trouvés
+- Kit en taille A :
+    - Coude A : Dimensions et poids non trouvés
+    - Epaule A : Dimensions et poids non trouvés
+
+Assez faciles à trouver sur le net (attention à la taille A ou B : Si elles rentrent dans vos vêtements il vaut mieux privilégier les tailles B, qui sont plus grandes).
+
+Caractéristiques des coques :
+-----------------------------
 
 - Certification : Niveau 2 T+ T- [^1]
-- Protection réelle : Le fabricant annonce < 16 kN, les tests MotoCAP donnent environ 13 kN en moyenne et 17 kN maximum (norme : 20 kN en moyenne, maximum 30 kN)
+- Protection réelle : Le fabricant annonce < 16 kN
+- Autre relevé : Les tests MotoCAP (testeur indépendant Australien) auraient relevé une moyenne d'environ 13 kN et un maximum de 17 kN (norme : 20 kN en moyenne, maximum 30 kN).[^2] 
 - Fabrication : Italie
 - Longévité annoncée : ?
-- Type de matériaux : Matériaux vulcanisé rigide, ne s'ajuste pas avec la chaleur corporelle
-- Aération :	Très bonne
-- Prix : Environ 33e coudes + épaules
+- Type de matériaux : Matériaux vulcanisé rigide
+- Aération : Très bonne
 
 
 Confort et comparaison avec les autres marques : 
 ------------------------------------------------
 
-N/A
+Le matériaux étant rigide, on peut imaginer que les coques suivent moins les mouvements que les visco-élastiques qu'emploient SAS-TEC, BMW, etc.
+
+En revanche l'aération est manifestement supérieure à tous les concurrents de niveau 2 (approchant : REV'IT Seeflex).
+
 
 Photos :
 --------
 
-Note : La plupart des photos viennent de la conversation [advrider.com : CE2 Replacement Armor Database / Comparison](https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/).
-
-### Fiches constructeur :
-
-N/A
-
-
 ### Photos générales :
 
-![alpinestars-bio-armor-air_EA_niv2_dos__vs__alpinestars-bio-armor-air_SA_niv2_dos.jpg](alpinestars-bio-armor-air_EA_niv2_dos__vs__alpinestars-bio-armor-air_SA_niv2_dos.jpg)
+![Kit taille B - face](alpinestars-bio-armor-air_EB-KA_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face.jpg)
 
-![alpinestars-bio-armor-air_EB-KA_niv2_dos__vs__alpinestars-bio-armor-air_SB_niv2_dos.jpg](alpinestars-bio-armor-air_EB-KA_niv2_dos__vs__alpinestars-bio-armor-air_SB_niv2_dos.jpg)
+![Kit taille A - dos](alpinestars-bio-armor-air_EA_niv2_dos__vs__alpinestars-bio-armor-air_SA_niv2_dos.jpg)
 
-![alpinestars-bio-armor-air_EB-KA_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face.jpg](alpinestars-bio-armor-air_EB-KA_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face.jpg)
+![Kit taille B - dos](alpinestars-bio-armor-air_EB-KA_niv2_dos__vs__alpinestars-bio-armor-air_SB_niv2_dos.jpg)
 
 ![alpinestars-bio-armor-air_EB-KA_niv2_notations__source_advrider.jpg](alpinestars-bio-armor-air_EB-KA_niv2_notations__source_advrider.jpg)
 
@@ -56,6 +74,9 @@ N/A
 
 
 ### Comparaisons :
+
+Ces photos proviennent de la conversation [advrider.com : CE2 Replacement Armor Database / Comparison](https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/).
+
 
 #### Forcefield Isolator 2 :
 
@@ -70,6 +91,7 @@ N/A
 
 
 Lectures :
+----------
 
 - [advrider.com : CE2 Replacement Armor Database / Comparison](https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/)
 
@@ -79,3 +101,5 @@ Niveau 1 : Moyenne <35 kN. Aucun choc ne dépasse 50 kN.<br />
 Niveau 2 : Moyenne <20 kN. Aucun choc ne dépasse 30 kN.<br />
 T+ : La protection reste la même jusqu'à 40°C.<br />
 T- : La protection reste la même jusqu'à -10°C.
+
+[^2]: Source : _cblais19_ dans [advrider.com : CE2 Replacement Armor Database / Comparison](https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/)

@@ -28,7 +28,7 @@
   weight = -107
 [[main]]
    name = "Moto"
-   url = "categories/protections-moto/"
+   url = "categories/moto/"
    weight = -108
 [[main]]
    name = "Dev"

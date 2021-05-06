@@ -1,64 +1,91 @@
-+++
-title = "Protections moto hanches Alpinestars Nucleon Racing KR-HR et Nucleon KR-H"
-date = "2021-05-01"
-categories = ["protections moto", "protection moto hanches", "protection moto thorax"]
-tags = ["Alpinestars", "Alpinestars KR-H KR-HR" ]
-+++
+---
+title: "Protections moto hanches Alpinestars Nucleon Racing KR-HR et Nucleon KR-H"
+date: "2021-05-01"
+categories:
+- moto
+- protections moto
+tags: 
+- Alpinestars
+- Alpinestars KR-H KR-HR
+- hanches
+- thorax
 
-Synthèse :
-----------
+thumbnail: "thumbnails/moto_epi_H.png"
+---
 
-2 modèles, en taille A ou B :
+![:right](alpinestars-nucleon-racing-hr-kr_HB_niv2_face__source_revzilla.jpg)
 
-- Nucleon Racing HR-KR : 
-    - Hanche B (H B) : 22 cm x 16 cm x ? cm - ? g
-    - Hanche A (H A) : ? cm x ? cm x ? cm - ? g
-- Nucleon HR-K : 
-    - Hanche B (H B) : 22 cm x 16 cm x ? cm - ? g
-    - Hanche A (H A) : ? cm x ? cm x ? cm - ? g
+Cette série de fiches a pour objet de mémoriser/partager les infos que je trouve sur les coques de protection disponibles sur le marché.
 
-Caractéristiques :
+Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection de hanches _Alpinestars Nucleon Racing KR-HR et Nucleon KR-H_ de niveau 1 et 2.
+
+_Synthèse :_ Grande couverture, aération correcte, tarif élevé.
+
+
+Commercialisation :
+-------------------
+
+4 modèles commercialisés à environ 30e les niveau 1, 40e les niveau 2 :
+
+- Nucleon Racing HR-KR (niveau 2)
+    - Hanche B
+        - Dimensions : 22 cm x 16 cm
+        - Poids : ? g
+    - Hanche A
+        - Dimensions : ? cm x ? cm
+        - Poids : ? g
+- Nucleon HR-K (niveau 1) 
+    - Hanche B
+        - Dimensions : 22 cm x 16 cm
+        - Poids : ? g
+    - Hanche A
+        - Dimensions : ? cm x ? cm
+        - Poids : ? g
+
+Trouvables un peu partout sur le net.
+
+Caractéristiques des coques :
+-----------------------------
 
 - Certification : 
-    - Nucleon Racing KR-HR : Niveau 2 [^1]
-    - Nucleon KR-H : Niveau 1 [^1]
+    - Nucleon Racing KR-HR : Niveau 2 (non certifiées T+/T-) [^1]
+    - Nucleon KR-H : Niveau 1 (non certifiées T+/T-) [^1]
 - Protection réelle : ?
 - Fabrication : ?
 - Longévité annoncée : ?
 - Type de matériaux : Visco-élastique souple, s'ajuste avec la chaleur corporelle
 - Aération : Bonne
-- Prix : ~30e niveau 1, ~40e niveau 2
 
 
 Note sur l'intégration dans les pantalons (source plus bas) :
 
-- Forme et taille standards pour des protections de hanche en C : Rentrera dans les poches prévues pour ;
+- Protections de hanche en C de forme et taille standards, elles rentreront dans les poches prévues pour (source : [Motorcycle Gear Hub](https://www.mcgearhub.com/motorcycle-armor/alpinestars-nucleon-racing-kr-hr-hip-protectors-review/)) ;
 - Protections fournies avec des poches en tissu pouvant être intégrées dans les pantalons ;
-- Protections et poches équipées de velcros (mais il vaut mieux coudre) ;
+- Protections et poches équipées de velcros (mais il vaut mieux coudre les poches au pantalon) ;
 
 **Idée : Utilisation comme protection thoracique :**
 
-- Motorcycle Gear Hub indique que la taille et la forme permettent de les utiliser comme protections thoracique, exemple ici : [AGV Sport Willow leather jacket - mcgearhub.com](https://www.mcgearhub.com/motorcycle-jackets/agv-sport-willow-leather-jacket-review-problems-solutions-improvements/)
+Motorcycle Gear Hub indique que la taille et la forme permettent de les utiliser comme protections thoracique, exemple ici : [AGV Sport Willow leather jacket - mcgearhub.com](https://www.mcgearhub.com/motorcycle-jackets/agv-sport-willow-leather-jacket-review-problems-solutions-improvements/)
 
 
-Citations : 
------------
+Confort et comparaison avec les autres marques : 
+------------------------------------------------
 
-#### Compatibilité avec les poches existantes :
+#### Retours d'expérience : Compatibilité avec les poches existantes :
 
 > The dimensions of the Large-sized pads are [...] on point with the universal dimension of the biggest hip pads around (for motorcyclists) and that are also commercialized by the likes of [Rev’It](https://www.mcgearhub.com/motorcycle-pants/revit-tornado-2-pants-review/), [D3O](https://www.mcgearhub.com/tag/d3o-armor/) and Oxford. 
 > Furthermore, you will find many motorcycle jeans using Level-1 CE-rated generic hip armor that meets these same dimensions
 > — <cite>[Motorcycle Gear Hub](https://www.mcgearhub.com/motorcycle-armor/alpinestars-nucleon-racing-kr-hr-hip-protectors-review/)
 
 
-### Coudre les poches dans son pantalon :
+### Retours d'expérience : Coudre les poches dans son pantalon :
 
 > We still recommend that you stitch the pockets (with two rows of threading) into the
 inside liner of your pant or jacket for further peace of mind.
 > — <cite>[Motorcycle Gear Hub](https://www.mcgearhub.com/motorcycle-armor/alpinestars-nucleon-racing-kr-hr-hip-protectors-review/)
 
 
-### Utilisation comme protection thoracique :
+### Retours d'expérience : Utilisation comme protection thoracique :
 
 > Incidentally, the KR-HR protectors can also be used as chest armor as I’ve done with an [AGV Sport Willow leather jacket](https://www.mcgearhub.com/motorcycle-jackets/agv-sport-willow-leather-jacket-review-problems-solutions-improvements/)
 > — <cite>[Motorcycle Gear Hub](https://www.mcgearhub.com/motorcycle-armor/alpinestars-nucleon-racing-kr-hr-hip-protectors-review/)
@@ -81,10 +108,6 @@ Photos :
 
 ![alpinestars-nucleon-hr-k_HB_niv1_profil_poche__source_revzilla.png](alpinestars-nucleon-hr-k_HB_niv1_profil_poche__source_revzilla.png)
 
-
-### Comparaisons :
-
-N/A
 
 Lectures :
 ----------

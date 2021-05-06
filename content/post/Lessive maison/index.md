@@ -7,6 +7,7 @@ description: "Recette de lessive maison."
 
 categories: 
 - écologie
+- maison
 
 tags: 
 - lessive

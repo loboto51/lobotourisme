@@ -1,55 +1,79 @@
-+++
-title = "Protections moto Forcefield Isolator 2"
-date = "2021-04-24"
-categories = ["protections moto", "protection moto genoux", "protection moto coudes", "protection moto hanches", "protection moto épaules"]
-tags = ["Forcefield", "Forcefield Isolator 2"]
-+++
+---
+title: "Protections moto Forcefield Isolator 2"
+date: "2021-04-24"
+categories:
+- moto
+- protections moto
+tags:
+- Forcefield
+- Forcefield Isolator 2
+- genoux
+- coudes
+- hanches
+- épaules
 
-Synthèse :
-----------
+thumbnail: "thumbnails/moto_epi_EHKLS.png"
+---
 
-4 modèles :
-- Genou B ("K B") : 24 cm x 16.5 cm - 114 g
-- Hanche B ("H B") : 23 cm x 11.5 cm - 80 g
-- Coude B/genou B ("E/K B") : 24.5 cm x 16 cm - 114 g
-- Epaule B ("S B") : 20.5 cm x 15 cm - 96 g
+![:right](forcefield-isolator-2_EB-KB_niv2_face__source_advrider.jpg)
 
-Caractéristiques :
+Cette série de fiches a pour objet de mémoriser/partager les infos que je trouve sur les coques de protection disponibles sur le marché.
+
+Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection _Forcefield Isolator 2_ de niveau 2.
+
+_Synthèse :_ Protection très bonne (25% au dessus de la norme), aération correcte, tarif élevé.
+
+
+Commercialisation :
+-------------------
+
+4 modèles sont disponibles à la vente (environ 30e par paire) :
+
+- Genou B
+    - Dimensions : 24 cm x 16.5 cm
+    - Poids : 114 g
+- Hanche B
+    - Dimensions : 23 cm x 11.5 cm
+    - Poids : 80 g
+- Coude B/genou B
+    - Dimensions : 24.5 cm x 16 cm
+    - Poids : 114 g
+- Epaule B
+    - Dimensions : 20.5 cm x 15 cm
+    - Poids : 96 g
+
+Trouvables un peu partout sur le net.
+
+Caractéristiques des coques :
+-----------------------------
 
 - Certification : Niveau 2 T+ T- [^1]
-- Protection réelle : Le fabricant annonce un minimum de 10,6kN => donc entre 10,6 kN et 30 kN (norme : 20 kN en moyenne, maximum 30 kN)
+- Protection réelle : Le fabricant annonce un minimum de 10,6kN sur sa plaquette (voir plus bas), on peut imaginer une moyenne à +5kN, autours de 15-16 kN (norme : 20 kN en moyenne, maximum 30 kN)
 - Fabrication : Royaume-Uni
 - Longévité annoncée : 2 à 3 ans
 - Type de matériaux : Visco-élastique souple (> D3O), s'ajuste avec la chaleur corporelle
 - Aération:	Bonne
-- Prix :Environ 30e par paire
 
 Confort et comparaison avec les autres marques : 
 ------------------------------------------------
 
-Synthèse (détails plus bas) :
+Rigides par temps froid.
 
-(-) Forcefield Isolator L2| (+) Knox Microlock L2
---------------------------|--------------------
-Aération | Couverture + ajustement + souplesse par temps froid
+Meilleure aération que les Knox Microlock, en revanche Knox l'emporte sur tous les autres plans : Couverture, ajustement et souplesse par temps froid.
 
+Meilleur ajustement, souplesse et protection que le D3O.
 
-(+) Forcefield Isolator L2         | (-) D3O 
------------------------------------|--------------------
-Ajustement + souplesse + protection| N/A (prix ?)
-
-
-### Température :
+### Retours d'expérience : Temps froid
 
 > "pads do go very stiff in cold temperatures and take a while to soften"
 > — <cite>advrider cblais19</cite>
 
-### Comparaison avec les Knox Micro-lock L2, SAS-Tec et D3O :
+### Retours d'expérience : Comparaison avec les Knox Micro-lock L2, SAS-Tec et D3O :
 
 > The softest high protection (CE2) armor I've found is the Knox MicroLock. It's more pliable then Forcefield, SasTec, or D3O; and has a softer feel when joint pressure is applied. 
 > — <cite>[advrider cblais19](https://advrider.com/f/threads/comfortable-knee-armor.1371777/#post-37833963)</cite>
 
-### Comparaison avec le D3O :
+### Retours d'expérience : Comparaison avec le D3O :
 
 > "Compared to D3O’s [T5 EVO Pro X armor](https://www.mcgearhub.com/motorcycle-armor/d3o-knee-elbow-armor-review-t5-evo-pro-x/) (which is also CE-certified as Level 2), the Forcefield Isolator 2 armor is signicantly more contouring, wrapping and compliant."
 > — <cite>[mcgearhub.com](https://www.mcgearhub.com/motorcycle-armor/forcefield-isolator-2-armor-review-all-pads/)</cite>
@@ -57,7 +81,7 @@ Ajustement + souplesse + protection| N/A (prix ?)
 > "And Brian Van also said: "Forcefield is better [than D30] for sure. D3O is a nice low profile armor that helps to reduce bulk and increase comfort. You will find the Forcefield to be thicker as compared to the D3O which I feel is necessary to provide a higher level of protection."
 > — <cite>[advrider Valentino](https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/page-4#post-40897652)</cite>
 
-### Comparaison avec les Knox Micro-lock L2 :
+### Retours d'expérience : Comparaison avec les Knox Micro-lock L2 :
 
 > ++ for Microlock. I've tried all the molecular/soft armors and the Knox is by far the most compliant at all temps. Forcefield Isolator is also good, but has a stiffer matrix at all times. I've got a bunch of Isolator CE2 pads that I'm actually replacing with Microlock due to the comfort difference.
 > — <cite>[advrider cblais19](https://advrider.com/f/threads/comfortable-knee-armor.1371777/#post-37211909)</cite>

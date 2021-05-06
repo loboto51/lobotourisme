@@ -1,29 +1,18 @@
 ---
 title: "Déployer un site web statique Hugo sur Github Pages"
-
 date: "2021-04-22"
-
 lastmod: "2021-05-05"
-
 description: "Réalisation d'un site web statique avec Github Pages et Hugo."
-
 categories: 
 - dev
-
 tags: 
 - hugo
 - github pages
-
 toc: true
-
 thumbnail: "thumbnails/thumbnail_hugo.png"
 ---
 
-
-
-_Résumé :_
-
-Le site que vous consultez a été construit en suivant la méthode décrite ci-dessous.
+Le site que vous consultez est constitué d'un site web statique _Hugo_ hébergé sur _Github_ :
 
 [_Github_](https://github.com/) fournit la possibilité d'exposer un site _web_ statique pour chaque dépôt public du compte. Il suffit d'avoir :
 
