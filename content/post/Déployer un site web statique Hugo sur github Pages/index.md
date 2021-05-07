@@ -8,8 +8,8 @@ categories:
 tags: 
 - hugo
 - github pages
+- hugo clarity
 toc: true
-thumbnail: "thumbnails/thumbnail_hugo.png"
 ---
 
 Le site que vous consultez est constitué d'un site web statique _Hugo_ hébergé sur _Github_ :

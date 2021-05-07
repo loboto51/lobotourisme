@@ -1,10 +1,13 @@
-+++
-title = "Un mot sur l'auteur"
-description = "Lobotourisme"
-date = "2021-04-23"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "Loboto"
-+++
+---
+title: "Un mot sur l'auteur"
+description: "Lobotourisme"
+date: "2021-04-23"
+aliases:
+- about-us
+- about-hugo
+- contact
+author: "Loboto"
+---
 
 En quelques mots :
 

@@ -20,11 +20,11 @@ J'avais le même problème pour les jeans "normaux", je l'ai résolu en me fourn
 
 Au bout d'un moment j'ai quand même fini par trouver un jean dont la coupe approchait de mes jeans "normaux", le _DXR Howell City CE_ (marque de Motoblouz) que j'ai adapté pour y intégrer de meilleures protections de genoux (je raconterai cela dans un autre billet). Mais sa protection n'est que de niveau "urbain" selon l'ancienne norme EN 13595, qui en comporte 2 autres au dessus, 1 et 2 (Dans la norme actuelle EN 17092, cela correspond à peu près au niveau A, le plus bas avec coques : 2 niveaux existent au dessus, AA et AAA).
 
-Récemment, par curiosité j'ai voulu tester les pantalons renforcés en aramide (kevlar) vendus par le site _XL-Moto_ à des tarifs défiant toute concurrence (60 à 80e).
+Récemment, par curiosité j'ai voulu tester les pantalons renforcés en aramide (_Kevlar_) vendus par le site _XLMoto_ à des tarifs défiant toute concurrence (60 à 80e).
 
 La grille du site indiquant que les pantalons taillent petit, j'ai commandé :
 
-- Un pantalon cargo _Course Caféman_ à ma taille habituelle ;
+- Un pantalon cargo _Course Caféman à ma taille habituelle ;
 - Un jean _Course Rocker_ à ma taille habituelle ;
 - Un 2e _Course Caféman_ en taille 38, au cas où.
 
