@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo clarity on Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/tags/hugo-clarity/</link><description>Recent content in hugo clarity on Lobotourisme</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 02 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/tags/hugo-clarity/index.xml" rel="self" type="application/rss+xml"/><item><title>Mémo des modifications du thème hugo-clarity</title><link>https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/</link><pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/</guid><description>
+&lt;p>&lt;em>Résumé :&lt;/em>&lt;/p>
+&lt;p>Ce site est construit en combinant &lt;em>Hugo&lt;/em> + &lt;em>Github Pages&lt;/em>.
+J'utilise le thème &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-clarity&lt;/a>. Ce &lt;em>post&lt;/em> récapitule les configurations et modifications que j'y ai apporté.&lt;/p>
+&lt;p>Le thème &lt;em>hugo-clarity&lt;/em> demande pas mal de conf. Plutôt que partir de zéro j'ai suivi le conseil que donne sa doc d'install et je suis parti du &lt;em>examplesite/&lt;/em> fourni dans le thème, que j'ai ensuite modifié.&lt;/p>
+&lt;h2 id="documents-non-utilisés">documents non-utilisés&lt;/h2>
+&lt;h3 id="suppression-des-exemples-en-portugais">Suppression des exemples en portugais&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>rm ./config/_default/menus/menu.pt.toml
+&lt;span class="ln">2&lt;/span>rm ./content/about.pt.md
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="suppression-des-pages-exemples-dans-_content_">Suppression des pages exemples dans &lt;em>./content&lt;/em>&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>rm ./content/archives.md
+&lt;span class="ln">2&lt;/span>rm ./content/homepage/about.md
+&lt;span class="ln">3&lt;/span>rm ./content/homepage/work.md
+&lt;span class="ln">4&lt;/span>rm ./content/post/* &lt;span class="c1"># exemples de pages&lt;/span>
+&lt;span class="ln">5&lt;/span>rm ./static/images/* &lt;span class="c1"># images non utilisées&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="modification-des-fichiers-de-conf">Modification des fichiers de conf&lt;/h2>
+&lt;h3 id="modification-de-_config_defaultconfigtoml_">Modification de _./config/&lt;em>default/config.toml&lt;/em>&lt;/h3>
+&lt;p>Modifié :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="ln"> 1&lt;/span>&lt;span class="nx">baseurl&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;https://loboto51.github.io/&amp;#34;&lt;/span>
+&lt;span class="ln"> 2&lt;/span>&lt;span class="nx">title&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>
+&lt;span class="ln"> 3&lt;/span>&lt;span class="nx">author&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Loboto&amp;#34;&lt;/span>
+&lt;span class="ln"> 4&lt;/span>&lt;span class="nx">paginate&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">10&lt;/span>
+&lt;span class="ln"> 5&lt;/span>&lt;span class="nx">theme&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;hugo-clarity&amp;#34;&lt;/span>
+&lt;span class="ln"> 6&lt;/span>
+&lt;span class="ln"> 7&lt;/span>&lt;span class="nx">DefaultContentLanguage&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;fr&amp;#34;&lt;/span>
+&lt;span class="ln"> 8&lt;/span>
+&lt;span class="ln"> 9&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="nx">taxonomies&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="ln">10&lt;/span>&lt;span class="nx">category&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;categories&amp;#34;&lt;/span>
+&lt;span class="ln">11&lt;/span>&lt;span class="nx">tag&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;tags&amp;#34;&lt;/span>
+&lt;span class="ln">12&lt;/span>&lt;span class="nx">series&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;series&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="modification-de-_config_defaultlanguagestoml_">Modification de _./config/&lt;em>default/languages.toml&lt;/em>&lt;/h3>
+&lt;p>Modifié :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="ln">1&lt;/span>
+&lt;span class="ln">2&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="nx">fr&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;span class="ln">3&lt;/span> &lt;span class="nx">title&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>
+&lt;span class="ln">4&lt;/span> &lt;span class="nx">LanguageName&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;French&amp;#34;&lt;/span>
+&lt;span class="ln">5&lt;/span> &lt;span class="nx">weight&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">1&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="modification-de-_config_defaultparamstoml_">Modification de _./config/&lt;em>default/params.toml&lt;/em>&lt;/h3>
+&lt;p>Très long fichier, principales modifs :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="ln">1&lt;/span>&lt;span class="nx">author&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Loboto&amp;#34;&lt;/span>
+&lt;span class="ln">2&lt;/span>&lt;span class="nx">introDescription&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;(...)&amp;#34;&lt;/span>
+&lt;span class="ln">3&lt;/span>&lt;span class="nx">enforceDarkMode&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="kc">true&lt;/span>
+&lt;span class="ln">4&lt;/span>&lt;span class="nx">dateFormat&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;02/01/2006&amp;#34;&lt;/span>
+&lt;span class="ln">5&lt;/span>&lt;span class="nx">since&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">2021&lt;/span>
+&lt;span class="ln">6&lt;/span>&lt;span class="nx">footerLogo&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;logos/logo.png&amp;#34;&lt;/span>
+&lt;span class="ln">7&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="création-dun-_menufrtoml_-à-partir-de-_menuentoml_">Création d'un &lt;em>menu.fr.toml&lt;/em> à partir de &lt;em>menu.en.toml&lt;/em>&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>mv ./config/_default/menus/menu.en.toml ./config/_default/menus/menu.fr.toml
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Modifié pour le restreindre à 2 blocs :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="ln"> 1&lt;/span>&lt;span class="p">[[&lt;/span>&lt;span class="nx">main&lt;/span>&lt;span class="p">]]&lt;/span>
+&lt;span class="ln"> 2&lt;/span> &lt;span class="nx">name&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;A propos&amp;#34;&lt;/span>
+&lt;span class="ln"> 3&lt;/span> &lt;span class="nx">url&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;about/&amp;#34;&lt;/span>
+&lt;span class="ln"> 4&lt;/span> &lt;span class="nx">weight&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">-107&lt;/span>
+&lt;span class="ln"> 5&lt;/span>
+&lt;span class="ln"> 6&lt;/span>&lt;span class="c"># social menu links&lt;/span>
+&lt;span class="ln"> 7&lt;/span>
+&lt;span class="ln"> 8&lt;/span>&lt;span class="p">[[&lt;/span>&lt;span class="nx">social&lt;/span>&lt;span class="p">]]&lt;/span>
+&lt;span class="ln"> 9&lt;/span> &lt;span class="nx">name&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;rss&amp;#34;&lt;/span>
+&lt;span class="ln">10&lt;/span> &lt;span class="nx">weight&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">4&lt;/span>
+&lt;span class="ln">11&lt;/span> &lt;span class="nx">url&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;index.xml&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="icones-logo-etc">Icones, logo, etc.&lt;/h2>
+&lt;h3 id="image-originale">Image originale&lt;/h3>
+&lt;p>J'ai acheté une belle icône sur le très bon site &lt;a href="https://thenounproject.com/">The Noun Project&lt;/a> : &lt;a href="https://thenounproject.com/term/space/2217279/">Space dessinée par Adrien Coquet&lt;/a>.&lt;/p>
+&lt;p>Je l'ai modifiée dans Inkscape pour ajouter un peu de couleur, puis j'ai généré une version PNG de 1024x1024 &amp;quot;&lt;em>logo_large.png&lt;/em>&amp;quot; que j'ai mise dans &lt;em>./static/logos/&lt;/em>.&lt;/p>
+&lt;h4 id="génération-des-variantes">Génération des variantes&lt;/h4>
+&lt;p>J'ai généré avec ImageMagick toutes les variantes présentes dans le template :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln"> 1&lt;/span>mkdir -p ./static/icons/
+&lt;span class="ln"> 2&lt;/span>
+&lt;span class="ln"> 3&lt;/span>&lt;span class="c1">#logo.png&lt;/span>
+&lt;span class="ln"> 4&lt;/span>convert ./static/logos/logo_large.png -resize 75x75 -unsharp 0x1 ./static/logos/logo_footer.png
+&lt;span class="ln"> 5&lt;/span>
+&lt;span class="ln"> 6&lt;/span>&lt;span class="c1">#favicon.ico&lt;/span>
+&lt;span class="ln"> 7&lt;/span>convert ./static/logos/logo_large.png -resize 48x48 -unsharp 0x1 ./static/icons/favicon.ico
+&lt;span class="ln"> 8&lt;/span>&lt;span class="c1">#favicon-16x16.png&lt;/span>
+&lt;span class="ln"> 9&lt;/span>convert ./static/logos/logo_large.png -resize 16x16 -unsharp 0x1 ./static/icons/favicon-16x16.png
+&lt;span class="ln">10&lt;/span>&lt;span class="c1">#favicon-32x32.png&lt;/span>
+&lt;span class="ln">11&lt;/span>convert ./static/logos/logo_large.png -resize 32x32 -unsharp 0x1 ./static/icons/favicon-32x32.png
+&lt;span class="ln">12&lt;/span>
+&lt;span class="ln">13&lt;/span>&lt;span class="c1">#android-chrome-192x192.png&lt;/span>
+&lt;span class="ln">14&lt;/span>convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x1 ./static/icons/android-chrome-192x192.png
+&lt;span class="ln">15&lt;/span>&lt;span class="c1">#android-chrome-256x256.png&lt;/span>
+&lt;span class="ln">16&lt;/span>convert ./static/logos/logo_large.png -resize 256x256 -unsharp 0x1 ./static/icons/android-chrome-256x256.png
+&lt;span class="ln">17&lt;/span>&lt;span class="c1">#apple-touch-icon.png&lt;/span>
+&lt;span class="ln">18&lt;/span>convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/apple-touch-icon.png
+&lt;span class="ln">19&lt;/span>&lt;span class="c1">#apple-touch-icon.png&lt;/span>
+&lt;span class="ln">20&lt;/span>convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/apple-touch-icon.png
+&lt;span class="ln">21&lt;/span>
+&lt;span class="ln">22&lt;/span>&lt;span class="c1">#mstile-150x150.png&lt;/span>
+&lt;span class="ln">23&lt;/span>convert ./static/logos/logo_large.png -resize 150x150 -unsharp 0x1 -bordercolor transparent -border &lt;span class="m">60&lt;/span> ./static/icons/mstile-150x150.png
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>ainsi que celles recommandées par &lt;a href="https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/">The 2020 Guide to FavIcons for Nearly Everyone and Every Browser&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln"> 1&lt;/span>&lt;span class="c1">#favicon-128x128.png&lt;/span>
+&lt;span class="ln"> 2&lt;/span>convert ./static/logos/logo_large.png -resize 128x128 -unsharp 0x1 ./static/icons/favicon-128x128.png
+&lt;span class="ln"> 3&lt;/span>
+&lt;span class="ln"> 4&lt;/span>&lt;span class="c1">#favicon-152x152.png&lt;/span>
+&lt;span class="ln"> 5&lt;/span>convert ./static/logos/logo_large.png -resize 152x152 -unsharp 0x1 ./static/icons/favicon-152x152.png
+&lt;span class="ln"> 6&lt;/span>
+&lt;span class="ln"> 7&lt;/span>&lt;span class="c1">#favicon-167x167.png&lt;/span>
+&lt;span class="ln"> 8&lt;/span>convert ./static/logos/logo_large.png -resize 167x167 -unsharp 0x1 ./static/icons/favicon-167x167.png
+&lt;span class="ln"> 9&lt;/span>
+&lt;span class="ln">10&lt;/span>&lt;span class="c1">#favicon-180x180.png&lt;/span>
+&lt;span class="ln">11&lt;/span>convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/favicon-180x180.png
+&lt;span class="ln">12&lt;/span>
+&lt;span class="ln">13&lt;/span>&lt;span class="c1">#favicon-192x192.png&lt;/span>
+&lt;span class="ln">14&lt;/span>convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x1 ./static/icons/favicon-192x192.png
+&lt;span class="ln">15&lt;/span>
+&lt;span class="ln">16&lt;/span>&lt;span class="c1">#favicon-196x196.png&lt;/span>
+&lt;span class="ln">17&lt;/span>convert ./static/logos/logo_large.png -resize 196x196 -unsharp 0x1 ./static/icons/favicon-196x196.png
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="webmanifest">webmanifest&lt;/h3>
+&lt;p>Gadget : Cela sert à rendre le site utilisable comme une appli.
+Personne ne le fera pour celui-ci, mais bon je l'ai fait pour l'exercice !&lt;/p>
+&lt;p>J'ai copié l'original :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>cp ./themes/hugo-clarity/static/icons/site.webmanifest ./static/icons/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Et je l'ai modifié pour ajouter le nom du site :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="ln">1&lt;/span> &lt;span class="s2">&amp;#34;name&amp;#34;&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;span class="ln">2&lt;/span> &lt;span class="s2">&amp;#34;short_name&amp;#34;&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="modification-des-pages-principales">Modification des pages principales&lt;/h2>
+&lt;h3 id="modification-de-_contentaboutmd_">Modification de &lt;em>./content/about.md&lt;/em>&lt;/h3>
+&lt;p>Il s'agit juste d'une page normale, affichée lorsqu'on clique sur &amp;quot;à propos&amp;quot;.&lt;/p>
+&lt;h3 id="modification-de-_content_indexmd_">Modification de _./content/&lt;em>index.md&lt;/em>&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-toml" data-lang="toml">&lt;span class="ln">1&lt;/span>&lt;span class="err">+++&lt;/span>
+&lt;span class="ln">2&lt;/span>&lt;span class="nx">author&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Loboto&amp;#34;&lt;/span>
+&lt;span class="ln">3&lt;/span>&lt;span class="nx">description&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>
+&lt;span class="ln">4&lt;/span>&lt;span class="err">+++&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="modification-des-templates">Modification des templates&lt;/h2>
+&lt;p>Point important :
+&lt;em>Hugo&lt;/em> permet de passer outre n'importe quel élément du thème en mettant une version locale dans l'arborescence du site.&lt;/p>
+&lt;p>Exemple :
+_./layouts/&lt;em>default/single.html&lt;/em> sera pris en priorité sur _./themes/hugo-clarity/layouts/&lt;em>default/single.html&lt;/em>&lt;/p>
+&lt;p>Cela permet de modifier son site tout en ne touchant pas aux sources du thème. On peut donc toujours se référer à l'original ou revenir en arrière.&lt;/p>
+&lt;h3 id="template-des-articles-_singlehtml_">Template des articles &lt;em>single.html&lt;/em>&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>mkdir -p ./layouts/_default
+&lt;span class="ln">2&lt;/span>cp ./themes/hugo-clarity/layouts/_default/single.html ./layouts/_default/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>J'ai ajouté la date de dernière mise à jour si le paramètre &lt;em>lastmod&lt;/em> existe :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="ln">1&lt;/span> {{ if $p.lastmod }}
+&lt;span class="ln">2&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">blockquote&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Dernière mise à jour : &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">time&lt;/span> &lt;span class="na">datetime&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ $p.lastmod.Format &amp;#34;&lt;/span>&lt;span class="na">Mon&lt;/span> &lt;span class="na">Jan&lt;/span> &lt;span class="na">10&lt;/span> &lt;span class="na">17:13:38&lt;/span> &lt;span class="na">2020&lt;/span> &lt;span class="na">-0700&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">}}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ $p.lastmod.Format (default &amp;#34;Jan 2, 2006&amp;#34; $.Site.Params.dateFormat) }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">time&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">blockquote&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln">3&lt;/span> {{ end }}
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="template-de-lentête-des-billets-_post-metahtml_">Template de l'entête des billets &lt;em>post-meta.html&lt;/em>&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>mkdir -p ./layouts/partials
+&lt;span class="ln">2&lt;/span>cp ./themes/hugo-clarity/layouts/partials/post-meta.html ./layouts/partials/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>J'ai ajouté les catégories, avec un bouton plus imposant, avant les tags :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="ln"> 1&lt;/span>(...)
+&lt;span class="ln"> 2&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">span&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;post_time&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> · {{ T &amp;#34;reading_time&amp;#34; . }}&lt;span class="ni">&amp;amp;nbsp;&lt;/span>&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln"> 3&lt;/span> {{ end }}
+&lt;span class="ln"> 4&lt;/span> {{- with .Params.categories -}}
+&lt;span class="ln"> 5&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln"> 6&lt;/span> {{- range . }}
+&lt;span class="ln"> 7&lt;/span> {{- $category := urlize . }} ·
+&lt;span class="ln"> 8&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#39;{{ absLangURL (printf &amp;#34;categories/%s&amp;#34; $category) }}&amp;#39;&lt;/span> &lt;span class="na">title&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ . }}&amp;#34;&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;button button_translucent&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln"> 9&lt;/span> {{- . }}
+&lt;span class="ln">10&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln">11&lt;/span> {{- end }}
+&lt;span class="ln">12&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln">13&lt;/span> {{- end }}
+&lt;span class="ln">14&lt;/span> {{- with .Params.tags -}}
+&lt;span class="ln">15&lt;/span>(...)
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="modification-de-_excerpthtml_-pour-afficher-les-miniatures-prises-dans-les-ressources-de-larticle--en-priorité-limage-nommée-cover-puis-en-second-choix-la-première-image-du-doc">Modification de &lt;em>excerpt.html&lt;/em> pour afficher les miniatures prises dans les ressources de l'article : En priorité l'image nommée cover.*, puis en second choix la première image du doc&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>mkdir -p ./layouts/partials
+&lt;span class="ln">2&lt;/span>cp ./themes/hugo-clarity/layouts/partials/excerpt.html ./layouts/partials/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>J'ai remplacé toute la section thumbnails par l'algorithme suivant :&lt;/p>
+&lt;ul>
+&lt;li>Si il existe des ressources &amp;quot;image&amp;quot; du billet :
+&lt;ul>
+&lt;li>On prend la première image nommée cover.* et on l'affiche telle-quelle ;&lt;/li>
+&lt;li>Sinon on prend la première image trouvée, on la redimensionne en 300x300 et on l'affiche ;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Sinon on n'affiche rien.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="ln"> 1&lt;/span>(...)
+&lt;span class="ln"> 2&lt;/span> {{- with .Resources.ByType &amp;#34;image&amp;#34; }}
+&lt;span class="ln"> 3&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;excerpt_footer partition&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln"> 4&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;excerpt_thumbnail&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln"> 5&lt;/span> {{ with .GetMatch &amp;#34;{cover.*}&amp;#34; }}
+&lt;span class="ln"> 6&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Permalink }}&amp;#34;&lt;/span> &lt;span class="na">alt&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ $.Title }}&amp;#34;&lt;/span>&lt;span class="p">/&amp;gt;&lt;/span>
+&lt;span class="ln"> 7&lt;/span> {{ else}}
+&lt;span class="ln"> 8&lt;/span> {{ with .GetMatch &amp;#34;{cover.*,*.jpg,*.png,*.jpeg}&amp;#34; }}
+&lt;span class="ln"> 9&lt;/span> {{ $cover := .Fit &amp;#34;300x300&amp;#34; }}
+&lt;span class="ln">10&lt;/span> {{ with $cover }}
+&lt;span class="ln">11&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Permalink }}&amp;#34;&lt;/span> &lt;span class="na">alt&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ $.Title }}&amp;#34;&lt;/span>&lt;span class="p">/&amp;gt;&lt;/span>
+&lt;span class="ln">12&lt;/span> {{ end }}
+&lt;span class="ln">13&lt;/span> {{ end }}
+&lt;span class="ln">14&lt;/span> {{ end }}
+&lt;span class="ln">15&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln">16&lt;/span> {{ else }}
+&lt;span class="ln">17&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;excerpt_footer&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln">18&lt;/span> {{- end }}
+&lt;span class="ln">19&lt;/span>(...)
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Déployer un site web statique Hugo sur Github Pages</title><link>https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/</link><pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/</guid><description>
+&lt;p>Le site que vous consultez est constitué d'un site web statique &lt;em>Hugo&lt;/em> hébergé sur &lt;em>Github&lt;/em> :&lt;/p>
+&lt;p>&lt;a href="https://github.com/">&lt;em>Github&lt;/em>&lt;/a> fournit la possibilité d'exposer un site &lt;em>web&lt;/em> statique pour chaque dépôt public du compte. Il suffit d'avoir :&lt;/p>
+&lt;ul>
+&lt;li>Du &lt;em>html+css&lt;/em> dans le dépôt ;&lt;/li>
+&lt;li>La fonctionnalité &lt;a href="https://pages.github.com/">&lt;em>Github Pages&lt;/em>&lt;/a> activée.&lt;/li>
+&lt;/ul>
+&lt;p>Le code statique de chaque dépôt sera alors accessible à l'url :
+_&lt;a href="https://MONLOGINGITHUB.github.io/MONDEPOT/_">https://MONLOGINGITHUB.github.io/MONDEPOT/_&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://gohugo.io/">&lt;em>Hugo&lt;/em>&lt;/a> quand à lui est un générateur de sites &lt;em>web&lt;/em> statiques : On écrit des pages en markdown, on lance Hugo, et il génère tout le html et la structure de site que &lt;em>Github&lt;/em> exposera.&lt;/p>
+&lt;p>Mode opératoire :&lt;/p>
+&lt;h2 id="_hugo_">&lt;em>Hugo&lt;/em>&lt;/h2>
+&lt;h3 id="installation">Installation&lt;/h3>
+&lt;p>Sous &lt;em>Ubuntu&lt;/em> la version dispo dans les dépôts est dépassée. Le plus simple est d'aller récupérer le dernier .deb dans les &lt;em>releases&lt;/em> &lt;em>Hugo&lt;/em> :&lt;/p>
+&lt;p>&lt;a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases&lt;/a>&lt;/p>
+&lt;p>Ensuite :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>wget https://github.com/gohugoio/hugo/releases/download/v0.82.1/hugo_extended_0.82.1_Linux-64bit.deb
+&lt;span class="ln">2&lt;/span>sudo dpkg -i hugo_extended_0.82.1_Linux-64bit.deb
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>si erreurs de dépendances :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>sudo apt-get install -f
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="créer-un-socle-de-site">Créer un socle de site&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>mkdir MONSITE
+&lt;span class="ln">2&lt;/span>&lt;span class="nb">cd&lt;/span> MONSITE
+&lt;span class="ln">3&lt;/span>hugo new site .
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Choisir et télécharger un thème : &lt;a href="https://themes.gohugo.io/">Hugo Themes&lt;/a>&lt;/p>
+&lt;p>J'utilise &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-clarity&lt;/a> qui est très complet et fonctionne bien sur mobile :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> MONSITE/themes/
+&lt;span class="ln">2&lt;/span>git checkout https://github.com/chipzoller/hugo-clarity.git
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Enlever le suivi git du thème :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>rm -Rf hugo-clarity/.git*
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Pour créer une page de test et vérifier que ça marche :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>hugo new post/testpage.md
+&lt;span class="ln">2&lt;/span>hugo server -D
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Ouvrir :
+&lt;a href="http://localhost:1313/">http://localhost:1313/&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Note :&lt;/strong> Le thème &lt;em>hugo-clarity&lt;/em> demande pas mal de conf. Plutôt que partir de zéro j'ai suivi le conseil que donne sa doc d'install et déployé le site exemple, que j'ai ensuite modifié :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> MONSITE
+&lt;span class="ln">2&lt;/span>cp -R themes/hugo-clarity/exampleSite/* .
+&lt;span class="ln">3&lt;/span>hugo server -D
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="_github_">&lt;em>Github&lt;/em>&lt;/h2>
+&lt;h3 id="créer-le-dépôt">Créer le dépôt&lt;/h3>
+&lt;ol>
+&lt;li>&lt;a href="https://github.com/">Créer un compte &lt;em>Github&lt;/em>&lt;/a> &amp;quot;&lt;em>MONLOGINGITHUB&lt;/em>&amp;quot; si ce n'est pas fait ;&lt;/li>
+&lt;li>Créer un dépôt (&amp;quot;&lt;em>New repository&lt;/em>&amp;quot;) public qui contiendra nos pages.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;em>Astuce &lt;em>Github&lt;/em> :&lt;/em>&lt;/p>
+&lt;p>Par défaut les dépôts sont exposés dans &lt;a href="https://MONLOGINGITHUB.github.io/NOMDUDEPOT/">https://MONLOGINGITHUB.github.io/NOMDUDEPOT/&lt;/a>.&lt;/p>
+&lt;p>Mais si vous nommez votre dépôt &amp;quot;&lt;em>MONLOGINGITHUB.github.io&lt;/em>&amp;quot;, il sera accessible à la racine, dans &lt;a href="https://MONLOGINGITHUB.github.io/">https://MONLOGINGITHUB.github.io/&lt;/a>.&lt;/p>
+&lt;p>Si on le souhaite, cela permet d'avoir plusieurs dépôts &amp;quot;projet&amp;quot; dans les sous-repertoires et une &amp;quot;page perso&amp;quot; à la racine :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>Dépots Sites correspondants
+&lt;span class="ln">2&lt;/span>------ --------------------
+&lt;span class="ln">3&lt;/span>dayofthetentacle.github.io https//dayofthetentacle.github.io/
+&lt;span class="ln">4&lt;/span>├── ifeel ├── https//dayofthetentacle.github.io/ifeel/
+&lt;span class="ln">5&lt;/span>├── likeicould ├── https//dayofthetentacle.github.io/likeicould/
+&lt;span class="ln">6&lt;/span>├── takeovertheworld ├── https//dayofthetentacle.github.io/takeovertheworld/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Si vous créez un compte &lt;em>Github&lt;/em> uniquement pour héberger votre site, vous pouvez donc vous contenter du dépôt &lt;em>MONLOGINGITHUB.github.io&lt;/em>.&lt;/p>
+&lt;h3 id="premier-commit-pour-pouvoir-activer-_github-pages_">Premier commit pour pouvoir activer &lt;em>Github Pages&lt;/em>&lt;/h3>
+&lt;p>Mettons notre site &lt;em>Hugo&lt;/em> sur le dépôt MONSITE :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> MONSITE
+&lt;span class="ln">2&lt;/span>&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;# MONSITE&amp;#34;&lt;/span> &amp;gt;&amp;gt; README.md
+&lt;span class="ln">3&lt;/span>git init
+&lt;span class="ln">4&lt;/span>git add .
+&lt;span class="ln">5&lt;/span>git commit -m &lt;span class="s2">&amp;#34;first commit&amp;#34;&lt;/span>
+&lt;span class="ln">6&lt;/span>git remote add origin https://github.com/MONLOGINGITHUB/MONSITE.git
+&lt;span class="ln">7&lt;/span>git branch -M main
+&lt;span class="ln">8&lt;/span>git push -u origin main
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Aller dans &lt;em>Settings &amp;gt; Pages&lt;/em> et activer &lt;em>Pages&lt;/em> avec comme source :&lt;/p>
+&lt;pre>&lt;code>[Branch : gh-pages] [/root]
+&lt;/code>&lt;/pre>
+&lt;h3 id="générer-le-_html_-statique-directement-côté-_github_">Générer le &lt;em>html&lt;/em> statique directement côté &lt;em>Github&lt;/em>&lt;/h3>
+&lt;p>&lt;strong>Note :&lt;/strong> Cette technique et le script ci-dessous sont repris de la doc &lt;em>Hugo&lt;/em> : &lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">hosting on github&lt;/a>.&lt;/p>
+&lt;p>On pourrait générer le &lt;em>html&lt;/em> statique et le pousser sur &lt;em>Github&lt;/em>, mais on peut aussi le faire faire par &lt;em>Github&lt;/em> :&lt;/p>
+&lt;p>En ajoutant un script d'action à nos sources, à chaque &lt;em>git push&lt;/em> on va lui faire :&lt;/p>
+&lt;ul>
+&lt;li>Exécuter un &lt;em>Hugo&lt;/em> pour générer le html ;&lt;/li>
+&lt;li>Ecrire le répertoire &lt;em>public/&lt;/em> généré dans une branche dédiée &lt;em>gh-branche&lt;/em> que viendra lire &lt;em>Github Pages&lt;/em>.&lt;/li>
+&lt;/ul>
+&lt;p>Créer le fichier de conf :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> MONSITE
+&lt;span class="ln">2&lt;/span>mkdir -p .github/workflows/
+&lt;span class="ln">3&lt;/span>touch .github/workflows/gh-pages.yml
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>2 - Y mettre la conf (j'ai activé l'option &amp;quot;&lt;em>extended = true&lt;/em>&amp;quot; par rapport au modèle, pour les besoins du thème Clarity) :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="ln"> 1&lt;/span>&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">github pages&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln"> 2&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln"> 3&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln"> 4&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">push&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln"> 5&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">branches&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln"> 6&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="l">main &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Set a branch to deploy&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln"> 7&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln"> 8&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln"> 9&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">deploy&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">10&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">runs-on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ubuntu-18.04&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">11&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">12&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/checkout@v2&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">13&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">14&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">submodules&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch Hugo themes (true OR recursive)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">15&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">fetch-depth&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch all history for .GitInfo and .Lastmod&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">16&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">17&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Setup Hugo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">18&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-hugo@v2&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">19&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">20&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">hugo-version&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;latest&amp;#39;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">21&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">extended&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">22&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">23&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Build&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">24&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">hugo --minify&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">25&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">26&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Deploy&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">27&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-gh-pages@v3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">28&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">29&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">github_token&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ secrets.GITHUB_TOKEN }}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;span class="ln">30&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">publish_dir&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">./public&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="on-envoie-tout-sur-_github_-et-normalement-ça-marche">On envoie tout sur &lt;em>Github&lt;/em> et normalement ça marche&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> MONSITE
+&lt;span class="ln">2&lt;/span>git add .
+&lt;span class="ln">3&lt;/span>git commit -a -m &lt;span class="s2">&amp;#34;init&amp;#34;&lt;/span>
+&lt;span class="ln">4&lt;/span>git push
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Dans l'onglet &lt;em>&amp;quot;Action&amp;quot;&lt;/em> du dépôt on voit le traitement se dérouler (et éventuellement planter si on a fait des bêtises).
+La branche &lt;em>gh-pages&lt;/em> a dû être créée.&lt;/p>
+&lt;p>Aller sur le site &lt;em>Github Pages&lt;/em> résultant :
+&lt;a href="MONLOGINGITHUB.github.io/MONSITE">MONLOGINGITHUB.github.io/MONSITE&lt;/a>&lt;/p>
+&lt;p>En théorie tout y est.&lt;/p>
+&lt;h2 id="annexes">Annexes&lt;/h2>
+&lt;h3 id="mise-en-place-des-commentaires-sur-les-articles">Mise en place des commentaires sur les articles&lt;/h3>
+&lt;p>La doc &lt;em>Hugo&lt;/em> de référence : &lt;a href="https://gohugo.io/content-management/comments/">https://gohugo.io/content-management/comments/&lt;/a>&lt;/p>
+&lt;p>Supports possibles selon la doc + analyse perso (V quand possible avec la solution &lt;em>Hugo&lt;/em> + &lt;em>Github Pages&lt;/em>):&lt;/p>
+&lt;ul>
+&lt;li>V &lt;strong>Disqus&lt;/strong>
+&lt;ul>
+&lt;li>[-] Stockage des messages : Chez &lt;em>Disqus&lt;/em>&lt;/li>
+&lt;li>[+] Commentaire invité&lt;/li>
+&lt;li>[-] Pubs : oui&lt;/li>
+&lt;li>[-] Trackers : oui ( beaucoup)&lt;/li>
+&lt;li>Lectures :
+&lt;ul>
+&lt;li>Vie privée, etc. : &lt;a href="http://donw.io/post/github-comments/">Gazoo.vrv - Replacing Disqus with Github Comments&lt;/a>&lt;/li>
+&lt;li>Doc d'install : &lt;a href="https://gohugo.io/content-management/comments/">https://gohugo.io/content-management/comments/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>V &lt;strong>Staticman&lt;/strong>
+&lt;ul>
+&lt;li>[+] Open source&lt;/li>
+&lt;li>[+] Stockage des messages : &lt;em>Github issues&lt;/em>&lt;/li>
+&lt;li>[-] Commentaire invité : non (compte &lt;em>Github&lt;/em>)&lt;/li>
+&lt;li>Comparaison avec &lt;em>Utterances&lt;/em> : &lt;a href="https://blog.bartekr.net/2021/01/17/testing-utterances-comments/">BARTEKR - testing-utterances-comments&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Talkyard&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Auto-hébergé&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>IntenseDebate&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Wordpress&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Graph Comment&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Payant&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Muut&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Payant&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Isso&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Auto-hébergé&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>V &lt;strong>Utterances&lt;/strong>
+&lt;ul>
+&lt;li>[+] Open source&lt;/li>
+&lt;li>[+] Stockage des messages : &lt;em>Github issues&lt;/em>&lt;/li>
+&lt;li>[-] Commentaire invité : non (compte &lt;em>Github&lt;/em>)&lt;/li>
+&lt;li>[+] Pubs : non&lt;/li>
+&lt;li>Comparaison avec &lt;em>Staticman&lt;/em> : &lt;a href="https://blog.bartekr.net/2021/01/17/testing-utterances-comments/">BARTEKR - testing-utterances-comments&lt;/a>&lt;/li>
+&lt;li>Doc d'install ici :&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Remark&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Auto-hébergé&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Commento&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Payant&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>V &lt;strong>Hyvor Talk&lt;/strong>
+&lt;ul>
+&lt;li>[!] Stockage des messages : Chez &lt;em>Hyvor&lt;/em>&lt;/li>
+&lt;li>[+] Commentaire invité : Oui&lt;/li>
+&lt;li>[+] Pubs : non&lt;/li>
+&lt;li>Docs d'install :
+&lt;ul>
+&lt;li>&lt;a href="https://youngkin.github.io/post/createafreeblogsite/#add-support-for-comments">Create a Free Blog Site Using GitHub Pages and Hugo#comments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://talk.hyvor.com/">https://talk.hyvor.com/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Autres pistes :&lt;/p>
+&lt;ul>
+&lt;li>? &lt;strong>Github Issue API&lt;/strong>
+&lt;ul>
+&lt;li>Décrit ici :
+&lt;ul>
+&lt;li>&lt;a href="http://donw.io/post/github-comments/">Gazoo.vrv - Replacing Disqus with Github Comments&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>? &lt;strong>Twitter&lt;/strong>
+&lt;ul>
+&lt;li>Décrit ici :
+&lt;ul>
+&lt;li>&lt;a href="https://pakstech.com/blog/switching-to-twitter-comments/">PÄKSTECH - I'm Switching to Twitter for My Blog Comments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://theprogress.site/2020-06-30-how-to-use-twitter-as-comment-section-in-your-static-blog/">How to use Twitter as comment section in your static blog and automatically create a tweet per post&lt;/a> (Inspiré par le précédent)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>[!] Stockage des messages : Chez &lt;em>Twitter&lt;/em>&lt;/li>
+&lt;li>[-] Commentaire invité : Non&lt;/li>
+&lt;li>[+] Pubs : non&lt;/li>
+&lt;li>[?] Intégration pas évidente&lt;/li>
+&lt;li>Docs d'install :&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="liens-utiles">Liens utiles&lt;/h2>
+&lt;p>Docs sur Hugo sur github :&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://youngkin.github.io/post/createafreeblogsite/">Create a Free Blog Site Using GitHub Pages and Hugo&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">doc Hugo : hosting on github&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>3 manières possibles d'organiser ses contenus &lt;em>Hugo&lt;/em> : &lt;a href="https://discourse.gohugo.io/t/discussion-content-organization-best-practice/6360/9">discourse.gohugo.io - content-organization-best-practice&lt;/a> (j'ai opté pour l'organisation B : Un répertoire par publication contenant le .md et les pièces jointes. Cela évite les fausses manips, et sera plus pratique si un jour il y en a beaucoup)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Références Markdown :&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html">Quick Markdown Example - page de référence bourrée d'exemple&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

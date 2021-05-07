@@ -1,12 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/post/</link><description>Recent content in Posts on Lobotourisme</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 06 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Jean moto Course Rocker</title><link>https://loboto51.github.io/lobotourisme/post/jean-moto-course-rocker/</link><pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/jean-moto-course-rocker/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/post/</link><description>Recent content in Posts on Lobotourisme</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 07 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Fabrication de miniatures avec extrapolation des bords avec Imagemagick</title><link>https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/</link><pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/</guid><description>
+&lt;p>J'ai choisi de générer des miniatures pour chacun de mes billets en réutilisant des photos issues des articles.&lt;/p>
+&lt;p>J'utilise une technique qui me permet de produire des images complètement carrées :
+Je redimensionne d'abord l'image pour qu'elle rentre entièrement dans un carré de 300x300 px puis je remplis les espaces vides en extrapolant à partir des zones se trouvant à proximité.&lt;/p>
+&lt;p>Pour ce faire j'ai légèrement adapté une série de commandes &lt;a href="https://imagemagick.org/">&lt;em>Imagemagick&lt;/em>&lt;/a> concoctées par &lt;em>fmw42&lt;/em> (le fameux Fred de &lt;a href="http://www.fmwconcepts.com/imagemagick/index.php">Fred's ImageMagick Scripts&lt;/a>) dans cette page de forum : &lt;a href="https://legacy.imagemagick.org/discourse-server/viewtopic.php?t=26928">ImageMagick - turn image with borders into full bleed image&lt;/a>&lt;/p>
+&lt;p>Le résultat est assez bluffant, il faut parfois regarder de près les zones extrapolées pour réaliser qu'elles sont artificielles :&lt;/p>
+&lt;p>&lt;img src="alpinestars-nucleon-racing-hr-kr_HB_niv2_face__source_revzilla_thumbnail.jpg" alt="alpinestars-nucleon-racing-hr-kr_HB_niv2_face__source_revzilla_thumbnail">&lt;/p>
+&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_thumbnail.jpg" alt="Course-rocker_jean_aramide_AA_thumbnail.jpg">&lt;/p>
+&lt;p>Ce qui ne marche pas encore :&lt;/p>
+&lt;p>Apparemment les grands aplats de blanc ne lui conviennent pas :&lt;/p>
+&lt;p>&lt;img src="sastec-sc1-evo1-new__EA-KA-SB_niv2__source_sastec_thumbnail.jpg" alt="sastec-sc1-evo1-new__EA-KA-SB_niv2__source_sastec_thumbnail.jpg">&lt;/p>
+&lt;p>Heureusement pour les fonds blancs il suffit de faire :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>convert IMAGESOURCE -resize 300x300 -background white -gravity center -extent 300x300 IMAGECIBLE
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="le-script-">Le script :&lt;/h2>
+&lt;p>J'ai créé un script shell, qui prend tous les fichiers du sous-répertoire &lt;em>&amp;quot;a_traiter/&amp;quot;&lt;/em> et produit les résultats dans le répertoire &lt;em>&amp;quot;res/&amp;quot;&lt;/em> .&lt;/p>
+&lt;p>Mise en place :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>mkdir gen_thumb_sparse_voronoi
+&lt;span class="ln">2&lt;/span>&lt;span class="nb">cd&lt;/span> gen_thumb_sparse_voronoi
+&lt;span class="ln">3&lt;/span>mkdir a_traiter res
+&lt;span class="ln">4&lt;/span>touch gen_thumb_sparse_voronoi.sh
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Editer le fichier &lt;em>&amp;quot;gen_thumb_sparse_voronoi.sh&amp;quot;&lt;/em> et y mettre :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln"> 1&lt;/span>&lt;span class="cp">#!/bin/bash
+&lt;/span>&lt;span class="ln"> 2&lt;/span>&lt;span class="cp">&lt;/span>
+&lt;span class="ln"> 3&lt;/span>&lt;span class="k">for&lt;/span> fic in a_traiter/*
+&lt;span class="ln"> 4&lt;/span>&lt;span class="k">do&lt;/span>
+&lt;span class="ln"> 5&lt;/span> &lt;span class="nb">echo&lt;/span> &lt;span class="si">${&lt;/span>&lt;span class="nv">fic&lt;/span>&lt;span class="si">}&lt;/span>
+&lt;span class="ln"> 6&lt;/span> &lt;span class="nv">ficsource&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="k">$(&lt;/span>basename &lt;span class="si">${&lt;/span>&lt;span class="nv">fic&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="k">)&lt;/span>
+&lt;span class="ln"> 7&lt;/span> &lt;span class="nv">xcible&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="m">300&lt;/span>
+&lt;span class="ln"> 8&lt;/span> &lt;span class="nv">ycible&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="m">300&lt;/span>
+&lt;span class="ln"> 9&lt;/span> &lt;span class="nv">size&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">xcible&lt;/span>&lt;span class="si">}&lt;/span>x&lt;span class="si">${&lt;/span>&lt;span class="nv">ycible&lt;/span>&lt;span class="si">}&lt;/span>
+&lt;span class="ln">10&lt;/span> convert &lt;span class="si">${&lt;/span>&lt;span class="nv">fic&lt;/span>&lt;span class="si">}&lt;/span> -resize &lt;span class="si">${&lt;/span>&lt;span class="nv">size&lt;/span>&lt;span class="si">}&lt;/span> res/tmp.png
+&lt;span class="ln">11&lt;/span>
+&lt;span class="ln">12&lt;/span> &lt;span class="nv">xoff&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="sb">`&lt;/span>convert res/tmp.png -format &lt;span class="s2">&amp;#34;%w&amp;#34;&lt;/span> info:&lt;span class="sb">`&lt;/span>
+&lt;span class="ln">13&lt;/span> &lt;span class="nv">yoff&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="sb">`&lt;/span>convert res/tmp.png -format &lt;span class="s2">&amp;#34;%h&amp;#34;&lt;/span> info:&lt;span class="sb">`&lt;/span>
+&lt;span class="ln">14&lt;/span> &lt;span class="nv">yoff&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="k">$((&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="m">300&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">yoff&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="o">)/&lt;/span>&lt;span class="m">2&lt;/span>&lt;span class="k">))&lt;/span>
+&lt;span class="ln">15&lt;/span> &lt;span class="nv">xoff&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="k">$((&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="m">300&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">xoff&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="o">)/&lt;/span>&lt;span class="m">2&lt;/span>&lt;span class="k">))&lt;/span>
+&lt;span class="ln">16&lt;/span> &lt;span class="nv">vcoords&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">size&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">-&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">xoff&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">-&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">yoff&lt;/span>&lt;span class="si">}&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>
+&lt;span class="ln">17&lt;/span> &lt;span class="nb">echo&lt;/span> &lt;span class="si">${&lt;/span>&lt;span class="nv">vcoords&lt;/span>&lt;span class="si">}&lt;/span>
+&lt;span class="ln">18&lt;/span> convert res/tmp.png -transparent white +repage &lt;span class="se">\(&lt;/span> -clone &lt;span class="m">0&lt;/span> -alpha off -sparse-color Voronoi &lt;span class="se">\
+&lt;/span>&lt;span class="ln">19&lt;/span>&lt;span class="se">&lt;/span> &lt;span class="s2">&amp;#34;9,9 rgb(255,8,8) 969,9 rgb(255,255,8) 969,669 rgb(255,255,248) 9,669 rgb(255,248,248)&amp;#34;&lt;/span> &lt;span class="se">\)&lt;/span> &lt;span class="se">\
+&lt;/span>&lt;span class="ln">20&lt;/span>&lt;span class="se">&lt;/span> +swap -compose over -composite &lt;span class="se">\
+&lt;/span>&lt;span class="ln">21&lt;/span>&lt;span class="se">&lt;/span> -define distort:viewport&lt;span class="o">=&lt;/span>&lt;span class="si">${&lt;/span>&lt;span class="nv">size&lt;/span>&lt;span class="si">}&lt;/span>-&lt;span class="nv">$xoff&lt;/span>-&lt;span class="nv">$yoff&lt;/span> +distort SRT &lt;span class="m">0&lt;/span> +repage res/cover_&lt;span class="si">${&lt;/span>&lt;span class="nv">ficsource&lt;/span>&lt;span class="si">}&lt;/span>
+&lt;span class="ln">22&lt;/span> rm -f res/tmp.png
+&lt;span class="ln">23&lt;/span>&lt;span class="k">done&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Il n'y a plus qu'à mettre une image dans le répertoire &lt;em>&amp;quot;a_traiter/&amp;quot;&lt;/em> et lancer le script :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="nb">cd&lt;/span> gen_thumb_sparse_voronoi/
+&lt;span class="ln">2&lt;/span>./gen_thumb_sparse_voronoi.sh
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Le résultat sera produit dans &lt;em>&amp;quot;res/&amp;quot;&lt;/em>.&lt;/p>
+&lt;h2 id="question--pourquoi-ne-pas-utiliser-simplement-les-fonctions-hugo-">Question : Pourquoi ne pas utiliser simplement les fonctions Hugo ?&lt;/h2>
+&lt;p>Effectivement, Hugo fournit pas mal de fonctions pour manipuler les images : Redimensionnement/découpage/etc. (&lt;a href="https://gohugo.io/content-management/image-processing/">gohugo - image processing&lt;/a>), et il suffit de bricoler ses fichiers &lt;em>layout&lt;/em> pour avoir rapidement quelque chose de présentable (ex : &lt;a href="https://discourse.gohugo.io/t/solved-display-cover-image-on-post-list/13141/2">discourse-gohugo - Display cover image on post list&lt;/a>).&lt;/p>
+&lt;p>Les seules de ces techniques qui permettent d'avoir des miniatures de mêmes dimensions (ex. : 300 px x 300 px) sont &lt;em>.Resize&lt;/em> qui va déformer l'image et &lt;em>.Fill&lt;/em> qui va la tronquer, mais si ces limitations ne vous gênent pas, cette méthode est nettement plus pratique que celle au dessus.&lt;/p>
+&lt;p>L'ensemble des transformations disponibles dans &lt;em>Hugo&lt;/em> :&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>.Resize&lt;/em> : Permet de redimensionner l'image selon 3 modes :
+&lt;ul>
+&lt;li>Hauteur fixée -&amp;gt; Les proportions sont maintenues ;&lt;/li>
+&lt;li>Largeur fixée -&amp;gt; Les proportions sont maintenues ;&lt;/li>
+&lt;li>Hauteur et largeur fixées -&amp;gt; Les proportions ne sont pas maintenues ;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;em>.Fit&lt;/em> : On indique une hauteur et une largeur &lt;strong>maximum&lt;/strong> et Hugo redimensionne l'image pour qu'elle tienne dedans (c'est un &lt;em>.Resize&lt;/em> qui s'arrête dès qu'il ne peut plus poursuivre sans modifier les proportions) ;&lt;/li>
+&lt;li>&lt;em>.Fill&lt;/em> : On indique une hauteur et une largeur &lt;strong>minimum&lt;/strong> et Hugo tente d'y insérer le maximum de l'image sans modifier les proportions. Par défaut il choisit seul mais on peut lui donner des directives : &lt;em>smart&lt;/em> (défaut), &lt;em>left&lt;/em>, &lt;em>right&lt;/em>...&lt;/li>
+&lt;/ul>
+&lt;p>Il y a énormément d'exemples ici : &lt;a href="https://gohugo.io/content-management/image-processing/">gohugo - image processing&lt;/a>&lt;/p></description></item><item><title>Jean moto Course Rocker</title><link>https://loboto51.github.io/lobotourisme/post/jean-moto-course-rocker/</link><pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/jean-moto-course-rocker/</guid><description>
 &lt;p>&lt;img src="Course-rocker_jean_aramide_AA.jpg" alt=":right">&lt;/p>
 &lt;p>J'ai une longue histoire de frustration avec les jeans moto : Je suis plutôt petit (1m70) avec de l'embonpoint (jeans en 36 américain/46 français) et il est très difficile de trouver des jeans moto qui me conviennent : Coupes trop larges, taille trop haute, emplacements pour les protections qui tombent trop bas, et j'en passe.&lt;/p>
 &lt;p>J'avais le même problème pour les jeans &amp;quot;normaux&amp;quot;, je l'ai résolu en me fournissant essentiellement en &lt;em>Grim Tim&lt;/em> taille 36 chez &lt;em>Nudie Jeans&lt;/em> ou en &lt;em>Levi's 511&lt;/em> de même taille.&lt;/p>
 &lt;p>Au bout d'un moment j'ai quand même fini par trouver un jean dont la coupe approchait de mes jeans &amp;quot;normaux&amp;quot;, le &lt;em>DXR Howell City CE&lt;/em> (marque de Motoblouz) que j'ai adapté pour y intégrer de meilleures protections de genoux (je raconterai cela dans un autre billet). Mais sa protection n'est que de niveau &amp;quot;urbain&amp;quot; selon l'ancienne norme EN 13595, qui en comporte 2 autres au dessus, 1 et 2 (Dans la norme actuelle EN 17092, cela correspond à peu près au niveau A, le plus bas avec coques : 2 niveaux existent au dessus, AA et AAA).&lt;/p>
-&lt;p>Récemment, par curiosité j'ai voulu tester les pantalons renforcés en aramide (kevlar) vendus par le site &lt;em>XL-Moto&lt;/em> à des tarifs défiant toute concurrence (60 à 80e).&lt;/p>
+&lt;p>Récemment, par curiosité j'ai voulu tester les pantalons renforcés en aramide (&lt;em>Kevlar&lt;/em>) vendus par le site &lt;em>XLMoto&lt;/em> à des tarifs défiant toute concurrence (60 à 80e).&lt;/p>
 &lt;p>La grille du site indiquant que les pantalons taillent petit, j'ai commandé :&lt;/p>
 &lt;ul>
-&lt;li>Un pantalon cargo &lt;em>Course Caféman&lt;/em> à ma taille habituelle ;&lt;/li>
+&lt;li>Un pantalon cargo _Course Caféman à ma taille habituelle ;&lt;/li>
 &lt;li>Un jean &lt;em>Course Rocker&lt;/em> à ma taille habituelle ;&lt;/li>
 &lt;li>Un 2e &lt;em>Course Caféman&lt;/em> en taille 38, au cas où.&lt;/li>
 &lt;/ul>
@@ -122,7 +185,7 @@ T+ : La protection reste la même jusqu'à 40°C.&lt;br />
 T- : La protection reste la même jusqu'à -10°C.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>Mémo des modifications du thème hugo-clarify</title><link>https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarify/</link><pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarify/</guid><description>
+&lt;/section></description></item><item><title>Mémo des modifications du thème hugo-clarity</title><link>https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/</link><pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/</guid><description>
 &lt;p>&lt;em>Résumé :&lt;/em>&lt;/p>
 &lt;p>Ce site est construit en combinant &lt;em>Hugo&lt;/em> + &lt;em>Github Pages&lt;/em>.
 J'utilise le thème &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-clarity&lt;/a>. Ce &lt;em>post&lt;/em> récapitule les configurations et modifications que j'y ai apporté.&lt;/p>
@@ -182,6 +245,61 @@ J'utilise le thème &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-cla
 &lt;span class="ln"> 9&lt;/span> &lt;span class="nx">name&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;rss&amp;#34;&lt;/span>
 &lt;span class="ln">10&lt;/span> &lt;span class="nx">weight&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="mi">4&lt;/span>
 &lt;span class="ln">11&lt;/span> &lt;span class="nx">url&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s2">&amp;#34;index.xml&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="icones-logo-etc">Icones, logo, etc.&lt;/h2>
+&lt;h3 id="image-originale">Image originale&lt;/h3>
+&lt;p>J'ai acheté une belle icône sur le très bon site &lt;a href="https://thenounproject.com/">The Noun Project&lt;/a> : &lt;a href="https://thenounproject.com/term/space/2217279/">Space dessinée par Adrien Coquet&lt;/a>.&lt;/p>
+&lt;p>Je l'ai modifiée dans Inkscape pour ajouter un peu de couleur, puis j'ai généré une version PNG de 1024x1024 &amp;quot;&lt;em>logo_large.png&lt;/em>&amp;quot; que j'ai mise dans &lt;em>./static/logos/&lt;/em>.&lt;/p>
+&lt;h4 id="génération-des-variantes">Génération des variantes&lt;/h4>
+&lt;p>J'ai généré avec ImageMagick toutes les variantes présentes dans le template :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln"> 1&lt;/span>mkdir -p ./static/icons/
+&lt;span class="ln"> 2&lt;/span>
+&lt;span class="ln"> 3&lt;/span>&lt;span class="c1">#logo.png&lt;/span>
+&lt;span class="ln"> 4&lt;/span>convert ./static/logos/logo_large.png -resize 75x75 -unsharp 0x1 ./static/logos/logo_footer.png
+&lt;span class="ln"> 5&lt;/span>
+&lt;span class="ln"> 6&lt;/span>&lt;span class="c1">#favicon.ico&lt;/span>
+&lt;span class="ln"> 7&lt;/span>convert ./static/logos/logo_large.png -resize 48x48 -unsharp 0x1 ./static/icons/favicon.ico
+&lt;span class="ln"> 8&lt;/span>&lt;span class="c1">#favicon-16x16.png&lt;/span>
+&lt;span class="ln"> 9&lt;/span>convert ./static/logos/logo_large.png -resize 16x16 -unsharp 0x1 ./static/icons/favicon-16x16.png
+&lt;span class="ln">10&lt;/span>&lt;span class="c1">#favicon-32x32.png&lt;/span>
+&lt;span class="ln">11&lt;/span>convert ./static/logos/logo_large.png -resize 32x32 -unsharp 0x1 ./static/icons/favicon-32x32.png
+&lt;span class="ln">12&lt;/span>
+&lt;span class="ln">13&lt;/span>&lt;span class="c1">#android-chrome-192x192.png&lt;/span>
+&lt;span class="ln">14&lt;/span>convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x1 ./static/icons/android-chrome-192x192.png
+&lt;span class="ln">15&lt;/span>&lt;span class="c1">#android-chrome-256x256.png&lt;/span>
+&lt;span class="ln">16&lt;/span>convert ./static/logos/logo_large.png -resize 256x256 -unsharp 0x1 ./static/icons/android-chrome-256x256.png
+&lt;span class="ln">17&lt;/span>&lt;span class="c1">#apple-touch-icon.png&lt;/span>
+&lt;span class="ln">18&lt;/span>convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/apple-touch-icon.png
+&lt;span class="ln">19&lt;/span>&lt;span class="c1">#apple-touch-icon.png&lt;/span>
+&lt;span class="ln">20&lt;/span>convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/apple-touch-icon.png
+&lt;span class="ln">21&lt;/span>
+&lt;span class="ln">22&lt;/span>&lt;span class="c1">#mstile-150x150.png&lt;/span>
+&lt;span class="ln">23&lt;/span>convert ./static/logos/logo_large.png -resize 150x150 -unsharp 0x1 -bordercolor transparent -border &lt;span class="m">60&lt;/span> ./static/icons/mstile-150x150.png
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>ainsi que celles recommandées par &lt;a href="https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/">The 2020 Guide to FavIcons for Nearly Everyone and Every Browser&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln"> 1&lt;/span>&lt;span class="c1">#favicon-128x128.png&lt;/span>
+&lt;span class="ln"> 2&lt;/span>convert ./static/logos/logo_large.png -resize 128x128 -unsharp 0x1 ./static/icons/favicon-128x128.png
+&lt;span class="ln"> 3&lt;/span>
+&lt;span class="ln"> 4&lt;/span>&lt;span class="c1">#favicon-152x152.png&lt;/span>
+&lt;span class="ln"> 5&lt;/span>convert ./static/logos/logo_large.png -resize 152x152 -unsharp 0x1 ./static/icons/favicon-152x152.png
+&lt;span class="ln"> 6&lt;/span>
+&lt;span class="ln"> 7&lt;/span>&lt;span class="c1">#favicon-167x167.png&lt;/span>
+&lt;span class="ln"> 8&lt;/span>convert ./static/logos/logo_large.png -resize 167x167 -unsharp 0x1 ./static/icons/favicon-167x167.png
+&lt;span class="ln"> 9&lt;/span>
+&lt;span class="ln">10&lt;/span>&lt;span class="c1">#favicon-180x180.png&lt;/span>
+&lt;span class="ln">11&lt;/span>convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/favicon-180x180.png
+&lt;span class="ln">12&lt;/span>
+&lt;span class="ln">13&lt;/span>&lt;span class="c1">#favicon-192x192.png&lt;/span>
+&lt;span class="ln">14&lt;/span>convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x1 ./static/icons/favicon-192x192.png
+&lt;span class="ln">15&lt;/span>
+&lt;span class="ln">16&lt;/span>&lt;span class="c1">#favicon-196x196.png&lt;/span>
+&lt;span class="ln">17&lt;/span>convert ./static/logos/logo_large.png -resize 196x196 -unsharp 0x1 ./static/icons/favicon-196x196.png
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="webmanifest">webmanifest&lt;/h3>
+&lt;p>Gadget : Cela sert à rendre le site utilisable comme une appli.
+Personne ne le fera pour celui-ci, mais bon je l'ai fait pour l'exercice !&lt;/p>
+&lt;p>J'ai copié l'original :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>cp ./themes/hugo-clarity/static/icons/site.webmanifest ./static/icons/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Et je l'ai modifié pour ajouter le nom du site :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="ln">1&lt;/span> &lt;span class="s2">&amp;#34;name&amp;#34;&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;span class="ln">2&lt;/span> &lt;span class="s2">&amp;#34;short_name&amp;#34;&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>&lt;span class="err">,&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="modification-des-pages-principales">Modification des pages principales&lt;/h2>
 &lt;h3 id="modification-de-_contentaboutmd_">Modification de &lt;em>./content/about.md&lt;/em>&lt;/h3>
 &lt;p>Il s'agit juste d'une page normale, affichée lorsqu'on clique sur &amp;quot;à propos&amp;quot;.&lt;/p>
@@ -192,7 +310,7 @@ J'utilise le thème &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-cla
 &lt;span class="ln">4&lt;/span>&lt;span class="err">+++&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="modification-des-templates">Modification des templates&lt;/h2>
 &lt;p>Point important :
-&lt;em>Hugo&lt;/em> permet de passer outre n'importe quel élément du thème en mettant une version locale dans le site.&lt;/p>
+&lt;em>Hugo&lt;/em> permet de passer outre n'importe quel élément du thème en mettant une version locale dans l'arborescence du site.&lt;/p>
 &lt;p>Exemple :
 _./layouts/&lt;em>default/single.html&lt;/em> sera pris en priorité sur _./themes/hugo-clarity/layouts/&lt;em>default/single.html&lt;/em>&lt;/p>
 &lt;p>Cela permet de modifier son site tout en ne touchant pas aux sources du thème. On peut donc toujours se référer à l'original ou revenir en arrière.&lt;/p>
@@ -203,56 +321,57 @@ _./layouts/&lt;em>default/single.html&lt;/em> sera pris en priorité sur _./them
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="ln">1&lt;/span> {{ if $p.lastmod }}
 &lt;span class="ln">2&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">blockquote&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Dernière mise à jour : &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">time&lt;/span> &lt;span class="na">datetime&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ $p.lastmod.Format &amp;#34;&lt;/span>&lt;span class="na">Mon&lt;/span> &lt;span class="na">Jan&lt;/span> &lt;span class="na">10&lt;/span> &lt;span class="na">17:13:38&lt;/span> &lt;span class="na">2020&lt;/span> &lt;span class="na">-0700&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">}}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ $p.lastmod.Format (default &amp;#34;Jan 2, 2006&amp;#34; $.Site.Params.dateFormat) }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">time&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">blockquote&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;span class="ln">3&lt;/span> {{ end }}
-&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="template-du-logo-_logohtml_">Template du logo &lt;em>logo.html&lt;/em>&lt;/h3>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="template-de-lentête-des-billets-_post-metahtml_">Template de l'entête des billets &lt;em>post-meta.html&lt;/em>&lt;/h3>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>mkdir -p ./layouts/partials
-&lt;span class="ln">2&lt;/span>cp ./themes/hugo-clarity/layouts/partials/logo.html ./layouts/partials/
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>J'ai ajouté le titre de site en texte simple, à côté du logo :&lt;/p>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="ln">1&lt;/span>(...)
-&lt;span class="ln">2&lt;/span> {{- with .logo }}
-&lt;span class="ln">3&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ absURL . }}&amp;#34;&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;logo&amp;#34;&lt;/span> &lt;span class="na">alt&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ $t }}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Lobotourisme&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;span class="ln">4&lt;/span> {{- else -}}
-&lt;span class="ln">5&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>Lobotourisme &lt;span class="ni">&amp;amp;#x2687;&lt;/span> &lt;span class="ni">&amp;amp;#9992;&lt;/span>&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;span class="ln">6&lt;/span> {{- end }}
-&lt;span class="ln">7&lt;/span>(...)
-&lt;span class="ln">8&lt;/span>&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="icones-logo-etc">Icones, logo, etc.&lt;/h2>
-&lt;h3 id="image-originale">Image originale&lt;/h3>
-&lt;p>J'ai acheté une belle icône sur le très bon site &lt;a href="https://thenounproject.com/">The Noun Project&lt;/a> : &lt;a href="https://thenounproject.com/term/space/2217279/">Space dessinée par Adrien Coquet&lt;/a>.&lt;/p>
-&lt;p>Je l'ai modifiée dans Inkscape pour ajouter un peu de couleur, puis j'ai généré une version PNG de 1024x1024 &amp;quot;&lt;em>logo_large.png&lt;/em>&amp;quot; que j'ai mise dans &lt;em>./static/logos/&lt;/em>.&lt;/p>
-&lt;h4 id="génération-des-variantes">Génération des variantes&lt;/h4>
-&lt;p>J'ai généré toutes les variantes avec ImageMagick :&lt;/p>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln"> 1&lt;/span>mkdir -p ./static/icons/
-&lt;span class="ln"> 2&lt;/span>
-&lt;span class="ln"> 3&lt;/span>&lt;span class="c1">#logo.png&lt;/span>
-&lt;span class="ln"> 4&lt;/span>convert ./static/logos/logo_large.png -resize 75x75 -unsharp 0x1 ./static/logos/logo_footer.png
-&lt;span class="ln"> 5&lt;/span>
-&lt;span class="ln"> 6&lt;/span>
-&lt;span class="ln"> 7&lt;/span>&lt;span class="c1">#favicon.ico&lt;/span>
-&lt;span class="ln"> 8&lt;/span>convert ./static/logos/logo_large.png -resize 48x48 -unsharp 0x1 ./static/icons/favicon.ico
-&lt;span class="ln"> 9&lt;/span>&lt;span class="c1">#favicon-16x16.png&lt;/span>
-&lt;span class="ln">10&lt;/span>convert ./static/logos/logo_large.png -resize 16x16 -unsharp 0x1 ./static/icons/favicon-16x16.png
-&lt;span class="ln">11&lt;/span>&lt;span class="c1">#favicon-32x32.png&lt;/span>
-&lt;span class="ln">12&lt;/span>convert ./static/logos/logo_large.png -resize 32x32 -unsharp 0x1 ./static/icons/favicon-32x32.png
-&lt;span class="ln">13&lt;/span>
-&lt;span class="ln">14&lt;/span>
-&lt;span class="ln">15&lt;/span>&lt;span class="c1">#android-chrome-192x192.png&lt;/span>
-&lt;span class="ln">16&lt;/span>convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x1 ./static/icons/android-chrome-192x192.png
-&lt;span class="ln">17&lt;/span>&lt;span class="c1">#android-chrome-256x256.png&lt;/span>
-&lt;span class="ln">18&lt;/span>convert ./static/logos/logo_large.png -resize 256x256 -unsharp 0x1 ./static/icons/android-chrome-256x256.png
-&lt;span class="ln">19&lt;/span>&lt;span class="c1">#apple-touch-icon.png&lt;/span>
-&lt;span class="ln">20&lt;/span>convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/apple-touch-icon.png
-&lt;span class="ln">21&lt;/span>&lt;span class="c1">#apple-touch-icon.png&lt;/span>
-&lt;span class="ln">22&lt;/span>convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/apple-touch-icon.png
-&lt;span class="ln">23&lt;/span>
-&lt;span class="ln">24&lt;/span>&lt;span class="c1">#mstile-150x150.png&lt;/span>
-&lt;span class="ln">25&lt;/span>convert ./static/logos/logo_large.png -resize 150x150 -unsharp 0x1 -bordercolor transparent -border &lt;span class="m">60&lt;/span> ./static/icons/mstile-150x150.png
-&lt;span class="ln">26&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="webmanifest">webmanifest&lt;/h3>
-&lt;p>J'ai copié l'original :&lt;/p>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>cp ./themes/hugo-clarity/static/icons/site.webmanifest ./static/icons/
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Et je l'ai modifié pour ajouter le nom du site :&lt;/p>
-&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="ln">1&lt;/span> &lt;span class="s2">&amp;#34;name&amp;#34;&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>&lt;span class="err">,&lt;/span>
-&lt;span class="ln">2&lt;/span> &lt;span class="s2">&amp;#34;short_name&amp;#34;&lt;/span>&lt;span class="err">:&lt;/span> &lt;span class="s2">&amp;#34;Lobotourisme&amp;#34;&lt;/span>&lt;span class="err">,&lt;/span>
+&lt;span class="ln">2&lt;/span>cp ./themes/hugo-clarity/layouts/partials/post-meta.html ./layouts/partials/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>J'ai ajouté les catégories, avec un bouton plus imposant, avant les tags :&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="ln"> 1&lt;/span>(...)
+&lt;span class="ln"> 2&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">span&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;post_time&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span> · {{ T &amp;#34;reading_time&amp;#34; . }}&lt;span class="ni">&amp;amp;nbsp;&lt;/span>&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln"> 3&lt;/span> {{ end }}
+&lt;span class="ln"> 4&lt;/span> {{- with .Params.categories -}}
+&lt;span class="ln"> 5&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln"> 6&lt;/span> {{- range . }}
+&lt;span class="ln"> 7&lt;/span> {{- $category := urlize . }} ·
+&lt;span class="ln"> 8&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">a&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#39;{{ absLangURL (printf &amp;#34;categories/%s&amp;#34; $category) }}&amp;#39;&lt;/span> &lt;span class="na">title&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ . }}&amp;#34;&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;button button_translucent&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln"> 9&lt;/span> {{- . }}
+&lt;span class="ln">10&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">a&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln">11&lt;/span> {{- end }}
+&lt;span class="ln">12&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">span&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln">13&lt;/span> {{- end }}
+&lt;span class="ln">14&lt;/span> {{- with .Params.tags -}}
+&lt;span class="ln">15&lt;/span>(...)
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="modification-de-_excerpthtml_-pour-afficher-les-miniatures-prises-dans-les-ressources-de-larticle--en-priorité-limage-nommée-cover-puis-en-second-choix-la-première-image-du-doc">Modification de &lt;em>excerpt.html&lt;/em> pour afficher les miniatures prises dans les ressources de l'article : En priorité l'image nommée cover.*, puis en second choix la première image du doc&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>mkdir -p ./layouts/partials
+&lt;span class="ln">2&lt;/span>cp ./themes/hugo-clarity/layouts/partials/excerpt.html ./layouts/partials/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>J'ai remplacé toute la section thumbnails par l'algorithme suivant :&lt;/p>
+&lt;ul>
+&lt;li>Si il existe des ressources &amp;quot;image&amp;quot; du billet :
+&lt;ul>
+&lt;li>On prend la première image nommée cover.* et on l'affiche telle-quelle ;&lt;/li>
+&lt;li>Sinon on prend la première image trouvée, on la redimensionne en 300x300 et on l'affiche ;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Sinon on n'affiche rien.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="ln"> 1&lt;/span>(...)
+&lt;span class="ln"> 2&lt;/span> {{- with .Resources.ByType &amp;#34;image&amp;#34; }}
+&lt;span class="ln"> 3&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;excerpt_footer partition&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln"> 4&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;excerpt_thumbnail&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln"> 5&lt;/span> {{ with .GetMatch &amp;#34;{cover.*}&amp;#34; }}
+&lt;span class="ln"> 6&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Permalink }}&amp;#34;&lt;/span> &lt;span class="na">alt&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ $.Title }}&amp;#34;&lt;/span>&lt;span class="p">/&amp;gt;&lt;/span>
+&lt;span class="ln"> 7&lt;/span> {{ else}}
+&lt;span class="ln"> 8&lt;/span> {{ with .GetMatch &amp;#34;{cover.*,*.jpg,*.png,*.jpeg}&amp;#34; }}
+&lt;span class="ln"> 9&lt;/span> {{ $cover := .Fit &amp;#34;300x300&amp;#34; }}
+&lt;span class="ln">10&lt;/span> {{ with $cover }}
+&lt;span class="ln">11&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">img&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ .Permalink }}&amp;#34;&lt;/span> &lt;span class="na">alt&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ $.Title }}&amp;#34;&lt;/span>&lt;span class="p">/&amp;gt;&lt;/span>
+&lt;span class="ln">12&lt;/span> {{ end }}
+&lt;span class="ln">13&lt;/span> {{ end }}
+&lt;span class="ln">14&lt;/span> {{ end }}
+&lt;span class="ln">15&lt;/span> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln">16&lt;/span> {{ else }}
+&lt;span class="ln">17&lt;/span> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;excerpt_footer&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;span class="ln">18&lt;/span> {{- end }}
+&lt;span class="ln">19&lt;/span>(...)
 &lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Protections moto hanches Alpinestars Nucleon Racing KR-HR et Nucleon KR-H</title><link>https://loboto51.github.io/lobotourisme/post/protections-moto-hanches-alpinestars-nucleon-racing-kr-hr-et-nucleon-kr-h/</link><pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/protections-moto-hanches-alpinestars-nucleon-racing-kr-hr-et-nucleon-kr-h/</guid><description>
 &lt;p>&lt;img src="alpinestars-nucleon-racing-hr-kr_HB_niv2_face__source_revzilla.jpg" alt=":right">&lt;/p>
 &lt;p>Cette série de fiches a pour objet de mémoriser/partager les infos que je trouve sur les coques de protection disponibles sur le marché.&lt;/p>
