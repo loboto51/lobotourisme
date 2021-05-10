@@ -121,5 +121,13 @@ Hanche :
 
 ![poche hanche largeur](Course-rocker_jean_aramide_AA_aramide_poche_hanche_dimensions_largeur.jpg)
 
+Gros plan sur les coutures :
 
+![Gros plan sur la couture du fond de culotte](Course-rocker_jean_aramide_AA_aramide_fond_de_culotte.jpg)
+
+![Gros plan sur l'assemblage de l'aramide à l'extérieur de la jambe](Course-rocker_jean_aramide_AA_aramide_jambe_assemblage_aramide.jpg)
+
+![Gros plan sur la couture de la jambe côté extérieur](Course-rocker_jean_aramide_AA_aramide_jambe_cote_exterieur.jpg)
+
+![Gros plan sur la couture de la jambe côté intérieur](Course-rocker_jean_aramide_AA_aramide_jambe_cote_interieur.jpg)
 
