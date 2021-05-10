@@ -17,9 +17,6 @@
     {{ with $p.featureImage }}
     <img src="{{ . }}" class="image_featured" alt="{{ $t }}">
     {{ end }}
-    {{ if $p.lastmod }}
-    <blockquote><p>Dernière mise à jour : <time datetime="{{ $p.lastmod.Format "Mon Jan 10 17:13:38 2020 -0700" }}">{{ $p.lastmod.Format (default "Jan 2, 2006" $.Site.Params.dateFormat) }}</time></p></blockquote>
-    {{ end }}
     {{ if $p.toc }}
     <h2>{{ T "overview" }}</h2>
     {{ .TableOfContents }}

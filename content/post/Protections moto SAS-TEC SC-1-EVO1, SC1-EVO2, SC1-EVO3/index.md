@@ -18,7 +18,7 @@ thumbnail: "thumbnails/moto_epi_EKS.png"
 
 Cette série de fiches a pour objet de mémoriser/partager les infos que je trouve sur les coques de protection disponibles sur le marché.
 
-Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection _SAS-TEC SC1/EVO_ 1, 2 et 3_ de niveau 2.
+Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection _SAS-TEC SC1/EVO_ 1, 2 et 3 de niveau 2.
 
 _Synthèse :_ Protection excellente (50% au dessus de la norme), grande couverture des articulation, poids faible, aération correcte, et tarif raisonnable.
 

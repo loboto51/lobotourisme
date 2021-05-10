@@ -1,7 +1,7 @@
 ---
 title: "Mémo des modifications du thème hugo-clarity"
 date: "2021-05-02"
-lastmod : "2021-05-07"
+lastmod : "2021-05-10"
 categories:
 - dev
 tags:
@@ -10,6 +10,14 @@ tags:
 - github pages
 - imagemagick
 toc: true
+---
+
+---
+
+Edit du 07/05/2021 : Ajout de la gestion des icônes. 
+
+Edit du 10/05/2021 : Modification du template _single.html_.
+
 ---
 
 _Résumé :_
@@ -216,6 +224,12 @@ Cela permet de modifier son site tout en ne touchant pas aux sources du thème. 
 
 
 ### Template des articles _single.html_
+
+---
+
+Edit du 10/05/2021 : Finalement je suis revenu au template initial, et je marque les éditions comme ici, pour pouvoir les contextualiser.
+
+---
 
 ```sh
 mkdir -p ./layouts/_default

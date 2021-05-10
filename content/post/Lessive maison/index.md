@@ -1,20 +1,14 @@
 ---
 title: "Lessive maison"
-
 date: "2021-05-06"
-
-description: "Recette de lessive maison."
-
 categories: 
 - écologie
 - maison
-
 tags: 
 - lessive
-
-toc: true
-
 ---
+
+![lessive_maison](lessive_maison.jpg)
 
 J'ai longtemps utilisé des lessives bio (Nature&Progrès etc.) et puis j'ai trouvé cette lessive de recette maison qui coche toutes les cases :
 

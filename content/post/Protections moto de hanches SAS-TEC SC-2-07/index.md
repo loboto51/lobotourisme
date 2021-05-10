@@ -23,14 +23,16 @@ _Synthèse :_ Protection excellente (50% au dessus de la norme), grande couvertu
 Commercialisation :
 -------------------
 
-1 modèle, vendu autours de 16e :
+1 modèle, vendu autour de 13e :
 
 - Hanche B
     - Dimensions : 21 cm x 15 cm x 1,6 cm
     - Poids : 65 g
 
+Disponibles sur [fc-moto.de] sous la marque Modeka ([Modeka-Sas-Tec-SC-2/07-Protecteur-de-hanche](https://www.fc-moto.de/fr/Modeka-Sas-Tec-SC-2/07-Protecteur-de-hanche)).
 
-Caractéristiques :
+Caractéristiques des coques :
+-----------------------------
 
 - Certification : Niveau 2 (non certifiées T+/T-) [^1]
 - Protection réelle : Le fabricant annonce une force résiduelle (sans doute moyenne) < 11 kN (norme : 20 kN en moyenne, maximum 30 kN) + une résistance à l'échauffement de son matériaux allant jusqu'à 100°C.
@@ -38,8 +40,6 @@ Caractéristiques :
 - Longévité annoncée : 10 ans
 - Type de matériaux : Visco-élastique souple, s'ajuste avec la chaleur corporelle
 - Aération : Bonne
-
-Disponibles sur [fc-moto.de](https://www.fc-moto.de/epages/fcm.sf/de_DE/?ObjectID=502396174&ViewAction=ViewProduct)).
 
 Fiche constructeur :
 - [SAS-TEC SC-2/07](https://www.sas-tec.de/en/products/sc-2-07/)
