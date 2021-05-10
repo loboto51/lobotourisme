@@ -31,8 +31,8 @@ Récemment, par curiosité j'ai voulu tester les pantalons renforcés en aramide
 
 La grille du site indiquant que les pantalons taillent petit, j'ai commandé :
 
-- Un pantalon cargo _Course Caféman à ma taille habituelle ;
-- Un jean _Course Rocker_ à ma taille habituelle ;
+- Un pantalon cargo _Course Caféman ([sur XLMoto](https://www.xlmoto.fr/equipement-moto/vetements-moto_c11/pantalons-moto_c21/pantalon-cargo-course-cafeman-renforce-aramide-gris_pid-PM-4901140)) à ma taille habituelle, 80€ ;
+- Un jean _Course Rocker_ ([sur XLMoto](https://www.xlmoto.fr/equipement-moto/vetements-moto_c11/pantalons-moto_c21/jean-course-rocker-renforce-aramide-bleu_pid-PM-4901161)) à ma taille habituelle, 60€ ;
 - Un 2e _Course Caféman_ en taille 38, au cas où.
 
 1ère conclusion : La grille est fausse, ils taillent au contraire plutôt grand.
@@ -50,8 +50,8 @@ Avis rapide sur le _Course Caféman_ (retourné) :
 
 Entre l'aspect de la toile, le niveau A et le problème de taille, je n'ai pas été convaincu.
 
-Avis sur le _Course Rocker_ que j'ai gardé :
---------------------------------------------
+Avis sur le _Course Rocker_ (gardé) :
+-------------------------------------
 
 C'est plutôt une bonne surprise :
 
