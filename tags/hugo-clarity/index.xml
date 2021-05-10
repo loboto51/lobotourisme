@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>hugo clarity on Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/tags/hugo-clarity/</link><description>Recent content in hugo clarity on Lobotourisme</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 02 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/tags/hugo-clarity/index.xml" rel="self" type="application/rss+xml"/><item><title>Mémo des modifications du thème hugo-clarity</title><link>https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/</link><pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/</guid><description>
+&lt;hr>
+&lt;p>Edit du 07/05/2021 : Ajout de la gestion des icônes.&lt;/p>
+&lt;p>Edit du 10/05/2021 : Modification du template &lt;em>single.html&lt;/em>.&lt;/p>
+&lt;hr>
 &lt;p>&lt;em>Résumé :&lt;/em>&lt;/p>
 &lt;p>Ce site est construit en combinant &lt;em>Hugo&lt;/em> + &lt;em>Github Pages&lt;/em>.
 J'utilise le thème &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-clarity&lt;/a>. Ce &lt;em>post&lt;/em> récapitule les configurations et modifications que j'y ai apporté.&lt;/p>
@@ -128,6 +132,9 @@ Personne ne le fera pour celui-ci, mais bon je l'ai fait pour l'exercice !&lt;/p
 _./layouts/&lt;em>default/single.html&lt;/em> sera pris en priorité sur _./themes/hugo-clarity/layouts/&lt;em>default/single.html&lt;/em>&lt;/p>
 &lt;p>Cela permet de modifier son site tout en ne touchant pas aux sources du thème. On peut donc toujours se référer à l'original ou revenir en arrière.&lt;/p>
 &lt;h3 id="template-des-articles-_singlehtml_">Template des articles &lt;em>single.html&lt;/em>&lt;/h3>
+&lt;hr>
+&lt;p>Edit du 10/05/2021 : Finalement je suis revenu au template initial, et je marque les éditions comme ici, pour pouvoir les contextualiser.&lt;/p>
+&lt;hr>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>mkdir -p ./layouts/_default
 &lt;span class="ln">2&lt;/span>cp ./themes/hugo-clarity/layouts/_default/single.html ./layouts/_default/
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>J'ai ajouté la date de dernière mise à jour si le paramètre &lt;em>lastmod&lt;/em> existe :&lt;/p>
