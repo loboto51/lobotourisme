@@ -1,7 +1,6 @@
 ---
 title: "Galets lave-vaisselle maison"
 date: "2021-05-10"
-description: "Galets lave-vaisselle maison."
 categories: 
 - écologie
 - maison
