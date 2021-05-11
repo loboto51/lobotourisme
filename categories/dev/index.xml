@@ -1,4 +1,135 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dev on Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/categories/dev/</link><description>Recent content in dev on Lobotourisme</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 07 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/categories/dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Fabrication de miniatures avec extrapolation des bords avec Imagemagick</title><link>https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/</link><pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>dev on Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/categories/dev/</link><description>Recent content in dev on Lobotourisme</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 10 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/categories/dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Commentaires sur Hugo + Github Pages</title><link>https://loboto51.github.io/lobotourisme/post/commentaires-sur-hugo-+-github-pages/</link><pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/commentaires-sur-hugo-+-github-pages/</guid><description>
+&lt;p>Veille sur les systèmes de commentaire intégrables à &lt;em>Hugo&lt;/em> + &lt;em>Github Pages&lt;/em>.&lt;/p>
+&lt;p>La doc &lt;em>Hugo&lt;/em> de référence : &lt;a href="https://gohugo.io/content-management/comments/">https://gohugo.io/content-management/comments/&lt;/a>&lt;/p>
+&lt;p>Discussion sur le forum &lt;em>Hugo&lt;/em> : &lt;a href="https://discourse.gohugo.io/t/alternative-to-disqus-needed-more-than-ever/5516">lternative-to-disqus-needed-more-than-ever&lt;/a>&lt;/p>
+&lt;p>Supports possibles selon la doc + analyse perso (V quand possible avec la solution &lt;em>Hugo&lt;/em> + &lt;em>Github Pages&lt;/em> + solution gratuite):&lt;/p>
+&lt;ul>
+&lt;li>V &lt;strong>Disqus&lt;/strong>
+&lt;ul>
+&lt;li>[-] Stockage des messages : Chez &lt;em>Disqus&lt;/em>&lt;/li>
+&lt;li>[+] Commentaire invité&lt;/li>
+&lt;li>[-] Pubs : oui&lt;/li>
+&lt;li>[-] Trackers : oui ( beaucoup)&lt;/li>
+&lt;li>Lectures :
+&lt;ul>
+&lt;li>Vie privée, etc. : &lt;a href="http://donw.io/post/github-comments/">Gazoo.vrv - Replacing Disqus with Github Comments&lt;/a>&lt;/li>
+&lt;li>Doc d'install : &lt;a href="https://gohugo.io/content-management/comments/">https://gohugo.io/content-management/comments/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>V &lt;strong>Staticman&lt;/strong>
+&lt;ul>
+&lt;li>[+] Open source&lt;/li>
+&lt;li>[+] Stockage des messages : &lt;em>Github issues&lt;/em>&lt;/li>
+&lt;li>[-] Commentaire invité : non (compte &lt;em>Github&lt;/em>)&lt;/li>
+&lt;li>Comparaison avec &lt;em>Utterances&lt;/em> : &lt;a href="https://blog.bartekr.net/2021/01/17/testing-utterances-comments/">BARTEKR - testing-utterances-comments&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Talkyard&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Auto-hébergé&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>IntenseDebate&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Wordpress&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Graph Comment&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Payant&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Muut&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Payant&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Isso&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Auto-hébergé (Python)&lt;/li>
+&lt;li>[+] Commentaire invité : Oui&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>V &lt;strong>Utterances&lt;/strong>
+&lt;ul>
+&lt;li>[+] Open source&lt;/li>
+&lt;li>[+] Stockage des messages : &lt;em>Github issues&lt;/em>&lt;/li>
+&lt;li>[-] Commentaire invité : non (compte &lt;em>Github&lt;/em>)&lt;/li>
+&lt;li>[+] Pubs : non&lt;/li>
+&lt;li>Comparaison avec &lt;em>Staticman&lt;/em> : &lt;a href="https://blog.bartekr.net/2021/01/17/testing-utterances-comments/">BARTEKR - testing-utterances-comments&lt;/a>&lt;/li>
+&lt;li>Doc d'install ici :&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Remark&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Auto-hébergé&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Commento&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[!] Payant ou auto-hébergé (Go)&lt;/li>
+&lt;li>[+] Commentaire invité : ?&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>V &lt;strong>Hyvor Talk&lt;/strong>
+&lt;ul>
+&lt;li>[!] Stockage des messages : Chez &lt;em>Hyvor&lt;/em>&lt;/li>
+&lt;li>[+] Commentaire invité : Oui&lt;/li>
+&lt;li>[+] Pubs : non&lt;/li>
+&lt;li>Docs d'install :
+&lt;ul>
+&lt;li>&lt;a href="https://youngkin.github.io/post/createafreeblogsite/#add-support-for-comments">Create a Free Blog Site Using GitHub Pages and Hugo#comments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://talk.hyvor.com/">https://talk.hyvor.com/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Autres pistes :&lt;/p>
+&lt;ul>
+&lt;li>? &lt;strong>Github Issue API&lt;/strong>
+&lt;ul>
+&lt;li>Décrit ici :
+&lt;ul>
+&lt;li>&lt;a href="http://donw.io/post/github-comments/">Gazoo.vrv - Replacing Disqus with Github Comments&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>? &lt;del>&lt;strong>Twitter&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>Décrit ici :
+&lt;ul>
+&lt;li>&lt;a href="https://pakstech.com/blog/switching-to-twitter-comments/">PÄKSTECH - I'm Switching to Twitter for My Blog Comments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://theprogress.site/2020-06-30-how-to-use-twitter-as-comment-section-in-your-static-blog/">How to use Twitter as comment section in your static blog and automatically create a tweet per post&lt;/a> (Inspiré par le précédent)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>[!] Stockage des messages : Chez &lt;em>Twitter&lt;/em>&lt;/li>
+&lt;li>[-] Commentaire invité : Non&lt;/li>
+&lt;li>[+] Pubs : non&lt;/li>
+&lt;li>[?] Intégration ?&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Discourse&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[+] Open source&lt;/li>
+&lt;li>[!] Payant ou auto-hébergé&lt;/li>
+&lt;li>[+] Commentaire invité : Non&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>X &lt;del>&lt;strong>Schnack&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[+] Open source&lt;/li>
+&lt;li>[!] Auto-hébergé (NodeJS + SQLite)&lt;/li>
+&lt;li>[+] très léger&lt;/li>
+&lt;li>[+] Commentaire invité : Non (compte Github ou Twitter)&lt;/li>
+&lt;li>Site : &lt;a href="https://www.vis4.net/blog/2017/10/hello-schnack/">Say hello to Schnack.js: A new Disqus-like commenting drop-in for static websites&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>? &lt;strong>Reddit&lt;/strong>&lt;/li>
+&lt;/ul></description></item><item><title>Fabrication de miniatures avec extrapolation des bords avec Imagemagick</title><link>https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/</link><pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/</guid><description>
 &lt;p>J'ai choisi de générer des miniatures pour chacun de mes billets en réutilisant des photos issues des articles.&lt;/p>
 &lt;p>J'utilise une technique qui me permet de produire des images complètement carrées :
 Je redimensionne d'abord l'image pour qu'elle rentre entièrement dans un carré de 300x300 px puis je remplis les espaces vides en extrapolant à partir des zones se trouvant à proximité.&lt;/p>
@@ -377,119 +508,6 @@ La branche &lt;em>gh-pages&lt;/em> a dû être créée.&lt;/p>
 &lt;p>Aller sur le site &lt;em>Github Pages&lt;/em> résultant :
 &lt;a href="MONLOGINGITHUB.github.io/MONSITE">MONLOGINGITHUB.github.io/MONSITE&lt;/a>&lt;/p>
 &lt;p>En théorie tout y est.&lt;/p>
-&lt;h2 id="annexes">Annexes&lt;/h2>
-&lt;h3 id="mise-en-place-des-commentaires-sur-les-articles">Mise en place des commentaires sur les articles&lt;/h3>
-&lt;p>La doc &lt;em>Hugo&lt;/em> de référence : &lt;a href="https://gohugo.io/content-management/comments/">https://gohugo.io/content-management/comments/&lt;/a>&lt;/p>
-&lt;p>Supports possibles selon la doc + analyse perso (V quand possible avec la solution &lt;em>Hugo&lt;/em> + &lt;em>Github Pages&lt;/em>):&lt;/p>
-&lt;ul>
-&lt;li>V &lt;strong>Disqus&lt;/strong>
-&lt;ul>
-&lt;li>[-] Stockage des messages : Chez &lt;em>Disqus&lt;/em>&lt;/li>
-&lt;li>[+] Commentaire invité&lt;/li>
-&lt;li>[-] Pubs : oui&lt;/li>
-&lt;li>[-] Trackers : oui ( beaucoup)&lt;/li>
-&lt;li>Lectures :
-&lt;ul>
-&lt;li>Vie privée, etc. : &lt;a href="http://donw.io/post/github-comments/">Gazoo.vrv - Replacing Disqus with Github Comments&lt;/a>&lt;/li>
-&lt;li>Doc d'install : &lt;a href="https://gohugo.io/content-management/comments/">https://gohugo.io/content-management/comments/&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>V &lt;strong>Staticman&lt;/strong>
-&lt;ul>
-&lt;li>[+] Open source&lt;/li>
-&lt;li>[+] Stockage des messages : &lt;em>Github issues&lt;/em>&lt;/li>
-&lt;li>[-] Commentaire invité : non (compte &lt;em>Github&lt;/em>)&lt;/li>
-&lt;li>Comparaison avec &lt;em>Utterances&lt;/em> : &lt;a href="https://blog.bartekr.net/2021/01/17/testing-utterances-comments/">BARTEKR - testing-utterances-comments&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>X &lt;del>&lt;strong>Talkyard&lt;/strong>&lt;/del>
-&lt;ul>
-&lt;li>[!] Auto-hébergé&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>X &lt;del>&lt;strong>IntenseDebate&lt;/strong>&lt;/del>
-&lt;ul>
-&lt;li>[!] Wordpress&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>X &lt;del>&lt;strong>Graph Comment&lt;/strong>&lt;/del>
-&lt;ul>
-&lt;li>[!] Payant&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>X &lt;del>&lt;strong>Muut&lt;/strong>&lt;/del>
-&lt;ul>
-&lt;li>[!] Payant&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>X &lt;del>&lt;strong>Isso&lt;/strong>&lt;/del>
-&lt;ul>
-&lt;li>[!] Auto-hébergé&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>V &lt;strong>Utterances&lt;/strong>
-&lt;ul>
-&lt;li>[+] Open source&lt;/li>
-&lt;li>[+] Stockage des messages : &lt;em>Github issues&lt;/em>&lt;/li>
-&lt;li>[-] Commentaire invité : non (compte &lt;em>Github&lt;/em>)&lt;/li>
-&lt;li>[+] Pubs : non&lt;/li>
-&lt;li>Comparaison avec &lt;em>Staticman&lt;/em> : &lt;a href="https://blog.bartekr.net/2021/01/17/testing-utterances-comments/">BARTEKR - testing-utterances-comments&lt;/a>&lt;/li>
-&lt;li>Doc d'install ici :&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>X &lt;del>&lt;strong>Remark&lt;/strong>&lt;/del>
-&lt;ul>
-&lt;li>[!] Auto-hébergé&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>X &lt;del>&lt;strong>Commento&lt;/strong>&lt;/del>
-&lt;ul>
-&lt;li>[!] Payant&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>V &lt;strong>Hyvor Talk&lt;/strong>
-&lt;ul>
-&lt;li>[!] Stockage des messages : Chez &lt;em>Hyvor&lt;/em>&lt;/li>
-&lt;li>[+] Commentaire invité : Oui&lt;/li>
-&lt;li>[+] Pubs : non&lt;/li>
-&lt;li>Docs d'install :
-&lt;ul>
-&lt;li>&lt;a href="https://youngkin.github.io/post/createafreeblogsite/#add-support-for-comments">Create a Free Blog Site Using GitHub Pages and Hugo#comments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://talk.hyvor.com/">https://talk.hyvor.com/&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>Autres pistes :&lt;/p>
-&lt;ul>
-&lt;li>? &lt;strong>Github Issue API&lt;/strong>
-&lt;ul>
-&lt;li>Décrit ici :
-&lt;ul>
-&lt;li>&lt;a href="http://donw.io/post/github-comments/">Gazoo.vrv - Replacing Disqus with Github Comments&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>? &lt;strong>Twitter&lt;/strong>
-&lt;ul>
-&lt;li>Décrit ici :
-&lt;ul>
-&lt;li>&lt;a href="https://pakstech.com/blog/switching-to-twitter-comments/">PÄKSTECH - I'm Switching to Twitter for My Blog Comments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://theprogress.site/2020-06-30-how-to-use-twitter-as-comment-section-in-your-static-blog/">How to use Twitter as comment section in your static blog and automatically create a tweet per post&lt;/a> (Inspiré par le précédent)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>[!] Stockage des messages : Chez &lt;em>Twitter&lt;/em>&lt;/li>
-&lt;li>[-] Commentaire invité : Non&lt;/li>
-&lt;li>[+] Pubs : non&lt;/li>
-&lt;li>[?] Intégration pas évidente&lt;/li>
-&lt;li>Docs d'install :&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
 &lt;h2 id="liens-utiles">Liens utiles&lt;/h2>
 &lt;p>Docs sur Hugo sur github :&lt;/p>
 &lt;ul>
