@@ -87,3 +87,5 @@ iconsDir = "icons/" # without a leading forward slash
 #websiteDomain = "loboto51.github.io/" # domain name of your website, most cases same as your base url
 # plausibleDomain = "plausible.io" # default is set to plausible.io, only required if plausible is selfhosted
 # scritpName = "plausible" # default is set to plausible, only required if using a custome name for script
+
+ga_verify = "GWC2BubRjKbVqFZsdMdypVq5JIyPqsYnWW93v7DovMU"
