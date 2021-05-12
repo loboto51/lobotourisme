@@ -88,4 +88,4 @@ iconsDir = "icons/" # without a leading forward slash
 # plausibleDomain = "plausible.io" # default is set to plausible.io, only required if plausible is selfhosted
 # scritpName = "plausible" # default is set to plausible, only required if using a custome name for script
 
-ga_verify = "Z2bOkQJMR8ACWkffFdzpGEGST0YeUMmqX"
+ga_verify = "Z2bOkQJMR8ACWkffFdzpGEGST0YeUMmqX-WMxDf7v3U"
