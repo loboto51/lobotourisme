@@ -9,6 +9,9 @@ aliases:
 author: "Loboto"
 ---
 
+
+![Loboto](../images/portrait_2.jpg)
+
 En quelques mots :
 
 - Parisien d'adoption ;
@@ -18,3 +21,6 @@ En quelques mots :
 - Sensible à l'écologie et à la réduction des déchets...
 
 Et je circule (tranquillement mais avec plaisir) sur une Vulcan 650s de chez Kawasaki, et cherche régulièrement à améliorer mon confort, ma sécurité, etc. sur ce terrible engin.
+
+
+S'il vous en prend l'envie, vous pouvez m'écrire à mon pseudo mi51 arobase gmail point com, tout attaché. Mais je ne promets pas de répondre rapidement !
