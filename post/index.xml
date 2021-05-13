@@ -2,15 +2,14 @@
 &lt;p>Veille sur les systèmes de commentaire intégrables à &lt;em>Hugo&lt;/em> + &lt;em>Github Pages&lt;/em>.&lt;/p>
 &lt;p>La doc &lt;em>Hugo&lt;/em> de référence : &lt;a href="https://gohugo.io/content-management/comments/">https://gohugo.io/content-management/comments/&lt;/a>&lt;/p>
 &lt;p>Discussion sur le forum &lt;em>Hugo&lt;/em> : &lt;a href="https://discourse.gohugo.io/t/alternative-to-disqus-needed-more-than-ever/5516">lternative-to-disqus-needed-more-than-ever&lt;/a>&lt;/p>
-&lt;p>Supports possibles selon la doc + analyse perso (V quand possible avec la solution &lt;em>Hugo&lt;/em> + &lt;em>Github Pages&lt;/em> + solution gratuite):&lt;/p>
+&lt;p>Supports possibles selon la doc + analyse perso :&lt;/p>
 &lt;ul>
-&lt;li>V &lt;strong>Disqus&lt;/strong>
+&lt;li>&lt;del>&lt;strong>Disqus&lt;/strong>&lt;/del>
 &lt;ul>
-&lt;li>[-] Stockage des messages : Chez &lt;em>Disqus&lt;/em>&lt;/li>
-&lt;li>[+] Commentaire invité&lt;/li>
-&lt;li>[-] Pubs : oui&lt;/li>
-&lt;li>[-] Trackers : oui ( beaucoup)&lt;/li>
-&lt;li>Lectures :
+&lt;li>[!] Gratuit avec beaucoup de pubs et de trackers (voir plus bas)&lt;/li>
+&lt;li>[+] Hébergé par &lt;em>Disqus&lt;/em>&lt;/li>
+&lt;li>[+] Commentaire invité : Oui&lt;/li>
+&lt;li>Décrit ici :
 &lt;ul>
 &lt;li>Vie privée, etc. : &lt;a href="http://donw.io/post/github-comments/">Gazoo.vrv - Replacing Disqus with Github Comments&lt;/a>&lt;/li>
 &lt;li>Doc d'install : &lt;a href="https://gohugo.io/content-management/comments/">https://gohugo.io/content-management/comments/&lt;/a>&lt;/li>
@@ -18,53 +17,91 @@
 &lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>V &lt;strong>Staticman&lt;/strong>
+&lt;li>&lt;strong>Staticman&lt;/strong>
 &lt;ul>
 &lt;li>[+] Open source&lt;/li>
-&lt;li>[+] Stockage des messages : &lt;em>Github issues&lt;/em>&lt;/li>
-&lt;li>[-] Commentaire invité : non (compte &lt;em>Github&lt;/em>)&lt;/li>
+&lt;li>[+] Hébergé par &lt;em>Github&lt;/em> (&lt;em>Github issues&lt;/em>)&lt;/li>
+&lt;li>[-] Commentaire invité : Non (compte &lt;em>Github&lt;/em>)&lt;/li>
+&lt;li>Décrit ici :
+&lt;ul>
 &lt;li>Comparaison avec &lt;em>Utterances&lt;/em> : &lt;a href="https://blog.bartekr.net/2021/01/17/testing-utterances-comments/">BARTEKR - testing-utterances-comments&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>X &lt;del>&lt;strong>Talkyard&lt;/strong>&lt;/del>
-&lt;ul>
-&lt;li>[!] Auto-hébergé&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>X &lt;del>&lt;strong>IntenseDebate&lt;/strong>&lt;/del>
+&lt;li>&lt;strong>Talkyard&lt;/strong>
 &lt;ul>
-&lt;li>[!] Wordpress&lt;/li>
+&lt;li>[+] AUto-hébergé ou payant (quelques euros par mois)&lt;/li>
+&lt;li>[+] Commentaire invité : Oui&lt;/li>
+&lt;li>[+] Open source&lt;/li>
+&lt;li>Décrit ici :
+&lt;ul>
+&lt;li>&lt;a href="https://www.talkyard.io/">Talkyard (site officiel)&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>X &lt;del>&lt;strong>Graph Comment&lt;/strong>&lt;/del>
-&lt;ul>
-&lt;li>[!] Payant&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>X &lt;del>&lt;strong>Muut&lt;/strong>&lt;/del>
+&lt;li>&lt;strong>IntenseDebate&lt;/strong>
 &lt;ul>
-&lt;li>[!] Payant&lt;/li>
+&lt;li>[-] Manque d'infos, interface un peu vieillotte&lt;/li>
+&lt;li>Décrit ici :
+&lt;ul>
+&lt;li>&lt;a href="https://www.intensedebate.com/home">IntenseDebate (site officiel)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Graph Comment&lt;/strong>
+&lt;ul>
+&lt;li>[-] Gratuit jusqu'à 1 million de vues/mois&lt;/li>
+&lt;li>[+] Commentaire invité : Oui&lt;/li>
+&lt;li>Décrit ici :
+&lt;ul>
+&lt;li>&lt;a href="https://graphcomment.com/">GraphComment (site officiel)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;del>&lt;strong>Muut&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[-] Payant et tarif élevé : 16$/mois&lt;/li>
+&lt;li>Décrit ici :
+&lt;ul>
+&lt;li>&lt;a href="https://muut.com/">Muut (site officiel)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>X &lt;del>&lt;strong>Isso&lt;/strong>&lt;/del>
 &lt;ul>
-&lt;li>[!] Auto-hébergé (Python)&lt;/li>
+&lt;li>[+] Gratuit&lt;/li>
+&lt;li>[-] Auto-hébergé (Python + SQLite)&lt;/li>
 &lt;li>[+] Commentaire invité : Oui&lt;/li>
+&lt;li>Décrit ici :
+&lt;ul>
+&lt;li>&lt;a href="https://posativ.org/isso/">Isso (site officiel&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>V &lt;strong>Utterances&lt;/strong>
 &lt;ul>
+&lt;li>[+] Gratuit&lt;/li>
+&lt;li>[+] Hébergé par &lt;em>Github&lt;/em> (&lt;em>Github issues&lt;/em>)&lt;/li>
+&lt;li>[-] Commentaire invité : Non (compte &lt;em>Github&lt;/em>)&lt;/li>
 &lt;li>[+] Open source&lt;/li>
-&lt;li>[+] Stockage des messages : &lt;em>Github issues&lt;/em>&lt;/li>
-&lt;li>[-] Commentaire invité : non (compte &lt;em>Github&lt;/em>)&lt;/li>
-&lt;li>[+] Pubs : non&lt;/li>
-&lt;li>Comparaison avec &lt;em>Staticman&lt;/em> : &lt;a href="https://blog.bartekr.net/2021/01/17/testing-utterances-comments/">BARTEKR - testing-utterances-comments&lt;/a>&lt;/li>
-&lt;li>Doc d'install ici :&lt;/li>
+&lt;li>Décrit ici :
+&lt;ul>
+&lt;li>&lt;a href="https://utteranc.es/">Utterances (site officiel)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.bartekr.net/2021/01/17/testing-utterances-comments/">BARTEKR - testing-utterances-comments&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>X &lt;del>&lt;strong>Remark&lt;/strong>&lt;/del>
 &lt;ul>
-&lt;li>[!] Auto-hébergé&lt;/li>
+&lt;li>[+] Gratuit&lt;/li>
+&lt;li>[-] Auto-hébergé&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>X &lt;del>&lt;strong>Commento&lt;/strong>&lt;/del>
@@ -75,10 +112,10 @@
 &lt;/li>
 &lt;li>V &lt;strong>Hyvor Talk&lt;/strong>
 &lt;ul>
-&lt;li>[!] Stockage des messages : Chez &lt;em>Hyvor&lt;/em>&lt;/li>
+&lt;li>[-] Payant (5$/mois)&lt;/li>
+&lt;li>[-] Hébergé par &lt;em>Hyvor&lt;/em>&lt;/li>
 &lt;li>[+] Commentaire invité : Oui&lt;/li>
-&lt;li>[+] Pubs : non&lt;/li>
-&lt;li>Docs d'install :
+&lt;li>Décrit ici :
 &lt;ul>
 &lt;li>&lt;a href="https://youngkin.github.io/post/createafreeblogsite/#add-support-for-comments">Create a Free Blog Site Using GitHub Pages and Hugo#comments&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://talk.hyvor.com/">https://talk.hyvor.com/&lt;/a>&lt;/li>
@@ -89,8 +126,39 @@
 &lt;/ul>
 &lt;p>Autres pistes :&lt;/p>
 &lt;ul>
-&lt;li>? &lt;strong>Github Issue API&lt;/strong>
+&lt;li>&lt;del>&lt;strong>Twitter&lt;/strong>&lt;/del>
 &lt;ul>
+&lt;li>[+] Gratuit&lt;/li>
+&lt;li>[-] Hébergé par &lt;em>Twitter&lt;/em>&lt;/li>
+&lt;li>[-] Commentaire invité : non (compte &lt;em>Twitter&lt;/em>)&lt;/li>
+&lt;li>Décrit ici :
+&lt;ul>
+&lt;li>&lt;a href="https://pakstech.com/blog/switching-to-twitter-comments/">PÄKSTECH - I'm Switching to Twitter for My Blog Comments&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://theprogress.site/2020-06-30-how-to-use-twitter-as-comment-section-in-your-static-blog/">How to use Twitter as comment section in your static blog and automatically create a tweet per post&lt;/a> (Inspiré par le précédent)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Mastodon&lt;/strong>
+&lt;ul>
+&lt;li>[+] Gratuit&lt;/li>
+&lt;li>[+] Hébergé par &lt;em>Mastodon&lt;/em>&lt;/li>
+&lt;li>[-] Commentaire invité : Non (compte &lt;em>Mastodon&lt;/em>)&lt;/li>
+&lt;li>[+] Open source&lt;/li>
+&lt;li>Décrit ici :
+&lt;ul>
+&lt;li>&lt;a href="https://lottalinuxlinks.com/using-mastodon-for-comments-on-a-static-blog/">Using Mastodon for comments on a static blog&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://git.wadza.fr/me/comtodon">Comtodon - A minimal commenting system for static blogs using external Mastodon or API compatible server&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://schlomp.space/tastytea/hugo-mastodon-api-comments">mastodon-api-comments - Shortcode for Hugo to display the replies to a Fediverse-thread as blog comments.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Github Issue API&lt;/strong>
+&lt;ul>
+&lt;li>[+] Gratuit&lt;/li>
+&lt;li>[+] Hébergé par &lt;em>Github&lt;/em> (&lt;em>Github issues&lt;/em>)&lt;/li>
+&lt;li>[-] Commentaire invité : non (compte &lt;em>Github&lt;/em>)&lt;/li>
 &lt;li>Décrit ici :
 &lt;ul>
 &lt;li>&lt;a href="http://donw.io/post/github-comments/">Gazoo.vrv - Replacing Disqus with Github Comments&lt;/a>&lt;/li>
@@ -98,37 +166,28 @@
 &lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>? &lt;del>&lt;strong>Twitter&lt;/strong>&lt;/del>
+&lt;li>&lt;del>&lt;strong>Discourse&lt;/strong>&lt;/del>
 &lt;ul>
+&lt;li>[-] Payant ou auto-hébergé&lt;/li>
+&lt;li>[-] Commentaire invité : Non&lt;/li>
+&lt;li>[+] Open source&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;del>&lt;strong>Schnack&lt;/strong>&lt;/del>
+&lt;ul>
+&lt;li>[+] Gratuit&lt;/li>
+&lt;li>[-] Auto-hébergé (NodeJS + SQLite)&lt;/li>
+&lt;li>[-] Commentaire invité : Non (compte &lt;em>Github&lt;/em> ou &lt;em>Twitter&lt;/em>)&lt;/li>
+&lt;li>[+] Open source&lt;/li>
+&lt;li>[+] très léger&lt;/li>
 &lt;li>Décrit ici :
 &lt;ul>
-&lt;li>&lt;a href="https://pakstech.com/blog/switching-to-twitter-comments/">PÄKSTECH - I'm Switching to Twitter for My Blog Comments&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://theprogress.site/2020-06-30-how-to-use-twitter-as-comment-section-in-your-static-blog/">How to use Twitter as comment section in your static blog and automatically create a tweet per post&lt;/a> (Inspiré par le précédent)&lt;/li>
+&lt;li>&lt;a href="https://www.vis4.net/blog/2017/10/hello-schnack/">Say hello to Schnack.js: A new Disqus-like commenting drop-in for static websites&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>[!] Stockage des messages : Chez &lt;em>Twitter&lt;/em>&lt;/li>
-&lt;li>[-] Commentaire invité : Non&lt;/li>
-&lt;li>[+] Pubs : non&lt;/li>
-&lt;li>[?] Intégration ?&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;li>X &lt;del>&lt;strong>Discourse&lt;/strong>&lt;/del>
-&lt;ul>
-&lt;li>[+] Open source&lt;/li>
-&lt;li>[!] Payant ou auto-hébergé&lt;/li>
-&lt;li>[+] Commentaire invité : Non&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>X &lt;del>&lt;strong>Schnack&lt;/strong>&lt;/del>
-&lt;ul>
-&lt;li>[+] Open source&lt;/li>
-&lt;li>[!] Auto-hébergé (NodeJS + SQLite)&lt;/li>
-&lt;li>[+] très léger&lt;/li>
-&lt;li>[+] Commentaire invité : Non (compte Github ou Twitter)&lt;/li>
-&lt;li>Site : &lt;a href="https://www.vis4.net/blog/2017/10/hello-schnack/">Say hello to Schnack.js: A new Disqus-like commenting drop-in for static websites&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>? &lt;strong>Reddit&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Reddit&lt;/strong>&lt;/li>
 &lt;/ul></description></item><item><title>Galets lave-vaisselle maison</title><link>https://loboto51.github.io/lobotourisme/post/galets-lave-vaisselle-maison/</link><pubDate>Mon, 10 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/galets-lave-vaisselle-maison/</guid><description>
 &lt;p>&lt;img src="galets_lave_vaisselle_1.jpg" alt="galets_lave_vaisselle_1">&lt;/p>
 &lt;p>Depuis peu je fabrique moi-même mes galets de lave-vaisselle.&lt;/p>
@@ -805,7 +864,7 @@ T- : La protection reste la même jusqu'à -10°C.&amp;#160;&lt;a href="#fnref:1
 &lt;p>&lt;img src="forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_dos__source_advrider.jpg" alt="forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_dos__source_advrider.jpg">&lt;/p>
 &lt;p>&lt;img src="forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_face__source_advrider.jpg" alt="forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_face__source_advrider.jpg">&lt;/p>
 &lt;h4 id="revit-seeflex--alpinestars-nucleon-flex-pro--d3o-">Rev'It Seeflex &amp;amp; Alpinestars Nucleon Flex Pro &amp;amp; D3O :&lt;/h4>
-&lt;p>&lt;img src="revit-seeflex-rv11-l2_SB_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face__vs__alpinestars-nucleon-flex-pro_SA_SB_niv2_face.jpg" alt="revit-seeflex-rv11-l2_SB_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face__vs__alpinestars-nucleon-flex-pro_SA_SB_niv2_face.jpg">&lt;/p>
+&lt;p>&lt;img src="revit-seeflex-rv11-l2_SB_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face__vs__alpinestars-nucleon-flex-pro_SA_SB_niv2_face__source_advrider.jpg" alt="revit-seeflex-rv11-l2_SB_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face__vs__alpinestars-nucleon-flex-pro_SA_SB_niv2_face__source_advrider.jpg">&lt;/p>
 &lt;h2 id="lectures-">Lectures :&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/">advrider.com : CE2 Replacement Armor Database / Comparison&lt;/a>&lt;/li>
