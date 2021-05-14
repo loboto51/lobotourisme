@@ -49,6 +49,10 @@ defaultContentLanguage = "fr"
   socialSharePinterest = true
   socialShareEmail     = true
 
+  socialShareGoogleplus = false
+  socialShareLinkedin  = false
+  socialShareStumbleupon = false
+
   # Load custom CSS or JavaScript files. The variable is an array so that you
   # can load multiple files if necessary. You can also load the standard theme
   # files by adding the value, "default".
@@ -75,7 +79,7 @@ defaultContentLanguage = "fr"
    codeblocks = ["pre.sourceCode", "pre.r", "pre.python", "pre.bash", "pre.sql", "pre.cpp", "pre.stan", "pre.js", "pre.css", "pre.html", "pre.yaml"]
 
   # How to cite blog article
-  disable_citation = false
+  disable_citation = true
   citation_author = "Loboto"
 
 # Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
