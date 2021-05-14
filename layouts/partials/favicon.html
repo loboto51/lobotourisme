@@ -1,22 +1,19 @@
-{{- $iconsDir := default "icons/" .Site.Params.iconsDir }}
-{{- $appleTouch := absURL (printf "%s%s" $iconsDir "apple-touch-icon.png") }}
-{{- $favicon16 := absURL (printf "%s%s" $iconsDir "favicon-16x16.png" ) }}
-{{- $favicon32 := absURL (printf "%s%s" $iconsDir "favicon-32x32.png" ) }}
-{{- $favicon128 := absURL (printf "%s%s" $iconsDir "favicon-128x128.png" ) }}
-{{- $favicon152 := absURL (printf "%s%s" $iconsDir "favicon-152x152.png" ) }}
-{{- $favicon167 := absURL (printf "%s%s" $iconsDir "favicon-167x167.png" ) }}
-{{- $favicon180 := absURL (printf "%s%s" $iconsDir "favicon-180x180.png" ) }}
-{{- $favicon192 := absURL (printf "%s%s" $iconsDir "favicon-192x192.png" ) }}
-{{- $favicon196 := absURL (printf "%s%s" $iconsDir "favicon-196x196.png" ) }}
-{{- $manifest := absURL (printf "%s%s" $iconsDir "site.webmanifest" ) }}
+{{ if .Site.Params.loadFavicon }}
 
-<link rel="apple-touch-icon" sizes="180x180" href="{{ $appleTouch }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16 }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32 }}">
-<link rel="icon" type="image/png" sizes="128x128" href="{{ $favicon128 }}">
-<link rel="icon" type="image/png" sizes="152x152" href="{{ $favicon152 }}">
-<link rel="icon" type="image/png" sizes="167x167" href="{{ $favicon167 }}">
-<link rel="icon" type="image/png" sizes="180x180" href="{{ $favicon180 }}">
-<link rel="icon" type="image/png" sizes="192x192" href="{{ $favicon192 }}">
-<link rel="icon" type="image/png" sizes="196x196" href="{{ $favicon196 }}">
-<link rel="manifest" href="{{ $manifest }}">
+  <link rel="apple-touch-icon-precomposed" href='{{ "favicon/apple-touch-icon.png" | relURL }}'>
+  <link rel="icon" href='{{ "favicon/favicon.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="16x16" href='{{ "favicon/favicon-16x16.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="32x32" href='{{ "favicon/favicon-32x32.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="128x128" href='{{ "favicon/favicon-128x128.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="152x152" href='{{ "favicon/favicon-152x152.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="167x167" href='{{ "favicon/favicon-167x167.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="180x180" href='{{ "favicon/favicon-180x180.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="192x192" href='{{ "favicon/favicon-192x192.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="196x196" href='{{ "favicon/favicon-196x196.png" | relURL }}'>
+  <!--[if IE]><link rel="shortcut icon" href='/favicon.ico'><![endif]-->
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content='{{ "favicon/mstile-150x150.png" | relURL }}'>
+  <meta name="application-name" content="{{ .Site.Title }}">
+  <meta name="msapplication-tooltip" content="{{ .Site.Params.Description }}">
+  <meta name="msapplication-config" content='{{ "favicon/ieconfig.xml" | relURL }}'>
+{{ end }}
