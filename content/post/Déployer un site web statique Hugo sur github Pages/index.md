@@ -12,6 +12,13 @@ tags:
 toc: true
 ---
 
+---
+
+Edit du 14/05/2021 : Depuis la rédaction de ce document, je suis passé au thème [hugo-future-imperfect](https://github.com/statnmap/hugo-future-imperfect) qui présente quelques fonctions supplémentaires et que je trouve plus élégant. 
+
+---
+
+
 Le site que vous consultez est constitué d'un site web statique _Hugo_ hébergé sur _Github_ :
 
 [_Github_](https://github.com/) fournit la possibilité d'exposer un site _web_ statique pour chaque dépôt public du compte. Il suffit d'avoir :

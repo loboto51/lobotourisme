@@ -18,6 +18,8 @@ Edit du 07/05/2021 : Ajout de la gestion des icônes.
 
 Edit du 10/05/2021 : Modification du template _single.html_.
 
+Edit du 14/05/2021 : Depuis la rédaction de ce document, je suis passé au thème [hugo-future-imperfect](https://github.com/statnmap/hugo-future-imperfect) qui présente quelques fonctions supplémentaires et que je trouve plus élégant. 
+
 ---
 
 _Résumé :_

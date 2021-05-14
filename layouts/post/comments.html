@@ -1,0 +1,5 @@
+{{ if .Site.Params.staticman.staticman }}
+    <article class="post">
+      {{ .Render "staticman" }}
+    </article>
+{{ end }}
