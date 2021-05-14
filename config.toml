@@ -120,31 +120,31 @@ defaultContentLanguage = "fr"
 
 [[menu.main]]
 	name = "Accueil"
-	url = "/"
+	url = ""
 	identifier = "fa fa-home"
 	weight = 1
 
 [[menu.main]]
 	name = "Moto"
-	url = "/categories/moto/"
+	url = "categories/moto/"
 	identifier = "fa fa-moto"
 	weight = 5
 
 [[menu.main]]
 	name = "Dev"
-	url = "/categories/dev/"
+	url = "categories/dev/"
 	identifier = "fa fa-dev"
 	weight = 6
 
 [[menu.main]]
 	name = "Ecologie"
-	url = "/categories/écologie/"
+	url = "categories/écologie/"
 	identifier = "fa fa-ecologie"
 	weight = 7
 	
 [[menu.main]]
 	name = "Contact"
-	url = "/contact/"
+	url = "contact/"
 	identifier = "fa fa-envelope-o"
 	weight = 8
 
