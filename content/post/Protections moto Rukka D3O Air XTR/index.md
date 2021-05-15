@@ -20,8 +20,6 @@ thumbnail: "thumbnails/moto_epi_EHKLS.png"
 
 ![:right](rukka-d3o-air-xtr_EB_niv2_face__source_mcgearhub.jpg)
 
-Cette série de fiches a pour objet de mémoriser/partager les infos que je trouve sur les coques de protection disponibles sur le marché.
-
 Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection _Rukka D3O Air XTR_ de niveau 2 (membres uniquement, je ne me penche pas sur le thorax _D3O CP1/L1_ qui est niveau 1).
 
 _Synthèse :_ Souples, grande couverture, très bonne aération, tarif élevé.

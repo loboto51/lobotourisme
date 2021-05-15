@@ -8,15 +8,11 @@ tags:
 - SAS-TEC
 - SAS-TEC SC-2/07
 - hanches
-thumbnail: "thumbnails/moto_epi_H.png"
 ---
 
 ![:right](sas-tec-sc2-07_HB_niv2_face_dos_dimensions.jpg)
 
-Cette série de fiches a pour objet de mémoriser/partager les infos que je trouve sur les coques de protection disponibles sur le marché.
-
-Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection de hanches _SAS-TEC SC-2/07_ de niveau 2.
-Note : Je possède ce modèle, les photos sont de moi.
+Cette fiche récapitule les informations disponibles sur le net sur les coques de protection de hanches _SAS-TEC SC-2/07_ de niveau 2, je possède ce modèle, les photos de l'article sont de moi.
 
 _Synthèse :_ Protection excellente (50% au dessus de la norme), grande couverture, poids faible, aération correcte, et tarif raisonnable.
 
@@ -51,7 +47,9 @@ Source pour la longévité et la température :
 Confort et comparaison avec les autres marques : 
 ------------------------------------------------
 
-Avis personnel : Le matériaux est confortable et souple, similaire à celui des SAS-TEC EVO.
+**Expérience personnelle :**
+
+Le matériaux est confortable et souple, similaire à celui des SAS-TEC EVO.
 Les protections se déforment suffisamment pour rentrer dans des poches de pantalon plus petites qu'il n'y paraît.
 Reste à assumer la surépaisseur.
 En contrepartie, elles inspirent énormément confiance.

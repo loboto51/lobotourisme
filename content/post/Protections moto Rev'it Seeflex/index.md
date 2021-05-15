@@ -18,8 +18,6 @@ thumbnail: "thumbnails/moto_epi_EKLS.png"
 
 ![:right](revit-seeflex-rv10-l2_EB-KB_niv2_face__vs__forcefield-isolator-2_EB-KB_niv2_face__source_advrider.jpg)
 
-Cette série de fiches a pour objet de mémoriser/partager les infos que je trouve sur les coques de protection disponibles sur le marché.
-
 Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection _Rev'It Seeflex_ de niveau 2.
 
 _Synthèse :_ Grande couverture, excellente aération, tarif élevé.

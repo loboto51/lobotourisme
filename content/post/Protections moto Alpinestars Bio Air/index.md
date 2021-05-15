@@ -10,12 +10,10 @@ tags:
 - genoux
 - coudes
 - épaules
-thumbnail: "thumbnails/moto_epi_ES.png"
 ---
 
 ![:right](alpinestars-bio-armor-air_EB-KA_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face.jpg)
 
-Cette série de fiches a pour objet de mémoriser/partager les infos que je trouve sur les coques de protection disponibles sur le marché.
 
 Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection _Alpinestars Bio Air_ de niveau 2.
 

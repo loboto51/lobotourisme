@@ -15,10 +15,10 @@ La doc _Hugo_ de référence : [https://gohugo.io/content-management/comments/](
 
 Discussion sur le forum _Hugo_ : [lternative-to-disqus-needed-more-than-ever](https://discourse.gohugo.io/t/alternative-to-disqus-needed-more-than-ever/5516)
 
-Supports possibles selon la doc + analyse perso :
+Supports possibles selon la doc + analyse perso (en gras ceux qui me semblent intéressants) :
 
-- ~~__Disqus__~~
-    - [!] Gratuit avec beaucoup de pubs et de trackers (voir plus bas)
+- Disqus
+    - [!] Gratuit avec **beaucoup de pubs et de trackers** (voir plus bas)
     - [+] Hébergé par _Disqus_
     - [+] Commentaire invité : Oui
     - Décrit ici :
@@ -30,32 +30,32 @@ Supports possibles selon la doc + analyse perso :
     - [-] Commentaire invité : Non (compte _Github_)
     - Décrit ici :
         - Comparaison avec _Utterances_ : [BARTEKR - testing-utterances-comments](https://blog.bartekr.net/2021/01/17/testing-utterances-comments/)
-- __Talkyard__
-    - [+] AUto-hébergé ou payant (quelques euros par mois)
+- Talkyard
+    - [+] Auto-hébergé ou payant (quelques euros par mois)
     - [+] Commentaire invité : Oui
     - [+] Open source
     - Décrit ici :
         - [Talkyard (site officiel)](https://www.talkyard.io/)
-- __IntenseDebate__
+- IntenseDebate
     - [-] Manque d'infos, interface un peu vieillotte
     - Décrit ici :
         - [IntenseDebate (site officiel)](https://www.intensedebate.com/home)
-- __Graph Comment__
+- Graph Comment
     - [-] Gratuit jusqu'à 1 million de vues/mois
     - [+] Commentaire invité : Oui
     - Décrit ici :
         - [GraphComment (site officiel)](https://graphcomment.com/)
-- ~~__Muut__~~
+- Muut
     - [-] Payant et tarif élevé : 16$/mois
     - Décrit ici :
         - [Muut (site officiel)](https://muut.com/)
-- X ~~__Isso__~~
+- Isso
     - [+] Gratuit
     - [-] Auto-hébergé (Python + SQLite)
     - [+] Commentaire invité : Oui
     - Décrit ici :
         - [Isso (site officiel](https://posativ.org/isso/)
-- V __Utterances__
+- __Utterances__
     - [+] Gratuit
     - [+] Hébergé par _Github_ (_Github issues_)
     - [-] Commentaire invité : Non (compte _Github_)
@@ -63,13 +63,13 @@ Supports possibles selon la doc + analyse perso :
     - Décrit ici :
         - [Utterances (site officiel)](https://utteranc.es/)
         - [BARTEKR - testing-utterances-comments](https://blog.bartekr.net/2021/01/17/testing-utterances-comments/)
-- X ~~__Remark__~~
+- Remark
     - [+] Gratuit
     - [-] Auto-hébergé
-- X ~~__Commento__~~
+- Commento
     - [!] Payant ou auto-hébergé (Go)
     - [+] Commentaire invité : ?
-- V __Hyvor Talk__
+- Hyvor Talk
     - [-] Payant (5$/mois)
     - [-] Hébergé par _Hyvor_
     - [+] Commentaire invité : Oui
@@ -79,7 +79,7 @@ Supports possibles selon la doc + analyse perso :
 
 Autres pistes :
 
-- ~~__Twitter__~~
+- __Twitter__
     - [+] Gratuit
     - [-] Hébergé par _Twitter_
     - [-] Commentaire invité : non (compte _Twitter_)
@@ -95,17 +95,17 @@ Autres pistes :
         - [Using Mastodon for comments on a static blog](https://lottalinuxlinks.com/using-mastodon-for-comments-on-a-static-blog/)
         - [Comtodon - A minimal commenting system for static blogs using external Mastodon or API compatible server](https://git.wadza.fr/me/comtodon)
         - [mastodon-api-comments - Shortcode for Hugo to display the replies to a Fediverse-thread as blog comments.](https://schlomp.space/tastytea/hugo-mastodon-api-comments)
-- __Github Issue API__
+- (Autres) Github Issue API
     - [+] Gratuit
     - [+] Hébergé par _Github_ (_Github issues_)
     - [-] Commentaire invité : non (compte _Github_)
     - Décrit ici :
         - [Gazoo.vrv - Replacing Disqus with Github Comments](http://donw.io/post/github-comments/)
-- ~~__Discourse__~~
+- Discourse
     - [-] Payant ou auto-hébergé
     - [-] Commentaire invité : Non
     - [+] Open source
-- ~~__Schnack__~~
+- __Schnack__
     - [+] Gratuit
     - [-] Auto-hébergé (NodeJS + SQLite)
     - [-] Commentaire invité : Non (compte _Github_ ou _Twitter_)
@@ -113,7 +113,6 @@ Autres pistes :
     - [+] très léger
     - Décrit ici :
         - [Say hello to Schnack.js: A new Disqus-like commenting drop-in for static websites](https://www.vis4.net/blog/2017/10/hello-schnack/)
-- __Reddit__ 
 
 
 

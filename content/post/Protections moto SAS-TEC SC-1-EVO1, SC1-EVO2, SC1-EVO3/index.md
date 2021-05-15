@@ -14,13 +14,18 @@ tags:
 thumbnail: "thumbnails/moto_epi_EKS.png"
 ---
 
-![:right](sastec-sc1-evo2-new__EA-KB-SA_niv2__source_sastec.jpg)
+---
 
-Cette série de fiches a pour objet de mémoriser/partager les infos que je trouve sur les coques de protection disponibles sur le marché.
+Edit du 15/05/2021 : Ajout d'un revendeur français.
+
+---
+
+
+![:right](sastec-sc1-evo2-new__EA-KB-SA_niv2__source_sastec.jpg)
 
 Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection _SAS-TEC SC1/EVO_ 1, 2 et 3 de niveau 2.
 
-_Synthèse :_ Protection excellente (50% au dessus de la norme), grande couverture des articulation, poids faible, aération correcte, et tarif raisonnable.
+_Synthèse :_ Protection excellente (50% au dessus de la norme), grande couverture des articulations, poids faible, aération correcte, et tarif raisonnable.
 
 
 Commercialisation :
@@ -38,7 +43,13 @@ Commercialisation :
     - Dimensions : 33 cm x 23 cm x 1,6 cm
     - Poids : 112 g
 
-Un peu difficiles à trouver, elles sont en vente sur [ebay](https://www.ebay.fr/sch/i.html?_from=R40&_nkw=sas+tec+evo&_sacat=0&LH_PrefLoc=3&_sop=15) et chez [motoinn.de](https://www.motoin.de/search.php?keywords=evo&manuid%5B%5D=79).
+Un peu difficiles à trouver, elles sont en vente sur [ebay](https://www.ebay.fr/sch/i.html?_from=R40&_nkw=sas+tec+evo&_sacat=0&LH_PrefLoc=3&_sop=15), chez [motoinn.de](https://www.motoin.de/search.php?keywords=evo&manuid%5B%5D=79).
+
+---
+
+Edit du 15/05/2021 : Dispos chez le revendeur français_Anaïs Discount_ : [16e les EVO1](https://www.anais-discount.com/protection-sastec-sc1-evo-xml-1158_1182-62281.html), [16e les EVO2](https://www.anais-discount.com/protection-sastec-sc1-evo-xml-1158_1182-62274.html) et [17e les EVO3](https://www.anais-discount.com/protection-sastec-sc1-evo-xml-1158_1182-62273.html).
+
+---
 
 
 Caractéristiques des coques :
@@ -54,9 +65,9 @@ Caractéristiques des coques :
 
 Fiches constructeur :
 
-- [SAS-TEC SC-1/EVO1 NEW](https://www.sas-tec.de/en/products/sc-1-evo1/)
-- [SAS-TEC SC-1/EVO2 NEW](https://www.sas-tec.de/en/products/sc-1-evo2/)
-- [SAS-TEC SC-1/EVO3 NEW](https://www.sas-tec.de/en/products/sc-1-evo3/)
+- [SAS-TEC SC-1/EVO1](https://www.sas-tec.de/en/products/sc-1-evo1/)
+- [SAS-TEC SC-1/EVO2](https://www.sas-tec.de/en/products/sc-1-evo2/)
+- [SAS-TEC SC-1/EVO3](https://www.sas-tec.de/en/products/sc-1-evo3/)
 
 Source pour la longévité et la température :
 

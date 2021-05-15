@@ -10,12 +10,9 @@ tags:
 - hanches
 - thorax
 
-thumbnail: "thumbnails/moto_epi_H.png"
 ---
 
 ![:right](alpinestars-nucleon-racing-hr-kr_HB_niv2_face__source_revzilla.jpg)
-
-Cette série de fiches a pour objet de mémoriser/partager les infos que je trouve sur les coques de protection disponibles sur le marché.
 
 Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection de hanches _Alpinestars Nucleon Racing KR-HR et Nucleon KR-H_ de niveau 1 et 2.
 
