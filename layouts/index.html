@@ -3,7 +3,7 @@
     {{ partial "navbar" . }}
     <!-- Main -->
     <div id="main">
-        {{ range (where .Site.Pages "Type" "post") }}
+        {{ range (where .Site.RegularPages "Type" "post") }}
             {{ .Render "content-list" }}
         {{ end }}
     </div>
