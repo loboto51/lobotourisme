@@ -14,11 +14,11 @@ toc: true
 
 ---
 
-Edit du 07/05/2021 : Ajout de la gestion des icônes. 
-
 Edit du 10/05/2021 : Modification du template _single.html_.
 
 Edit du 14/05/2021 : Depuis la rédaction de ce document, je suis passé au thème [hugo-future-imperfect](https://github.com/statnmap/hugo-future-imperfect) qui présente quelques fonctions supplémentaires et que je trouve plus élégant. 
+
+Edit du 15/05/2021 : Déplacement de la gestion des icônes dans une page dédiée : [Fabrication des favicons en masse avec Imagemagick]({{< ref "/post/Fabrication des favicons en masse avec Imagemagick/index.md">}}). 
 
 ---
 
@@ -117,86 +117,6 @@ Modifié pour le restreindre à 2 blocs :
   url = "index.xml"
 ```
 
-
-## Icones, logo, etc.
-
-### Image originale
-
-J'ai acheté une belle icône sur le très bon site [The Noun Project](https://thenounproject.com/) : [Space dessinée par Adrien Coquet](https://thenounproject.com/term/space/2217279/). 
-
-Je l'ai modifiée dans Inkscape pour ajouter un peu de couleur, puis j'ai généré une version PNG de 1024x1024 "_logo_large.png_" que j'ai mise dans _./static/logos/_.
-
-#### Génération des variantes
-
-J'ai généré avec ImageMagick toutes les variantes présentes dans le template :
-
-```sh
-mkdir -p ./static/icons/
-
-#logo.png
-convert ./static/logos/logo_large.png -resize 75x75 -unsharp 0x1 ./static/logos/logo_footer.png
-
-#favicon.ico
-convert ./static/logos/logo_large.png -resize 48x48 -unsharp 0x1 ./static/icons/favicon.ico
-#favicon-16x16.png
-convert ./static/logos/logo_large.png -resize 16x16 -unsharp 0x1 ./static/icons/favicon-16x16.png
-#favicon-32x32.png
-convert ./static/logos/logo_large.png -resize 32x32 -unsharp 0x1 ./static/icons/favicon-32x32.png
-
-#android-chrome-192x192.png
-convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x1 ./static/icons/android-chrome-192x192.png
-#android-chrome-256x256.png
-convert ./static/logos/logo_large.png -resize 256x256 -unsharp 0x1 ./static/icons/android-chrome-256x256.png
-#apple-touch-icon.png
-convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/apple-touch-icon.png
-#apple-touch-icon.png
-convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/apple-touch-icon.png
-
-#mstile-150x150.png
-convert ./static/logos/logo_large.png -resize 150x150 -unsharp 0x1 -bordercolor transparent -border 60 ./static/icons/mstile-150x150.png
-```
-
-
-ainsi que celles recommandées par [The 2020 Guide to FavIcons for Nearly Everyone and Every Browser](https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/)
-
-```sh
-#favicon-128x128.png
-convert ./static/logos/logo_large.png -resize 128x128 -unsharp 0x1 ./static/icons/favicon-128x128.png
-
-#favicon-152x152.png
-convert ./static/logos/logo_large.png -resize 152x152 -unsharp 0x1 ./static/icons/favicon-152x152.png
-
-#favicon-167x167.png
-convert ./static/logos/logo_large.png -resize 167x167 -unsharp 0x1 ./static/icons/favicon-167x167.png
-
-#favicon-180x180.png
-convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/icons/favicon-180x180.png
-
-#favicon-192x192.png
-convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x1 ./static/icons/favicon-192x192.png
-
-#favicon-196x196.png
-convert ./static/logos/logo_large.png -resize 196x196 -unsharp 0x1 ./static/icons/favicon-196x196.png
-```
-
-
-### webmanifest
-
-Gadget : Cela sert à rendre le site utilisable comme une appli.
-Personne ne le fera pour celui-ci, mais bon je l'ai fait pour l'exercice !
-
-J'ai copié l'original :
-
-```sh
-cp ./themes/hugo-clarity/static/icons/site.webmanifest ./static/icons/
-```
-
-Et je l'ai modifié pour ajouter le nom du site :
-
-```json
-    "name": "Lobotourisme",
-    "short_name": "Lobotourisme",
-```
 
 ## Modification des pages principales
 

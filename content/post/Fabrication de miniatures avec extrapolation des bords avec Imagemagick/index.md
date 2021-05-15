@@ -8,37 +8,58 @@ tags:
 - imagemagick
 ---
 
+---
+
+Edit du 15/05/2021 : J'ai intégré 3 modes de fabrication de miniature dans le script, pour pouvoir ensuite choisir facilement le meilleur résultat.
+Entre temps j'ai changé de thème Hugo ([hugo-future-imperfect](https://github.com/statnmap/hugo-future-imperfect)) et les miniatures de 800x300 s'y prêtent mieux.
+
+---
+
 J'ai choisi de générer des miniatures pour chacun de mes billets en réutilisant des photos issues des articles. 
 
-J'utilise une technique qui me permet de produire des images complètement carrées :
-Je redimensionne d'abord l'image pour qu'elle rentre entièrement dans un carré de 300x300 px puis je remplis les espaces vides en extrapolant à partir des zones se trouvant à proximité.
+J'utilise 3 techniques pour produire des images aux dimensions qui me conviennent :
 
-Pour ce faire j'ai légèrement adapté une série de commandes [_Imagemagick_](https://imagemagick.org/) concoctées par _fmw42_ (le fameux Fred de [Fred's ImageMagick Scripts](http://www.fmwconcepts.com/imagemagick/index.php)) dans cette page de forum  : [ImageMagick - turn image with borders into full bleed image](https://legacy.imagemagick.org/discourse-server/viewtopic.php?t=26928)
+## Technique 1 : Remplissage des zones vides par extrapolation
 
-Le résultat est assez bluffant, il faut parfois regarder de près les zones extrapolées pour réaliser qu'elles sont artificielles :
+J'ai légèrement adapté une série de commandes [_Imagemagick_](https://imagemagick.org/) concoctées par _fmw42_ (le fameux Fred de [Fred's ImageMagick Scripts](http://www.fmwconcepts.com/imagemagick/index.php)) dans cette page de forum  : [ImageMagick - turn image with borders into full bleed image](https://legacy.imagemagick.org/discourse-server/viewtopic.php?t=26928).
+
+Le code est un peu long, je mets à la fin de l'article un script _shell_ comportant l'ensemble.
+
+Le résultat est assez bluffant, il faut parfois regarder de près les zones extrapolées pour réaliser qu'elles sont artificielles (ici en 300x300) :
 
 ![alpinestars-nucleon-racing-hr-kr_HB_niv2_face__source_revzilla_thumbnail](alpinestars-nucleon-racing-hr-kr_HB_niv2_face__source_revzilla_thumbnail.jpg)
 
 ![Course-rocker_jean_aramide_AA_thumbnail.jpg](Course-rocker_jean_aramide_AA_thumbnail.jpg)
 
 
-Ce qui ne marche pas encore :
-
-Apparemment les grands aplats de blanc ne lui conviennent pas :
+En revanche les grands aplats de blanc ne lui conviennent pas :
 
 ![sastec-sc1-evo1-new__EA-KA-SB_niv2__source_sastec_thumbnail.jpg](sastec-sc1-evo1-new__EA-KA-SB_niv2__source_sastec_thumbnail.jpg)
 
 
-Heureusement pour les fonds blancs il suffit de faire :
+## Technique 2 : Remplissage des zones vides par un fond blanc
+
+Comme le titre l'indique.
+
+La commande est simple :
 
 ```sh
-convert IMAGESOURCE -resize 300x300 -background white -gravity center -extent 300x300 IMAGECIBLE
+convert IMAGESOURCE -resize XxY -background white -gravity center -extent XxY IMAGECIBLE
 ```
+
+## Technique 3 : Remplissage des zones vides par une version floue et déformée de l'image
+
+J'ai repris une commande aussi concoctée par _Fred/fmw42_ dans cette page de forum : [ImageMagick - Keep Aspect Ratio on Resize and Fill with Blur Background](https://legacy.imagemagick.org/discourse-server/viewtopic.php?t=28035).
+
+```sh
+convert IMAGESOURCE \( -clone 0 -blur 0x9 -resize XxY\! \) \( -clone 0 -resize XxY \) -delete 0 -gravity center -compose over -composite  IMAGECIBLE
+```
+
 
 
 ## Le script :
 
-J'ai créé un script shell, qui prend tous les fichiers du sous-répertoire _"a_traiter/"_ et produit les résultats dans le répertoire _"res/"_ .
+J'ai créé un script shell, qui prend tous les fichiers du sous-répertoire _"a_traiter/"_ et produit les résultats selon les 3 modes dans le répertoire _"res/"_ .
 
 Mise en place :
 
@@ -59,22 +80,26 @@ for fic in a_traiter/*
 do
 	echo ${fic}
 	ficsource=$(basename ${fic})
-	xcible=300
+	xcible=800
 	ycible=300
 	size=${xcible}x${ycible}
 	convert ${fic} -resize ${size} res/tmp.png 
 
 	xoff=`convert res/tmp.png -format "%w" info:`
 	yoff=`convert res/tmp.png -format "%h" info:`
-	yoff=$(((300-${yoff})/2))
-	xoff=$(((300-${xoff})/2))
+	yoff=$(((${ycible}-${yoff})/2))
+	xoff=$(((${xcible}-${xoff})/2))
 	vcoords="${size}-${xoff}-${yoff}"
 	echo ${vcoords}
 	convert res/tmp.png -transparent white +repage \( -clone 0 -alpha off -sparse-color Voronoi \
 	"9,9 rgb(255,8,8)  969,9 rgb(255,255,8)  969,669 rgb(255,255,248)  9,669 rgb(255,248,248)" \) \
 	+swap -compose over -composite \
-	-define distort:viewport=${size}-$xoff-$yoff +distort SRT 0 +repage res/cover_${ficsource}
+	-define distort:viewport=${size}-${xoff}-${yoff} +distort SRT 0 +repage res/${ficsource}.mode1.jpg
 	rm -f res/tmp.png
+	
+	convert ${fic} -resize ${xcible}x${ycible} -background white -gravity center -extent ${xcible}x${ycible} res/${ficsource}.mode2.jpg
+	
+	convert ${fic} \( -clone 0 -blur 0x9 -resize ${xcible}x${ycible}\! \) \( -clone 0 -resize ${xcible}x${ycible} \) -delete 0 -gravity center -compose over -composite res/${ficsource}.mode3.jpg
 done
 ```
 
@@ -86,6 +111,14 @@ cd gen_thumb_sparse_voronoi/
 ```
 
 Le résultat sera produit dans _"res/"_.
+
+Exemple :
+
+![mode 1](sastec-sc1-06evo-new__EB-KB_niv2__vs__esquad_hilon_EA-KA-SA_niv1.jpg.mode1.jpg)
+
+![mode 2](sastec-sc1-06evo-new__EB-KB_niv2__vs__esquad_hilon_EA-KA-SA_niv1.jpg.mode2.jpg)
+
+![mode 3](sastec-sc1-06evo-new__EB-KB_niv2__vs__esquad_hilon_EA-KA-SA_niv1.jpg.mode3.jpg)
 
 
 
