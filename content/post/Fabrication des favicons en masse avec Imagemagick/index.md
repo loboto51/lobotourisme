@@ -23,12 +23,12 @@ J'ai généré avec ImageMagick toutes les variantes recommandées par [The 2020
 ```sh
 mkdir -p ./static/favicons/
 
-#favicon.ico
-convert ./static/logos/logo_large.png -resize 48x48 -unsharp 0x1 ./favicon.ico
 #favicon-16x16.png
 convert ./static/logos/logo_large.png -resize 16x16 -unsharp 0x1 ./static/favicons/favicon-16x16.png
 #favicon-32x32.png
 convert ./static/logos/logo_large.png -resize 32x32 -unsharp 0x1 ./static/favicons/favicon-32x32.png
+#favicon-48x48.png
+convert ./static/logos/logo_large.png -resize 48x48 -unsharp 0x1 ./static/favicons/favicon-48x48.png
 #favicon-128x128.png
 convert ./static/logos/logo_large.png -resize 128x128 -unsharp 0x1 ./static/favicons/favicon-128x128.png
 #favicon-152x152.png
@@ -43,6 +43,13 @@ convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x1 ./static/favi
 convert ./static/logos/logo_large.png -resize 196x196 -unsharp 0x1 ./static/favicons/favicon-196x196.png
 #favicon-256x256.png
 convert ./static/logos/logo_large.png -resize 256x256 -unsharp 0x1 ./static/favicons/favicon-256x256.png
+```
+
+Fabriquons le .ico :
+
+```sh
+#favicon.ico
+convert ./static/favicons/favicon-16x16.png ./static/favicons/favicon-32x32.png ./static/favicons/favicon-48x48.png ./favicon.ico
 ```
 
 Spécifiques à un navigateur :
