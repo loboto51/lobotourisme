@@ -31,7 +31,7 @@ _Synthèse :_ Protection excellente (50% au dessus de la norme), grande couvertu
 Commercialisation :
 -------------------
 
-3 modèles sont disponibles à la vente (14-18e les 2) :
+3 modèles sont disponibles à la vente (14-18€ par paire) :
 
 - SC-1/EVO1 (Epaule B/Coude A/Genou A)
     - Dimensions : 23 cm x 21,5 cm x 1,6 cm

@@ -21,10 +21,10 @@ _Synthèse :_ Protection excellente (40% au dessus de la norme) et énorme couve
 Commercialisation :
 -------------------
 
-1 modèle, vendu autour de 18e :
+1 modèle, vendu autour de 18€ :
 
 - SC-1/06EVO (Coude B/Genou B)
-    - Dimensions : 41,5 cm x 26 cm x 1,6 cm
+    - Dimensions : **41,5 cm** x **26 cm** x 1,6 cm
     - Poids : 145 g
 
 Disponibles sur [fc-moto.de](https://www.fc-moto.de/fr/SAS-Tec-SC-1/06evo-Protecteurs-DEllbow/Knee).
@@ -63,8 +63,8 @@ Ces protections enveloppent complètement les articulations et pourtant elles g�
 Mes recherches n'ont pas trouvé beaucoup de protections comparables : 
 
 - Il y a celles de BMW  : Pas mal de photos dans l'excellent article [Protéger ses os et ses articulations](https://afmb.fr/proteger-ses-os-et-ses-articulations/) de l'association AFMB -> !!! ATTENTION - l'article comporte des photos de blessures !!! ;
-- Rukka fait une genouillère imposante en D3O (évoquée ici : [Mon récap sur les protections Rukka D3O Air XTR]({{< ref "/post/Protections moto Rukka D3O Air XTR/index.md">}})) mais elle est beaucoup plus chère et le D3O est moins confortable ;
-- Rev'It fait une SeeFlex RV12 mais elle est plus courte et les avis la disent peu confortable (dure et bords piquants/coupants) (évoquée ici : [Mon récap sur les protections Rev'It SeeFlex]({{< ref "/post/Protections moto Rev'it Seeflex/index.md">}}))  ;
+- Rukka fait une genouillère imposante en D3O ([Mon récap sur les protections Rukka D3O Air XTR]({{< ref "/post/Protections moto Rukka D3O Air XTR/index.md">}})) mais elle est beaucoup plus chère et le D3O est moins confortable ;
+- Rev'It fait une SeeFlex RV12 de 34,7 x 13 cm ([Mon récap sur les protections Rev'It SeeFlex]({{< ref "/post/Protections moto Rev'it Seeflex/index.md">}})) : 6 cm plus courte et à priori moins couvrante latéralement. Les avis la disent aussi peu confortable (dure et bords piquants/coupants) ;
 - Held commercialise un modèle Quatrotempi vert, qui semble être une marque blanche de l'ancien modèle SAS-TEC SC1/06.
 
 

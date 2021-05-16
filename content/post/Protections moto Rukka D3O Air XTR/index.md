@@ -59,6 +59,15 @@ Caractéristiques des coques :
 Confort et comparaison avec les autres marques : 
 ------------------------------------------------
 
+Mon avis :
+La couverture est très bonne, la protection aussi, mais le prix est vraiment très élevé. C'est d'autant plus gênant que la production est en Chine alors que beaucoup d'autres équipementiers fabriquent en Europe et pour moins cher.
+
+Pour des protections moins aérées mais plus protectrices (<12 kN), encore plus couvrantes et 2 à 3 fois moins chères, il est intéressant de regarder du côté de SAS-TEC :
+
+- Genoux/coudes très grand format : [Mon article sur les SAS-TEC SC1/06EVO]({{< ref "/post/Protections moto SAS-TEC SC-1-06-EVO/index.md">}})
+- Epaules, genoux, coudes grand format : [Mon article sur les SAS-TEC SC1/EVO1, EVO2 et EVO3]({{< ref "/post/Protections moto SAS-TEC SC-1-EVO1, SC1-EVO2, SC1-EVO3/index.md">}})
+
+
 ### Retours d'expérience : Comparaison du D3O avec les Knox Micro-lock L2 :
 
 > The softest high protection (CE2) armor I've found is the Knox MicroLock. It's more pliable then Forcefield, SasTec, or D3O; and has a softer feel when joint pressure is applied. 

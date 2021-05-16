@@ -41,12 +41,12 @@ defaultContentLanguage = "fr"
   loadFavicon          = true
   faviconVersion       = ""
   # Sets Social Share links to appear on posts
-  socialShare          = true
+  socialShare          = false
   # Sets specific share to appear on posts (default behavior is to appear)
-  socialShareTwitter   = true
-  socialShareFacebook  = true
-  socialShareReddit    = true
-  socialSharePinterest = true
+  socialShareTwitter   = false
+  socialShareFacebook  = false
+  socialShareReddit    = false
+  socialSharePinterest = false
   socialShareEmail     = true
 
   socialShareGoogleplus = false

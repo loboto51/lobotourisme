@@ -49,9 +49,13 @@ Caractéristiques des coques :
 Confort et comparaison avec les autres marques : 
 ------------------------------------------------
 
+Mon avis :
 Le matériaux étant rigide, on peut imaginer que les coques suivent moins les mouvements que les visco-élastiques qu'emploient SAS-TEC, BMW, etc.
 
 En revanche l'aération est manifestement supérieure à tous les concurrents de niveau 2 (approchant : REV'IT Seeflex).
+
+Pour des protections moins aérées mais plus protectrices (<12 kN), plus couvrantes et à un prix similaire, il est intéressant de regarder du côté de SAS-TEC :
+[Mon article sur les SAS-TEC SC1/EVO1, EVO2 et EVO3]({{< ref "/post/Protections moto SAS-TEC SC-1-EVO1, SC1-EVO2, SC1-EVO3/index.md">}})
 
 
 Photos :
@@ -59,14 +63,18 @@ Photos :
 
 ### Photos générales :
 
+Kit taille B :
+
 ![Kit taille B - face](alpinestars-bio-armor-air_EB-KA_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face.jpg)
+![Kit taille B - dos](alpinestars-bio-armor-air_EB-KA_niv2_dos__vs__alpinestars-bio-armor-air_SB_niv2_dos.jpg)
+
+Kit taille A :
 
 ![Kit taille A - dos](alpinestars-bio-armor-air_EA_niv2_dos__vs__alpinestars-bio-armor-air_SA_niv2_dos.jpg)
 
-![Kit taille B - dos](alpinestars-bio-armor-air_EB-KA_niv2_dos__vs__alpinestars-bio-armor-air_SB_niv2_dos.jpg)
+Niveau 2 T+ T- : 
 
 ![alpinestars-bio-armor-air_EB-KA_niv2_notations__source_advrider.jpg](alpinestars-bio-armor-air_EB-KA_niv2_notations__source_advrider.jpg)
-
 ![alpinestars-bio-armor-air_SB_niv2_notations__source_web.jpg](alpinestars-bio-armor-air_SB_niv2_notations__source_web.jpg)
 
 
@@ -79,7 +87,6 @@ Ces photos proviennent de la conversation [advrider.com : CE2 Replacement Armor 
 #### Forcefield Isolator 2 :
 
 ![forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_dos__source_advrider.jpg](forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_dos__source_advrider.jpg)
-
 ![forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_face__source_advrider.jpg](forcefield-isolator-2_EB-KB_niv2_face__vs__alpinestars-bio-armor-air_EB-KA_niv2_face__source_advrider.jpg)
 
 
