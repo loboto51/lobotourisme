@@ -8,7 +8,7 @@
 
 	Modified/Cleaned for use with Hugo-Future-Imperfect Theme
 	gohugo.io | @pacollins
-	
+
 	Modified for Multiple languages and posts list itemized
 	statnmap.com | @statnmap
 */
@@ -1365,7 +1365,7 @@
 		#content ul li ul, #content ul li ul li{
         margin: 0;
     }
-    
+
 		.post > .image.featured {
 			overflow: hidden;
 		}
@@ -1773,11 +1773,11 @@
       .itemized .header-top-left .image.featured {
         margin: 0 0 0.5em 0;
       }
-      
+
       .itemized .header-top-left .title {
         padding: 0;
       }
-      
+
 			@media screen and (max-width: 980px) {
 
 				.itemized {
@@ -1883,15 +1883,15 @@
 							font-size: 1em;
 						}
 
-          .itemized > header .stats,  
+          .itemized > header .stats,
           .itemized > header .summary {
-            display: none; 
+            display: none;
           }
-          
+
         .itemized .header-top-left .mini-featured {
           width: 30%;
         }
-        
+
         .itemized .header-left {
             padding: 0em 2em;
         }
@@ -1945,17 +1945,17 @@
 							margin: 0 0 0 1.25em;
 							padding: 0 0 0 1.25em;
 						}
-						
+
 					.itemized .header-top-left .mini-featured {
-            width: 100%; 
+            width: 100%;
           }
-          
+
           .itemized > header .meta {
             margin-bottom: 0;
           }
 
 			}
-			
+
 /* Related articles */
 .related-articles {
     display: inline-block;
@@ -2014,17 +2014,6 @@
 	    article.post h3,
 	    article.post h4 {
 	        color: #333333;
-	        /* Theoretically for IE 8 & 9 (more valid) */
-	        /* ...but not required as filter works too */
-	        /* should come BEFORE filter */
-	        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=87)";
-
-	        /* This works in IE 8 & 9 too */
-	        /* ... but also 5, 6, 7 */
-	        filter: alpha(opacity=87);
-
-	        /* Modern Browsers */
-	        opacity: 0.87;
 	    }
 
 /* Table */
@@ -2827,9 +2816,9 @@
     height: 100%;
 }
 
-#header .main .lang-switcher:hover > ul, 
-#header .main .lang-switcher:hover > ul, 
-#header .main .lang-switcher:focus > ul, 
+#header .main .lang-switcher:hover > ul,
+#header .main .lang-switcher:hover > ul,
+#header .main .lang-switcher:focus > ul,
 #header .main .focus > ul {
     clip: inherit;
     overflow: inherit;
@@ -3133,12 +3122,12 @@
  /* Code folding */
  /* Each code block button */
  .article-entry .code-folding-btn { margin-bottom: 4px; }
- .article-entry .row { 
+ .article-entry .row {
      display: flex;
      border-bottom: solid 1px #d7d7d7;
  }
  .article-entry .collapse { display: none; }
- .article-entry .in { 
+ .article-entry .in {
      display: block ;
      /* border: solid 1px #d7d7d7;*/
      border-radius: 5px;
