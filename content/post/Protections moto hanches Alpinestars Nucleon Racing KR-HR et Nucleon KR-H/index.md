@@ -99,11 +99,11 @@ Photos :
 
 ### Photos générales :
 
+Modèle HR-KR (sources [_revzilla_](https://www.youtube.com/watch?v=MM0XZrtIrVU), [_mcgearhub_](https://www.mcgearhub.com/motorcycle-armor/alpinestars-nucleon-racing-kr-hr-hip-protectors-review/)) :
+
 ![alpinestars-nucleon-racing-hr-kr_HB_niv2_face__source_revzilla.jpg](alpinestars-nucleon-racing-hr-kr_HB_niv2_face__source_revzilla.jpg)
-
+![alpinestars-nucleon-hr-k_HB_niv1_profil_poche__source_revzilla.jpg](alpinestars-nucleon-hr-k_HB_niv1_profil_poche__source_revzilla.jpg)
 ![alpinestars-nucleon-racing-hr-kr_HB_niv2_notation__source_mcgearhub.jpg](alpinestars-nucleon-racing-hr-kr_HB_niv2_notation__source_mcgearhub.jpg)
-
-![alpinestars-nucleon-hr-k_HB_niv1_profil_poche__source_revzilla.png](alpinestars-nucleon-hr-k_HB_niv1_profil_poche__source_revzilla.png)
 
 
 Lectures :

@@ -93,7 +93,6 @@ Comparaison avec les coques d'origine (_ESquad Hilon_ niveau 1) :
 Création de poche en mesh ([polyester 50g](https://www.extremtextil.de/en/netting-polyester-elastic-50g-sqm.html) + [bandes](https://www.extremtextil.de/en/hooktape-for-sewing-016mm.html) [velcros](https://www.extremtextil.de/en/looptape-for-sewing-016mm.html) achetés pour quelques euros chez _extremtextil.de_) :
 
 ![photo montrant les poches cousues dans mon pantalon, sans la protection sc1-06/evo à l'intérieur](sastec-sc1-06evo-new__EB-KB_niv2__poches_pantalon.jpg)
-
 ![photo montrant les poches cousues dans mon pantalon, avec la protection sc1-06/evo à l'intérieur](sastec-sc1-06evo-new__EB-KB_niv2__poches_pantalon_2.jpg)
 
 (Les poches semblent très grandes, mais comme les protections sont larges et enveloppantes, elles n'ont pas besoin d'être trop maintenues, elles restent naturellement en place)
@@ -109,7 +108,6 @@ En plus du pantalon, j'ai intégré ces coques comme protection coude dans un bl
 Découpage :
 
 ![photo montrant une sc1-06/evo côte à côte avec une des coques de coudes d'origine de mon blouson](sastec-sc1-06evo-new__EB-KB_niv2__adaptation_coudes_blouson.jpg)
-
 ![photo montrant une sc1-06/evo découpées, englobant une des coques de coudes d'origine de mon blouson](sastec-sc1-06evo-new__EB-KB_niv2__adaptation_coudes_blouson_2.jpg)
 
 

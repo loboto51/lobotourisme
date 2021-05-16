@@ -85,21 +85,26 @@ Note : La plupart des photos viennent de la conversation [advrider.com : CE2 Rep
 
 ### Photos générales :
 
-![rukka-d3o-air-xtr_collection.jpg](rukka-d3o-air-xtr_collection.jpg)
+Coudes :
 
 ![rukka-d3o-air-xtr_EB_niv2_dos__source_mcgearhub.jpg](rukka-d3o-air-xtr_EB_niv2_dos__source_mcgearhub.jpg)
-
 ![rukka-d3o-air-xtr_EB_niv2_face__source_mcgearhub.jpg](rukka-d3o-air-xtr_EB_niv2_face__source_mcgearhub.jpg)
-
 ![rukka-d3o-air-xtr_EB_niv2_notations__source_mcgearhub.jpg](rukka-d3o-air-xtr_EB_niv2_notations__source_mcgearhub.jpg)
+
+Hanches :
 
 ![rukka-d3o-air-xtr_HB_niv2_notations__source_mcgearhub.jpg](rukka-d3o-air-xtr_HB_niv2_notations__source_mcgearhub.jpg)
 
-![rukka-d3o-air-xtr_KB-LB_niv2_face_dimension__source_advrider.jpg](rukka-d3o-air-xtr_KB-LB_niv2_face_dimension__source_advrider.jpg)
+Genou/Jambe :
 
+![rukka-d3o-air-xtr_KB-LB_niv2_face_dimension__source_advrider.jpg](rukka-d3o-air-xtr_KB-LB_niv2_face_dimension__source_advrider.jpg)
 ![rukka-d3o-air-xtr_KB-LB_niv2_notations__source_mcgearhub.jpg](rukka-d3o-air-xtr_KB-LB_niv2_notations__source_mcgearhub.jpg)
 
+Coude et épaule :
+
 ![rukka-d3o-air-xtr_EB_niv2_face__vs__rukka-d3o-air-xtr_SB_niv2__source_mcgearhub.jpg](rukka-d3o-air-xtr_EB_niv2_face__vs__rukka-d3o-air-xtr_SB_niv2__source_mcgearhub.jpg)
+
+Epaule :
 
 ![rukka-d3o-air-xtr_SB_niv2_notations__source_mcgearhub.jpg](rukka-d3o-air-xtr_SB_niv2_notations__source_mcgearhub.jpg)
 
@@ -114,7 +119,7 @@ Note : La plupart des photos viennent de la conversation [advrider.com : CE2 Rep
 
 #### D3O T5 Evo :
 
-![d3o-t5-evo_KA_niv1_face__vs__rukka-d3o-air-xtr_KB-LB_niv2.jpg](d3o-t5-evo_KA_niv1_face__vs__rukka-d3o-air-xtr_KB-LB_niv2.jpg)
+![d3o-t5-evo_KA_niv1_face__vs__rukka-d3o-air-xtr_KB-LB_niv2__source_mcgearhub.jpg](d3o-t5-evo_KA_niv1_face__vs__rukka-d3o-air-xtr_KB-LB_niv2__source_mcgearhub.jpg)
 
 
 

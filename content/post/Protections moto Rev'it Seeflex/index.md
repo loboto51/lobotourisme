@@ -98,16 +98,18 @@ Note : La plupart des photos viennent de la conversation [advrider.com : CE2 Rep
 ### Fiches constructeur :
 
 ![revit-seeflex_fiche_collection_2.jpg](revit-seeflex_fiche_collection_2.jpg)
-
 ![revit-seeflex_fiche_collection.jpg](revit-seeflex_fiche_collection.jpg)
 
 
 ### Photos générales :
 
+Coude/genou (RV10) :
+
 ![revit-seeflex-rv10-l2_EB-KB_niv2_notations__source_advrider.jpg](revit-seeflex-rv10-l2_EB-KB_niv2_notations__source_advrider.jpg)
 
-![revit-seeflex-rv12-l2_KB-LB_niv2_face_dimensions.jpg](revit-seeflex-rv12-l2_KB-LB_niv2_face_dimensions.jpg)
+Genou/jambe (RV12) :
 
+![revit-seeflex-rv12-l2_KB-LB_niv2_face_dimensions.jpg](revit-seeflex-rv12-l2_KB-LB_niv2_face_dimensions.jpg)
 ![revit-seeflex-rv12-l2_KB-LB_niv2_profil_dimensions.jpg](revit-seeflex-rv12-l2_KB-LB_niv2_profil_dimensions.jpg)
 
 
@@ -116,7 +118,6 @@ Note : La plupart des photos viennent de la conversation [advrider.com : CE2 Rep
 #### Forcefield Isolator 2 :
 
 ![revit-seeflex-rv10-l2_EB-KB_niv2_dos__vs__forcefield-isolator-2_EB-KB_niv2_dos__source_advrider.jpg](revit-seeflex-rv10-l2_EB-KB_niv2_dos__vs__forcefield-isolator-2_EB-KB_niv2_dos__source_advrider.jpg)
-
 ![revit-seeflex-rv10-l2_EB-KB_niv2_face__vs__forcefield-isolator-2_EB-KB_niv2_face__source_advrider.jpg](revit-seeflex-rv10-l2_EB-KB_niv2_face__vs__forcefield-isolator-2_EB-KB_niv2_face__source_advrider.jpg)
 
 #### Alpinestars Bio Air & Alpinestars Nucleon Flex Pro & D3O :
