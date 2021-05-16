@@ -1,5 +1,10 @@
-{{ if .Site.Params.staticman.staticman }}
     <article class="post">
-      {{ .Render "staticman" }}
+        <p>Si ce contenu vous a intéressé, vous pouvez me laisser un commentaire en utilisant votre compte Github ci-dessous, ou en m'envoyant un mail via <a href='{{ "contact/" | relURL }}'>le formulaire de contact</a>.</p>
+                <script src="https://utteranc.es/client.js"
+                repo="loboto51/lobotourisme"
+                issue-term="pathname"
+                theme="github-light"
+                crossorigin="anonymous"
+                async>
+        </script>
     </article>
-{{ end }}
