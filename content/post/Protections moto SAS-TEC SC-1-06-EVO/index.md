@@ -35,7 +35,7 @@ Caractéristiques des coques :
 
 - Certification : Niveau 2 (non certifiées T+/T-) [^1]
 - Protection réelle : Le fabricant annonce une majorité < 12 kN (norme : 20 kN en moyenne, maximum 30 kN) + une résistance à l'échauffement de son matériaux allant jusqu'à 100°C.
-- Fabrication : ?
+- Fabrication : Hongrie, Lettonie et Indonésie ([source](https://www.sas-tec.de/en/2013/02/01/tourenfahrer-2-2013/))
 - Longévité annoncée : 10 ans
 - Type de matériaux : Visco-élastique souple, s'ajuste avec la chaleur corporelle
 - Aération : Bonne
