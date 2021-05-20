@@ -1,4 +1,4 @@
-baseurl = "https://loboto51.github.io/lobotourisme/" 
+baseurl = "https://loboto51.github.io/lobotourisme/"
 languageCode = "fr-FR"
 title = "Lobotourisme"
 author = "Loboto"
@@ -8,6 +8,9 @@ paginate = 3
 disqusShortname = "shortname"
 googleAnalytics = ""
 pluralizeListTitles = false
+
+canonifyURLs=true
+
 # Sets the default language for multilanguage use.
 defaultContentLanguage = "fr"
 
@@ -85,17 +88,17 @@ defaultContentLanguage = "fr"
 # Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
 # due to its ease of use. Feel free to check out both and decide what you would
 # prefer to use. See Staticman.yml for additional settings.
-[params.staticman]
-  # Sets Statiman to be active
-  staticman = false
-  # Sets the location for Staticman to connect to
-  username  = ""
-  repo      = ""
-  branch    = ""
-
-  [params.staticman.recaptcha]
-    sitekey = "SITE_KEY"
-    secret  = "ENCRYPTED_SECRET"
+# [params.staticman]
+#   # Sets Statiman to be active
+#   staticman = false
+#   # Sets the location for Staticman to connect to
+#   username  = ""
+#   repo      = ""
+#   branch    = ""
+#
+#   [params.staticman.recaptcha]
+#     sitekey = "SITE_KEY"
+#     secret  = "ENCRYPTED_SECRET"
 
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
@@ -146,7 +149,7 @@ defaultContentLanguage = "fr"
 	url = "categories/écologie/"
 	identifier = "fa fa-ecologie"
 	weight = 7
-	
+
 [[menu.main]]
 	name = "Contact"
 	url = "contact/"
@@ -161,7 +164,4 @@ defaultContentLanguage = "fr"
   # Coding Communities
   github           = "loboto51"
   # Email
-  email            = "example"
-  
-
-  
+  #email            = "example"
