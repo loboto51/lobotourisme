@@ -111,6 +111,21 @@ Découpage :
 ![photo montrant une sc1-06/evo découpées, englobant une des coques de coudes d'origine de mon blouson](sastec-sc1-06evo-new__EB-KB_niv2__adaptation_coudes_blouson_2.jpg)
 
 
+**Edit du 15/06/2021 :** Ajout des photos des coques SC-1/06EVO comparées aux SC-1/EVO1 et SC-1/EVO2.
+
+Comparaison des SC-1/EVO1 (épaule B, coude/genou A) et SC-1/06EVO (épaule/genou B) :
+
+![Comparaison des SC-1/06EVO et SC-1/EVO1, vues de face](sastec-sc1-06evo-new__EB-KB_niv2_face__vs__sastec-sc1-evo1-new__EA-KA-SB_niv2_face.jpg)
+![Comparaison des SC-1/06EVO et SC-1/EVO1, vues de haut](sastec-sc1-06evo-new__EB-KB_niv2_haut__vs__sastec-sc1-evo1-new__EA-KA-SB_niv2_haut.jpg)
+![Comparaison des SC-1/06EVO et SC-1/EVO1, vues de profil](sastec-sc1-evo1-new__EA-KA-SB_niv2_profil__vs__sastec-sc1-06evo-new__EB-KB_niv2_profil.jpg)
+
+Comparaison des SC-1/EVO1 (épaule B, coude/genou A), SC-1/EVO2 (coude B, épaule/genou A) et SC-1/06EVO (épaule/genou B) :
+
+![Comparaison des SC-1/EVO1, SC-1/EVO2 et SC-1/06EVO, vues de face](sastec-sc1-evo1-new__EA-KA-SB_niv2_face__vs__sastec-sc1-evo2-new__EB-KA-SA_niv2_face__vs__sastec-sc1-06evo-new__EB-KB_niv2_face.jpg)
+![Comparaison des SC-1/EVO1, SC-1/EVO2 et SC-1/06EVO, vues de haut](sastec-sc1-evo1-new__EA-KA-SB_niv2_haut__vs__sastec-sc1-evo2-new__EB-KA-SA_niv2_haut__vs__sastec-sc1-06evo-new__EB-KB_niv2_haut.jpg)
+
+
+
 Lectures :
 ----------
 

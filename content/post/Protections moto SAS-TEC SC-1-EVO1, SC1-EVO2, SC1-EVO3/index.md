@@ -11,7 +11,6 @@ tags:
 - coudes
 - épaules
 
-thumbnail: "thumbnails/moto_epi_EKS.png"
 ---
 
 ---
@@ -21,7 +20,7 @@ Edit du 15/05/2021 : Ajout d'un revendeur français.
 ---
 
 
-![:right](sastec-sc1-evo2-new__EA-KB-SA_niv2__source_sastec.jpg)
+![:right](sastec-sc1-evo2-new__EB-KA-SA_niv2__source_sastec.jpg)
 
 Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection _SAS-TEC SC1/EVO_ 1, 2 et 3 de niveau 2.
 
@@ -97,9 +96,21 @@ Photos :
 SC1/EVO1, EVO 2 et EVO 3 :
 
 ![sastec-sc1-evo1-new__EA-KA-SB_niv2__source_sastec.jpg](sastec-sc1-evo1-new__EA-KA-SB_niv2__source_sastec.jpg)
-![sastec-sc1-evo2-new__EA-KB-SA_niv2__source_sastec.jpg](sastec-sc1-evo2-new__EA-KB-SA_niv2__source_sastec.jpg)
+![sastec-sc1-evo2-new__EB-KA-SA_niv2__source_sastec.jpg](sastec-sc1-evo2-new__EB-KA-SA_niv2__source_sastec.jpg)
 ![sastec-sc1-evo3-new__EB-KB_niv2__source_sastec.jpg](sastec-sc1-evo3-new__EB-KB_niv2__source_sastec.jpg)
 
+**Edit du 15/06/2021 :** Ajout des photos des coques SC-1/06EVO comparées aux SC-1/EVO1 et SC-1/EVO2.
+
+Comparaison des SC-1/EVO1 (épaule B, coude/genou A) et SC-1/06EVO (épaule/genou B) :
+
+![Comparaison des SC-1/06EVO et SC-1/EVO1, vues de face](sastec-sc1-06evo-new__EB-KB_niv2_face__vs__sastec-sc1-evo1-new__EA-KA-SB_niv2_face.jpg)
+![Comparaison des SC-1/06EVO et SC-1/EVO1, vues de haut](sastec-sc1-06evo-new__EB-KB_niv2_haut__vs__sastec-sc1-evo1-new__EA-KA-SB_niv2_haut.jpg)
+![Comparaison des SC-1/06EVO et SC-1/EVO1, vues de profil](sastec-sc1-evo1-new__EA-KA-SB_niv2_profil__vs__sastec-sc1-06evo-new__EB-KB_niv2_profil.jpg)
+
+Comparaison des SC-1/EVO1 (épaule B, coude/genou A), SC-1/EVO2 (coude B, épaule/genou A) et SC-1/06EVO (épaule/genou B) :
+
+![Comparaison des SC-1/EVO1, SC-1/EVO2 et SC-1/06EVO, vues de face](sastec-sc1-evo1-new__EA-KA-SB_niv2_face__vs__sastec-sc1-evo2-new__EB-KA-SA_niv2_face__vs__sastec-sc1-06evo-new__EB-KB_niv2_face.jpg)
+![Comparaison des SC-1/EVO1, SC-1/EVO2 et SC-1/06EVO, vues de haut](sastec-sc1-evo1-new__EA-KA-SB_niv2_haut__vs__sastec-sc1-evo2-new__EB-KA-SA_niv2_haut__vs__sastec-sc1-06evo-new__EB-KB_niv2_haut.jpg)
 
 Lectures :
 ----------
