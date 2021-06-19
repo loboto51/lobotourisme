@@ -74,18 +74,12 @@ Mes recherches n'ont pas trouvé beaucoup de protections comparables :
 
 A l'époque où j'ai acheté ces coques, je cherchais à disposer d'un jean un peu rassurant pour mes trajets occasionnels sur voie rapide.
 
-Les jeans moto du marché me conviennent rarement (1m71, 85kg d'embonpoint) : Soit c'est la coupe qui ne ressemble à rien (jambes parachute, taille haute, etc.), soit ce sont les coques qui sont mal placées/trop petites pour s'interposer en cas de vraie chute.
+Les jeans moto du marché me conviennent rarement (1m71, 85kg) : Soit c'est la coupe qui ne ressemble à rien (jambes parachute, taille haute, etc.), soit ce sont les coques qui sont mal placées/trop petites pour s'interposer en cas de vraie chute.
 Globalement la plupart de ces jeans n'ont pas des protections très couvrantes.
 
-2 exceptions : 
+J'ai donc pris un _DXR Howell City CE_ de chez Motoblouz [^2], dont la coupe générale me convenait, j'ai cherché les coques les plus couvrantes disponibles, et j'ai cousu de nouvelles poches.
 
-- Les vêtements BMW, mais ils ne sont pas vraiment discrets et sont assez difficiles à trouver/essayer ;
-- Certains jeans Broger semblent comporter cette coque de série, ex : [Fiche du jean Broger Ohio chez Sasie Center](https://www.sasiecenter.com/produit/jean-broger-kevlar-ohio-bleu/) (A noter : Je ne retrouve pas cette info sur le [site de la marque Broger](https://brogermoto.com/collections/motorcycle-jeans)).
-
-
-J'ai donc pris un _DXR Howell City CE_ (Motoblouz) [^2], dont la coupe générale me convenait, j'ai cherché les coques les plus couvrantes disponibles, et j'ai cousu de nouvelles poches.
-
-Comparaison avec les coques d'origine (_ESquad Hilon_ niveau 1) :
+Comparaison avec les coques d'origine du jean (_ESquad Hilon_ niveau 1) :
 
 ![Comparaison entre les sastec-sc1-06evo et les esquad hilon niv1 fournies avec le jean DXR Howell City CE](sastec-sc1-06evo-new__EB-KB_niv2__vs__esquad_hilon_EA-KA-SA_niv1.jpg)
 
@@ -95,9 +89,9 @@ Création de poche en mesh ([polyester 50g](https://www.extremtextil.de/en/netti
 ![photo montrant les poches cousues dans mon pantalon, sans la protection sc1-06/evo à l'intérieur](sastec-sc1-06evo-new__EB-KB_niv2__poches_pantalon.jpg)
 ![photo montrant les poches cousues dans mon pantalon, avec la protection sc1-06/evo à l'intérieur](sastec-sc1-06evo-new__EB-KB_niv2__poches_pantalon_2.jpg)
 
-(Les poches semblent très grandes, mais comme les protections sont larges et enveloppantes, elles n'ont pas besoin d'être trop maintenues, elles restent naturellement en place)
+(Les poches semblent très amples, mais comme les protections sont enveloppantes elles se positionnent naturellement en place)
 
-Après plusieurs ports (dont 2 jours d'affilée parce que j'avais oublié de prendre un pantalon de rechange !), je peux dire que les coques sont présentes mais se font beaucoup oublier.
+Après plusieurs ports dont 2 jours d'affilée, je peux dire que les coques se font sentir mais leur présence reste supportable.
 
 La seule gène que j'ai ressenti était lors de l'enfilage de mes bottes : La protection descend tellement bas qu'elle empêche de relever le bas du pantalon pour fermer les bottes.
 
