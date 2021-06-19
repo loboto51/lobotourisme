@@ -190,21 +190,16 @@ Mon ressenti est que la souplesse, la texture et l&amp;rsquo;ajustement sont sup
 &lt;p>&lt;strong>Mes intégrations jean/blouson :&lt;/strong>&lt;/p>
 &lt;p>&lt;strong>Genoux :&lt;/strong>&lt;/p>
 &lt;p>A l&amp;rsquo;époque où j&amp;rsquo;ai acheté ces coques, je cherchais à disposer d&amp;rsquo;un jean un peu rassurant pour mes trajets occasionnels sur voie rapide.&lt;/p>
-&lt;p>Les jeans moto du marché me conviennent rarement (1m71, 85kg d&amp;rsquo;embonpoint) : Soit c&amp;rsquo;est la coupe qui ne ressemble à rien (jambes parachute, taille haute, etc.), soit ce sont les coques qui sont mal placées/trop petites pour s&amp;rsquo;interposer en cas de vraie chute.
+&lt;p>Les jeans moto du marché me conviennent rarement (1m71, 85kg) : Soit c&amp;rsquo;est la coupe qui ne ressemble à rien (jambes parachute, taille haute, etc.), soit ce sont les coques qui sont mal placées/trop petites pour s&amp;rsquo;interposer en cas de vraie chute.
 Globalement la plupart de ces jeans n&amp;rsquo;ont pas des protections très couvrantes.&lt;/p>
-&lt;p>2 exceptions :&lt;/p>
-&lt;ul>
-&lt;li>Les vêtements BMW, mais ils ne sont pas vraiment discrets et sont assez difficiles à trouver/essayer ;&lt;/li>
-&lt;li>Certains jeans Broger semblent comporter cette coque de série, ex : &lt;a href="https://www.sasiecenter.com/produit/jean-broger-kevlar-ohio-bleu/">Fiche du jean Broger Ohio chez Sasie Center&lt;/a> (A noter : Je ne retrouve pas cette info sur le &lt;a href="https://brogermoto.com/collections/motorcycle-jeans">site de la marque Broger&lt;/a>).&lt;/li>
-&lt;/ul>
-&lt;p>J&amp;rsquo;ai donc pris un &lt;em>DXR Howell City CE&lt;/em> (Motoblouz) &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>, dont la coupe générale me convenait, j&amp;rsquo;ai cherché les coques les plus couvrantes disponibles, et j&amp;rsquo;ai cousu de nouvelles poches.&lt;/p>
-&lt;p>Comparaison avec les coques d&amp;rsquo;origine (&lt;em>ESquad Hilon&lt;/em> niveau 1) :&lt;/p>
+&lt;p>J&amp;rsquo;ai donc pris un &lt;em>DXR Howell City CE&lt;/em> de chez Motoblouz &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>, dont la coupe générale me convenait, j&amp;rsquo;ai cherché les coques les plus couvrantes disponibles, et j&amp;rsquo;ai cousu de nouvelles poches.&lt;/p>
+&lt;p>Comparaison avec les coques d&amp;rsquo;origine du jean (&lt;em>ESquad Hilon&lt;/em> niveau 1) :&lt;/p>
 &lt;p>&lt;img src="sastec-sc1-06evo-new__EB-KB_niv2__vs__esquad_hilon_EA-KA-SA_niv1.jpg" alt="Comparaison entre les sastec-sc1-06evo et les esquad hilon niv1 fournies avec le jean DXR Howell City CE">&lt;/p>
 &lt;p>Création de poche en mesh (&lt;a href="https://www.extremtextil.de/en/netting-polyester-elastic-50g-sqm.html">polyester 50g&lt;/a> + &lt;a href="https://www.extremtextil.de/en/hooktape-for-sewing-016mm.html">bandes&lt;/a> &lt;a href="https://www.extremtextil.de/en/looptape-for-sewing-016mm.html">velcros&lt;/a> achetés pour quelques euros chez &lt;em>extremtextil.de&lt;/em>) :&lt;/p>
 &lt;p>&lt;img src="sastec-sc1-06evo-new__EB-KB_niv2__poches_pantalon.jpg" alt="photo montrant les poches cousues dans mon pantalon, sans la protection sc1-06/evo à l&amp;rsquo;intérieur">
 &lt;img src="sastec-sc1-06evo-new__EB-KB_niv2__poches_pantalon_2.jpg" alt="photo montrant les poches cousues dans mon pantalon, avec la protection sc1-06/evo à l&amp;rsquo;intérieur">&lt;/p>
-&lt;p>(Les poches semblent très grandes, mais comme les protections sont larges et enveloppantes, elles n&amp;rsquo;ont pas besoin d&amp;rsquo;être trop maintenues, elles restent naturellement en place)&lt;/p>
-&lt;p>Après plusieurs ports (dont 2 jours d&amp;rsquo;affilée parce que j&amp;rsquo;avais oublié de prendre un pantalon de rechange !), je peux dire que les coques sont présentes mais se font beaucoup oublier.&lt;/p>
+&lt;p>(Les poches semblent très amples, mais comme les protections sont enveloppantes elles se positionnent naturellement en place)&lt;/p>
+&lt;p>Après plusieurs ports dont 2 jours d&amp;rsquo;affilée, je peux dire que les coques se font sentir mais leur présence reste supportable.&lt;/p>
 &lt;p>La seule gène que j&amp;rsquo;ai ressenti était lors de l&amp;rsquo;enfilage de mes bottes : La protection descend tellement bas qu&amp;rsquo;elle empêche de relever le bas du pantalon pour fermer les bottes.&lt;/p>
 &lt;p>&lt;strong>Coudes :&lt;/strong>&lt;/p>
 &lt;p>En plus du pantalon, j&amp;rsquo;ai intégré ces coques comme protection coude dans un blouson : En largeur elles rentraient dans la poche sans forcer, j&amp;rsquo;ai réduit un peu la longueur pour qu&amp;rsquo;elles s&amp;rsquo;arrêtent quelques cm avant mon poignet.&lt;/p>
@@ -601,83 +596,81 @@ convert &lt;span style="color:#e6db74">${&lt;/span>fic&lt;span style="color:#e6d
 &lt;li>&lt;em>.Fill&lt;/em> : On indique une hauteur et une largeur &lt;strong>minimum&lt;/strong> et Hugo tente d&amp;rsquo;y insérer le maximum de l&amp;rsquo;image sans modifier les proportions. Par défaut il choisit seul mais on peut lui donner des directives : &lt;em>smart&lt;/em> (défaut), &lt;em>left&lt;/em>, &lt;em>right&lt;/em>&amp;hellip;&lt;/li>
 &lt;/ul>
 &lt;p>Il y a énormément d&amp;rsquo;exemples ici : &lt;a href="https://gohugo.io/content-management/image-processing/">gohugo - image processing&lt;/a>&lt;/p></description></item><item><title>Jean moto Course Rocker</title><link>https://loboto51.github.io/lobotourisme/post/jean-moto-course-rocker/</link><pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/jean-moto-course-rocker/</guid><description>
-&lt;hr>
-&lt;p>Edit du 10/05/2021 : Ajout des photos et dimensions des poches.&lt;/p>
-&lt;hr>
 &lt;p>&lt;img src="Course-rocker_jean_aramide_AA.jpg" alt=":right">&lt;/p>
-&lt;p>J&amp;rsquo;ai une longue histoire de frustration avec les jeans moto : Je suis plutôt petit (1m70) avec de l&amp;rsquo;embonpoint (jeans en 36 américain/46 français) et il est très difficile de trouver des jeans moto qui me conviennent : Coupes trop larges, taille trop haute, emplacements pour les protections qui tombent trop bas, et j&amp;rsquo;en passe.&lt;/p>
-&lt;p>J&amp;rsquo;avais le même problème pour les jeans &amp;ldquo;normaux&amp;rdquo;, je l&amp;rsquo;ai résolu en me fournissant essentiellement en &lt;em>Grim Tim&lt;/em> taille 36 chez &lt;em>Nudie Jeans&lt;/em> ou en &lt;em>Levi&amp;rsquo;s 511&lt;/em> de même taille.&lt;/p>
-&lt;p>Au bout d&amp;rsquo;un moment j&amp;rsquo;ai quand même fini par trouver un jean dont la coupe approchait de mes jeans &amp;ldquo;normaux&amp;rdquo;, le &lt;em>DXR Howell City CE&lt;/em> (marque de Motoblouz) que j&amp;rsquo;ai adapté pour y intégrer de meilleures protections de genoux (je raconterai cela dans un autre billet). Mais sa protection n&amp;rsquo;est que de niveau &amp;ldquo;urbain&amp;rdquo; selon l&amp;rsquo;ancienne norme EN 13595, qui en comporte 2 autres au dessus, 1 et 2 (Dans la norme actuelle EN 17092, cela correspond à peu près au niveau A, le plus bas avec coques : 2 niveaux existent au dessus, AA et AAA).&lt;/p>
-&lt;p>Récemment, par curiosité j&amp;rsquo;ai voulu tester les pantalons renforcés en aramide (&lt;em>Kevlar&lt;/em>) vendus par le site &lt;em>XLMoto&lt;/em> à des tarifs défiant toute concurrence (60 à 80e).&lt;/p>
+&lt;p>En jeans &amp;ldquo;normaux&amp;rdquo;, je porte essentiellement des &lt;em>Grim Tim&lt;/em> de &lt;em>Nudie Jeans&lt;/em> et des &lt;em>Levi&amp;rsquo;s 511&lt;/em> en taille 36, longueur 32.
+J&amp;rsquo;ai un peu de mal à trouver des jeans moto qui me conviennent : Coupes trop larges, taille trop haute, emplacements pour les protections qui tombent trop bas, etc.&lt;/p>
+&lt;p>J&amp;rsquo;ai le &lt;em>DXR Howell City CE&lt;/em> de &lt;em>Motoblouz&lt;/em> (environ 90€) qui présente bien mais dont la protection n&amp;rsquo;est pas énorme : Niveau urbain selon l&amp;rsquo;ancienne norme EN 13595, dans la norme actuelle EN 17092 cela doit correspondre au niveau A, qui est le plus bas avec coques (2 niveaux existent au dessus : AA et AAA).&lt;/p>
+&lt;p>Comme je le mets essentiellement pour faire des trajets en voie rapide, j&amp;rsquo;ai fait un peu de couture pour y intégrer les protections de genoux très couvrantes SC-1/06EVO de Sas-Tec (&lt;a href="https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/">description et photos ici&lt;/a>).&lt;/p>
+&lt;p>J&amp;rsquo;ai voulu tester les jeans renforcés en Aramide/Kevlar vendus par le site &lt;em>XLMoto&lt;/em> à des tarifs assez bas (60 à 80€).&lt;/p>
 &lt;p>La grille du site indiquant que les pantalons taillent petit, j&amp;rsquo;ai commandé :&lt;/p>
 &lt;ul>
-&lt;li>Un pantalon cargo _Course Caféman (&lt;a href="https://www.xlmoto.fr/equipement-moto/vetements-moto_c11/pantalons-moto_c21/pantalon-cargo-course-cafeman-renforce-aramide-gris_pid-PM-4901140">sur XLMoto&lt;/a>) à ma taille habituelle, 80€ ;&lt;/li>
-&lt;li>Un jean &lt;em>Course Rocker&lt;/em> (&lt;a href="https://www.xlmoto.fr/equipement-moto/vetements-moto_c11/pantalons-moto_c21/jean-course-rocker-renforce-aramide-bleu_pid-PM-4901161">sur XLMoto&lt;/a>) à ma taille habituelle, 60€ ;&lt;/li>
-&lt;li>Un 2e &lt;em>Course Caféman&lt;/em> en taille 38, au cas où.&lt;/li>
+&lt;li>2 pantalons cargo _Course Caféman (&lt;a href="https://www.xlmoto.fr/equipement-moto/vetements-moto_c11/pantalons-moto_c21/pantalon-cargo-course-cafeman-renforce-aramide-gris_pid-PM-4901140">sur XLMoto&lt;/a>) à ma taille habituelle 36 et en 38 au cas où ;&lt;/li>
+&lt;li>Un jean &lt;em>Course Rocker&lt;/em> (&lt;a href="https://www.xlmoto.fr/equipement-moto/vetements-moto_c11/pantalons-moto_c21/jean-course-rocker-renforce-aramide-bleu_pid-PM-4901161">sur XLMoto&lt;/a>) à ma taille habituelle 36.&lt;/li>
 &lt;/ul>
-&lt;p>1ère conclusion : La grille est fausse, ils taillent au contraire plutôt grand.&lt;/p>
+&lt;p>1ères conclusions : La grille est fausse, ils taillent au contraire plutôt grand, peut-être que le 34 me suffirait. Ils sont fabriqués au Pakistan (bof).&lt;/p>
 &lt;h2 id="avis-rapide-sur-le-_course-caféman_-retourné-">Avis rapide sur le &lt;em>Course Caféman&lt;/em> (retourné) :&lt;/h2>
 &lt;ul>
-&lt;li>Fabriqué au Pakistan (bof) ;&lt;/li>
 &lt;li>Protection niveau A (bof) ;&lt;/li>
 &lt;li>La toile est épaisse et légèrement velouteuse ;&lt;/li>
 &lt;li>Il est fourni avec des coques de genou de niveau 1 ;&lt;/li>
 &lt;li>Le positionnement des coques de genoux se fait par des velcros nombreux et régulièrement espacés ;&lt;/li>
-&lt;li>La couverture aramide est conforme aux photos sur le site (siège + genoux + une bande de 10 cm de large le long de chaque jambe ;&lt;/li>
+&lt;li>La couverture aramide est conforme aux photos sur le site (siège + genoux + une bande de 10 cm de large le long de chaque jambe) ;&lt;/li>
 &lt;li>Les 2 modèles taillaient très large, le 34 aurait peut-être été plus adapté.&lt;/li>
 &lt;/ul>
 &lt;p>Entre l&amp;rsquo;aspect de la toile, le niveau A et le problème de taille, je n&amp;rsquo;ai pas été convaincu.&lt;/p>
 &lt;h2 id="avis-sur-le-_course-rocker_-gardé-">Avis sur le &lt;em>Course Rocker&lt;/em> (gardé) :&lt;/h2>
-&lt;p>C&amp;rsquo;est plutôt une bonne surprise :&lt;/p>
 &lt;ul>
-&lt;li>Fabriqué au Pakistan aussi (bof) ;&lt;/li>
-&lt;li>Protection niveau AA (très bien);&lt;/li>
+&lt;li>&lt;strong>Protection niveau AA&lt;/strong> ;&lt;/li>
 &lt;li>La toile du jean est très épaisse, elle inspire confiance ;&lt;/li>
 &lt;li>Il est fourni avec des coques de genou de niveau 1 imposantes et des coques de hanche niveau 2, imposantes aussi ;&lt;/li>
 &lt;li>Le positionnement des coques de genoux se fait par des velcros nombreux et régulièrement espacés ;&lt;/li>
 &lt;li>La couverture aramide est conforme aux photos sur le site (siège + genoux + une bande de 10 cm de large le long de chaque jambe ;&lt;/li>
-&lt;li>Il est très passe-partout, on devine à peine les coques malgré leur épaisseur ;&lt;/li>
+&lt;li>Il est très passe-partout, on devine à peine les coques malgré leur épaisseur (voir photos plus bas) ;&lt;/li>
 &lt;li>Il taille un peu large, mais pas au point que cela soit choquant.&lt;/li>
 &lt;/ul>
-&lt;p>Taille des poches :&lt;/p>
+&lt;p>Dimensions des poches pour protections :&lt;/p>
 &lt;ul>
 &lt;li>Genoux : 29 cm (couture haute jusqu&amp;rsquo;au velcro le plus bas) x 18 cm (bord à bord) ;&lt;/li>
 &lt;li>Hanches : 25 cm x 13 cm.&lt;/li>
 &lt;/ul>
-&lt;p>J&amp;rsquo;en suis très content : Je le porte au bureau toute la journée en gardant les coques de genoux, et je ne ressens pas de gêne. J&amp;rsquo;ai juste retiré les coques de hanche que je trouve trop visibles. Je porte les coques dans la position la plus haute (3e velcro en partant du bas).&lt;/p>
-&lt;p>Seul bémol : Il y a quelques coutures mal finies dans la doublure. Je croise les doigts pour que les coutures extérieures tiennent mieux !&lt;/p>
-&lt;h3 id="ajustements-présents-et-futurs-">Ajustements présents et futurs :&lt;/h3>
-&lt;h4 id="velcros-">Velcros :&lt;/h4>
-&lt;p>J&amp;rsquo;ai désactivé les velcros de genou inutilisés, car ils accrochent tellement qu&amp;rsquo;ils avaient tendance à se refermer en journée et à bloquer les coques dans une mauvaise position.&lt;/p>
-&lt;p>J&amp;rsquo;ai simplement découpé des morceaux de velcro côté poilu que j&amp;rsquo;ai fixé dessus.&lt;/p>
-&lt;h4 id="coques-de-protection-">Coques de protection :&lt;/h4>
-&lt;p>Pour les petits trajets + journée au bureau, je pense que je vais remplacer les grosses coques de genoux niveau 1 par des (&lt;a href="https://www.sas-tec.de/en/products/sc-1-kb2-new/">&lt;em>SC-1/KB2&lt;/em>&lt;/a>), protections fines (1 cm) et beaucoup plus protectrices (niveau 2 , &amp;lt;18 kN).&lt;/p>
-&lt;p>Pour des trajets plus longs/sur autoroute, et où je peux me changer à l&amp;rsquo;arrivée, je songe à tester la combinaison suivante :&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://loboto51.github.io/lobotourisme/post/protections-moto-de-hanches-sas-tec-sc-2-07/">SAS-TEC SC-2-07&lt;/a> aux hanches : Niveau 2 et &amp;lt; 11 kN en moyenne ;&lt;/li>
-&lt;li>&lt;a href="https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-evo1-sc1-evo2-sc1-evo3/">SC1/EVO2&lt;/a> aux genoux : Niveau 2 et &amp;lt; 10 kN en moyenne. Elles sont grandes (27 cm x 19 cm), mais comme je place mes protections tout en haut de la poche, ça pourrait marcher.&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h4 id="photos-">Photos :&lt;/h4>
 &lt;p>Etiquette :&lt;/p>
 &lt;p>&lt;img src="Course-rocker_jean_aramide_AA_etiquette.jpg" alt="Course-rocker_jean_aramide_AA_etiquette">&lt;/p>
 &lt;p>Les zones couvertes par l&amp;rsquo;aramide :&lt;/p>
 &lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_profil.jpg" alt="Course-rocker_jean_aramide_AA_aramide_profil">&lt;/p>
-&lt;p>Les coques :&lt;/p>
+&lt;p>J&amp;rsquo;en suis très content :&lt;/p>
+&lt;p>Je l&amp;rsquo;ai porté au bureau plusieurs fois en gardant les coques de genoux, et je ne ressens pas de gêne. J&amp;rsquo;ai juste retiré les coques de hanche que je trouve trop visibles. Je porte les coques dans la position la plus haute (3e velcro en partant du bas).&lt;/p>
+&lt;p>Seul bémol : Il y a quelques coutures mal finies dans la doublure. Je croise les doigts pour que les coutures extérieures tiennent mieux !&lt;/p>
+&lt;p>J&amp;rsquo;ai désactivé les velcros de genou inutilisés, car ils avaient tendance à se refermer en journée et à bloquer les coques dans une mauvaise position : J&amp;rsquo;ai simplement découpé des morceaux de velcro côté poilu que j&amp;rsquo;ai fixé dessus.&lt;/p>
+&lt;h4 id="remplacement-des-coques-de-protection-">Remplacement des coques de protection :&lt;/h4>
+&lt;p>Pour les petits trajets + journée au bureau, je pense que je vais remplacer les grosses coques de genoux niveau 1 par des (&lt;a href="https://www.sas-tec.de/en/products/sc-1-kb2-new/">&lt;em>SC-1/KB2&lt;/em>&lt;/a>), protections fines (1 cm) et beaucoup plus protectrices (niveau 2 , &amp;lt;18 kN).&lt;/p>
+&lt;p>&lt;strong>Edit du 19/06/2021 :&lt;/strong> C&amp;rsquo;est fait, je ne porte plus que les SC-1/KB2 dans le pantalon, elles sont plus confortables et leur absorption des chocs est impressionnante (j&amp;rsquo;ai testé une chute volontaire sur les genoux et je n&amp;rsquo;ai rien senti. Seul défaut : Elle tiennent un peu plus chaud que les coques préformées d&amp;rsquo;origine.&lt;/p>
+&lt;p>Pour des trajets plus longs/sur autoroute, et où je peux me changer à l&amp;rsquo;arrivée, je songe à tester la combinaison suivante :&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://loboto51.github.io/lobotourisme/post/protections-moto-de-hanches-sas-tec-sc-2-07/">SAS-TEC SC-2/07&lt;/a> aux hanches : Niveau 2 et &amp;lt; 11 kN en moyenne ;&lt;/li>
+&lt;li>&lt;a href="https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-evo1-sc1-evo2-sc1-evo3/">SC1/EVO2&lt;/a> aux genoux : Niveau 2 et &amp;lt; 10 kN en moyenne. Elles sont grandes (27 cm x 19 cm), mais comme je place mes protections tout en haut de la poche, ça pourrait marcher.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Edit du 19/06/2021 :&lt;/strong> J&amp;rsquo;ai acheté des SC1/EVO2 pour remplacer les protections coude d&amp;rsquo;un blouson et elles me paraissent trop incurvées pour les utiliser aux genoux.&lt;/p>
+&lt;hr>
+&lt;h4 id="photos-diverses-">Photos diverses :&lt;/h4>
+&lt;p>Gros plan sur les coutures :&lt;/p>
+&lt;p>Fond de culotte :&lt;/p>
+&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_fond_de_culotte.jpg" alt="Gros plan sur la couture du fond de culotte">&lt;/p>
+&lt;p>Assemblage de l&amp;rsquo;aramide à l&amp;rsquo;extérieur de la jambe :&lt;/p>
+&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_jambe_assemblage_aramide.jpg" alt="Gros plan sur l&amp;rsquo;assemblage de l&amp;rsquo;aramide à l&amp;rsquo;extérieur de la jambe">
+&lt;img src="Course-rocker_jean_aramide_AA_aramide_jambe_cote_exterieur.jpg" alt="Gros plan sur la couture de la jambe côté extérieur">&lt;/p>
+&lt;p>Couture de la jambe côté intérieur :&lt;/p>
+&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_jambe_cote_interieur.jpg" alt="Gros plan sur la couture de la jambe côté intérieur">&lt;/p>
+&lt;p>Les coques d&amp;rsquo;origine (pas sensas) :&lt;/p>
 &lt;p>&lt;img src="Course-rocker_jean_aramide_AA_coques_fournies_niv1_genoux_et_niveau_2_hanche.jpg" alt="Course-rocker_jean_aramide_AA_coques_fournies_niv1_genoux_et_niveau_2_hanche">&lt;/p>
 &lt;p>&lt;img src="Course-rocker_jean_aramide_AA_coques_fournies_niv1_genoux_epaisseur.jpg" alt="Course-rocker_jean_aramide_AA_coques_fournies_niv1_genoux_epaisseur">&lt;/p>
+&lt;p>&lt;strong>Edit du 10/05/2021 :&lt;/strong> Ajout des photos et dimensions des poches.&lt;/p>
 &lt;p>Les poches pour les coques :&lt;/p>
 &lt;p>Genoux :&lt;/p>
 &lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_poche_genou_dimensions_hauteur.jpg" alt="poche genou hauteur">&lt;/p>
 &lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_poche_genou_dimensions_largeur.jpg" alt="poche genou largeur">&lt;/p>
 &lt;p>Hanche :&lt;/p>
 &lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_poche_hanche_dimensions_hauteur.jpg" alt="poche hanche hauteur">&lt;/p>
-&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_poche_hanche_dimensions_largeur.jpg" alt="poche hanche largeur">&lt;/p>
-&lt;p>Gros plan sur les coutures :&lt;/p>
-&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_fond_de_culotte.jpg" alt="Gros plan sur la couture du fond de culotte">&lt;/p>
-&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_jambe_assemblage_aramide.jpg" alt="Gros plan sur l&amp;rsquo;assemblage de l&amp;rsquo;aramide à l&amp;rsquo;extérieur de la jambe">&lt;/p>
-&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_jambe_cote_exterieur.jpg" alt="Gros plan sur la couture de la jambe côté extérieur">&lt;/p>
-&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_jambe_cote_interieur.jpg" alt="Gros plan sur la couture de la jambe côté intérieur">&lt;/p></description></item><item><title>Lessive maison</title><link>https://loboto51.github.io/lobotourisme/post/lessive-maison/</link><pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/lessive-maison/</guid><description>
+&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_poche_hanche_dimensions_largeur.jpg" alt="poche hanche largeur">&lt;/p></description></item><item><title>Lessive maison</title><link>https://loboto51.github.io/lobotourisme/post/lessive-maison/</link><pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/lessive-maison/</guid><description>
 &lt;p>&lt;img src="lessive_maison.jpg" alt="lessive_maison">&lt;/p>
 &lt;p>J&amp;rsquo;ai longtemps utilisé des lessives bio (Nature&amp;amp;Progrès etc.) et puis j&amp;rsquo;ai trouvé cette lessive de recette maison qui coche toutes les cases :&lt;/p>
 &lt;p>Elle lave très bien, produit très peu de déchets (les emballages des poudres, et la bouteille de vinaigre c&amp;rsquo;est tout) et son coût est absolument négligeable.&lt;/p>
