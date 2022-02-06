@@ -29,14 +29,15 @@ Pour les curieux, au sujet des normes d'homologations des casques :
 
 ![scorpion_exo-491_west-white-black.jpg](scorpion_exo-491_west-white-black.jpg)
 
-|   Caractéristique                      |                                                                                                                                                                                                                                                                                                      Casque|
-|----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Poids                                  | 1600 g                                                                                                                                                                                                                                                                                                     |
-| Ecran solaire                          | Oui                                                                                                                                                                                                                                                                                                        |
-| Pinlock fourni                         | Non                                                                                                                                                                                                                                                                                                        |
-| Insonorisation                         | Acceptable d'après [Moto Station](https://moto-station.com/moto-revue/test-equipement/test-casque-scorpion-exo-520-air-abordable-et-resistant/513273)                                                                                                                                                      |
-| Aération                               |                                                                                                                   Bonne d'après [Moto Station](https://moto-station.com/moto-revue/test-equipement/test-casque-scorpion-exo-520-air-abordable-et-resistant/513273)                                         |
-| Système d'extraction en cas d'accident |                                                                                                                                                                                                                                                                                                    Non     |
+Caractéristiques :
+
+- Poids : 1600 g
+- Ecran solaire : Oui
+- Pinlock fourni : Non
+- Insonorisation : Acceptable d'après [Moto Station](https://moto-station.com/moto-revue/test-equipement/test-casque-scorpion-exo-520-air-abordable-et-resistant/513273)
+- Aération : Bonne d'après [Moto Station](https://moto-station.com/moto-revue/test-equipement/test-casque-scorpion-exo-520-air-abordable-et-resistant/513273)
+- Système d'extraction en cas d'accident : Non
+
 
 Dispo sur : iCasque, ChampionHelmets
 
@@ -46,14 +47,14 @@ Dispo sur : iCasque, ChampionHelmets
 
 ![nolan_n60-6_special.jpg](nolan_n60-6_special.jpg)
 
-| Caractéristique                        | Casque|
-|----------------------------------------|-------|
-| Poids                                  | 1450 g|
-| Ecran solaire                          | Oui   |
-| Pinlock fourni                         | Non   |
-| Insonorisation                         | ?     |
-| Aération                               | ?     |
-| Système d'extraction en cas d'accident | Non   |
+Caractéristiques :
+
+- Poids :  1450 g
+- Ecran solaire : Oui
+- Pinlock fourni : Non
+- Insonorisation : ?
+- Aération : ?
+- Système d'extraction en cas d'accident : Non
 
 Dispo sur : Motoblouz, ChampionHelmets
 
@@ -62,14 +63,14 @@ Dispo sur : Motoblouz, ChampionHelmets
 
 ![nolan_n80-8_special-ncom.jpg](nolan_n80-8_special-ncom.jpg)
 
-| Caractéristique                        | Casque                               |
-|----------------------------------------|--------------------------------------|
-| Poids                                  | 1530 g                               |
-| Ecran solaire                          | Oui                                  |
-| Pinlock fourni                         | Oui                                  |
-| Insonorisation                         | ?                                    |
-| Aération                               | ?                                    |
-| Système d'extraction en cas d'accident | Oui (Nolan Emergency Release System) |
+Caractéristiques :
+
+- Poids :  1530 g
+- Ecran solaire : Oui
+- Pinlock fourni : Oui
+- Insonorisation : ?
+- Aération : ?
+- Système d'extraction en cas d'accident : Oui (Nolan Emergency Release System)
 
 Dispo sur : Motoblouz, ChampionHelmets
 
@@ -78,14 +79,14 @@ Dispo sur : Motoblouz, ChampionHelmets
 
 ![shark_spartan_rs-blank.jpg](shark_spartan_rs-blank.jpg)
 
-| Caractéristique                        | Casque                                                                                                                                                                                                                                                                                                    |
-|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Poids                                  | 1450 g                                                                                                                                                                                                                                                                                                    |
-| Ecran solaire                          | Oui                                                                                                                                                                                                                                                                                                       |
-| Pinlock fourni                         | Oui                                                                                                                                                                                                                                                                                                       |
-| Insonorisation                         | Excellente d'après [ChampionHelmets](https://www.championhelmets.com/fr/magazine/post/shark-spartan-rs-carbon-skin-review-et-essai-routier) : 99 db à 105 km/h                                                                                                                                            |
-| Aération                               |                                                                                                                                                              Excellente d'après [ChampionHelmets](https://www.championhelmets.com/fr/magazine/post/shark-spartan-rs-carbon-skin-review-et-essai-routier)  |
-| Système d'extraction en cas d'accident |                                                                                                                                                                                                                                                                                                        Non|
+Caractéristiques :
+
+- Poids :  1450 g
+- Ecran solaire : Oui
+- Pinlock fourni : Oui
+- Insonorisation : Excellente d'après [ChampionHelmets](https://www.championhelmets.com/fr/magazine/post/shark-spartan-rs-carbon-skin-review-et-essai-routier) : 99 db à 105 km/h
+- Aération : Excellente d'après [ChampionHelmets](https://www.championhelmets.com/fr/magazine/post/shark-spartan-rs-carbon-skin-review-et-essai-routier)
+- Système d'extraction en cas d'accident : Non
 
 Dispo sur : iCasque, Motoblouz, ChampionHelmets
 
