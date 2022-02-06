@@ -677,10 +677,6 @@ T- : La protection reste la même jusqu&amp;rsquo;à -10°C.&amp;#160;&lt;a href
 &lt;/ul>
 &lt;/li>
 &lt;/ul></description></item><item><title>Fabrication de miniatures avec extrapolation des bords avec Imagemagick</title><link>https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/</link><pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/</guid><description>
-&lt;hr>
-&lt;p>Edit du 15/05/2021 : J&amp;rsquo;ai intégré 3 modes de fabrication de miniature dans le script, pour pouvoir ensuite choisir facilement le meilleur résultat.
-Entre temps j&amp;rsquo;ai changé de thème Hugo (&lt;a href="https://github.com/statnmap/hugo-future-imperfect">hugo-future-imperfect&lt;/a>) et les miniatures de 800x300 s&amp;rsquo;y prêtent mieux.&lt;/p>
-&lt;hr>
 &lt;p>J&amp;rsquo;ai choisi de générer des miniatures pour chacun de mes billets en réutilisant des photos issues des articles.&lt;/p>
 &lt;p>J&amp;rsquo;utilise 3 techniques pour produire des images aux dimensions qui me conviennent :&lt;/p>
 &lt;h2 id="technique-1--remplissage-des-zones-vides-par-extrapolation">Technique 1 : Remplissage des zones vides par extrapolation&lt;/h2>
@@ -753,63 +749,54 @@ convert &lt;span style="color:#e6db74">${&lt;/span>fic&lt;span style="color:#e6d
 &lt;li>&lt;em>.Fit&lt;/em> : On indique une hauteur et une largeur &lt;strong>maximum&lt;/strong> et Hugo redimensionne l&amp;rsquo;image pour qu&amp;rsquo;elle tienne dedans (c&amp;rsquo;est un &lt;em>.Resize&lt;/em> qui s&amp;rsquo;arrête dès qu&amp;rsquo;il ne peut plus poursuivre sans modifier les proportions) ;&lt;/li>
 &lt;li>&lt;em>.Fill&lt;/em> : On indique une hauteur et une largeur &lt;strong>minimum&lt;/strong> et Hugo tente d&amp;rsquo;y insérer le maximum de l&amp;rsquo;image sans modifier les proportions. Par défaut il choisit seul mais on peut lui donner des directives : &lt;em>smart&lt;/em> (défaut), &lt;em>left&lt;/em>, &lt;em>right&lt;/em>&amp;hellip;&lt;/li>
 &lt;/ul>
-&lt;p>Il y a énormément d&amp;rsquo;exemples ici : &lt;a href="https://gohugo.io/content-management/image-processing/">gohugo - image processing&lt;/a>&lt;/p></description></item><item><title>Jean moto Course Rocker</title><link>https://loboto51.github.io/lobotourisme/post/jean-moto-course-rocker/</link><pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/jean-moto-course-rocker/</guid><description>
+&lt;p>Il y a énormément d&amp;rsquo;exemples ici : &lt;a href="https://gohugo.io/content-management/image-processing/">gohugo - image processing&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h3 id="mises-à-jour">Mises à jour&lt;/h3>
+&lt;ul>
+&lt;li>&lt;em>15/05/2021 :&lt;/em> J&amp;rsquo;ai intégré 3 modes de fabrication de miniature dans le script, pour pouvoir ensuite choisir facilement le meilleur résultat.
+Entre temps j&amp;rsquo;ai changé de thème Hugo (&lt;a href="https://github.com/statnmap/hugo-future-imperfect">hugo-future-imperfect&lt;/a>) et les miniatures de 800x300 s&amp;rsquo;y prêtent mieux.&lt;/li>
+&lt;/ul></description></item><item><title>Jean moto Course Rocker</title><link>https://loboto51.github.io/lobotourisme/post/jean-moto-course-rocker/</link><pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/jean-moto-course-rocker/</guid><description>
 &lt;p>&lt;img src="Course-rocker_jean_aramide_AA.jpg" alt=":right">&lt;/p>
-&lt;p>En jeans &amp;ldquo;normaux&amp;rdquo;, je porte essentiellement des &lt;em>Grim Tim&lt;/em> de &lt;em>Nudie Jeans&lt;/em> et des &lt;em>Levi&amp;rsquo;s 511&lt;/em> en taille 36, longueur 32.
-J&amp;rsquo;ai un peu de mal à trouver des jeans moto qui me conviennent : Coupes trop larges, taille trop haute, emplacements pour les protections qui tombent trop bas, etc.&lt;/p>
-&lt;p>J&amp;rsquo;ai le &lt;em>DXR Howell City CE&lt;/em> de &lt;em>Motoblouz&lt;/em> (environ 90€) qui présente bien mais dont la protection n&amp;rsquo;est pas énorme : Niveau urbain selon l&amp;rsquo;ancienne norme EN 13595, dans la norme actuelle EN 17092 cela doit correspondre au niveau A, qui est le plus bas avec coques (2 niveaux existent au dessus : AA et AAA).&lt;/p>
-&lt;p>Comme je le mets essentiellement pour faire des trajets en voie rapide, j&amp;rsquo;ai fait un peu de couture pour y intégrer les protections de genoux très couvrantes SC-1/06EVO de Sas-Tec (&lt;a href="https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/">description et photos ici&lt;/a>).&lt;/p>
-&lt;p>J&amp;rsquo;ai voulu tester les jeans renforcés en Aramide/Kevlar vendus par le site &lt;em>XLMoto&lt;/em> à des tarifs assez bas (60 à 80€).&lt;/p>
-&lt;p>La grille du site indiquant que les pantalons taillent petit, j&amp;rsquo;ai commandé :&lt;/p>
+&lt;p>Cette fiche décrit mon essai des jeans renforcés en Aramide/Kevlar &lt;em>Course Rocker&lt;/em> vendus par le site &lt;em>XLMoto&lt;/em> à des tarifs assez bas (60 à 80€).&lt;/p>
+&lt;hr>
+&lt;p>&lt;em>NB :&lt;/em> En jeans &amp;ldquo;normaux&amp;rdquo;, je porte essentiellement des &lt;em>Grim Tim&lt;/em> de &lt;em>Nudie Jeans&lt;/em> et des &lt;em>Levi&amp;rsquo;s 511&lt;/em> en taille 36, longueur 32.&lt;/p>
+&lt;p>&lt;em>NB2 :&lt;/em> J&amp;rsquo;ai eu le &lt;em>DXR Howell City CE&lt;/em> de &lt;em>Motoblouz&lt;/em> (environ 90€) qui présente moyennement bien et dont la protection n&amp;rsquo;est pas énorme : Niveau urbain selon l&amp;rsquo;ancienne norme EN 13595. Dans la norme actuelle EN 17092 cela doit correspondre au niveau A, qui est le plus bas (Pour ceux que ça intéresse, j&amp;rsquo;avais fait un peu de couture à l&amp;rsquo;époque pour pouvoir y intégrer les protections de genoux très couvrantes SC-1/06EVO de Sas-Tec &lt;a href="https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/">description et photos ici&lt;/a>)&lt;/p>
+&lt;hr>
+&lt;p>La grille du site indique que les pantalons taillent petit, mais c&amp;rsquo;est plutôt le contraire :&lt;br>
+J&amp;rsquo;ai essayé un 36 (photos) et un 38, le 38 était beaucoup trop grand, le 36 est ample.&lt;br>
+&lt;em>Note : J&amp;rsquo;ai essayé plus tard un 34 et c&amp;rsquo;est la bonne taille pour moi, donc une taille en dessous de ma taille habituelle.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Infos générales :&lt;/strong>&lt;/p>
 &lt;ul>
-&lt;li>2 pantalons cargo _Course Caféman (&lt;a href="https://www.xlmoto.fr/equipement-moto/vetements-moto_c11/pantalons-moto_c21/pantalon-cargo-course-cafeman-renforce-aramide-gris_pid-PM-4901140">sur XLMoto&lt;/a>) à ma taille habituelle 36 et en 38 au cas où ;&lt;/li>
-&lt;li>Un jean &lt;em>Course Rocker&lt;/em> (&lt;a href="https://www.xlmoto.fr/equipement-moto/vetements-moto_c11/pantalons-moto_c21/jean-course-rocker-renforce-aramide-bleu_pid-PM-4901161">sur XLMoto&lt;/a>) à ma taille habituelle 36.&lt;/li>
-&lt;/ul>
-&lt;p>1ères conclusions : La grille est fausse, ils taillent au contraire plutôt grand, peut-être que le 34 me suffirait. Ils sont fabriqués au Pakistan (bof).&lt;/p>
-&lt;h2 id="avis-rapide-sur-le-_course-caféman_-retourné-">Avis rapide sur le &lt;em>Course Caféman&lt;/em> (retourné) :&lt;/h2>
-&lt;ul>
-&lt;li>Protection niveau A (bof) ;&lt;/li>
-&lt;li>La toile est épaisse et légèrement velouteuse ;&lt;/li>
-&lt;li>Il est fourni avec des coques de genou de niveau 1 ;&lt;/li>
-&lt;li>Le positionnement des coques de genoux se fait par des velcros nombreux et régulièrement espacés ;&lt;/li>
-&lt;li>La couverture aramide est conforme aux photos sur le site (siège + genoux + une bande de 10 cm de large le long de chaque jambe) ;&lt;/li>
-&lt;li>Les 2 modèles taillaient très large, le 34 aurait peut-être été plus adapté.&lt;/li>
-&lt;/ul>
-&lt;p>Entre l&amp;rsquo;aspect de la toile, le niveau A et le problème de taille, je n&amp;rsquo;ai pas été convaincu.&lt;/p>
-&lt;h2 id="avis-sur-le-_course-rocker_-gardé-">Avis sur le &lt;em>Course Rocker&lt;/em> (gardé) :&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>Protection niveau AA&lt;/strong> ;&lt;/li>
+&lt;li>&lt;strong>Protection niveau AA&lt;/strong> (bien) ;&lt;/li>
+&lt;li>Fabriqué au Pakistan (bof) ;&lt;/li>
 &lt;li>La toile du jean est très épaisse, elle inspire confiance ;&lt;/li>
 &lt;li>Il est fourni avec des coques de genou de niveau 1 imposantes et des coques de hanche niveau 2, imposantes aussi ;&lt;/li>
 &lt;li>Le positionnement des coques de genoux se fait par des velcros nombreux et régulièrement espacés ;&lt;/li>
 &lt;li>La couverture aramide est conforme aux photos sur le site (siège + genoux + une bande de 10 cm de large le long de chaque jambe ;&lt;/li>
 &lt;li>Il est très passe-partout, on devine à peine les coques malgré leur épaisseur (voir photos plus bas) ;&lt;/li>
-&lt;li>Il taille un peu large, mais pas au point que cela soit choquant.&lt;/li>
+&lt;li>Il taille un peu large, mais pas au point que cela soit choquant. &lt;em>Note : j&amp;rsquo;ai depuis testé le 34 et c&amp;rsquo;est la taille qu&amp;rsquo;il me fallait.&lt;/em>&lt;/li>
 &lt;/ul>
 &lt;p>Dimensions des poches pour protections :&lt;/p>
 &lt;ul>
 &lt;li>Genoux : 29 cm (couture haute jusqu&amp;rsquo;au velcro le plus bas) x 18 cm (bord à bord) ;&lt;/li>
 &lt;li>Hanches : 25 cm x 13 cm.&lt;/li>
 &lt;/ul>
+&lt;p>&lt;strong>Mon avis :&lt;/strong>&lt;/p>
+&lt;p>J&amp;rsquo;en suis très content.&lt;/p>
+&lt;p>J&amp;rsquo;ai retiré les coques de hanche que je trouve trop encombrantes.
+Je l&amp;rsquo;ai porté au bureau plusieurs fois en gardant les coques de genoux d&amp;rsquo;origine, sans ressentir de gêne.
+Par la suite j&amp;rsquo;ai remplacé ces coques par des &lt;a href="https://www.sas-tec.de/en/products/sc-1-kb2-new/">&lt;em>SAS-TEC SC-1/KB2&lt;/em>&lt;/a>, fines (1 cm) et beaucoup plus protectrices (niveau 2 , &amp;lt;18 kN).&lt;br>
+Elles tiennent légèrement plus chaud, mais sont beaucoup moins encombrantes.&lt;/p>
+&lt;p>Je porte les coques dans la position la plus haute (3e velcro en partant du bas).&lt;/p>
+&lt;p>J&amp;rsquo;ai désactivé les velcros de genou inutilisés, car ils avaient tendance à se refermer en journée et à bloquer les coques dans une mauvaise position : J&amp;rsquo;ai simplement découpé des morceaux de velcro côté poilu que j&amp;rsquo;ai fixé dessus.&lt;/p>
+&lt;p>Seul bémol : Il y a quelques coutures mal finies dans la doublure. Je croise les doigts pour que les coutures extérieures tiennent mieux. &lt;em>Note : De nombreux ports plus tard, rien à signaler.&lt;/em>&lt;/p>
+&lt;p>&lt;em>Note : J&amp;rsquo;ai depuis acheté le même jean en taille 34, il est plus conforme à ma morphologie et présente mieux, mais il tient plus chaud. L&amp;rsquo;été la taille au dessus est plus agréable.&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h4 id="photos-diverses-">Photos diverses :&lt;/h4>
 &lt;p>Etiquette :&lt;/p>
 &lt;p>&lt;img src="Course-rocker_jean_aramide_AA_etiquette.jpg" alt="Course-rocker_jean_aramide_AA_etiquette">&lt;/p>
 &lt;p>Les zones couvertes par l&amp;rsquo;aramide :&lt;/p>
 &lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_profil.jpg" alt="Course-rocker_jean_aramide_AA_aramide_profil">&lt;/p>
-&lt;p>J&amp;rsquo;en suis très content :&lt;/p>
-&lt;p>Je l&amp;rsquo;ai porté au bureau plusieurs fois en gardant les coques de genoux, et je ne ressens pas de gêne. J&amp;rsquo;ai juste retiré les coques de hanche que je trouve trop visibles. Je porte les coques dans la position la plus haute (3e velcro en partant du bas).&lt;/p>
-&lt;p>Seul bémol : Il y a quelques coutures mal finies dans la doublure. Je croise les doigts pour que les coutures extérieures tiennent mieux !&lt;/p>
-&lt;p>J&amp;rsquo;ai désactivé les velcros de genou inutilisés, car ils avaient tendance à se refermer en journée et à bloquer les coques dans une mauvaise position : J&amp;rsquo;ai simplement découpé des morceaux de velcro côté poilu que j&amp;rsquo;ai fixé dessus.&lt;/p>
-&lt;h4 id="remplacement-des-coques-de-protection-">Remplacement des coques de protection :&lt;/h4>
-&lt;p>Pour les petits trajets + journée au bureau, je pense que je vais remplacer les grosses coques de genoux niveau 1 par des (&lt;a href="https://www.sas-tec.de/en/products/sc-1-kb2-new/">&lt;em>SC-1/KB2&lt;/em>&lt;/a>), protections fines (1 cm) et beaucoup plus protectrices (niveau 2 , &amp;lt;18 kN).&lt;/p>
-&lt;p>&lt;strong>Edit du 19/06/2021 :&lt;/strong> C&amp;rsquo;est fait, je ne porte plus que les SC-1/KB2 dans le pantalon, elles sont plus confortables et leur absorption des chocs est impressionnante (j&amp;rsquo;ai testé une chute volontaire sur les genoux et je n&amp;rsquo;ai rien senti. Seul défaut : Elle tiennent un peu plus chaud que les coques préformées d&amp;rsquo;origine.&lt;/p>
-&lt;p>Pour des trajets plus longs/sur autoroute, et où je peux me changer à l&amp;rsquo;arrivée, je songe à tester la combinaison suivante :&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://loboto51.github.io/lobotourisme/post/protections-moto-de-hanches-sas-tec-sc-2-07/">SAS-TEC SC-2/07&lt;/a> aux hanches : Niveau 2 et &amp;lt; 11 kN en moyenne ;&lt;/li>
-&lt;li>&lt;a href="https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-evo1-sc1-evo2-sc1-evo3/">SC1/EVO2&lt;/a> aux genoux : Niveau 2 et &amp;lt; 10 kN en moyenne. Elles sont grandes (27 cm x 19 cm), mais comme je place mes protections tout en haut de la poche, ça pourrait marcher.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Edit du 19/06/2021 :&lt;/strong> J&amp;rsquo;ai acheté des SC1/EVO2 pour remplacer les protections coude d&amp;rsquo;un blouson et elles me paraissent trop incurvées pour les utiliser aux genoux.&lt;/p>
-&lt;hr>
-&lt;h4 id="photos-diverses-">Photos diverses :&lt;/h4>
 &lt;p>Gros plan sur les coutures :&lt;/p>
 &lt;p>Fond de culotte :&lt;/p>
 &lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_fond_de_culotte.jpg" alt="Gros plan sur la couture du fond de culotte">&lt;/p>
@@ -819,16 +806,33 @@ J&amp;rsquo;ai un peu de mal à trouver des jeans moto qui me conviennent : Coup
 &lt;p>Couture de la jambe côté intérieur :&lt;/p>
 &lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_jambe_cote_interieur.jpg" alt="Gros plan sur la couture de la jambe côté intérieur">&lt;/p>
 &lt;p>Les coques d&amp;rsquo;origine (pas sensas) :&lt;/p>
-&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_coques_fournies_niv1_genoux_et_niveau_2_hanche.jpg" alt="Course-rocker_jean_aramide_AA_coques_fournies_niv1_genoux_et_niveau_2_hanche">&lt;/p>
-&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_coques_fournies_niv1_genoux_epaisseur.jpg" alt="Course-rocker_jean_aramide_AA_coques_fournies_niv1_genoux_epaisseur">&lt;/p>
-&lt;p>&lt;strong>Edit du 10/05/2021 :&lt;/strong> Ajout des photos et dimensions des poches.&lt;/p>
+&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_coques_fournies_niv1_genoux_et_niveau_2_hanche.jpg" alt="Course-rocker_jean_aramide_AA_coques_fournies_niv1_genoux_et_niveau_2_hanche">
+&lt;img src="Course-rocker_jean_aramide_AA_coques_fournies_niv1_genoux_epaisseur.jpg" alt="Course-rocker_jean_aramide_AA_coques_fournies_niv1_genoux_epaisseur">&lt;/p>
 &lt;p>Les poches pour les coques :&lt;/p>
 &lt;p>Genoux :&lt;/p>
-&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_poche_genou_dimensions_hauteur.jpg" alt="poche genou hauteur">&lt;/p>
-&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_poche_genou_dimensions_largeur.jpg" alt="poche genou largeur">&lt;/p>
+&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_poche_genou_dimensions_hauteur.jpg" alt="poche genou hauteur">
+&lt;img src="Course-rocker_jean_aramide_AA_aramide_poche_genou_dimensions_largeur.jpg" alt="poche genou largeur">&lt;/p>
 &lt;p>Hanche :&lt;/p>
-&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_poche_hanche_dimensions_hauteur.jpg" alt="poche hanche hauteur">&lt;/p>
-&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_poche_hanche_dimensions_largeur.jpg" alt="poche hanche largeur">&lt;/p></description></item><item><title>Lessive maison</title><link>https://loboto51.github.io/lobotourisme/post/lessive-maison/</link><pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/lessive-maison/</guid><description>
+&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_aramide_poche_hanche_dimensions_hauteur.jpg" alt="poche hanche hauteur">
+&lt;img src="Course-rocker_jean_aramide_AA_aramide_poche_hanche_dimensions_largeur.jpg" alt="poche hanche largeur">&lt;/p>
+&lt;hr>
+&lt;h2 id="avis-rapide-sur-le-_course-caféman_-essayé-en-36-et-retourné-">Avis rapide sur le &lt;em>Course Caféman&lt;/em> (essayé en 36 et retourné) :&lt;/h2>
+&lt;ul>
+&lt;li>Protection niveau A (bof) ;&lt;/li>
+&lt;li>Fabriqué au Pakistan (bof) ;&lt;/li>
+&lt;li>La toile est épaisse et légèrement velouteuse ;&lt;/li>
+&lt;li>Il est fourni avec des coques de genou de niveau 1 ;&lt;/li>
+&lt;li>Le positionnement des coques de genoux se fait par des velcros nombreux et régulièrement espacés ;&lt;/li>
+&lt;li>La couverture aramide est conforme aux photos sur le site (siège + genoux + une bande de 10 cm de large le long de chaque jambe) ;&lt;/li>
+&lt;li>Il taille très large, il aurait fallu que je le commande en 34.&lt;/li>
+&lt;/ul>
+&lt;p>Entre l&amp;rsquo;aspect de la toile, le niveau A et le problème de taille, je n&amp;rsquo;ai pas été convaincu.&lt;/p>
+&lt;hr>
+&lt;h3 id="mises-à-jour">Mises à jour&lt;/h3>
+&lt;ul>
+&lt;li>&lt;em>10/05/2021 :&lt;/em> Ajout des photos et dimensions des poches.&lt;/li>
+&lt;li>&lt;em>06/02/2022 :&lt;/em> Réorganisation de l&amp;rsquo;article.&lt;/li>
+&lt;/ul></description></item><item><title>Lessive maison</title><link>https://loboto51.github.io/lobotourisme/post/lessive-maison/</link><pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/lessive-maison/</guid><description>
 &lt;p>&lt;img src="lessive_maison.jpg" alt="lessive_maison">&lt;/p>
 &lt;p>J&amp;rsquo;ai longtemps utilisé des lessives bio (Nature&amp;amp;Progrès etc.) et puis j&amp;rsquo;ai trouvé cette lessive de recette maison qui coche toutes les cases :&lt;/p>
 &lt;p>Elle lave très bien, produit très peu de déchets (les emballages des poudres, et la bouteille de vinaigre c&amp;rsquo;est tout) et son coût est absolument négligeable.&lt;/p>
@@ -904,12 +908,6 @@ T- : La protection reste la même jusqu&amp;rsquo;à -10°C.&amp;#160;&lt;a href
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Mémo des modifications du thème hugo-clarity</title><link>https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/</link><pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/</guid><description>
-&lt;hr>
-&lt;p>Edit du 10/05/2021 : Modification du template &lt;em>single.html&lt;/em>.&lt;/p>
-&lt;p>Edit du 14/05/2021 : Depuis la rédaction de ce document, je suis passé au thème &lt;a href="https://github.com/statnmap/hugo-future-imperfect">hugo-future-imperfect&lt;/a> qui présente quelques fonctions supplémentaires et que je trouve plus élégant.&lt;/p>
-&lt;p>Edit du 15/05/2021 : Déplacement de la gestion des icônes dans une page dédiée : &lt;a href="https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/">Fabrication des favicons en masse avec Imagemagick&lt;/a>.&lt;/p>
-&lt;hr>
-&lt;p>&lt;em>Résumé :&lt;/em>&lt;/p>
 &lt;p>Ce site est construit en combinant &lt;em>Hugo&lt;/em> + &lt;em>Github Pages&lt;/em>.
 J&amp;rsquo;utilise le thème &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-clarity&lt;/a>. Ce &lt;em>post&lt;/em> récapitule les configurations et modifications que j&amp;rsquo;y ai apporté.&lt;/p>
 &lt;p>Le thème &lt;em>hugo-clarity&lt;/em> demande pas mal de conf. Plutôt que partir de zéro j&amp;rsquo;ai suivi le conseil que donne sa doc d&amp;rsquo;install et je suis parti du &lt;em>examplesite/&lt;/em> fourni dans le thème, que j&amp;rsquo;ai ensuite modifié.&lt;/p>
@@ -1038,7 +1036,13 @@ cp ./themes/hugo-clarity/layouts/partials/excerpt.html ./layouts/partials/
 &amp;lt;&lt;span style="color:#f92672">div&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;excerpt_footer&amp;#34;&lt;/span>&amp;gt;
 {{- end }}
 (...)
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Protections moto hanches Alpinestars Nucleon Racing KR-HR et Nucleon KR-H</title><link>https://loboto51.github.io/lobotourisme/post/protections-moto-hanches-alpinestars-nucleon-racing-kr-hr-et-nucleon-kr-h/</link><pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/protections-moto-hanches-alpinestars-nucleon-racing-kr-hr-et-nucleon-kr-h/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h3 id="mises-à-jour">Mises à jour&lt;/h3>
+&lt;ul>
+&lt;li>&lt;em>10/05/2021 :&lt;/em> Modification du template &lt;em>single.html&lt;/em>.&lt;/li>
+&lt;li>&lt;em>14/05/2021 :&lt;/em> Depuis la rédaction de ce document, je suis passé au thème &lt;a href="https://github.com/statnmap/hugo-future-imperfect">hugo-future-imperfect&lt;/a> qui présente quelques fonctions supplémentaires et que je trouve plus élégant.&lt;/li>
+&lt;li>&lt;em>15/05/2021 :&lt;/em> Déplacement de la gestion des icônes dans une page dédiée : &lt;a href="https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/">Fabrication des favicons en masse avec Imagemagick&lt;/a>.&lt;/li>
+&lt;/ul></description></item><item><title>Protections moto hanches Alpinestars Nucleon Racing KR-HR et Nucleon KR-H</title><link>https://loboto51.github.io/lobotourisme/post/protections-moto-hanches-alpinestars-nucleon-racing-kr-hr-et-nucleon-kr-h/</link><pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/protections-moto-hanches-alpinestars-nucleon-racing-kr-hr-et-nucleon-kr-h/</guid><description>
 &lt;p>&lt;img src="alpinestars-nucleon-racing-hr-kr_HB_niv2_face__source_revzilla.jpg" alt=":right">&lt;/p>
 &lt;p>Cette fiche récapitule les informations que j&amp;rsquo;ai pu glaner sur le net sur les coques de protection de hanches &lt;em>Alpinestars Nucleon Racing KR-HR et Nucleon KR-H&lt;/em> de niveau 1 et 2.&lt;/p>
 &lt;p>&lt;em>Synthèse :&lt;/em> Grande couverture, aération correcte, tarif élevé.&lt;/p>
@@ -1660,9 +1664,6 @@ T- : La protection reste la même jusqu&amp;rsquo;à -10°C.&amp;#160;&lt;a href
 &lt;/li>
 &lt;/ol>
 &lt;/section></description></item><item><title>Déployer un site web statique Hugo sur Github Pages</title><link>https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/</link><pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/</guid><description>
-&lt;hr>
-&lt;p>Edit du 14/05/2021 : Depuis la rédaction de ce document, je suis passé au thème &lt;a href="https://github.com/statnmap/hugo-future-imperfect">hugo-future-imperfect&lt;/a> qui présente quelques fonctions supplémentaires et que je trouve plus élégant.&lt;/p>
-&lt;hr>
 &lt;p>Le site que vous consultez est constitué d&amp;rsquo;un site web statique &lt;em>Hugo&lt;/em> hébergé sur &lt;em>Github&lt;/em> :&lt;/p>
 &lt;p>&lt;a href="https://github.com/">&lt;em>Github&lt;/em>&lt;/a> fournit la possibilité d&amp;rsquo;exposer un site &lt;em>web&lt;/em> statique pour chaque dépôt public du compte. Il suffit d&amp;rsquo;avoir :&lt;/p>
 &lt;ul>
@@ -1749,9 +1750,10 @@ touch .github/workflows/gh-pages.yml
 &lt;span style="color:#f92672">push&lt;/span>:
 &lt;span style="color:#f92672">branches&lt;/span>:
 - &lt;span style="color:#ae81ff">main &lt;/span> &lt;span style="color:#75715e"># Set a branch to deploy&lt;/span>
+&lt;span style="color:#f92672">pull_request&lt;/span>:
 &lt;span style="color:#f92672">jobs&lt;/span>:
 &lt;span style="color:#f92672">deploy&lt;/span>:
-&lt;span style="color:#f92672">runs-on&lt;/span>: &lt;span style="color:#ae81ff">ubuntu-18.04&lt;/span>
+&lt;span style="color:#f92672">runs-on&lt;/span>: &lt;span style="color:#ae81ff">ubuntu-20.04&lt;/span>
 &lt;span style="color:#f92672">steps&lt;/span>:
 - &lt;span style="color:#f92672">uses&lt;/span>: &lt;span style="color:#ae81ff">actions/checkout@v2&lt;/span>
 &lt;span style="color:#f92672">with&lt;/span>:
@@ -1766,6 +1768,7 @@ touch .github/workflows/gh-pages.yml
 &lt;span style="color:#f92672">run&lt;/span>: &lt;span style="color:#ae81ff">hugo --minify&lt;/span>
 - &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">Deploy&lt;/span>
 &lt;span style="color:#f92672">uses&lt;/span>: &lt;span style="color:#ae81ff">peaceiris/actions-gh-pages@v3&lt;/span>
+&lt;span style="color:#f92672">if&lt;/span>: &lt;span style="color:#ae81ff">github.ref == &amp;#39;refs/heads/main&amp;#39;&lt;/span>
 &lt;span style="color:#f92672">with&lt;/span>:
 &lt;span style="color:#f92672">github_token&lt;/span>: &lt;span style="color:#ae81ff">${{ secrets.GITHUB_TOKEN }}&lt;/span>
 &lt;span style="color:#f92672">publish_dir&lt;/span>: &lt;span style="color:#ae81ff">./public&lt;/span>
@@ -1795,4 +1798,10 @@ La branche &lt;em>gh-pages&lt;/em> a dû être créée.&lt;/p>
 &lt;p>Références Markdown :&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html">Quick Markdown Example - page de référence bourrée d&amp;rsquo;exemple&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="mises-à-jour">Mises à jour&lt;/h3>
+&lt;ul>
+&lt;li>&lt;em>14/05/2021 :&lt;/em> Depuis la rédaction de ce document, je suis passé au thème &lt;a href="https://github.com/statnmap/hugo-future-imperfect">hugo-future-imperfect&lt;/a> qui présente quelques fonctions supplémentaires et que je trouve plus élégant.&lt;/li>
+&lt;li>&lt;em>06/02/2022 :&lt;/em> Mise à jour du script d&amp;rsquo;action avec la dernière version disponible sur &lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hugo - hosting on github&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>

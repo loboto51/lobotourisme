@@ -38,7 +38,7 @@
 <meta itemprop=name content="Déployer un site web statique Hugo sur Github Pages">
 <meta itemprop=description content="Réalisation d'un site web statique avec Github Pages et Hugo."><meta itemprop=datePublished content="2021-04-22T00:00:00+00:00">
 <meta itemprop=dateModified content="2021-05-05T00:00:00+00:00">
-<meta itemprop=wordCount content="789"><meta itemprop=image content="https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/cover.jpg">
+<meta itemprop=wordCount content="814"><meta itemprop=image content="https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/cover.jpg">
 <meta itemprop=keywords content="hugo,github pages,hugo clarity,">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css>
 <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
@@ -246,9 +246,6 @@
 </div>
 <br>
 <div id=content class=article-entry>
-<hr>
-<p>Edit du 14/05/2021 : Depuis la rédaction de ce document, je suis passé au thème <a href=https://github.com/statnmap/hugo-future-imperfect>hugo-future-imperfect</a> qui présente quelques fonctions supplémentaires et que je trouve plus élégant.</p>
-<hr>
 <p>Le site que vous consultez est constitué d&rsquo;un site web statique <em>Hugo</em> hébergé sur <em>Github</em> :</p>
 <p><a href=https://github.com/><em>Github</em></a> fournit la possibilité d&rsquo;exposer un site <em>web</em> statique pour chaque dépôt public du compte. Il suffit d&rsquo;avoir :</p>
 <ul>
@@ -336,10 +333,11 @@ touch .github/workflows/gh-pages.yml
   <span style=color:#f92672>push</span>:
     <span style=color:#f92672>branches</span>:
       - <span style=color:#ae81ff>main </span> <span style=color:#75715e># Set a branch to deploy</span>
+  <span style=color:#f92672>pull_request</span>:
 
 <span style=color:#f92672>jobs</span>:
   <span style=color:#f92672>deploy</span>:
-    <span style=color:#f92672>runs-on</span>: <span style=color:#ae81ff>ubuntu-18.04</span>
+    <span style=color:#f92672>runs-on</span>: <span style=color:#ae81ff>ubuntu-20.04</span>
     <span style=color:#f92672>steps</span>:
       - <span style=color:#f92672>uses</span>: <span style=color:#ae81ff>actions/checkout@v2</span>
         <span style=color:#f92672>with</span>:
@@ -357,6 +355,7 @@ touch .github/workflows/gh-pages.yml
 
       - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>Deploy</span>
         <span style=color:#f92672>uses</span>: <span style=color:#ae81ff>peaceiris/actions-gh-pages@v3</span>
+        <span style=color:#f92672>if</span>: <span style=color:#ae81ff>github.ref == &#39;refs/heads/main&#39;</span>
         <span style=color:#f92672>with</span>:
           <span style=color:#f92672>github_token</span>: <span style=color:#ae81ff>${{ secrets.GITHUB_TOKEN }}</span>
           <span style=color:#f92672>publish_dir</span>: <span style=color:#ae81ff>./public</span>
@@ -386,6 +385,12 @@ La branche <em>gh-pages</em> a dû être créée.</p>
 <p>Références Markdown :</p>
 <ul>
 <li><a href=http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html>Quick Markdown Example - page de référence bourrée d&rsquo;exemple</a></li>
+</ul>
+<hr>
+<h3 id=mises-à-jour>Mises à jour</h3>
+<ul>
+<li><em>14/05/2021 :</em> Depuis la rédaction de ce document, je suis passé au thème <a href=https://github.com/statnmap/hugo-future-imperfect>hugo-future-imperfect</a> qui présente quelques fonctions supplémentaires et que je trouve plus élégant.</li>
+<li><em>06/02/2022 :</em> Mise à jour du script d&rsquo;action avec la dernière version disponible sur <a href=https://gohugo.io/hosting-and-deployment/hosting-on-github/>Hugo - hosting on github</a></li>
 </ul>
 </div>
 </div>

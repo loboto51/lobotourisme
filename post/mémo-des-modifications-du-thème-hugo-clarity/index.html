@@ -24,17 +24,13 @@
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/cover.jpg">
 <meta name=twitter:title content="Mémo des modifications du thème hugo-clarity">
-<meta name=twitter:description content="Edit du 10/05/2021 : Modification du template single.html.
-Edit du 14/05/2021 : Depuis la rédaction de ce document, je suis passé au thème hugo-future-imperfect qui présente quelques fonctions supplémentaires et que je trouve plus élégant.
-Edit du 15/05/2021 : Déplacement de la gestion des icônes dans une page dédiée : Fabrication des favicons en masse avec Imagemagick.
- Résumé :
-Ce site est construit en combinant Hugo + Github Pages.">
+<meta name=twitter:description content="Ce site est construit en combinant Hugo + Github Pages. J&rsquo;utilise le thème hugo-clarity. Ce post récapitule les configurations et modifications que j&rsquo;y ai apporté.
+Le thème hugo-clarity demande pas mal de conf. Plutôt que partir de zéro j&rsquo;ai suivi le conseil que donne sa doc d&rsquo;install et je suis parti du examplesite/ fourni dans le thème, que j&rsquo;ai ensuite modifié.
+documents non-utilisés Suppression des exemples en portugais rm ./config/_default/menus/menu.pt.toml rm .">
 <meta property="og:title" content="Mémo des modifications du thème hugo-clarity">
-<meta property="og:description" content="Edit du 10/05/2021 : Modification du template single.html.
-Edit du 14/05/2021 : Depuis la rédaction de ce document, je suis passé au thème hugo-future-imperfect qui présente quelques fonctions supplémentaires et que je trouve plus élégant.
-Edit du 15/05/2021 : Déplacement de la gestion des icônes dans une page dédiée : Fabrication des favicons en masse avec Imagemagick.
- Résumé :
-Ce site est construit en combinant Hugo + Github Pages.">
+<meta property="og:description" content="Ce site est construit en combinant Hugo + Github Pages. J&rsquo;utilise le thème hugo-clarity. Ce post récapitule les configurations et modifications que j&rsquo;y ai apporté.
+Le thème hugo-clarity demande pas mal de conf. Plutôt que partir de zéro j&rsquo;ai suivi le conseil que donne sa doc d&rsquo;install et je suis parti du examplesite/ fourni dans le thème, que j&rsquo;ai ensuite modifié.
+documents non-utilisés Suppression des exemples en portugais rm ./config/_default/menus/menu.pt.toml rm .">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/"><meta property="og:image" content="https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/cover.jpg"><meta property="article:section" content="post">
 <meta property="article:published_time" content="2021-05-02T00:00:00+00:00">
@@ -44,13 +40,11 @@ Ce site est construit en combinant Hugo + Github Pages.">
 <meta property="og:image:width" content="128">
 <meta property="og:image:height" content="128">
 <meta itemprop=name content="Mémo des modifications du thème hugo-clarity">
-<meta itemprop=description content="Edit du 10/05/2021 : Modification du template single.html.
-Edit du 14/05/2021 : Depuis la rédaction de ce document, je suis passé au thème hugo-future-imperfect qui présente quelques fonctions supplémentaires et que je trouve plus élégant.
-Edit du 15/05/2021 : Déplacement de la gestion des icônes dans une page dédiée : Fabrication des favicons en masse avec Imagemagick.
- Résumé :
-Ce site est construit en combinant Hugo + Github Pages."><meta itemprop=datePublished content="2021-05-02T00:00:00+00:00">
+<meta itemprop=description content="Ce site est construit en combinant Hugo + Github Pages. J&rsquo;utilise le thème hugo-clarity. Ce post récapitule les configurations et modifications que j&rsquo;y ai apporté.
+Le thème hugo-clarity demande pas mal de conf. Plutôt que partir de zéro j&rsquo;ai suivi le conseil que donne sa doc d&rsquo;install et je suis parti du examplesite/ fourni dans le thème, que j&rsquo;ai ensuite modifié.
+documents non-utilisés Suppression des exemples en portugais rm ./config/_default/menus/menu.pt.toml rm ."><meta itemprop=datePublished content="2021-05-02T00:00:00+00:00">
 <meta itemprop=dateModified content="2021-05-10T00:00:00+00:00">
-<meta itemprop=wordCount content="677"><meta itemprop=image content="https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/cover.jpg">
+<meta itemprop=wordCount content="672"><meta itemprop=image content="https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/cover.jpg">
 <meta itemprop=keywords content="hugo,hugo clarity,github pages,imagemagick,">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css>
 <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
@@ -257,12 +251,6 @@ Ce site est construit en combinant Hugo + Github Pages."><meta itemprop=datePubl
 </div>
 <br>
 <div id=content class=article-entry>
-<hr>
-<p>Edit du 10/05/2021 : Modification du template <em>single.html</em>.</p>
-<p>Edit du 14/05/2021 : Depuis la rédaction de ce document, je suis passé au thème <a href=https://github.com/statnmap/hugo-future-imperfect>hugo-future-imperfect</a> qui présente quelques fonctions supplémentaires et que je trouve plus élégant.</p>
-<p>Edit du 15/05/2021 : Déplacement de la gestion des icônes dans une page dédiée : <a href=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/>Fabrication des favicons en masse avec Imagemagick</a>.</p>
-<hr>
-<p><em>Résumé :</em></p>
 <p>Ce site est construit en combinant <em>Hugo</em> + <em>Github Pages</em>.
 J&rsquo;utilise le thème <a href=https://themes.gohugo.io/hugo-clarity/>hugo-clarity</a>. Ce <em>post</em> récapitule les configurations et modifications que j&rsquo;y ai apporté.</p>
 <p>Le thème <em>hugo-clarity</em> demande pas mal de conf. Plutôt que partir de zéro j&rsquo;ai suivi le conseil que donne sa doc d&rsquo;install et je suis parti du <em>examplesite/</em> fourni dans le thème, que j&rsquo;ai ensuite modifié.</p>
@@ -396,7 +384,13 @@ cp ./themes/hugo-clarity/layouts/partials/excerpt.html ./layouts/partials/
     &lt;<span style=color:#f92672>div</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;excerpt_footer&#34;</span>&gt;
     {{- end }}
 (...)
-</code></pre></div>
+</code></pre></div><hr>
+<h3 id=mises-à-jour>Mises à jour</h3>
+<ul>
+<li><em>10/05/2021 :</em> Modification du template <em>single.html</em>.</li>
+<li><em>14/05/2021 :</em> Depuis la rédaction de ce document, je suis passé au thème <a href=https://github.com/statnmap/hugo-future-imperfect>hugo-future-imperfect</a> qui présente quelques fonctions supplémentaires et que je trouve plus élégant.</li>
+<li><em>15/05/2021 :</em> Déplacement de la gestion des icônes dans une page dédiée : <a href=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/>Fabrication des favicons en masse avec Imagemagick</a>.</li>
+</ul>
 </div>
 </div>
 <footer>

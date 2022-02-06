@@ -24,13 +24,13 @@
 <meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/Course-rocker_jean_aramide_AA_thumbnail.jpg">
 <meta name=twitter:title content="Fabrication de miniatures avec extrapolation des bords avec Imagemagick">
-<meta name=twitter:description content="Edit du 15/05/2021 : J&rsquo;ai intégré 3 modes de fabrication de miniature dans le script, pour pouvoir ensuite choisir facilement le meilleur résultat. Entre temps j&rsquo;ai changé de thème Hugo (hugo-future-imperfect) et les miniatures de 800x300 s&rsquo;y prêtent mieux.
- J&rsquo;ai choisi de générer des miniatures pour chacun de mes billets en réutilisant des photos issues des articles.
-J&rsquo;utilise 3 techniques pour produire des images aux dimensions qui me conviennent :">
+<meta name=twitter:description content="J&rsquo;ai choisi de générer des miniatures pour chacun de mes billets en réutilisant des photos issues des articles.
+J&rsquo;utilise 3 techniques pour produire des images aux dimensions qui me conviennent :
+Technique 1 : Remplissage des zones vides par extrapolation J&rsquo;ai légèrement adapté une série de commandes Imagemagick concoctées par fmw42 (le fameux Fred de Fred&rsquo;s ImageMagick Scripts) dans cette page de forum : ImageMagick - turn image with borders into full bleed image.">
 <meta property="og:title" content="Fabrication de miniatures avec extrapolation des bords avec Imagemagick">
-<meta property="og:description" content="Edit du 15/05/2021 : J&rsquo;ai intégré 3 modes de fabrication de miniature dans le script, pour pouvoir ensuite choisir facilement le meilleur résultat. Entre temps j&rsquo;ai changé de thème Hugo (hugo-future-imperfect) et les miniatures de 800x300 s&rsquo;y prêtent mieux.
- J&rsquo;ai choisi de générer des miniatures pour chacun de mes billets en réutilisant des photos issues des articles.
-J&rsquo;utilise 3 techniques pour produire des images aux dimensions qui me conviennent :">
+<meta property="og:description" content="J&rsquo;ai choisi de générer des miniatures pour chacun de mes billets en réutilisant des photos issues des articles.
+J&rsquo;utilise 3 techniques pour produire des images aux dimensions qui me conviennent :
+Technique 1 : Remplissage des zones vides par extrapolation J&rsquo;ai légèrement adapté une série de commandes Imagemagick concoctées par fmw42 (le fameux Fred de Fred&rsquo;s ImageMagick Scripts) dans cette page de forum : ImageMagick - turn image with borders into full bleed image.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/"><meta property="og:image" content="https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/Course-rocker_jean_aramide_AA_thumbnail.jpg"><meta property="article:section" content="post">
 <meta property="article:published_time" content="2021-05-07T00:00:00+00:00">
@@ -40,11 +40,11 @@ J&rsquo;utilise 3 techniques pour produire des images aux dimensions qui me conv
 <meta property="og:image:width" content="128">
 <meta property="og:image:height" content="128">
 <meta itemprop=name content="Fabrication de miniatures avec extrapolation des bords avec Imagemagick">
-<meta itemprop=description content="Edit du 15/05/2021 : J&rsquo;ai intégré 3 modes de fabrication de miniature dans le script, pour pouvoir ensuite choisir facilement le meilleur résultat. Entre temps j&rsquo;ai changé de thème Hugo (hugo-future-imperfect) et les miniatures de 800x300 s&rsquo;y prêtent mieux.
- J&rsquo;ai choisi de générer des miniatures pour chacun de mes billets en réutilisant des photos issues des articles.
-J&rsquo;utilise 3 techniques pour produire des images aux dimensions qui me conviennent :"><meta itemprop=datePublished content="2021-05-07T00:00:00+00:00">
+<meta itemprop=description content="J&rsquo;ai choisi de générer des miniatures pour chacun de mes billets en réutilisant des photos issues des articles.
+J&rsquo;utilise 3 techniques pour produire des images aux dimensions qui me conviennent :
+Technique 1 : Remplissage des zones vides par extrapolation J&rsquo;ai légèrement adapté une série de commandes Imagemagick concoctées par fmw42 (le fameux Fred de Fred&rsquo;s ImageMagick Scripts) dans cette page de forum : ImageMagick - turn image with borders into full bleed image."><meta itemprop=datePublished content="2021-05-07T00:00:00+00:00">
 <meta itemprop=dateModified content="2021-05-07T00:00:00+00:00">
-<meta itemprop=wordCount content="680"><meta itemprop=image content="https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/Course-rocker_jean_aramide_AA_thumbnail.jpg">
+<meta itemprop=wordCount content="681"><meta itemprop=image content="https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/Course-rocker_jean_aramide_AA_thumbnail.jpg">
 <meta itemprop=keywords content="hugo,imagemagick,">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css>
 <link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
@@ -251,10 +251,6 @@ J&rsquo;utilise 3 techniques pour produire des images aux dimensions qui me conv
 </div>
 <br>
 <div id=content class=article-entry>
-<hr>
-<p>Edit du 15/05/2021 : J&rsquo;ai intégré 3 modes de fabrication de miniature dans le script, pour pouvoir ensuite choisir facilement le meilleur résultat.
-Entre temps j&rsquo;ai changé de thème Hugo (<a href=https://github.com/statnmap/hugo-future-imperfect>hugo-future-imperfect</a>) et les miniatures de 800x300 s&rsquo;y prêtent mieux.</p>
-<hr>
 <p>J&rsquo;ai choisi de générer des miniatures pour chacun de mes billets en réutilisant des photos issues des articles.</p>
 <p>J&rsquo;utilise 3 techniques pour produire des images aux dimensions qui me conviennent :</p>
 <h2 id=technique-1--remplissage-des-zones-vides-par-extrapolation>Technique 1 : Remplissage des zones vides par extrapolation</h2>
@@ -331,6 +327,12 @@ touch gen_thumb_sparse_voronoi.sh
 <li><em>.Fill</em> : On indique une hauteur et une largeur <strong>minimum</strong> et Hugo tente d&rsquo;y insérer le maximum de l&rsquo;image sans modifier les proportions. Par défaut il choisit seul mais on peut lui donner des directives : <em>smart</em> (défaut), <em>left</em>, <em>right</em>&mldr;</li>
 </ul>
 <p>Il y a énormément d&rsquo;exemples ici : <a href=https://gohugo.io/content-management/image-processing/>gohugo - image processing</a></p>
+<hr>
+<h3 id=mises-à-jour>Mises à jour</h3>
+<ul>
+<li><em>15/05/2021 :</em> J&rsquo;ai intégré 3 modes de fabrication de miniature dans le script, pour pouvoir ensuite choisir facilement le meilleur résultat.
+Entre temps j&rsquo;ai changé de thème Hugo (<a href=https://github.com/statnmap/hugo-future-imperfect>hugo-future-imperfect</a>) et les miniatures de 800x300 s&rsquo;y prêtent mieux.</li>
+</ul>
 </div>
 </div>
 <footer>
