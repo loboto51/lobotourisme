@@ -1,31 +1,312 @@
-<!doctype html><html><head><title>Déployer un site web statique Hugo sur Github Pages</title><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=generator content="Hugo 0.84.0"><link rel=icon href=https://loboto51.github.io/lobotourisme/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://loboto51.github.io/lobotourisme/favicons/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://loboto51.github.io/lobotourisme/favicons/favicon-32x32.png><link rel=icon type=image/png sizes=128x128 href=https://loboto51.github.io/lobotourisme/favicons/favicon-128x128.png><link rel=icon type=image/png sizes=152x152 href=https://loboto51.github.io/lobotourisme/favicons/favicon-152x152.png><link rel=icon type=image/png sizes=167x167 href=https://loboto51.github.io/lobotourisme/favicons/favicon-167x167.png><link rel=icon type=image/png sizes=180x180 href=https://loboto51.github.io/lobotourisme/favicons/favicon-180x180.png><link rel=icon type=image/png sizes=192x192 href=https://loboto51.github.io/lobotourisme/favicons/favicon-192x192.png><link rel=icon type=image/png sizes=196x196 href=https://loboto51.github.io/lobotourisme/favicons/favicon-196x196.png><link rel=apple-touch-icon-precomposed href=https://loboto51.github.io/lobotourisme/favicons/favicon-180x180.png><link rel="shortcut icon" sizes=196x196 href=https://loboto51.github.io/lobotourisme/favicons/favicon-196x196.png><meta name=msapplication-TileColor content="#FFFFFF"><meta name=msapplication-TileImage content="/favicons/favicon-144x144.png"><meta name=application-name content="Lobotourisme"><meta name=msapplication-tooltip content="Tooltip"><meta name=msapplication-config content="/ieconfig.xml"><meta name=description content="Réalisation d'un site web statique avec Github Pages et Hugo."><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/cover.jpg"><meta name=twitter:title content="Déployer un site web statique Hugo sur Github Pages"><meta name=twitter:description content="Réalisation d'un site web statique avec Github Pages et Hugo."><meta property="og:title" content="Déployer un site web statique Hugo sur Github Pages"><meta property="og:description" content="Réalisation d'un site web statique avec Github Pages et Hugo."><meta property="og:type" content="article"><meta property="og:url" content="https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/"><meta property="og:image" content="https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/cover.jpg"><meta property="article:section" content="post"><meta property="article:published_time" content="2021-04-22T00:00:00+00:00"><meta property="article:modified_time" content="2021-05-05T00:00:00+00:00"><meta property="og:image" content="/favicons/favicon-128x128.png"><meta property="og:image:type" content="image/png"><meta property="og:image:width" content="128"><meta property="og:image:height" content="128"><meta itemprop=name content="Déployer un site web statique Hugo sur Github Pages"><meta itemprop=description content="Réalisation d'un site web statique avec Github Pages et Hugo."><meta itemprop=datePublished content="2021-04-22T00:00:00+00:00"><meta itemprop=dateModified content="2021-05-05T00:00:00+00:00"><meta itemprop=wordCount content="789"><meta itemprop=image content="https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/cover.jpg"><meta itemprop=keywords content="hugo,github pages,hugo clarity,"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700"><link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css><link rel=stylesheet href=https://loboto51.github.io/lobotourisme/css/main.css><link rel=stylesheet href=https://loboto51.github.io/lobotourisme/css/add-on.css><link rel=stylesheet href=https://loboto51.github.io/lobotourisme/css/academicons.min.css><link href=//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css rel=stylesheet type=text/css><script src=//code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script></head><body><div id=wrapper><header id=header><h1><a href=https://loboto51.github.io/lobotourisme/>post</a></h1><nav class=links><ul><li><a href=https://loboto51.github.io/lobotourisme/><i class="fa fa-home">&nbsp;</i>Accueil</a></li><li><a href=https://loboto51.github.io/lobotourisme/categories/moto/><i class="fa fa-moto">&nbsp;</i>Moto</a></li><li><a href=https://loboto51.github.io/lobotourisme/categories/dev/><i class="fa fa-dev">&nbsp;</i>Dev</a></li><li><a href=https://loboto51.github.io/lobotourisme/categories/%c3%a9cologie/><i class="fa fa-ecologie">&nbsp;</i>Ecologie</a></li><li><a href=https://loboto51.github.io/lobotourisme/contact/><i class="fa fa-envelope-o">&nbsp;</i>Contact</a></li></ul></nav><nav class=main><ul><li id=share-nav class=share-menu style=display:none><a class=fa-share-alt href=#share-menu>Share</a></li><li class=search><a class=fa-search href=#search>Search</a><form id=search method=get action=//google.com/search><input type=text name=q placeholder=Search>
-<input type=hidden name=as_sitesearch value=https://loboto51.github.io/lobotourisme/></form></li><li class=menu><a class=fa-bars href=#menu>Menu</a></li></ul></nav></header><section id=menu><section><form class=search method=get action=//google.com/search><input type=text name=q placeholder=Search>
-<input type=hidden name=as_sitesearch value=https://loboto51.github.io/lobotourisme/></form></section><section><ul class=links><li><a href=https://loboto51.github.io/lobotourisme/><h3><i class="fa fa-home">&nbsp;</i>Accueil</h3></a></li><li><a href=https://loboto51.github.io/lobotourisme/categories/moto/><h3><i class="fa fa-moto">&nbsp;</i>Moto</h3></a></li><li><a href=https://loboto51.github.io/lobotourisme/categories/dev/><h3><i class="fa fa-dev">&nbsp;</i>Dev</h3></a></li><li><a href=https://loboto51.github.io/lobotourisme/categories/%c3%a9cologie/><h3><i class="fa fa-ecologie">&nbsp;</i>Ecologie</h3></a></li><li><a href=https://loboto51.github.io/lobotourisme/contact/><h3><i class="fa fa-envelope-o">&nbsp;</i>Contact</h3></a></li></ul></section><section class=recent-posts><div class=mini-posts><header><h3>Posts récents</h3></header><article class=mini-post><header><h3><a href=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/>Bottes moto Stylmartin Rocket</a></h3><time class=published datetime=2021-05-17>17/05/2021</time></header><a href=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/ class="image featured"><img src=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/cover.jpg alt="Bottes moto Stylmartin Rocket"></a></article><article class=mini-post><header><h3><a href=https://loboto51.github.io/lobotourisme/post/>Post</a></h3><time class=published datetime=2021-05-17>17/05/2021</time></header></article><article class=mini-post><header><h3><a href=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/>Fabrication des favicons en masse avec Imagemagick</a></h3><time class=published datetime=2021-05-15>15/05/2021</time></header><a href=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/ class="image featured"><img src=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/cover.jpg alt="Fabrication des favicons en masse avec Imagemagick"></a></article><article class=mini-post><header><h3><a href=https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/>Protections moto SAS-TEC SC-1-06EVO</a></h3><time class=published datetime=2021-05-15>15/05/2021</time></header><a href=https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/ class="image featured"><img src=https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/cover.jpg alt="Protections moto SAS-TEC SC-1-06EVO"></a></article><article class=mini-post><header><h3><a href=https://loboto51.github.io/lobotourisme/post/galets-lave-vaisselle-maison/>Galets lave-vaisselle maison</a></h3><time class=published datetime=2021-05-10>10/05/2021</time></header><a href=https://loboto51.github.io/lobotourisme/post/galets-lave-vaisselle-maison/ class="image featured"><img src=https://loboto51.github.io/lobotourisme/post/galets-lave-vaisselle-maison/cover.jpg alt="Galets lave-vaisselle maison"></a></article><a href=/blog/ class=button>Voir plus</a></div></section></section><section id=share-menu><section id=social-share-nav><ul class=links><header><h3>Partager ce post <i class="fa fa-smile-o"></i></h3></header><li><a href="mailto:?subject=Check out this post by &body=https%3a%2f%2floboto51.github.io%2flobotourisme%2fpost%2fd%25C3%25A9ployer-un-site-web-statique-hugo-sur-github-pages%2f" target=_blank class="share-btn email"><i class="fa fa-envelope"></i><p>Email</p></a></li></ul></section></section><div id=main><article class=post><header><div class=title><h1><a href=https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/>Déployer un site web statique Hugo sur Github Pages</a></h1><p>Réalisation d'un site web statique avec Github Pages et Hugo.</p></div><div class=meta><time class=published datetime="2021-04-22 00:00:00 +0000 UTC">22/04/2021</time>
-<span class=author></span><p>4 minutes</p></div></header><div><div id=go-to-folding-div style=display:inline-block;vertical-align:top;height:1px;margin-top:-4em></div><div id=code-folding-buttons class="btn-group pull-right"><button type=button class="btn btn-default btn-xs dropdown-toggle" data-toggle=dropdown aria-haspopup=true aria-expanded=true data-_extension-text-contrast>
+<!doctype html><html>
+<head>
+<title>Déployer un site web statique Hugo sur Github Pages</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=generator content="Hugo 0.92.1">
+<link rel=icon href=https://loboto51.github.io/lobotourisme/favicon.ico>
+<link rel=icon type=image/png sizes=16x16 href=https://loboto51.github.io/lobotourisme/favicons/favicon-16x16.png>
+<link rel=icon type=image/png sizes=32x32 href=https://loboto51.github.io/lobotourisme/favicons/favicon-32x32.png>
+<link rel=icon type=image/png sizes=128x128 href=https://loboto51.github.io/lobotourisme/favicons/favicon-128x128.png>
+<link rel=icon type=image/png sizes=152x152 href=https://loboto51.github.io/lobotourisme/favicons/favicon-152x152.png>
+<link rel=icon type=image/png sizes=167x167 href=https://loboto51.github.io/lobotourisme/favicons/favicon-167x167.png>
+<link rel=icon type=image/png sizes=180x180 href=https://loboto51.github.io/lobotourisme/favicons/favicon-180x180.png>
+<link rel=icon type=image/png sizes=192x192 href=https://loboto51.github.io/lobotourisme/favicons/favicon-192x192.png>
+<link rel=icon type=image/png sizes=196x196 href=https://loboto51.github.io/lobotourisme/favicons/favicon-196x196.png>
+<link rel=apple-touch-icon-precomposed href=https://loboto51.github.io/lobotourisme/favicons/favicon-180x180.png>
+<link rel="shortcut icon" sizes=196x196 href=https://loboto51.github.io/lobotourisme/favicons/favicon-196x196.png>
+<meta name=msapplication-TileColor content="#FFFFFF">
+<meta name=msapplication-TileImage content="/favicons/favicon-144x144.png">
+<meta name=application-name content="Lobotourisme">
+<meta name=msapplication-tooltip content="Tooltip">
+<meta name=msapplication-config content="/ieconfig.xml">
+<meta name=description content="Réalisation d'un site web statique avec Github Pages et Hugo.">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/cover.jpg">
+<meta name=twitter:title content="Déployer un site web statique Hugo sur Github Pages">
+<meta name=twitter:description content="Réalisation d'un site web statique avec Github Pages et Hugo.">
+<meta property="og:title" content="Déployer un site web statique Hugo sur Github Pages">
+<meta property="og:description" content="Réalisation d'un site web statique avec Github Pages et Hugo.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/"><meta property="og:image" content="https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/cover.jpg"><meta property="article:section" content="post">
+<meta property="article:published_time" content="2021-04-22T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-05-05T00:00:00+00:00">
+<meta property="og:image" content="/favicons/favicon-128x128.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="128">
+<meta property="og:image:height" content="128">
+<meta itemprop=name content="Déployer un site web statique Hugo sur Github Pages">
+<meta itemprop=description content="Réalisation d'un site web statique avec Github Pages et Hugo."><meta itemprop=datePublished content="2021-04-22T00:00:00+00:00">
+<meta itemprop=dateModified content="2021-05-05T00:00:00+00:00">
+<meta itemprop=wordCount content="789"><meta itemprop=image content="https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/cover.jpg">
+<meta itemprop=keywords content="hugo,github pages,hugo clarity,">
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css>
+<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css>
+<link rel=stylesheet href=https://loboto51.github.io/lobotourisme/css/main.css>
+<link rel=stylesheet href=https://loboto51.github.io/lobotourisme/css/add-on.css>
+<link rel=stylesheet href=https://loboto51.github.io/lobotourisme/css/academicons.min.css>
+<link href=//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css rel=stylesheet type=text/css>
+<script src=//code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script>
+</head>
+<body>
+<div id=wrapper>
+<header id=header>
+<h1><a href=https://loboto51.github.io/lobotourisme/>post</a></h1>
+<nav class=links>
+<ul>
+<li>
+<a href=https://loboto51.github.io/lobotourisme/>
+<i class="fa fa-home">&nbsp;</i>Accueil
+</a>
+</li>
+<li>
+<a href=https://loboto51.github.io/lobotourisme/categories/moto/>
+<i class="fa fa-moto">&nbsp;</i>Moto
+</a>
+</li>
+<li>
+<a href=https://loboto51.github.io/lobotourisme/categories/dev/>
+<i class="fa fa-dev">&nbsp;</i>Dev
+</a>
+</li>
+<li>
+<a href=https://loboto51.github.io/lobotourisme/categories/%c3%a9cologie/>
+<i class="fa fa-ecologie">&nbsp;</i>Ecologie
+</a>
+</li>
+<li>
+<a href=https://loboto51.github.io/lobotourisme/contact/>
+<i class="fa fa-envelope-o">&nbsp;</i>Contact
+</a>
+</li>
+</ul>
+</nav>
+<nav class=main>
+<ul>
+<li id=share-nav class=share-menu style=display:none>
+<a class=fa-share-alt href=#share-menu>Share</a>
+</li>
+<li class=search>
+<a class=fa-search href=#search>Search</a>
+<form id=search method=get action=//google.com/search>
+<input type=text name=q placeholder=Search>
+<input type=hidden name=as_sitesearch value=https://loboto51.github.io/lobotourisme/>
+</form>
+</li>
+<li class=menu>
+<a class=fa-bars href=#menu>Menu</a>
+</li>
+</ul>
+</nav>
+</header>
+<section id=menu>
+<section>
+<form class=search method=get action=//google.com/search>
+<input type=text name=q placeholder=Search>
+<input type=hidden name=as_sitesearch value=https://loboto51.github.io/lobotourisme/>
+</form>
+</section>
+<section>
+<ul class=links>
+<li>
+<a href=https://loboto51.github.io/lobotourisme/>
+<h3>
+<i class="fa fa-home">&nbsp;</i>Accueil
+</h3>
+</a>
+</li>
+<li>
+<a href=https://loboto51.github.io/lobotourisme/categories/moto/>
+<h3>
+<i class="fa fa-moto">&nbsp;</i>Moto
+</h3>
+</a>
+</li>
+<li>
+<a href=https://loboto51.github.io/lobotourisme/categories/dev/>
+<h3>
+<i class="fa fa-dev">&nbsp;</i>Dev
+</h3>
+</a>
+</li>
+<li>
+<a href=https://loboto51.github.io/lobotourisme/categories/%c3%a9cologie/>
+<h3>
+<i class="fa fa-ecologie">&nbsp;</i>Ecologie
+</h3>
+</a>
+</li>
+<li>
+<a href=https://loboto51.github.io/lobotourisme/contact/>
+<h3>
+<i class="fa fa-envelope-o">&nbsp;</i>Contact
+</h3>
+</a>
+</li>
+</ul>
+</section>
+<section class=recent-posts>
+<div class=mini-posts>
+<header>
+<h3>Posts récents</h3>
+</header>
+<article class=mini-post>
+<header>
+<h3><a href=https://loboto51.github.io/lobotourisme/post/petit-inventaire-des-casques-ece-22.06-%C3%A0-moins-de-400e-d%C3%A9but-2022/>Petit inventaire des casques ECE 22.06 à moins de 400e début 2022</a></h3>
+<time class=published datetime=2022-02-05>
+05/02/2022</time>
+</header>
+<a href=https://loboto51.github.io/lobotourisme/post/petit-inventaire-des-casques-ece-22.06-%C3%A0-moins-de-400e-d%C3%A9but-2022/ class="image featured">
+<img src=https://loboto51.github.io/lobotourisme/post/petit-inventaire-des-casques-ece-22.06-%C3%A0-moins-de-400e-d%C3%A9but-2022/cover.jpg alt="Petit inventaire des casques ECE 22.06 à moins de 400e début 2022">
+</a>
+</article>
+<article class=mini-post>
+<header>
+<h3><a href=https://loboto51.github.io/lobotourisme/post/>Post</a></h3>
+<time class=published datetime=2022-02-05>
+05/02/2022</time>
+</header>
+</article>
+<article class=mini-post>
+<header>
+<h3><a href=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/>Bottes moto Stylmartin Rocket</a></h3>
+<time class=published datetime=2021-05-17>
+17/05/2021</time>
+</header>
+<a href=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/ class="image featured">
+<img src=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/cover.jpg alt="Bottes moto Stylmartin Rocket">
+</a>
+</article>
+<article class=mini-post>
+<header>
+<h3><a href=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/>Fabrication des favicons en masse avec Imagemagick</a></h3>
+<time class=published datetime=2021-05-15>
+15/05/2021</time>
+</header>
+<a href=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/ class="image featured">
+<img src=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/cover.jpg alt="Fabrication des favicons en masse avec Imagemagick">
+</a>
+</article>
+<article class=mini-post>
+<header>
+<h3><a href=https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/>Protections moto SAS-TEC SC-1-06EVO</a></h3>
+<time class=published datetime=2021-05-15>
+15/05/2021</time>
+</header>
+<a href=https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/ class="image featured">
+<img src=https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/cover.jpg alt="Protections moto SAS-TEC SC-1-06EVO">
+</a>
+</article>
+<a href=/blog/ class=button>Voir plus</a>
+</div>
+</section>
+</section>
+<section id=share-menu>
+<section id=social-share-nav>
+<ul class=links>
+<header>
+<h3>Partager ce post <i class="fa fa-smile-o"></i></h3>
+</header>
+<li>
+<a href="mailto:?subject=Check out this post by &body=https%3a%2f%2floboto51.github.io%2flobotourisme%2fpost%2fd%25C3%25A9ployer-un-site-web-statique-hugo-sur-github-pages%2f" target=_blank class="share-btn email">
+<i class="fa fa-envelope"></i>
+<p>Email</p>
+</a>
+</li>
+</ul>
+</section>
+</section>
+<div id=main>
+<article class=post>
+<header>
+<div class=title>
+<h1><a href=https://loboto51.github.io/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/>Déployer un site web statique Hugo sur Github Pages</a></h1>
+<p>Réalisation d'un site web statique avec Github Pages et Hugo.</p>
+</div>
+<div class=meta>
+<time class=published datetime="2021-04-22 00:00:00 +0000 UTC">
+22/04/2021</time>
+<span class=author></span>
+<p>4 minutes</p>
+</div>
+</header>
+<div>
+<div id=go-to-folding-div style=display:inline-block;vertical-align:top;height:1px;margin-top:-4em></div>
+<div id=code-folding-buttons class="btn-group pull-right">
+<button type=button class="btn btn-default btn-xs dropdown-toggle" data-toggle=dropdown aria-haspopup=true aria-expanded=true data-_extension-text-contrast>
 <span>Afficher/Masquer codes</span>
-<span class=caret></span></button><ul class=dropdown-menu style=min-width:50px><li><a id=rmd-show-all-code href=#go-to-folding-div>Afficher tous codes</a></li><li><a id=rmd-hide-all-code href=#go-to-folding-div>Masquer tous codes</a></li></ul></div><br><div id=content class=article-entry><hr><p>Edit du 14/05/2021 : Depuis la rédaction de ce document, je suis passé au thème <a href=https://github.com/statnmap/hugo-future-imperfect>hugo-future-imperfect</a> qui présente quelques fonctions supplémentaires et que je trouve plus élégant.</p><hr><p>Le site que vous consultez est constitué d&rsquo;un site web statique <em>Hugo</em> hébergé sur <em>Github</em> :</p><p><a href=https://github.com/><em>Github</em></a> fournit la possibilité d&rsquo;exposer un site <em>web</em> statique pour chaque dépôt public du compte. Il suffit d&rsquo;avoir :</p><ul><li>Du <em>html+css</em> dans le dépôt ;</li><li>La fonctionnalité <a href=https://pages.github.com/><em>Github Pages</em></a> activée.</li></ul><p>Le code statique de chaque dépôt sera alors accessible à l&rsquo;url :
-_<a href=https://MONLOGINGITHUB.github.io/MONDEPOT/_>https://MONLOGINGITHUB.github.io/MONDEPOT/_</a></p><p><a href=https://gohugo.io/><em>Hugo</em></a> quand à lui est un générateur de sites <em>web</em> statiques : On écrit des pages en markdown, on lance Hugo, et il génère tout le html et la structure de site que <em>Github</em> exposera.</p><p>Mode opératoire :</p><h2 id=_hugo_><em>Hugo</em></h2><h3 id=installation>Installation</h3><p>Sous <em>Ubuntu</em> la version dispo dans les dépôts est dépassée. Le plus simple est d&rsquo;aller récupérer le dernier .deb dans les <em>releases</em> <em>Hugo</em> :</p><p><a href=https://github.com/gohugoio/hugo/releases>https://github.com/gohugoio/hugo/releases</a></p><p>Ensuite :</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>wget https://github.com/gohugoio/hugo/releases/download/v0.82.1/hugo_extended_0.82.1_Linux-64bit.deb
+<span class=caret></span>
+</button>
+<ul class=dropdown-menu style=min-width:50px>
+<li><a id=rmd-show-all-code href=#go-to-folding-div>Afficher tous codes</a>
+</li><li><a id=rmd-hide-all-code href=#go-to-folding-div>Masquer tous codes</a></li>
+</ul>
+</div>
+<br>
+<div id=content class=article-entry>
+<hr>
+<p>Edit du 14/05/2021 : Depuis la rédaction de ce document, je suis passé au thème <a href=https://github.com/statnmap/hugo-future-imperfect>hugo-future-imperfect</a> qui présente quelques fonctions supplémentaires et que je trouve plus élégant.</p>
+<hr>
+<p>Le site que vous consultez est constitué d&rsquo;un site web statique <em>Hugo</em> hébergé sur <em>Github</em> :</p>
+<p><a href=https://github.com/><em>Github</em></a> fournit la possibilité d&rsquo;exposer un site <em>web</em> statique pour chaque dépôt public du compte. Il suffit d&rsquo;avoir :</p>
+<ul>
+<li>Du <em>html+css</em> dans le dépôt ;</li>
+<li>La fonctionnalité <a href=https://pages.github.com/><em>Github Pages</em></a> activée.</li>
+</ul>
+<p>Le code statique de chaque dépôt sera alors accessible à l&rsquo;url :
+<em><a href=https://MONLOGINGITHUB.github.io/MONDEPOT/>https://MONLOGINGITHUB.github.io/MONDEPOT/</a></em></p>
+<p><a href=https://gohugo.io/><em>Hugo</em></a> quand à lui est un générateur de sites <em>web</em> statiques : On écrit des pages en markdown, on lance Hugo, et il génère tout le html et la structure de site que <em>Github</em> exposera.</p>
+<p>Mode opératoire :</p>
+<h2 id=_hugo_><em>Hugo</em></h2>
+<h3 id=installation>Installation</h3>
+<p>Sous <em>Ubuntu</em> la version dispo dans les dépôts est dépassée. Le plus simple est d&rsquo;aller récupérer le dernier .deb dans les <em>releases</em> <em>Hugo</em> :</p>
+<p><a href=https://github.com/gohugoio/hugo/releases>https://github.com/gohugoio/hugo/releases</a></p>
+<p>Ensuite :</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>wget https://github.com/gohugoio/hugo/releases/download/v0.82.1/hugo_extended_0.82.1_Linux-64bit.deb
 sudo dpkg -i hugo_extended_0.82.1_Linux-64bit.deb
-</code></pre></div><p>si erreurs de dépendances :</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>sudo apt-get install -f
-</code></pre></div><h3 id=créer-un-socle-de-site>Créer un socle de site</h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>mkdir MONSITE
+</code></pre></div><p>si erreurs de dépendances :</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>sudo apt-get install -f
+</code></pre></div><h3 id=créer-un-socle-de-site>Créer un socle de site</h3>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>mkdir MONSITE
 cd MONSITE
 hugo new site .
-</code></pre></div><p>Choisir et télécharger un thème : <a href=https://themes.gohugo.io/>Hugo Themes</a></p><p>J&rsquo;utilise <a href=https://themes.gohugo.io/hugo-clarity/>hugo-clarity</a> qui est très complet et fonctionne bien sur mobile :</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>cd MONSITE/themes/
+</code></pre></div><p>Choisir et télécharger un thème : <a href=https://themes.gohugo.io/>Hugo Themes</a></p>
+<p>J&rsquo;utilise <a href=https://themes.gohugo.io/hugo-clarity/>hugo-clarity</a> qui est très complet et fonctionne bien sur mobile :</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>cd MONSITE/themes/
 git checkout https://github.com/chipzoller/hugo-clarity.git
-</code></pre></div><p>Enlever le suivi git du thème :</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>rm -Rf hugo-clarity/.git*
-</code></pre></div><p>Pour créer une page de test et vérifier que ça marche :</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>hugo new post/testpage.md
+</code></pre></div><p>Enlever le suivi git du thème :</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>rm -Rf hugo-clarity/.git*
+</code></pre></div><p>Pour créer une page de test et vérifier que ça marche :</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>hugo new post/testpage.md
 hugo server -D
 </code></pre></div><p>Ouvrir :
-<a href=http://localhost:1313/>http://localhost:1313/</a></p><p><strong>Note :</strong> Le thème <em>hugo-clarity</em> demande pas mal de conf. Plutôt que partir de zéro j&rsquo;ai suivi le conseil que donne sa doc d&rsquo;install et déployé le site exemple, que j&rsquo;ai ensuite modifié :</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>cd MONSITE
+<a href=http://localhost:1313/>http://localhost:1313/</a></p>
+<p><strong>Note :</strong> Le thème <em>hugo-clarity</em> demande pas mal de conf. Plutôt que partir de zéro j&rsquo;ai suivi le conseil que donne sa doc d&rsquo;install et déployé le site exemple, que j&rsquo;ai ensuite modifié :</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>cd MONSITE
 cp -R themes/hugo-clarity/exampleSite/* .
 hugo server -D
-</code></pre></div><h2 id=_github_><em>Github</em></h2><h3 id=créer-le-dépôt>Créer le dépôt</h3><ol><li><a href=https://github.com/>Créer un compte <em>Github</em></a> &ldquo;<em>MONLOGINGITHUB</em>&rdquo; si ce n&rsquo;est pas fait ;</li><li>Créer un dépôt ("<em>New repository</em>") public qui contiendra nos pages.</li></ol><p><em>Astuce <em>Github</em> :</em></p><p>Par défaut les dépôts sont exposés dans <a href=https://MONLOGINGITHUB.github.io/NOMDUDEPOT/>https://MONLOGINGITHUB.github.io/NOMDUDEPOT/</a>.</p><p>Mais si vous nommez votre dépôt &ldquo;<em>MONLOGINGITHUB.github.io</em>&rdquo;, il sera accessible à la racine, dans <a href=https://MONLOGINGITHUB.github.io/>https://MONLOGINGITHUB.github.io/</a>.</p><p>Si on le souhaite, cela permet d&rsquo;avoir plusieurs dépôts &ldquo;projet&rdquo; dans les sous-repertoires et une &ldquo;page perso&rdquo; à la racine :</p><pre><code>Dépots                          Sites correspondants
+</code></pre></div><h2 id=_github_><em>Github</em></h2>
+<h3 id=créer-le-dépôt>Créer le dépôt</h3>
+<ol>
+<li><a href=https://github.com/>Créer un compte <em>Github</em></a> &ldquo;<em>MONLOGINGITHUB</em>&rdquo; si ce n&rsquo;est pas fait ;</li>
+<li>Créer un dépôt ("<em>New repository</em>") public qui contiendra nos pages.</li>
+</ol>
+<p><em>Astuce <em>Github</em> :</em></p>
+<p>Par défaut les dépôts sont exposés dans <a href=https://MONLOGINGITHUB.github.io/NOMDUDEPOT/>https://MONLOGINGITHUB.github.io/NOMDUDEPOT/</a>.</p>
+<p>Mais si vous nommez votre dépôt &ldquo;<em>MONLOGINGITHUB.github.io</em>&rdquo;, il sera accessible à la racine, dans <a href=https://MONLOGINGITHUB.github.io/>https://MONLOGINGITHUB.github.io/</a>.</p>
+<p>Si on le souhaite, cela permet d&rsquo;avoir plusieurs dépôts &ldquo;projet&rdquo; dans les sous-repertoires et une &ldquo;page perso&rdquo; à la racine :</p>
+<pre tabindex=0><code>Dépots                          Sites correspondants
 ------                          --------------------
 dayofthetentacle.github.io      https//dayofthetentacle.github.io/
 ├── ifeel                       ├──  https//dayofthetentacle.github.io/ifeel/
 ├── likeicould                  ├──  https//dayofthetentacle.github.io/likeicould/
 ├── takeovertheworld            ├──  https//dayofthetentacle.github.io/takeovertheworld/
-</code></pre><p>Si vous créez un compte <em>Github</em> uniquement pour héberger votre site, vous pouvez donc vous contenter du dépôt <em>MONLOGINGITHUB.github.io</em>.</p><h3 id=premier-commit-pour-pouvoir-activer-_github-pages_>Premier commit pour pouvoir activer <em>Github Pages</em></h3><p>Mettons notre site <em>Hugo</em> sur le dépôt MONSITE :</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>cd MONSITE
+</code></pre><p>Si vous créez un compte <em>Github</em> uniquement pour héberger votre site, vous pouvez donc vous contenter du dépôt <em>MONLOGINGITHUB.github.io</em>.</p>
+<h3 id=premier-commit-pour-pouvoir-activer-_github-pages_>Premier commit pour pouvoir activer <em>Github Pages</em></h3>
+<p>Mettons notre site <em>Hugo</em> sur le dépôt MONSITE :</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>cd MONSITE
 echo <span style=color:#e6db74>&#34;# MONSITE&#34;</span> &gt;&gt; README.md
 git init
 git add .
@@ -33,11 +314,23 @@ git commit -m <span style=color:#e6db74>&#34;first commit&#34;</span>
 git remote add origin https://github.com/MONLOGINGITHUB/MONSITE.git
 git branch -M main
 git push -u origin main
-</code></pre></div><p>Aller dans <em>Settings > Pages</em> et activer <em>Pages</em> avec comme source :</p><pre><code>[Branch : gh-pages] [/root]
-</code></pre><h3 id=générer-le-_html_-statique-directement-côté-_github_>Générer le <em>html</em> statique directement côté <em>Github</em></h3><p><strong>Note :</strong> Cette technique et le script ci-dessous sont repris de la doc <em>Hugo</em> : <a href=https://gohugo.io/hosting-and-deployment/hosting-on-github/>hosting on github</a>.</p><p>On pourrait générer le <em>html</em> statique et le pousser sur <em>Github</em>, mais on peut aussi le faire faire par <em>Github</em> :</p><p>En ajoutant un script d&rsquo;action à nos sources, à chaque <em>git push</em> on va lui faire :</p><ul><li>Exécuter un <em>Hugo</em> pour générer le html ;</li><li>Ecrire le répertoire <em>public/</em> généré dans une branche dédiée <em>gh-branche</em> que viendra lire <em>Github Pages</em>.</li></ul><p>Créer le fichier de conf :</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>cd MONSITE
+</code></pre></div><p>Aller dans <em>Settings > Pages</em> et activer <em>Pages</em> avec comme source :</p>
+<pre><code>[Branch : gh-pages] [/root]
+</code></pre>
+<h3 id=générer-le-_html_-statique-directement-côté-_github_>Générer le <em>html</em> statique directement côté <em>Github</em></h3>
+<p><strong>Note :</strong> Cette technique et le script ci-dessous sont repris de la doc <em>Hugo</em> : <a href=https://gohugo.io/hosting-and-deployment/hosting-on-github/>hosting on github</a>.</p>
+<p>On pourrait générer le <em>html</em> statique et le pousser sur <em>Github</em>, mais on peut aussi le faire faire par <em>Github</em> :</p>
+<p>En ajoutant un script d&rsquo;action à nos sources, à chaque <em>git push</em> on va lui faire :</p>
+<ul>
+<li>Exécuter un <em>Hugo</em> pour générer le html ;</li>
+<li>Ecrire le répertoire <em>public/</em> généré dans une branche dédiée <em>gh-branche</em> que viendra lire <em>Github Pages</em>.</li>
+</ul>
+<p>Créer le fichier de conf :</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>cd MONSITE
 mkdir -p .github/workflows/
 touch .github/workflows/gh-pages.yml
-</code></pre></div><p>2 - Y mettre la conf (j&rsquo;ai activé l&rsquo;option &ldquo;<em>extended = true</em>&rdquo; par rapport au modèle, pour les besoins du thème Clarity) :</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yml data-lang=yml><span style=color:#f92672>name</span>: <span style=color:#ae81ff>github pages</span>
+</code></pre></div><p>2 - Y mettre la conf (j&rsquo;ai activé l&rsquo;option &ldquo;<em>extended = true</em>&rdquo; par rapport au modèle, pour les besoins du thème Clarity) :</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yml data-lang=yml><span style=color:#f92672>name</span>: <span style=color:#ae81ff>github pages</span>
 
 <span style=color:#f92672>on</span>:
   <span style=color:#f92672>push</span>:
@@ -67,20 +360,249 @@ touch .github/workflows/gh-pages.yml
         <span style=color:#f92672>with</span>:
           <span style=color:#f92672>github_token</span>: <span style=color:#ae81ff>${{ secrets.GITHUB_TOKEN }}</span>
           <span style=color:#f92672>publish_dir</span>: <span style=color:#ae81ff>./public</span>
-</code></pre></div><h3 id=on-envoie-tout-sur-_github_-et-normalement-ça-marche>On envoie tout sur <em>Github</em> et normalement ça marche</h3><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>cd MONSITE
+</code></pre></div><h3 id=on-envoie-tout-sur-_github_-et-normalement-ça-marche>On envoie tout sur <em>Github</em> et normalement ça marche</h3>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>cd MONSITE
 git add .
 git commit -a -m <span style=color:#e6db74>&#34;init&#34;</span>
 git push
 </code></pre></div><p>Dans l&rsquo;onglet <em>&ldquo;Action&rdquo;</em> du dépôt on voit le traitement se dérouler (et éventuellement planter si on a fait des bêtises).
-La branche <em>gh-pages</em> a dû être créée.</p><p>Aller sur le site <em>Github Pages</em> résultant :
-<a href=MONLOGINGITHUB.github.io/MONSITE>MONLOGINGITHUB.github.io/MONSITE</a></p><p>En théorie tout y est.</p><h2 id=liens-utiles>Liens utiles</h2><p>Docs sur Hugo sur github :</p><ul><li><p><a href=https://youngkin.github.io/post/createafreeblogsite/>Create a Free Blog Site Using GitHub Pages and Hugo</a></p></li><li><p><a href=https://gohugo.io/hosting-and-deployment/hosting-on-github/>doc Hugo : hosting on github</a></p></li><li><p>3 manières possibles d&rsquo;organiser ses contenus <em>Hugo</em> : <a href=https://discourse.gohugo.io/t/discussion-content-organization-best-practice/6360/9>discourse.gohugo.io - content-organization-best-practice</a> (j&rsquo;ai opté pour l&rsquo;organisation B : Un répertoire par publication contenant le .md et les pièces jointes. Cela évite les fausses manips, et sera plus pratique si un jour il y en a beaucoup)</p></li></ul><p>Références Markdown :</p><ul><li><a href=http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html>Quick Markdown Example - page de référence bourrée d&rsquo;exemple</a></li></ul></div></div><footer><ul class=stats><li class=categories><ul><i class="fa fa-folder"></i><li><a class=article-category-link href=https://loboto51.github.io/lobotourisme/categories/dev>dev</a></li></ul></li><li class=tags><ul><i class="fa fa-tags"></i><li><a class=article-category-link href=https://loboto51.github.io/lobotourisme/tags/hugo>hugo</a></li><li><a class=article-category-link href=https://loboto51.github.io/lobotourisme/tags/github-pages>github pages</a></li><li><a class=article-category-link href=https://loboto51.github.io/lobotourisme/tags/hugo-clarity>hugo clarity</a></li></ul></li></ul><script>$(document).ready(function(){window.initializeCodeFolding("show"==="hide")})</script><script>window.initializeCodeFolding=function(a){var b,c;$("#rmd-show-all-code").click(function(){$('div.r-code-collapse').each(function(){$(this).collapse('show')})}),$("#rmd-hide-all-code").click(function(){$('div.r-code-collapse').each(function(){$(this).collapse('hide')})}),b=1,c=$('pre.sourceCode, pre.r, pre.python, pre.bash, pre.sql, pre.cpp, pre.stan, pre.js, pre.css, pre.html, pre.yaml'),c.each(function(){var c=$('<div class="collapse r-code-collapse"></div>'),d,e,f,g,h;a&&c.addClass('in'),d='rcode-643E0F36'+b++,c.attr('id',d),$(this).before(c),$(this).detach().appendTo(c),e=$('<span>'+(a?'Masquer':'Code')+'</span>'),f=$('<button type="button" class="btn btn-default btn-xs code-folding-btn pull-right"></button>'),f.append(e),f.attr('data-toggle','collapse').attr('data-target','#'+d).attr('aria-expanded',a).attr('aria-controls',d),g=$('<div class="row"></div>'),h=$('<div class="col-md-12"></div>'),h.append(f),g.append(h),c.before(g),c.on('hidden.bs.collapse',function(){e.text('Code')}),c.on('show.bs.collapse',function(){e.text('Masquer')})})}</script></footer></article><article class=post><p>Si ce contenu vous a intéressé, vous pouvez me laisser un commentaire en utilisant votre compte Github ci-dessous, ou en m'envoyant un mail via <a href=https://loboto51.github.io/lobotourisme/contact/>le formulaire de contact</a>.</p><script src=https://utteranc.es/client.js repo=loboto51/lobotourisme issue-term=pathname theme=github-light crossorigin=anonymous async></script></article><ul class="actions pagination"><li><a href=https://loboto51.github.io/lobotourisme/post/protections-moto-forcefield-isolator-2/ class="button big next">Protections moto Forcefield Isolator 2</a></li></ul></div><section id=sidebar><section id=intro><a href=https://loboto51.github.io/lobotourisme/><img src=https://loboto51.github.io/lobotourisme/favicons/favicon-128x128.png width=128 alt=Lobotourisme></a><header><h2>Lobotourisme</h2><p>Bloc-note de l'espaaace</p></header><ul class=icons><li><a href=//github.com/loboto51 target=_blank title=GitHub class="fa fa-github"></a></li></ul></section><section class=recent-posts><div class=mini-posts><header><h3>Posts récents</h3></header><div class=posts-container><article class=mini-post><header><h3><a href=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/>Bottes moto Stylmartin Rocket</a></h3><time class=published datetime="2021-05-17 00:00:00 +0000 UTC">17/05/2021</time></header><a href=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/ class="image featured"><img src=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/cover.jpg alt="Bottes moto Stylmartin Rocket"></a></article><article class=mini-post><header><h3><a href=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/>Fabrication des favicons en masse avec Imagemagick</a></h3><time class=published datetime="2021-05-15 00:00:00 +0000 UTC">15/05/2021</time></header><a href=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/ class="image featured"><img src=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/cover.jpg alt="Fabrication des favicons en masse avec Imagemagick"></a></article><article class=mini-post><header><h3><a href=https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/>Protections moto SAS-TEC SC-1-06EVO</a></h3><time class=published datetime="2021-05-15 00:00:00 +0000 UTC">15/05/2021</time></header><a href=https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/ class="image featured"><img src=https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/cover.jpg alt="Protections moto SAS-TEC SC-1-06EVO"></a></article><article class=mini-post><header><h3><a href=https://loboto51.github.io/lobotourisme/post/galets-lave-vaisselle-maison/>Galets lave-vaisselle maison</a></h3><time class=published datetime="2021-05-10 00:00:00 +0000 UTC">10/05/2021</time></header><a href=https://loboto51.github.io/lobotourisme/post/galets-lave-vaisselle-maison/ class="image featured"><img src=https://loboto51.github.io/lobotourisme/post/galets-lave-vaisselle-maison/cover.jpg alt="Galets lave-vaisselle maison"></a></article><article class=mini-post><header><h3><a href=https://loboto51.github.io/lobotourisme/post/solutions-pour-g%C3%A9rer-des-commentaires-sur-hugo-+-github-pages/>Solutions pour gérer des commentaires sur Hugo + Github Pages</a></h3><time class=published datetime="2021-05-10 00:00:00 +0000 UTC">10/05/2021</time></header><a href=https://loboto51.github.io/lobotourisme/post/solutions-pour-g%C3%A9rer-des-commentaires-sur-hugo-+-github-pages/ class="image featured"><img src=https://loboto51.github.io/lobotourisme/post/solutions-pour-g%C3%A9rer-des-commentaires-sur-hugo-+-github-pages/cover.jpg alt="Solutions pour gérer des commentaires sur Hugo + Github Pages"></a></article></div><a href=/blog/ class=button>Voir plus</a></div></section><section id=categories><header><h3><a href=https://loboto51.github.io/lobotourisme/fr/categories/>Catégories</a></h3></header><p><article><header><a href=https://loboto51.github.io/lobotourisme/categories/moto/>moto</a>
-<span style=float:right>10</span></header></article></p><p><article><header><a href=https://loboto51.github.io/lobotourisme/categories/protections-moto/>protections-moto</a>
-<span style=float:right>8</span></header></article></p><p><article><header><a href=https://loboto51.github.io/lobotourisme/categories/dev/>dev</a>
-<span style=float:right>5</span></header></article></p><p><article><header><a href=https://loboto51.github.io/lobotourisme/categories/maison/>maison</a>
-<span style=float:right>2</span></header></article></p><p><article><header><a href=https://loboto51.github.io/lobotourisme/categories/%C3%A9cologie/>écologie</a>
-<span style=float:right>2</span></header></article></p><p><article><header><a href=https://loboto51.github.io/lobotourisme/categories/bottes-moto/>bottes-moto</a>
-<span style=float:right>1</span></header></article></p><p><article><header><a href=https://loboto51.github.io/lobotourisme/categories/pantalons-moto/>pantalons-moto</a>
-<span style=float:right>1</span></header></article></p></section><section id=mini-bio><h3>à propos</h3><p>Ce site me sert de bloc-note pour diverses choses que je souhaite conserver ou partager. Essentiellement mes recherches sur le net sur les protections moto, et des petites docs linux.</p><a href=https://loboto51.github.io/lobotourisme/about class=button>En savoir plus</a></section><section id=footer><ul class=icons><li><a href=//github.com/loboto51 target=_blank title=GitHub class="fa fa-github"></a></li></ul><p class=copyright>&copy; 2021
+La branche <em>gh-pages</em> a dû être créée.</p>
+<p>Aller sur le site <em>Github Pages</em> résultant :
+<a href=MONLOGINGITHUB.github.io/MONSITE>MONLOGINGITHUB.github.io/MONSITE</a></p>
+<p>En théorie tout y est.</p>
+<h2 id=liens-utiles>Liens utiles</h2>
+<p>Docs sur Hugo sur github :</p>
+<ul>
+<li>
+<p><a href=https://youngkin.github.io/post/createafreeblogsite/>Create a Free Blog Site Using GitHub Pages and Hugo</a></p>
+</li>
+<li>
+<p><a href=https://gohugo.io/hosting-and-deployment/hosting-on-github/>doc Hugo : hosting on github</a></p>
+</li>
+<li>
+<p>3 manières possibles d&rsquo;organiser ses contenus <em>Hugo</em> : <a href=https://discourse.gohugo.io/t/discussion-content-organization-best-practice/6360/9>discourse.gohugo.io - content-organization-best-practice</a> (j&rsquo;ai opté pour l&rsquo;organisation B : Un répertoire par publication contenant le .md et les pièces jointes. Cela évite les fausses manips, et sera plus pratique si un jour il y en a beaucoup)</p>
+</li>
+</ul>
+<p>Références Markdown :</p>
+<ul>
+<li><a href=http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html>Quick Markdown Example - page de référence bourrée d&rsquo;exemple</a></li>
+</ul>
+</div>
+</div>
+<footer>
+<ul class=stats>
+<li class=categories>
+<ul>
+<i class="fa fa-folder"></i>
+<li><a class=article-category-link href=https://loboto51.github.io/lobotourisme/categories/dev>dev</a></li>
+</ul>
+</li>
+<li class=tags>
+<ul>
+<i class="fa fa-tags"></i>
+<li><a class=article-category-link href=https://loboto51.github.io/lobotourisme/tags/hugo>hugo</a></li>
+<li><a class=article-category-link href=https://loboto51.github.io/lobotourisme/tags/github-pages>github pages</a></li>
+<li><a class=article-category-link href=https://loboto51.github.io/lobotourisme/tags/hugo-clarity>hugo clarity</a></li>
+</ul>
+</li>
+</ul>
+<script>$(document).ready(function(){window.initializeCodeFolding("show"==="hide")})</script>
+<script>window.initializeCodeFolding=function(a){var b,c;$("#rmd-show-all-code").click(function(){$('div.r-code-collapse').each(function(){$(this).collapse('show')})}),$("#rmd-hide-all-code").click(function(){$('div.r-code-collapse').each(function(){$(this).collapse('hide')})}),b=1,c=$('pre.sourceCode, pre.r, pre.python, pre.bash, pre.sql, pre.cpp, pre.stan, pre.js, pre.css, pre.html, pre.yaml'),c.each(function(){var c=$('<div class="collapse r-code-collapse"></div>'),d,e,f,g,h;a&&c.addClass('in'),d='rcode-643E0F36'+b++,c.attr('id',d),$(this).before(c),$(this).detach().appendTo(c),e=$('<span>'+(a?'Masquer':'Code')+'</span>'),f=$('<button type="button" class="btn btn-default btn-xs code-folding-btn pull-right"></button>'),f.append(e),f.attr('data-toggle','collapse').attr('data-target','#'+d).attr('aria-expanded',a).attr('aria-controls',d),g=$('<div class="row"></div>'),h=$('<div class="col-md-12"></div>'),h.append(f),g.append(h),c.before(g),c.on('hidden.bs.collapse',function(){e.text('Code')}),c.on('show.bs.collapse',function(){e.text('Masquer')})})}</script>
+</footer>
+</article>
+<article class=post>
+<p>Si ce contenu vous a intéressé, vous pouvez me laisser un commentaire en utilisant votre compte Github ci-dessous, ou en m'envoyant un mail via <a href=https://loboto51.github.io/lobotourisme/contact/>le formulaire de contact</a>.</p>
+<script src=https://utteranc.es/client.js repo=loboto51/lobotourisme issue-term=pathname theme=github-light crossorigin=anonymous async></script>
+</article>
+<ul class="actions pagination">
+<li><a href=https://loboto51.github.io/lobotourisme/post/protections-moto-forcefield-isolator-2/ class="button big next">Protections moto Forcefield Isolator 2</a></li>
+</ul>
+</div>
+<section id=sidebar>
+<section id=intro>
+<a href=https://loboto51.github.io/lobotourisme/><img src=https://loboto51.github.io/lobotourisme/favicons/favicon-128x128.png width=128 alt=Lobotourisme></a>
+<header>
+<h2>Lobotourisme</h2>
+<p>Bloc-note de l'espaaace</p>
+</header>
+<ul class=icons>
+<li><a href=//github.com/loboto51 target=_blank title=GitHub class="fa fa-github"></a></li>
+</ul>
+</section>
+<section class=recent-posts>
+<div class=mini-posts>
+<header>
+<h3>Posts récents</h3>
+</header>
+<div class=posts-container>
+<article class=mini-post>
+<header>
+<h3>
+<a href=https://loboto51.github.io/lobotourisme/post/petit-inventaire-des-casques-ece-22.06-%C3%A0-moins-de-400e-d%C3%A9but-2022/>Petit inventaire des casques ECE 22.06 à moins de 400e début 2022</a>
+</h3>
+<time class=published datetime="2022-02-05 00:00:00 +0000 UTC">
+05/02/2022</time>
+</header>
+<a href=https://loboto51.github.io/lobotourisme/post/petit-inventaire-des-casques-ece-22.06-%C3%A0-moins-de-400e-d%C3%A9but-2022/ class="image featured">
+<img src=https://loboto51.github.io/lobotourisme/post/petit-inventaire-des-casques-ece-22.06-%C3%A0-moins-de-400e-d%C3%A9but-2022/cover.jpg alt="Petit inventaire des casques ECE 22.06 à moins de 400e début 2022">
+</a>
+</article>
+<article class=mini-post>
+<header>
+<h3>
+<a href=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/>Bottes moto Stylmartin Rocket</a>
+</h3>
+<time class=published datetime="2021-05-17 00:00:00 +0000 UTC">
+17/05/2021</time>
+</header>
+<a href=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/ class="image featured">
+<img src=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/cover.jpg alt="Bottes moto Stylmartin Rocket">
+</a>
+</article>
+<article class=mini-post>
+<header>
+<h3>
+<a href=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/>Fabrication des favicons en masse avec Imagemagick</a>
+</h3>
+<time class=published datetime="2021-05-15 00:00:00 +0000 UTC">
+15/05/2021</time>
+</header>
+<a href=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/ class="image featured">
+<img src=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/cover.jpg alt="Fabrication des favicons en masse avec Imagemagick">
+</a>
+</article>
+<article class=mini-post>
+<header>
+<h3>
+<a href=https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/>Protections moto SAS-TEC SC-1-06EVO</a>
+</h3>
+<time class=published datetime="2021-05-15 00:00:00 +0000 UTC">
+15/05/2021</time>
+</header>
+<a href=https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/ class="image featured">
+<img src=https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/cover.jpg alt="Protections moto SAS-TEC SC-1-06EVO">
+</a>
+</article>
+<article class=mini-post>
+<header>
+<h3>
+<a href=https://loboto51.github.io/lobotourisme/post/galets-lave-vaisselle-maison/>Galets lave-vaisselle maison</a>
+</h3>
+<time class=published datetime="2021-05-10 00:00:00 +0000 UTC">
+10/05/2021</time>
+</header>
+<a href=https://loboto51.github.io/lobotourisme/post/galets-lave-vaisselle-maison/ class="image featured">
+<img src=https://loboto51.github.io/lobotourisme/post/galets-lave-vaisselle-maison/cover.jpg alt="Galets lave-vaisselle maison">
+</a>
+</article>
+</div>
+<a href=/blog/ class=button>Voir plus</a>
+</div>
+</section>
+<section id=categories>
+<header>
+<h3>
+<a href=https://loboto51.github.io/lobotourisme/fr/categories/>Catégories</a>
+</h3>
+</header>
+<p>
+<article>
+<header>
+<a href=https://loboto51.github.io/lobotourisme/categories/moto/>moto</a>
+<span style=float:right>11</span>
+</header>
+</article>
+</p>
+<p>
+<article>
+<header>
+<a href=https://loboto51.github.io/lobotourisme/categories/protections-moto/>protections-moto</a>
+<span style=float:right>8</span>
+</header>
+</article>
+</p>
+<p>
+<article>
+<header>
+<a href=https://loboto51.github.io/lobotourisme/categories/dev/>dev</a>
+<span style=float:right>5</span>
+</header>
+</article>
+</p>
+<p>
+<article>
+<header>
+<a href=https://loboto51.github.io/lobotourisme/categories/maison/>maison</a>
+<span style=float:right>2</span>
+</header>
+</article>
+</p>
+<p>
+<article>
+<header>
+<a href=https://loboto51.github.io/lobotourisme/categories/%C3%A9cologie/>écologie</a>
+<span style=float:right>2</span>
+</header>
+</article>
+</p>
+<p>
+<article>
+<header>
+<a href=https://loboto51.github.io/lobotourisme/categories/bottes-moto/>bottes-moto</a>
+<span style=float:right>1</span>
+</header>
+</article>
+</p>
+<p>
+<article>
+<header>
+<a href=https://loboto51.github.io/lobotourisme/categories/casques/>casques</a>
+<span style=float:right>1</span>
+</header>
+</article>
+</p>
+<p>
+<article>
+<header>
+<a href=https://loboto51.github.io/lobotourisme/categories/pantalons-moto/>pantalons-moto</a>
+<span style=float:right>1</span>
+</header>
+</article>
+</p>
+</section>
+<section id=mini-bio>
+<h3>à propos</h3>
+<p>Ce site me sert de bloc-note pour diverses choses que je souhaite conserver ou partager. Essentiellement mes recherches sur le net sur les protections moto, et des petites docs linux.</p>
+<a href=https://loboto51.github.io/lobotourisme/about class=button>En savoir plus</a>
+</section>
+<section id=footer>
+<ul class=icons>
+<li><a href=//github.com/loboto51 target=_blank title=GitHub class="fa fa-github"></a></li>
+</ul>
+<p class=copyright>
+&copy; 2022
 Lobotourisme
 .
-Powered by <a href=//gohugo.io target=_blank>Hugo</a></p></section></section><a id=back-to-top href=# class="fa fa-arrow-up fa-border fa-2x"></a><script src=//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js></script><script src=//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js></script><script src=//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js></script><script src=//cdn.bootcss.com/highlight.js/9.11.0/languages/css.min.js></script><script>hljs.configure({languages:[]}),hljs.initHighlightingOnLoad()</script><script src=https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js></script><script src=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js></script><script src=https://loboto51.github.io/lobotourisme/js/util.js></script><script src=https://loboto51.github.io/lobotourisme/js/main.js></script><script src=https://loboto51.github.io/lobotourisme/js/backToTop.js></script><script>hljs.initHighlightingOnLoad()</script><script src=https://loboto51.github.io/lobotourisme/js/math-code.js></script><script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script><script src=https://loboto51.github.io/lobotourisme/js/collapse.js></script><script src=https://loboto51.github.io/lobotourisme/js/dropdown.js></script><script src=https://loboto51.github.io/lobotourisme/js/transition.js></script></body></html>
+Powered by <a href=//gohugo.io target=_blank>Hugo</a>
+</p>
+</section>
+</section>
+<a id=back-to-top href=# class="fa fa-arrow-up fa-border fa-2x"></a>
+<script src=//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js></script>
+<script src=//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js></script>
+<script src=//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js></script>
+<script src=//cdn.bootcss.com/highlight.js/9.11.0/languages/css.min.js></script>
+<script>hljs.configure({languages:[]}),hljs.initHighlightingOnLoad()</script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js></script>
+<script src=https://loboto51.github.io/lobotourisme/js/util.js></script>
+<script src=https://loboto51.github.io/lobotourisme/js/main.js></script>
+<script src=https://loboto51.github.io/lobotourisme/js/backToTop.js></script>
+<script>hljs.initHighlightingOnLoad()</script>
+<script src=https://loboto51.github.io/lobotourisme/js/math-code.js></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<script src=https://loboto51.github.io/lobotourisme/js/collapse.js></script>
+<script src=https://loboto51.github.io/lobotourisme/js/dropdown.js></script>
+<script src=https://loboto51.github.io/lobotourisme/js/transition.js></script>
+</body>
+</html>
