@@ -74,6 +74,19 @@ Caractéristiques :
 
 Dispo sur : Motoblouz, ChampionHelmets
 
+---
+
+_Infos complémentaires :_
+
+Les modèles N87 et N87 PLUS qu'il remplace ont été testés par [ChampionHelmets (Youtube)](https://www.youtube.com/watch?v=NLx_NERjmS0) :
+
+- Insonorisation : "dans la moyenne des casques intégraux" avec 102 db entre 105 et 130 km/h
+- Aération : "plutôt satisfaisante"
+
+---
+
+Dispo sur : Motoblouz, ChampionHelmets
+
 
 ## SHARK SPARTAN RS *(319 €)*
 
@@ -84,7 +97,7 @@ Caractéristiques :
 - Poids :  1450 g
 - Ecran solaire : Oui
 - Pinlock fourni : Oui
-- Insonorisation : Excellente d'après [ChampionHelmets](https://www.championhelmets.com/fr/magazine/post/shark-spartan-rs-carbon-skin-review-et-essai-routier) : 99 db à 105 km/h
+- Insonorisation : Excellente dans le test [ChampionHelmets](https://www.championhelmets.com/fr/magazine/post/shark-spartan-rs-carbon-skin-review-et-essai-routier) : 99 db entre 105 et 130 km/h (aucun casque testé par leurs soins ne fait mieux)
 - Aération : Excellente d'après [ChampionHelmets](https://www.championhelmets.com/fr/magazine/post/shark-spartan-rs-carbon-skin-review-et-essai-routier)
 - Système d'extraction en cas d'accident : Non
 
