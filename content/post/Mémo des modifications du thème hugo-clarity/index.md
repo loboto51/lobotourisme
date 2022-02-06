@@ -12,17 +12,6 @@ tags:
 toc: true
 ---
 
----
-
-Edit du 10/05/2021 : Modification du template _single.html_.
-
-Edit du 14/05/2021 : Depuis la rédaction de ce document, je suis passé au thème [hugo-future-imperfect](https://github.com/statnmap/hugo-future-imperfect) qui présente quelques fonctions supplémentaires et que je trouve plus élégant. 
-
-Edit du 15/05/2021 : Déplacement de la gestion des icônes dans une page dédiée : [Fabrication des favicons en masse avec Imagemagick]({{< ref "/post/Fabrication des favicons en masse avec Imagemagick/index.md">}}). 
-
----
-
-_Résumé :_
 
 Ce site est construit en combinant _Hugo_ + _Github Pages_.
 J'utilise le thème [hugo-clarity](https://themes.gohugo.io/hugo-clarity/). Ce _post_ récapitule les configurations et modifications que j'y ai apporté.
@@ -229,4 +218,12 @@ J'ai remplacé toute la section thumbnails par l'algorithme suivant :
     {{- end }}
 (...)
 ```
+
+---
+
+### Mises à jour
+
+- *10/05/2021 :* Modification du template _single.html_.
+- *14/05/2021 :* Depuis la rédaction de ce document, je suis passé au thème [hugo-future-imperfect](https://github.com/statnmap/hugo-future-imperfect) qui présente quelques fonctions supplémentaires et que je trouve plus élégant. 
+- *15/05/2021 :* Déplacement de la gestion des icônes dans une page dédiée : [Fabrication des favicons en masse avec Imagemagick]({{< ref "/post/Fabrication des favicons en masse avec Imagemagick/index.md">}}). 
 

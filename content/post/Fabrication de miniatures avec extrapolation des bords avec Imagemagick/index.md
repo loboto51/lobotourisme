@@ -8,13 +8,6 @@ tags:
 - imagemagick
 ---
 
----
-
-Edit du 15/05/2021 : J'ai intégré 3 modes de fabrication de miniature dans le script, pour pouvoir ensuite choisir facilement le meilleur résultat.
-Entre temps j'ai changé de thème Hugo ([hugo-future-imperfect](https://github.com/statnmap/hugo-future-imperfect)) et les miniatures de 800x300 s'y prêtent mieux.
-
----
-
 J'ai choisi de générer des miniatures pour chacun de mes billets en réutilisant des photos issues des articles. 
 
 J'utilise 3 techniques pour produire des images aux dimensions qui me conviennent :
@@ -140,6 +133,13 @@ L'ensemble des transformations disponibles dans _Hugo_ :
 
 Il y a énormément d'exemples ici : [gohugo - image processing](https://gohugo.io/content-management/image-processing/)
 
+
+---
+
+### Mises à jour
+
+- *15/05/2021 :* J'ai intégré 3 modes de fabrication de miniature dans le script, pour pouvoir ensuite choisir facilement le meilleur résultat.
+Entre temps j'ai changé de thème Hugo ([hugo-future-imperfect](https://github.com/statnmap/hugo-future-imperfect)) et les miniatures de 800x300 s'y prêtent mieux.
 
 
 

@@ -12,13 +12,6 @@ tags:
 toc: true
 ---
 
----
-
-Edit du 14/05/2021 : Depuis la rédaction de ce document, je suis passé au thème [hugo-future-imperfect](https://github.com/statnmap/hugo-future-imperfect) qui présente quelques fonctions supplémentaires et que je trouve plus élégant. 
-
----
-
-
 Le site que vous consultez est constitué d'un site web statique _Hugo_ hébergé sur _Github_ :
 
 [_Github_](https://github.com/) fournit la possibilité d'exposer un site _web_ statique pour chaque dépôt public du compte. Il suffit d'avoir :
@@ -178,10 +171,11 @@ on:
   push:
     branches:
       - main  # Set a branch to deploy
+  pull_request:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
         with:
@@ -199,6 +193,7 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
@@ -236,6 +231,12 @@ Références Markdown :
 - [Quick Markdown Example - page de référence bourrée d'exemple](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html)
 
 
+---
+
+### Mises à jour
+
+- *14/05/2021 :* Depuis la rédaction de ce document, je suis passé au thème [hugo-future-imperfect](https://github.com/statnmap/hugo-future-imperfect) qui présente quelques fonctions supplémentaires et que je trouve plus élégant. 
+- *06/02/2022 :* Mise à jour du script d'action avec la dernière version disponible sur [Hugo - hosting on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 
 
 
