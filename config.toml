@@ -151,10 +151,16 @@ defaultContentLanguage = "fr"
 	weight = 7
 
 [[menu.main]]
+	name = "Photo"
+	url = "categories/photo/"
+	identifier = "fa fa-ecologie"
+	weight = 8
+
+[[menu.main]]
 	name = "Contact"
 	url = "contact/"
 	identifier = "fa fa-envelope-o"
-	weight = 8
+	weight = 9
 
 
 # Sets Social Media icons to appear and link to your account. Value should be your
