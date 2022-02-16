@@ -1,4 +1,110 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/</link><description>Recent content on Lobotourisme</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><lastBuildDate>Sat, 05 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/index.xml" rel="self" type="application/rss+xml"/><item><title>Petit inventaire des casques ECE 22.06 à moins de 400e début 2022</title><link>https://loboto51.github.io/lobotourisme/post/petit-inventaire-des-casques-ece-22.06-%C3%A0-moins-de-400e-d%C3%A9but-2022/</link><pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/petit-inventaire-des-casques-ece-22.06-%C3%A0-moins-de-400e-d%C3%A9but-2022/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/</link><description>Recent content on Lobotourisme</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/index.xml" rel="self" type="application/rss+xml"/><item><title>Back button focus sur l'Olympus OM-D EM-5 II</title><link>https://loboto51.github.io/lobotourisme/post/back-button-focus-sur-lolympus-om-d-em-5-ii/</link><pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/back-button-focus-sur-lolympus-om-d-em-5-ii/</guid><description>
+&lt;p>La mise au point automatique (autofocus) est habituellement réalisée par l&amp;rsquo;enfoncement à mi-course du déclencheur : Je mets au point, je garde le déclencheur enfoncé pour composer ma scène, puis je l&amp;rsquo;enfonce pour prendre la photo.&lt;/p>
+&lt;p>La technique du &lt;em>&amp;ldquo;back button focus&amp;rdquo;&lt;/em> consiste à affecter la fonction de mise au point à un autre bouton du boîtier (en général à l&amp;rsquo;arrière, piloté par le pouce droit, d&amp;rsquo;où le &lt;em>&amp;ldquo;back button&amp;rdquo;&lt;/em>).
+Ainsi je peux mettre au point et composer librement, sans avoir à maintenir le déclencheur enfoncé.&lt;/p>
+&lt;p>Ses différents avantages sont bien résumée dans cette vidéo de &lt;a href="https://www.youtube.com/watch?v=mNk8b36KCl4">Pierre T. Lambert (Youtube)&lt;/a>.&lt;/p>
+&lt;h1 id="i-passer-le-boîtier-à-100-en-mode-back-button-focus">I. Passer le boîtier à 100% en mode back-button focus&lt;/h1>
+&lt;p>L&amp;rsquo;EM-5 II permet :&lt;/p>
+&lt;ol>
+&lt;li>De séparer la fonction &lt;strong>AEL/AFL&lt;/strong> (mesure d&amp;rsquo;exposition + mise au point) du déclencheur avec la configuration &lt;strong>&amp;ldquo;mode 3&amp;rdquo;&lt;/strong> :
+&lt;em>&amp;ldquo;Déclencheur à mi-course=AEL, déclencheur complet=expo, bouton AEL/AFL=S-AF&amp;rdquo;&lt;/em>&lt;/li>
+&lt;li>D&amp;rsquo;affecter cette même fonction &lt;strong>AEL/AFL&lt;/strong> à pratiquement tous les boutons du boîtier.&lt;/li>
+&lt;/ol>
+&lt;p>Actions à réaliser :&lt;/p>
+&lt;h3 id="1-passer-lautofocus-ponctuel-s-af-en-mode-3">1. Passer l&amp;rsquo;autofocus ponctuel (&lt;strong>S-AF&lt;/strong>) en &lt;strong>&amp;ldquo;mode 3&amp;rdquo;&lt;/strong>&lt;/h3>
+&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL)&amp;quot;&lt;/strong> :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>AEL/AFL&lt;/strong> :
+&lt;ul>
+&lt;li>MF&lt;/li>
+&lt;li>C-AF&lt;/li>
+&lt;li>&lt;strong>S-AF&lt;/strong> :
+&lt;ul>
+&lt;li>&amp;ldquo;mode1&amp;rdquo; = &lt;em>&amp;ldquo;Déclencheur à mi-course=AEL/S-AF, déclencheur complet=expo, bouton AEL/AFL=AEL&amp;rdquo;&lt;/em>&lt;/li>
+&lt;li>&lt;strong>&amp;ldquo;mode3&amp;rdquo;&lt;/strong> = &lt;em>&amp;ldquo;Déclencheur à mi-course=AEL, déclencheur complet=expo, bouton AEL/AFL=S-AF&amp;rdquo;&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>A présent le déclencheur ne met plus au point. Il faut affecter la fonction &lt;strong>AEL/AFL&lt;/strong> à un autre bouton.&lt;/p>
+&lt;h3 id="2-donner-la-fonction-aelafl-à-un-bouton-facile-daccès">2. Donner la fonction &lt;strong>AEL/AFL&lt;/strong> à un bouton facile d&amp;rsquo;accès&lt;/h3>
+&lt;p>Aucun bouton arrière n&amp;rsquo;étant très accessible, j&amp;rsquo;ai opté pour la touche avant, près de l&amp;rsquo;objectif, dont le logo ressemble à un diaphragme.&lt;/p>
+&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> -&amp;gt; &lt;strong>&amp;ldquo;B (touche/cadran/levier)&amp;quot;&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&amp;ldquo;Fonction&amp;rdquo;&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>&amp;ldquo;Diaphragme&amp;rdquo;&lt;/strong> : &lt;strong>&amp;ldquo;AEL/AFL&amp;rdquo;&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="3-il-ne-reste-plus-quà-se-mettre-dans-un-des-2-modes-s-af-pour-tester">3. Il ne reste plus qu&amp;rsquo;à se mettre dans un des 2 modes S-AF pour tester&lt;/h3>
+&lt;p>Votre appareil est configuré comme il faut par défaut, mais pour ceux qui veulent vérifier :&lt;/p>
+&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL)&amp;quot;&lt;/strong> :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Mode AF&lt;/strong> : &lt;strong>S-AF&lt;/strong> (autofocus) ou &lt;strong>S-AF+MF&lt;/strong> (autofocus + focus manuel)&lt;/li>
+&lt;/ul>
+&lt;p>NB : Vérifiez bien que vous avez :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Full-time AF&lt;/strong> : &lt;strong>Off&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Pour revenir au déclenchement classique, il suffira de repasser AEL/AFL&amp;gt;S-AF sur &amp;ldquo;mode 1&amp;rdquo;.
+La touche &lt;strong>&amp;ldquo;AEL/AFL&amp;rdquo;&lt;/strong> ne fera plus que calibrer l&amp;rsquo;exposition (&amp;ldquo;bouton AEL/AFL=AEL&amp;rdquo;).&lt;/p>
+&lt;p>Une source parmi d&amp;rsquo;autres :&lt;/p>
+&lt;p>&lt;a href="https://thedigitalstory.com/2015/03/set-up-back-button-focus.html">The Digital Story - Setting Up Back Button Focus for Olympus OM-D&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h1 id="ii-le-meilleur-des-2-mondes--basculer-entre-back-button-focus-et-map-au-déclencheur-avec-le-levier">II. Le meilleur des 2 mondes : Basculer entre &amp;ldquo;back button focus&amp;rdquo; et MAP au déclencheur avec le levier&lt;/h1>
+&lt;p>Le &lt;em>back button focus&lt;/em> c&amp;rsquo;est sympa mais ça n&amp;rsquo;est vraiment utile que 10% du temps.&lt;/p>
+&lt;p>La configuration ci-dessous vise à pouvoir basculer facilement d&amp;rsquo;un mode à l&amp;rsquo;autre, en utilisant le levier du boîtier.&lt;/p>
+&lt;p>On va utiliser une astuce :&lt;/p>
+&lt;ol>
+&lt;li>L&amp;rsquo;E-M5 II permet d&amp;rsquo;associer un &amp;ldquo;mode&amp;rdquo; de déclenchement différent à chaque type de mise au point (&lt;strong>&amp;ldquo;MF&amp;rdquo;&lt;/strong>, &lt;strong>&amp;ldquo;C-AF&amp;rdquo;&lt;/strong>, &lt;strong>&amp;ldquo;S-AF&amp;rdquo;&lt;/strong>) ;&lt;/li>
+&lt;li>Les touches &lt;strong>AEL/AFL&lt;/strong> configurées plus haut déclenchent un autofocus même en mode manuel &lt;strong>&amp;ldquo;MF&amp;rdquo;&lt;/strong> ;&lt;/li>
+&lt;li>Le levier peut être configuré pour associer un type d&amp;rsquo;AF à chacune de ses 2 positions (&lt;strong>&amp;ldquo;mode 5&amp;rdquo;&lt;/strong>).&lt;/li>
+&lt;/ol>
+&lt;h3 id="1-affecter-le-mode-1-au-s-af-et-le-mode-3-au-mf">1. Affecter le &lt;strong>&amp;ldquo;mode 1&amp;rdquo;&lt;/strong> au &lt;strong>&amp;ldquo;S-AF&amp;rdquo;&lt;/strong> et le &lt;strong>&amp;ldquo;mode 3&amp;rdquo;&lt;/strong> au &lt;strong>&amp;ldquo;MF&amp;rdquo;&lt;/strong>&lt;/h3>
+&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL)&amp;quot;&lt;/strong> :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&amp;ldquo;AEL/AFL&amp;rdquo;&lt;/strong> :
+&lt;ul>
+&lt;li>&lt;strong>&amp;ldquo;MF&amp;rdquo;&lt;/strong> : &lt;strong>&amp;ldquo;mode3&amp;rdquo;&lt;/strong> = &amp;ldquo;Bouton déclencheur mi-course AEL, Bouton déclencheur complet=expo, AEL/AFL : S-AF&amp;rdquo;&lt;/li>
+&lt;li>C-AF&lt;/li>
+&lt;li>&lt;strong>&amp;ldquo;S-AF&amp;rdquo;&lt;/strong> : &lt;strong>&amp;ldquo;mode1&amp;rdquo;&lt;/strong> = &amp;ldquo;Bouton déclencheur mi-course AEL/S-AF, Bouton déclencheur complet=expo, Bouton AEL/AFL : AEL&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>A présent :&lt;/p>
+&lt;p>Lorsque le boîtier est en MF, la touche &lt;strong>&amp;ldquo;AEL/AFL&amp;rdquo;&lt;/strong> déclenche un autofocus.&lt;/p>
+&lt;p>Lorsque le boîtier est en mode S-AF ou C-AF, ou S-AF+MF, le déclencheur à mi-course déclenche un autofocus, la touche &lt;strong>&amp;ldquo;AEL/AFL&amp;rdquo;&lt;/strong> ne fait que calibrer l&amp;rsquo;exposition (&amp;ldquo;bouton AEL/AFL=AEL&amp;rdquo;)..&lt;/p>
+&lt;h3 id="2-configurer-le-levier-pour-basculer-entre-2-types-daf">2. Configurer le levier pour basculer entre 2 types d&amp;rsquo;AF&lt;/h3>
+&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;B (touche/cadran/levier)&amp;quot;&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&amp;ldquo;Fonction du levier&amp;rdquo;&lt;/strong> : &lt;strong>&amp;ldquo;Mode 5&amp;rdquo;&lt;/strong> = &amp;ldquo;Modifie le mode AF parmi les réglages AF personnalisés 1 et 2&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>Reste à mettre le levier en position 1, configurer un mode AF, puis en position 2, en configurer un autre.&lt;/p>
+&lt;p>Levier en position 1 :&lt;/p>
+&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL)&amp;quot;&lt;/strong> :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Mode AF&lt;/strong> : &lt;strong>S-AF+MF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Levier en position 2 :&lt;/p>
+&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL)&amp;quot;&lt;/strong> :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Mode AF&lt;/strong> : &lt;strong>MF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>A présent :&lt;/p>
+&lt;p>Lorsque le levier est en position 1, on est en S-AF+MF, et le déclencheur fonctionne normalement.&lt;/p>
+&lt;p>Lorsque le levier est en position 2, on est en MF, et l&amp;rsquo;appareil en &lt;em>back button focus&lt;/em>.&lt;/p>
+&lt;hr>
+&lt;p>Mélange de plusieurs sources :&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.dpreview.com/forums/thread/4087196">DPreview - Here is how I use the lever on the EM1 and EM5ii to do back button focus&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="http://www.ayton.id.au/wiki/doku.php?id=photo:olympusem5_af">Gary Ayton&amp;rsquo;s Photography Wiki - optimising autofocus on the Olympus OM-D whilst using Micro Four Thirds lenses&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Petit inventaire des casques ECE 22.06 à moins de 400e début 2022</title><link>https://loboto51.github.io/lobotourisme/post/petit-inventaire-des-casques-ece-22.06-%C3%A0-moins-de-400e-d%C3%A9but-2022/</link><pubDate>Sat, 05 Feb 2022 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/petit-inventaire-des-casques-ece-22.06-%C3%A0-moins-de-400e-d%C3%A9but-2022/</guid><description>
 &lt;p>Je recherche un nouveau casque moto à moins de 400e, à la norme UE la plus récente qui est la ECE 22.06.&lt;/p>
 &lt;p>J&amp;rsquo;ai constitué la liste des modèles disponibles à partir des 2 sites de vente qui permettent de filtrer sur la norme &amp;ldquo;ECE 22.06&amp;rdquo; : Motoblouz, iCasque.
 Le prix indiqué est celui de la déco la moins chère, hors-soldes.&lt;/p>
