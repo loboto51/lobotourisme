@@ -18,17 +18,32 @@ Ainsi je peux mettre au point et composer librement, sans avoir à maintenir le 
 Ses différents avantages sont bien résumée dans cette vidéo de [Pierre T. Lambert (Youtube)](https://www.youtube.com/watch?v=mNk8b36KCl4).
 
 
-# I. Passer le boîtier à 100% en mode back-button focus
+# I. Passer en mode back-button focus
 
 L'EM-5 II permet :
 
-1. De séparer la fonction **AEL/AFL** (mesure d'exposition + mise au point) du déclencheur avec la configuration **"mode 3"** :
-_"Déclencheur à mi-course=AEL, déclencheur complet=expo, bouton AEL/AFL=S-AF"_
-2. D'affecter cette même fonction **AEL/AFL** à pratiquement tous les boutons du boîtier.
+1. De jongler entre 2 configurations de fonctions entre le déclencheur et la touche à laquelle on aura affecté la fonction **AEL/AFL** (_Auto Exposure Lock_/_Auto Focus Lock_) :
+     - "mode1" = _"Déclencheur à mi-course=AEL/S-AF, déclencheur complet=expo, bouton AEL/AFL=AEL"_  
+Fonctionnement par défaut : le déclencheur à mi-course verrouille l'exposition (**AEL**) et fait le single autofocus (**S-AF**), le bouton **AEL/AFL** verrouille l'exposition (**AEL**)
+     - "mode 3" : _"Déclencheur à mi-course=AEL, déclencheur complet=expo, bouton AEL/AFL=S-AF"_   
+_Back button focus_ : le déclencheur à mi-course verrouille l'exposition (**AEL**), le bouton **AEL/AFL** réalise le single autofocus (**S-AF**)
+2. D'affecter cette fonction **AEL/AFL** à pratiquement tous les boutons du boîtier.
 
 Actions à réaliser :
 
-### 1. Passer l'autofocus ponctuel (**S-AF**) en **"mode 3"**
+### 1. Passer l'autofocus en **"mode 3"**
+
+Votre appareil est en mode **S-AF** par défaut, mais pour ceux qui veulent vérifier :
+
+Bouton **"Menu"** > **"A (AF/AL)"** :
+
+- **Mode AF** : **S-AF** (autofocus) ou **S-AF+MF** (autofocus + focus manuel)
+
+NB : Vérifiez aussi que vous avez :
+
+- **Full-time AF** : **Off**
+
+Pour passer en **"mode 3"** :
 
 Bouton **"Menu"** > **"A (AF/AL)"** :
 
@@ -50,23 +65,12 @@ Bouton **"Menu"** -> **"B (touche/cadran/levier)"**
 - **"Fonction"**
     - **"Diaphragme"** : **"AEL/AFL"**
 
+Une fois cette manip faite, votre bouton doit déclencher l'autofocus.
 
-### 3. Il ne reste plus qu'à se mettre dans un des 2 modes S-AF pour tester
-
-Votre appareil est configuré comme il faut par défaut, mais pour ceux qui veulent vérifier :
-
-Bouton **"Menu"** > **"A (AF/AL)"** :
-
-- **Mode AF** : **S-AF** (autofocus) ou **S-AF+MF** (autofocus + focus manuel)
-
-NB : Vérifiez bien que vous avez :
-
-- **Full-time AF** : **Off**
-
-
+### 3. Conclusion
 
 Pour revenir au déclenchement classique, il suffira de repasser AEL/AFL>S-AF sur "mode 1".
-La touche **"AEL/AFL"** ne fera plus que calibrer l'exposition ("bouton AEL/AFL=AEL").
+La touche **"AEL/AFL"** ne fera plus que verrouiller l'exposition ("bouton AEL/AFL=AEL").
 
 
 Une source parmi d'autres :
@@ -84,30 +88,14 @@ La configuration ci-dessous vise à pouvoir basculer facilement d'un mode à l'a
 
 On va utiliser une astuce : 
 
-1. L'E-M5 II permet d'associer un "mode" de déclenchement différent à chaque type de mise au point (**"MF"**, **"C-AF"**, **"S-AF"**) ;
-2. Les touches **AEL/AFL** configurées plus haut déclenchent un autofocus même en mode manuel **"MF"** ;
-2. Le levier peut être configuré pour associer un type d'AF à chacune de ses 2 positions (**"mode 5"**).
+1. Le levier peut être configuré pour associer un type d'_AF_ à chacune de ses 2 positions (**"mode 5"**) : **MF**, **S-AF**, **C-AF**, ou **S-AF+MF** ;
+2. On peut associer un "mode" de déclenchement différent à chaque type d'_AF_ (plus haut on a affecté le "mode 3" au **S-AF** uniquement) ;
+3. Astuce : En **"mode 3"** La/les touches **AEL/AFL** déclenchent un autofocus même en mode manuel **"MF"** !
 
 
+On va donc affecter le focus manuel (**MF**) à une position du levier, en **"mode 3"**, et le **S-AF** (ou **S-AF+MF**) à l'autre position, en **"mode 1"** (comportement standard).
 
-
-### 1. Affecter le **"mode 1"** au **"S-AF"** et le **"mode 3"** au **"MF"**
-
-Bouton **"Menu"** > **"A (AF/AL)"** :
-
-- **"AEL/AFL"** :
-    - **"MF"** : **"mode3"** = "Bouton déclencheur mi-course AEL, Bouton déclencheur complet=expo, AEL/AFL : S-AF"
-    - C-AF
-    - **"S-AF"** : **"mode1"** = "Bouton déclencheur mi-course AEL/S-AF, Bouton déclencheur complet=expo, Bouton AEL/AFL : AEL"
-
-A présent : 
-
-Lorsque le boîtier est en MF, la touche **"AEL/AFL"** déclenche un autofocus.
-
-Lorsque le boîtier est en mode S-AF ou C-AF, ou S-AF+MF, le déclencheur à mi-course déclenche un autofocus, la touche **"AEL/AFL"** ne fait que calibrer l'exposition ("bouton AEL/AFL=AEL")..
-
-
-### 2. Configurer le levier pour basculer entre 2 types d'AF
+### 1. Configurer le levier pour basculer entre 2 types d'AF
 
 Bouton **"Menu"** > **"B (touche/cadran/levier)"**
 
@@ -130,9 +118,27 @@ Bouton **"Menu"** > **"A (AF/AL)"** :
 
 A présent :
 
-Lorsque le levier est en position 1, on est en S-AF+MF, et le déclencheur fonctionne normalement.
+Lorsque le levier est en position 1, on est en **S-AF+MF**.
 
-Lorsque le levier est en position 2, on est en MF, et l'appareil en _back button focus_.
+Lorsque le levier est en position 2, on est en **MF**.
+
+
+### 2. Affecter le **"mode 1"** au **"S-AF"** et le **"mode 3"** au **"MF"**
+
+Bouton **"Menu"** > **"A (AF/AL)"** :
+
+- **"AEL/AFL"** :
+    - **"MF"** : **"mode3"** = _"Bouton déclencheur mi-course AEL, Bouton déclencheur complet=expo, AEL/AFL : S-AF"_
+    - C-AF
+    - **"S-AF"** : **"mode1"** = _"Bouton déclencheur mi-course AEL/S-AF, Bouton déclencheur complet=expo, Bouton AEL/AFL : AEL"_
+
+A présent : 
+
+Lorsque le boîtier est en **MF** (levier en position 1), le déclencheur fonctionne normalement.
+
+Lorsque le boîtier est en mode **S-AF** ou **S-AF+MF** (position 2), l'appareil en _back button focus_.
+
+
 
 
 ---
