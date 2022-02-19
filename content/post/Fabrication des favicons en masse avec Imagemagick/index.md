@@ -1,5 +1,5 @@
 ---
-title: "Fabrication des favicons en masse avec Imagemagick"
+title: "Mémo : Fabrication des favicons en masse avec Imagemagick + fichiers de conf pour les navigateurs"
 date: "2021-05-15"
 categories:
 - dev
@@ -8,17 +8,24 @@ tags:
 - imagemagick
 ---
 
-J'ai fabriqué toutes les variantes d'images de ce site avec des lignes de commande.
+Ci-dessous je liste une série de commandes Imagemagick permettant de générer toutes les variantes de favicons qu'un site web peut proposer aux navigateurs, à partir d'un original de bonne qualité.
+
+J'indique en fin d'article les 2 fichiers de conf à mettre à jour, ainsi qu'une modif du thème Hugo, qui seront utiles pour que tous les navigateurs y retrouvent leurs petits.
+
+<!--more-->
 
 ## Image originale
 
 J'ai acheté une belle icône sur le très bon site [The Noun Project](https://thenounproject.com/) : [Space dessinée par Adrien Coquet](https://thenounproject.com/term/space/2217279/). 
 
-Je l'ai modifiée dans _Inkscape_ pour ajouter un peu de couleur, puis j'ai généré une version PNG de 1024x1024 "_logo_large.png_" que j'ai mise dans _./static/logos/_.
+Je l'ai modifiée dans _Inkscape_ pour ajouter un bord, puis j'ai généré une version PNG de 1024x1024 "_logo_large.png_" que j'ai mise dans _./static/logos/_ :
+
+![logo_large.png](logo_large.png)
+
 
 ### Génération des variantes
 
-J'ai généré avec ImageMagick toutes les variantes recommandées par [The 2020 Guide to FavIcons for Nearly Everyone and Every Browser](https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/) ainsi que [favicon-cheat-sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet):
+Variantes recommandées par [The 2020 Guide to FavIcons for Nearly Everyone and Every Browser](https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/) ainsi que [favicon-cheat-sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet):
 
 ```sh
 mkdir -p ./static/favicons/
@@ -45,14 +52,17 @@ convert ./static/logos/logo_large.png -resize 196x196 -unsharp 0x1 ./static/favi
 convert ./static/logos/logo_large.png -resize 256x256 -unsharp 0x1 ./static/favicons/favicon-256x256.png
 ```
 
-Fabriquons le .ico :
+![favicon-16x16.png](favicon-16x16.png)![favicon-32x32.png](favicon-32x32.png)![favicon-48x48.png](favicon-48x48.png)![favicon-128x128.png](favicon-128x128.png)![favicon-152x152.png](favicon-152x152.png)![favicon-167x167.png](favicon-167x167.png)![favicon-180x180.png](favicon-180x180.png)![favicon-192x192.png](favicon-192x192.png)![favicon-196x196.png](favicon-196x196.png)![favicon-256x256.png](favicon-256x256.png)
+
+
+La favicon au format "_.ico_" combine 3 formats, 16x16, 32x32 et 48x48 en un seul conteneur :
 
 ```sh
 #favicon.ico
-convert ./static/favicons/favicon-16x16.png ./static/favicons/favicon-32x32.png ./static/favicons/favicon-48x48.png ./favicon.ico
+convert ./static/favicons/favicon-16x16.png ./static/favicons/favicon-32x32.png ./static/favicons/favicon-48x48.png ./static/favicon.ico
 ```
 
-Spécifiques à un navigateur :
+Les favicons spécifiques à un navigateur :
 
 ```sh
 #mstiles 70x70
@@ -64,6 +74,11 @@ convert ./static/logos/logo_large.png -resize 150x150 -unsharp 0x1  -background 
 #mstiles 310x310
 convert ./static/logos/logo_large.png -resize 310x310 -unsharp 0x1 ./static/favicons/mstiles-310x310.png
 ```
+
+![mstiles-70x70.png](mstiles-70x70.png)
+![mstiles-144x144.png](mstiles-144x144.png)
+![mstiles-310x150.png](mstiles-310x150.png)
+![mstiles-310x310.png](mstiles-310x310.png)
 
 ### Fichier ieconfig.xml
 
@@ -111,7 +126,7 @@ Je l'ai mis à la racine.
 
 ```
 
-### Modification du thème
+### Modification du thème Hugo pour qu'il exploite toutes nos variantes de favicons
 
 Trouver le _layout_ qui liste les favicons et y ajouter :
 

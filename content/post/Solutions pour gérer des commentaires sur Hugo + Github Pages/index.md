@@ -11,6 +11,8 @@ tags:
 
 Veille sur les systèmes de commentaire intégrables à _Hugo_ + _Github Pages_.
 
+<!--more-->
+
 La doc _Hugo_ de référence : [https://gohugo.io/content-management/comments/](https://gohugo.io/content-management/comments/)
 
 Discussion sur le forum _Hugo_ : [lternative-to-disqus-needed-more-than-ever](https://discourse.gohugo.io/t/alternative-to-disqus-needed-more-than-ever/5516)

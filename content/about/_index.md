@@ -9,6 +9,8 @@ aliases:
 author: "Loboto"
 ---
 
-Bidouilleur informatique de l'extrême, lecteur de SF, de Fantasy, de BD (et un petit peu du Monde Diplo aussi), sensible à l'écologie et à la réduction des déchets...
+# Un mot sur l'auteur
 
-Affronte les petits chemins de la vie sur sa bat-moto quand il ne fait ni trop chaud ni trop pluvieux.
+Ce site me sert de bloc-note pour diverses choses que je souhaite conserver ou partager.
+
+Essentiellement mes recherches sur le net sur les protections moto, et des petites docs linux.

@@ -10,15 +10,21 @@ tags:
 
 ---
 
+![](/lobotourisme/post/back-button-focus-sur-lolympus-om-d-em-5-ii/back_button_focus.png)
+
+
 La mise au point automatique (autofocus) est habituellement réalisée par l'enfoncement à mi-course du déclencheur : Je mets au point, je garde le déclencheur enfoncé pour composer ma scène,  puis je l'enfonce pour prendre la photo.
 
 La technique du _"back button focus"_ consiste à affecter la fonction de mise au point à un autre bouton du boîtier (en général à l'arrière, piloté par le pouce droit, d'où le _"back button"_).
 Ainsi je peux mettre au point et composer librement, sans avoir à maintenir le déclencheur enfoncé.
 
+<!--more-->
+
 Ses différents avantages sont bien résumée dans cette vidéo de [Pierre T. Lambert (Youtube)](https://www.youtube.com/watch?v=mNk8b36KCl4).
 
+---
 
-# I. Passer en mode back-button focus
+# I. Tester le back-button focus
 
 L'EM-5 II permet :
 
@@ -31,7 +37,9 @@ _Back button focus_ : le déclencheur à mi-course verrouille l'exposition (**AE
 
 Actions à réaliser :
 
-### 1. Passer l'autofocus en **"mode 3"**
+---
+
+### I.1. Passer l'autofocus en **"mode 3"**
 
 Votre appareil est en mode **S-AF** par défaut, mais pour ceux qui veulent vérifier :
 
@@ -56,7 +64,9 @@ Bouton **"Menu"** > **"A (AF/AL)"** :
 
 A présent le déclencheur ne met plus au point. Il faut affecter la fonction **AEL/AFL** à un autre bouton.
 
-### 2. Donner la fonction **AEL/AFL** à un bouton facile d'accès
+---
+
+### I.2. Donner la fonction **AEL/AFL** à un bouton facile d'accès
 
 Aucun bouton arrière n'étant très accessible, j'ai opté pour la touche avant, près de l'objectif, dont le logo ressemble à un diaphragme.
 
@@ -67,7 +77,9 @@ Bouton **"Menu"** -> **"B (touche/cadran/levier)"**
 
 Une fois cette manip faite, votre bouton doit déclencher l'autofocus.
 
-### 3. Conclusion
+---
+
+### I.3. Conclusion
 
 Pour revenir au déclenchement classique, il suffira de repasser AEL/AFL>S-AF sur "mode 1".
 La touche **"AEL/AFL"** ne fera plus que verrouiller l'exposition ("bouton AEL/AFL=AEL").
@@ -95,7 +107,9 @@ On va utiliser une astuce :
 
 On va donc affecter le focus manuel (**MF**) à une position du levier, en **"mode 3"**, et le **S-AF** (ou **S-AF+MF**) à l'autre position, en **"mode 1"** (comportement standard).
 
-### 1. Configurer le levier pour basculer entre 2 types d'AF
+---
+
+### II.1. Configurer le levier pour basculer entre 2 types d'AF
 
 Bouton **"Menu"** > **"B (touche/cadran/levier)"**
 
@@ -122,8 +136,9 @@ Lorsque le levier est en position 1, on est en **S-AF+MF**.
 
 Lorsque le levier est en position 2, on est en **MF**.
 
+---
 
-### 2. Affecter le **"mode 1"** au **"S-AF"** et le **"mode 3"** au **"MF"**
+### II.2. Affecter le **"mode 1"** au **"S-AF"** et le **"mode 3"** au **"MF"**
 
 Bouton **"Menu"** > **"A (AF/AL)"** :
 

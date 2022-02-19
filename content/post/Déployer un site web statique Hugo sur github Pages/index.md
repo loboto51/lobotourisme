@@ -235,8 +235,9 @@ Références Markdown :
 
 ### Mises à jour
 
-- *14/05/2021 :* Depuis la rédaction de ce document, je suis passé au thème [hugo-future-imperfect](https://github.com/statnmap/hugo-future-imperfect) qui présente quelques fonctions supplémentaires et que je trouve plus élégant. 
-- *06/02/2022 :* Mise à jour du script d'action avec la dernière version disponible sur [Hugo - hosting on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+> - *19/02/2022 :* Je suis passé au thème [Anubis](https://github.com/mitrichius/hugo-theme-anubis) plus léger et épuré.
+> - *14/05/2021 :* Depuis la rédaction de ce document, je suis passé au thème [hugo-future-imperfect](https://github.com/statnmap/hugo-future-imperfect) qui présente quelques fonctions supplémentaires et que je trouve plus élégant. 
+> - *06/02/2022 :* Mise à jour du script d'action avec la dernière version disponible sur [Hugo - hosting on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 
 
 
