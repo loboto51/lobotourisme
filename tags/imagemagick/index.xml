@@ -1,8 +1,432 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>imagemagick on Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/tags/imagemagick/</link><description>Recent content in imagemagick on Lobotourisme</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/tags/imagemagick/index.xml" rel="self" type="application/rss+xml"/><item><title>Fabrication des favicons en masse avec Imagemagick</title><link>https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/</link><pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/</guid><description>J&amp;rsquo;ai fabriqué toutes les variantes d&amp;rsquo;images de ce site avec des lignes de commande.
-Image originale J&amp;rsquo;ai acheté une belle icône sur le très bon site The Noun Project : Space dessinée par Adrien Coquet.
-Je l&amp;rsquo;ai modifiée dans Inkscape pour ajouter un peu de couleur, puis j&amp;rsquo;ai généré une version PNG de 1024x1024 &amp;ldquo;logo_large.png&amp;rdquo; que j&amp;rsquo;ai mise dans ./static/logos/.
-Génération des variantes J&amp;rsquo;ai généré avec ImageMagick toutes les variantes recommandées par The 2020 Guide to FavIcons for Nearly Everyone and Every Browser ainsi que favicon-cheat-sheet:</description></item><item><title>Fabrication de miniatures avec extrapolation des bords avec Imagemagick</title><link>https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/</link><pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/</guid><description>J&amp;rsquo;ai choisi de générer des miniatures pour chacun de mes billets en réutilisant des photos issues des articles.
-J&amp;rsquo;utilise 3 techniques pour produire des images aux dimensions qui me conviennent :
-Technique 1 : Remplissage des zones vides par extrapolation J&amp;rsquo;ai légèrement adapté une série de commandes Imagemagick concoctées par fmw42 (le fameux Fred de Fred&amp;rsquo;s ImageMagick Scripts) dans cette page de forum : ImageMagick - turn image with borders into full bleed image.</description></item><item><title>Mémo des modifications du thème hugo-clarity</title><link>https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/</link><pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/</guid><description>Ce site est construit en combinant Hugo + Github Pages. J&amp;rsquo;utilise le thème hugo-clarity. Ce post récapitule les configurations et modifications que j&amp;rsquo;y ai apporté.
-Le thème hugo-clarity demande pas mal de conf. Plutôt que partir de zéro j&amp;rsquo;ai suivi le conseil que donne sa doc d&amp;rsquo;install et je suis parti du examplesite/ fourni dans le thème, que j&amp;rsquo;ai ensuite modifié.
-documents non-utilisés Suppression des exemples en portugais rm ./config/_default/menus/menu.pt.toml rm .</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>imagemagick on Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/tags/imagemagick/</link><description>Lobotourisme (imagemagick)</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/tags/imagemagick/index.xml" rel="self" type="application/rss+xml"/><item><title>Mémo : Fabrication des favicons en masse avec Imagemagick + fichiers de conf pour les navigateurs</title><link>https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/</link><pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/</guid><description>&lt;p>Ci-dessous je liste une série de commandes Imagemagick permettant de générer toutes les variantes de favicons qu&amp;rsquo;un site web peut proposer aux navigateurs, à partir d&amp;rsquo;un original de bonne qualité.&lt;/p>
+&lt;p>J&amp;rsquo;indique en fin d&amp;rsquo;article les 2 fichiers de conf à mettre à jour, ainsi qu&amp;rsquo;une modif du thème Hugo, qui seront utiles pour que tous les navigateurs y retrouvent leurs petits.&lt;/p>
+&lt;h2 id="image-originale" >Image originale
+&lt;span>
+&lt;a href="#image-originale">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>J&amp;rsquo;ai acheté une belle icône sur le très bon site &lt;a href="https://thenounproject.com/">The Noun Project&lt;/a> : &lt;a href="https://thenounproject.com/term/space/2217279/">Space dessinée par Adrien Coquet&lt;/a>.&lt;/p>
+&lt;p>Je l&amp;rsquo;ai modifiée dans &lt;em>Inkscape&lt;/em> pour ajouter un bord, puis j&amp;rsquo;ai généré une version PNG de 1024x1024 &amp;ldquo;&lt;em>logo_large.png&lt;/em>&amp;rdquo; que j&amp;rsquo;ai mise dans &lt;em>./static/logos/&lt;/em> :&lt;/p>
+&lt;p>&lt;img src="logo_large.png" alt="logo_large.png">&lt;/p>
+&lt;h3 id="génération-des-variantes" >Génération des variantes
+&lt;span>
+&lt;a href="#g%c3%a9n%c3%a9ration-des-variantes">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>Variantes recommandées par &lt;a href="https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/">The 2020 Guide to FavIcons for Nearly Everyone and Every Browser&lt;/a> ainsi que &lt;a href="https://github.com/audreyfeldroy/favicon-cheat-sheet">favicon-cheat-sheet&lt;/a>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">mkdir -p ./static/favicons/
+&lt;span style="color:#75715e">#favicon-16x16.png&lt;/span>
+convert ./static/logos/logo_large.png -resize 16x16 -unsharp 0x1 ./static/favicons/favicon-16x16.png
+&lt;span style="color:#75715e">#favicon-32x32.png&lt;/span>
+convert ./static/logos/logo_large.png -resize 32x32 -unsharp 0x1 ./static/favicons/favicon-32x32.png
+&lt;span style="color:#75715e">#favicon-48x48.png&lt;/span>
+convert ./static/logos/logo_large.png -resize 48x48 -unsharp 0x1 ./static/favicons/favicon-48x48.png
+&lt;span style="color:#75715e">#favicon-128x128.png&lt;/span>
+convert ./static/logos/logo_large.png -resize 128x128 -unsharp 0x1 ./static/favicons/favicon-128x128.png
+&lt;span style="color:#75715e">#favicon-152x152.png&lt;/span>
+convert ./static/logos/logo_large.png -resize 152x152 -unsharp 0x1 ./static/favicons/favicon-152x152.png
+&lt;span style="color:#75715e">#favicon-167x167.png&lt;/span>
+convert ./static/logos/logo_large.png -resize 167x167 -unsharp 0x1 ./static/favicons/favicon-167x167.png
+&lt;span style="color:#75715e">#favicon-180x180.png&lt;/span>
+convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/favicons/favicon-180x180.png
+&lt;span style="color:#75715e">#favicon-192x192.png&lt;/span>
+convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x1 ./static/favicons/favicon-192x192.png
+&lt;span style="color:#75715e">#favicon-196x196.png&lt;/span>
+convert ./static/logos/logo_large.png -resize 196x196 -unsharp 0x1 ./static/favicons/favicon-196x196.png
+&lt;span style="color:#75715e">#favicon-256x256.png&lt;/span>
+convert ./static/logos/logo_large.png -resize 256x256 -unsharp 0x1 ./static/favicons/favicon-256x256.png
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="favicon-16x16.png" alt="favicon-16x16.png">&lt;img src="favicon-32x32.png" alt="favicon-32x32.png">&lt;img src="favicon-48x48.png" alt="favicon-48x48.png">&lt;img src="favicon-128x128.png" alt="favicon-128x128.png">&lt;img src="favicon-152x152.png" alt="favicon-152x152.png">&lt;img src="favicon-167x167.png" alt="favicon-167x167.png">&lt;img src="favicon-180x180.png" alt="favicon-180x180.png">&lt;img src="favicon-192x192.png" alt="favicon-192x192.png">&lt;img src="favicon-196x196.png" alt="favicon-196x196.png">&lt;img src="favicon-256x256.png" alt="favicon-256x256.png">&lt;/p>
+&lt;p>La favicon au format &amp;ldquo;&lt;em>.ico&lt;/em>&amp;rdquo; combine 3 formats, 16x16, 32x32 et 48x48 en un seul conteneur :&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">&lt;span style="color:#75715e">#favicon.ico&lt;/span>
+convert ./static/favicons/favicon-16x16.png ./static/favicons/favicon-32x32.png ./static/favicons/favicon-48x48.png ./static/favicon.ico
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Les favicons spécifiques à un navigateur :&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">&lt;span style="color:#75715e">#mstiles 70x70&lt;/span>
+convert ./static/logos/logo_large.png -resize 70x70 -unsharp 0x1 ./static/favicons/mstiles-70x70.png
+&lt;span style="color:#75715e">#mstiles 144x144&lt;/span>
+convert ./static/logos/logo_large.png -resize 144x144 -unsharp 0x1 ./static/favicons/mstiles-144x144.png
+&lt;span style="color:#75715e">#mstiles 310x150&lt;/span>
+convert ./static/logos/logo_large.png -resize 150x150 -unsharp 0x1 -background transparent -gravity center -extent 310x150 ./static/favicons/mstiles-310x150.png
+&lt;span style="color:#75715e">#mstiles 310x310&lt;/span>
+convert ./static/logos/logo_large.png -resize 310x310 -unsharp 0x1 ./static/favicons/mstiles-310x310.png
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="mstiles-70x70.png" alt="mstiles-70x70.png">
+&lt;img src="mstiles-144x144.png" alt="mstiles-144x144.png">
+&lt;img src="mstiles-310x150.png" alt="mstiles-310x150.png">
+&lt;img src="mstiles-310x310.png" alt="mstiles-310x310.png">&lt;/p>
+&lt;h3 id="fichier-ieconfigxml" >Fichier ieconfig.xml
+&lt;span>
+&lt;a href="#fichier-ieconfigxml">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>Je l&amp;rsquo;ai mis à la racine.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-xml" data-lang="xml">&lt;span style="color:#75715e">&amp;lt;?xml version=&amp;#34;1.0&amp;#34; encoding=&amp;#34;utf-8&amp;#34;?&amp;gt;&lt;/span>
+&lt;span style="color:#f92672">&amp;lt;browserconfig&amp;gt;&lt;/span>
+&lt;span style="color:#f92672">&amp;lt;msapplication&amp;gt;&lt;/span>
+&lt;span style="color:#f92672">&amp;lt;tile&amp;gt;&lt;/span>
+&lt;span style="color:#f92672">&amp;lt;square70x70logo&lt;/span> &lt;span style="color:#a6e22e">src=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;favicons/mstiles-70x70.png&amp;#34;&lt;/span>&lt;span style="color:#f92672">/&amp;gt;&lt;/span>
+&lt;span style="color:#f92672">&amp;lt;square150x150logo&lt;/span> &lt;span style="color:#a6e22e">src=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;favicons/mstiles-150x150.png&amp;#34;&lt;/span>&lt;span style="color:#f92672">/&amp;gt;&lt;/span>
+&lt;span style="color:#f92672">&amp;lt;wide310x150logo&lt;/span> &lt;span style="color:#a6e22e">src=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;favicons/mstiles-310x150.png&amp;#34;&lt;/span>&lt;span style="color:#f92672">/&amp;gt;&lt;/span>
+&lt;span style="color:#f92672">&amp;lt;square310x310logo&lt;/span> &lt;span style="color:#a6e22e">src=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;favicons/mstiles-310x310.png&amp;#34;&lt;/span>&lt;span style="color:#f92672">/&amp;gt;&lt;/span>
+&lt;span style="color:#f92672">&amp;lt;TileColor&amp;gt;&lt;/span>#FFFFFF&lt;span style="color:#f92672">&amp;lt;/TileColor&amp;gt;&lt;/span>
+&lt;span style="color:#f92672">&amp;lt;/tile&amp;gt;&lt;/span>
+&lt;span style="color:#f92672">&amp;lt;/msapplication&amp;gt;&lt;/span>
+&lt;span style="color:#f92672">&amp;lt;/browserconfig&amp;gt;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="fichier-webmanifest" >Fichier webmanifest
+&lt;span>
+&lt;a href="#fichier-webmanifest">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>Je l&amp;rsquo;ai mis à la racine.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-json" data-lang="json">{
+&lt;span style="color:#f92672">&amp;#34;name&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;Lobotourisme&amp;#34;&lt;/span>,
+&lt;span style="color:#f92672">&amp;#34;short_name&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;Lobotourisme&amp;#34;&lt;/span>,
+&lt;span style="color:#f92672">&amp;#34;icons&amp;#34;&lt;/span>: [
+{
+&lt;span style="color:#f92672">&amp;#34;src&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;favicons/favicon-192x192.png&amp;#34;&lt;/span>,
+&lt;span style="color:#f92672">&amp;#34;sizes&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;192x192&amp;#34;&lt;/span>,
+&lt;span style="color:#f92672">&amp;#34;type&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;image/png&amp;#34;&lt;/span>
+},
+{
+&lt;span style="color:#f92672">&amp;#34;src&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;favicons/favicon-256x256.png&amp;#34;&lt;/span>,
+&lt;span style="color:#f92672">&amp;#34;sizes&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;256x256&amp;#34;&lt;/span>,
+&lt;span style="color:#f92672">&amp;#34;type&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;image/png&amp;#34;&lt;/span>
+}
+],
+&lt;span style="color:#f92672">&amp;#34;theme_color&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;#ffffff&amp;#34;&lt;/span>,
+&lt;span style="color:#f92672">&amp;#34;background_color&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;#ffffff&amp;#34;&lt;/span>,
+&lt;span style="color:#f92672">&amp;#34;display&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;standalone&amp;#34;&lt;/span>
+}
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="modification-du-thème-hugo-pour-quil-exploite-toutes-nos-variantes-de-favicons" >Modification du thème Hugo pour qu&amp;rsquo;il exploite toutes nos variantes de favicons
+&lt;span>
+&lt;a href="#modification-du-th%c3%a8me-hugo-pour-quil-exploite-toutes-nos-variantes-de-favicons">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>Trouver le &lt;em>layout&lt;/em> qui liste les favicons et y ajouter :&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html"> &amp;lt;&lt;span style="color:#f92672">link&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;icon&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;{{ &amp;#34;favicon/favicon.png&amp;#34; | relURL }}&amp;#39;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">link&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;icon&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;image/png&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">sizes&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;16x16&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;{{ &amp;#34;favicon/favicon-16x16.png&amp;#34; | relURL }}&amp;#39;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">link&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;icon&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;image/png&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">sizes&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;32x32&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;{{ &amp;#34;favicon/favicon-32x32.png&amp;#34; | relURL }}&amp;#39;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">link&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;icon&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;image/png&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">sizes&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;128x128&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;{{ &amp;#34;favicon/favicon-128x128.png&amp;#34; | relURL }}&amp;#39;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">link&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;icon&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;image/png&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">sizes&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;152x152&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;{{ &amp;#34;favicon/favicon-152x152.png&amp;#34; | relURL }}&amp;#39;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">link&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;icon&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;image/png&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">sizes&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;167x167&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;{{ &amp;#34;favicon/favicon-167x167.png&amp;#34; | relURL }}&amp;#39;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">link&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;icon&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;image/png&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">sizes&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;180x180&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;{{ &amp;#34;favicon/favicon-180x180.png&amp;#34; | relURL }}&amp;#39;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">link&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;icon&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;image/png&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">sizes&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;192x192&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;{{ &amp;#34;favicon/favicon-192x192.png&amp;#34; | relURL }}&amp;#39;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">link&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;icon&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">type&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;image/png&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">sizes&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;196x196&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;{{ &amp;#34;favicon/favicon-196x196.png&amp;#34; | relURL }}&amp;#39;&lt;/span>&amp;gt;
+&lt;span style="color:#75715e">&amp;lt;!--[if IE]&amp;gt;&amp;lt;link rel=&amp;#34;shortcut icon&amp;#34; href=&amp;#39;favicon.ico&amp;#39;&amp;gt;&amp;lt;![endif]--&amp;gt;&lt;/span>
+&amp;lt;&lt;span style="color:#f92672">link&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;apple-touch-icon-precomposed&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;{{ &amp;#34;favicon/favicon-180x180.png&amp;#34; | relURL }}&amp;#39;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">link&lt;/span> &lt;span style="color:#a6e22e">rel&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;shortcut icon&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">sizes&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;196x196&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;{{ &amp;#34;favicon/favicon-196x196.png&amp;#34; | relURL }}&amp;#39;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">meta&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;msapplication-TileColor&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">content&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;#FFFFFF&amp;#34;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">meta&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;msapplication-TileImage&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">content&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;{{ &amp;#34;favicon/favicon-144x144.png&amp;#34; | relURL }}&amp;#39;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">meta&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;application-name&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">content&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Lobotourisme&amp;#34;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">meta&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;msapplication-tooltip&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">content&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;Tooltip&amp;#34;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">meta&lt;/span> &lt;span style="color:#a6e22e">name&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;msapplication-config&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">content&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;{{ &amp;#34;ieconfig.xml&amp;#34; | relURL }}&amp;#39;&lt;/span>&amp;gt;
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>3 méthodes Imagemagick pour remplir les zones vides d'une image recadrée</title><link>https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/</link><pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/</guid><description>&lt;p>Je décris dans cet article 3 méthodes permettant de combler les zones vides d&amp;rsquo;une image lorsqu&amp;rsquo;on l&amp;rsquo;agrandit, une technique basique, et 2 s&amp;rsquo;appuyant sur l&amp;rsquo;image initiale, pour un remplissage plus naturel.
+A la fin de l&amp;rsquo;article, je donne un script shell permettant de générer les 3 versions pour une image donnée.&lt;/p>
+&lt;h2 id="méthode-1--remplir-des-zones-vides-par-un-fond-uni" >Méthode 1 : Remplir des zones vides par un fond uni
+&lt;span>
+&lt;a href="#m%c3%a9thode-1--remplir-des-zones-vides-par-un-fond-uni">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">convert IMAGESOURCE -resize XxY -background white -gravity center -extent XxY IMAGECIBLE
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;em>NB :&lt;/em> Remplacer XxY par les dimensions souhaitées et &amp;ldquo;&lt;em>white&lt;/em>&amp;rdquo; par la couleur souhaitée.&lt;/p>
+&lt;p>Exemple :&lt;/p>
+&lt;p>&lt;img src="sastec-sc1-06evo-new__EB-KB_niv2__vs__esquad_hilon_EA-KA-SA_niv1.jpg.mode2.jpg" alt="mode 2">&lt;/p>
+&lt;h2 id="méthode-2--remplir-les-zones-vides-en-surimposant-limage-sur-sa-version-floue-et-déformée" >Méthode 2 : Remplir les zones vides en surimposant l&amp;rsquo;image sur sa version floue et déformée
+&lt;span>
+&lt;a href="#m%c3%a9thode-2--remplir-les-zones-vides-en-surimposant-limage-sur-sa-version-floue-et-d%c3%a9form%c3%a9e">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>Inspiration :&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>Fred/fmw42&lt;/em> dans cette page de forum : &lt;a href="https://legacy.imagemagick.org/discourse-server/viewtopic.php?t=28035">ImageMagick - Keep Aspect Ratio on Resize and Fill with Blur Background&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">convert IMAGESOURCE &lt;span style="color:#ae81ff">\(&lt;/span> -clone &lt;span style="color:#ae81ff">0&lt;/span> -blur 0x9 -resize XxY&lt;span style="color:#ae81ff">\!&lt;/span> &lt;span style="color:#ae81ff">\)&lt;/span> &lt;span style="color:#ae81ff">\(&lt;/span> -clone &lt;span style="color:#ae81ff">0&lt;/span> -resize XxY &lt;span style="color:#ae81ff">\)&lt;/span> -delete &lt;span style="color:#ae81ff">0&lt;/span> -gravity center -compose over -composite IMAGECIBLE
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;em>NB :&lt;/em> Remplacer XxY par les dimensions souhaitées.&lt;/p>
+&lt;p>Exemple :&lt;/p>
+&lt;p>&lt;img src="sastec-sc1-06evo-new__EB-KB_niv2__vs__esquad_hilon_EA-KA-SA_niv1.jpg.mode3.jpg" alt="remplissage avec une version floutée et déformée">&lt;/p>
+&lt;h2 id="méthode-3--remplissage-des-zones-vides-par-extrapolation" >Méthode 3 : Remplissage des zones vides par extrapolation
+&lt;span>
+&lt;a href="#m%c3%a9thode-3--remplissage-des-zones-vides-par-extrapolation">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>Inspiration :&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>Fred/fmw42&lt;/em> dans cette page de forum : &lt;a href="https://legacy.imagemagick.org/discourse-server/viewtopic.php?t=26928">ImageMagick - turn image with borders into full bleed image&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;p>Le code est un peu long, je ne le met pas ici, il se trouve dans le script &lt;em>shell&lt;/em> plus bas.&lt;/p>
+&lt;p>Exemple :&lt;/p>
+&lt;p>&lt;img src="sastec-sc1-06evo-new__EB-KB_niv2__vs__esquad_hilon_EA-KA-SA_niv1.jpg.mode1.jpg" alt="mode 1">&lt;/p>
+&lt;p>Le résultat est assez bluffant, si les dimensions ne sont pas trop éloignées de l&amp;rsquo;original, il faut parfois regarder de près les zones extrapolées pour réaliser qu&amp;rsquo;elles sont artificielles (ici en 300x300) :&lt;/p>
+&lt;p>&lt;img src="alpinestars-nucleon-racing-hr-kr_HB_niv2_face__source_revzilla_thumbnail.jpg" alt="alpinestars-nucleon-racing-hr-kr_HB_niv2_face__source_revzilla_thumbnail">&lt;/p>
+&lt;p>&lt;img src="Course-rocker_jean_aramide_AA_thumbnail.jpg" alt="Course-rocker_jean_aramide_AA_thumbnail.jpg">&lt;/p>
+&lt;p>En revanche les grands aplats de blanc ne lui conviennent pas :&lt;/p>
+&lt;p>&lt;img src="sastec-sc1-evo1-new__EA-KA-SB_niv2__source_sastec_thumbnail.jpg" alt="sastec-sc1-evo1-new__EA-KA-SB_niv2__source_sastec_thumbnail.jpg">&lt;/p>
+&lt;h2 id="script-shell" >Script shell
+&lt;span>
+&lt;a href="#script-shell">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>Ce script shell prend tous les fichiers du sous-répertoire &lt;em>&amp;ldquo;a_traiter/&amp;quot;&lt;/em> et produit les résultats selon les 3 modes dans le répertoire &lt;em>&amp;ldquo;res/&amp;quot;&lt;/em> .&lt;/p>
+&lt;ul>
+&lt;li>Mode 1 : Voronoi ;&lt;/li>
+&lt;li>Mode 2 : Extension ;&lt;/li>
+&lt;li>Mode 3 : Aplat de blanc.&lt;/li>
+&lt;/ul>
+&lt;p>Mise en place :&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">mkdir gen_thumb_sparse_voronoi
+cd gen_thumb_sparse_voronoi
+mkdir a_traiter res
+touch gen_thumb_sparse_voronoi.sh
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Editer le fichier &lt;em>&amp;ldquo;gen_thumb_sparse_voronoi.sh&amp;rdquo;&lt;/em> et y mettre :&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">&lt;span style="color:#75715e">#!/bin/bash
+&lt;/span>&lt;span style="color:#75715e">&lt;/span>
+&lt;span style="color:#66d9ef">for&lt;/span> fic in a_traiter/*
+&lt;span style="color:#66d9ef">do&lt;/span>
+echo &lt;span style="color:#e6db74">${&lt;/span>fic&lt;span style="color:#e6db74">}&lt;/span>
+ficsource&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#66d9ef">$(&lt;/span>basename &lt;span style="color:#e6db74">${&lt;/span>fic&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#66d9ef">)&lt;/span>
+xcible&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">800&lt;/span>
+ycible&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#ae81ff">300&lt;/span>
+size&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">${&lt;/span>xcible&lt;span style="color:#e6db74">}&lt;/span>x&lt;span style="color:#e6db74">${&lt;/span>ycible&lt;span style="color:#e6db74">}&lt;/span>
+convert &lt;span style="color:#e6db74">${&lt;/span>fic&lt;span style="color:#e6db74">}&lt;/span> -resize &lt;span style="color:#e6db74">${&lt;/span>size&lt;span style="color:#e6db74">}&lt;/span> res/tmp.png
+xoff&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">`&lt;/span>convert res/tmp.png -format &lt;span style="color:#e6db74">&amp;#34;%w&amp;#34;&lt;/span> info:&lt;span style="color:#e6db74">`&lt;/span>
+yoff&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">`&lt;/span>convert res/tmp.png -format &lt;span style="color:#e6db74">&amp;#34;%h&amp;#34;&lt;/span> info:&lt;span style="color:#e6db74">`&lt;/span>
+yoff&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#66d9ef">$((&lt;/span>&lt;span style="color:#f92672">(&lt;/span>&lt;span style="color:#e6db74">${&lt;/span>ycible&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#e6db74">${&lt;/span>yoff&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#f92672">)/&lt;/span>&lt;span style="color:#ae81ff">2&lt;/span>&lt;span style="color:#66d9ef">))&lt;/span>
+xoff&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#66d9ef">$((&lt;/span>&lt;span style="color:#f92672">(&lt;/span>&lt;span style="color:#e6db74">${&lt;/span>xcible&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#e6db74">${&lt;/span>xoff&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#f92672">)/&lt;/span>&lt;span style="color:#ae81ff">2&lt;/span>&lt;span style="color:#66d9ef">))&lt;/span>
+vcoords&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>&lt;span style="color:#e6db74">${&lt;/span>size&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">-&lt;/span>&lt;span style="color:#e6db74">${&lt;/span>xoff&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">-&lt;/span>&lt;span style="color:#e6db74">${&lt;/span>yoff&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;#34;&lt;/span>
+echo &lt;span style="color:#e6db74">${&lt;/span>vcoords&lt;span style="color:#e6db74">}&lt;/span>
+convert res/tmp.png -transparent white +repage &lt;span style="color:#ae81ff">\(&lt;/span> -clone &lt;span style="color:#ae81ff">0&lt;/span> -alpha off -sparse-color Voronoi &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;span style="color:#ae81ff">&lt;/span> &lt;span style="color:#e6db74">&amp;#34;9,9 rgb(255,8,8) 969,9 rgb(255,255,8) 969,669 rgb(255,255,248) 9,669 rgb(255,248,248)&amp;#34;&lt;/span> &lt;span style="color:#ae81ff">\)&lt;/span> &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;span style="color:#ae81ff">&lt;/span> +swap -compose over -composite &lt;span style="color:#ae81ff">\
+&lt;/span>&lt;span style="color:#ae81ff">&lt;/span> -define distort:viewport&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">${&lt;/span>size&lt;span style="color:#e6db74">}&lt;/span>-&lt;span style="color:#e6db74">${&lt;/span>xoff&lt;span style="color:#e6db74">}&lt;/span>-&lt;span style="color:#e6db74">${&lt;/span>yoff&lt;span style="color:#e6db74">}&lt;/span> +distort SRT &lt;span style="color:#ae81ff">0&lt;/span> +repage res/&lt;span style="color:#e6db74">${&lt;/span>ficsource&lt;span style="color:#e6db74">}&lt;/span>.mode1.jpg
+rm -f res/tmp.png
+convert &lt;span style="color:#e6db74">${&lt;/span>fic&lt;span style="color:#e6db74">}&lt;/span> -resize &lt;span style="color:#e6db74">${&lt;/span>xcible&lt;span style="color:#e6db74">}&lt;/span>x&lt;span style="color:#e6db74">${&lt;/span>ycible&lt;span style="color:#e6db74">}&lt;/span> -background white -gravity center -extent &lt;span style="color:#e6db74">${&lt;/span>xcible&lt;span style="color:#e6db74">}&lt;/span>x&lt;span style="color:#e6db74">${&lt;/span>ycible&lt;span style="color:#e6db74">}&lt;/span> res/&lt;span style="color:#e6db74">${&lt;/span>ficsource&lt;span style="color:#e6db74">}&lt;/span>.mode2.jpg
+convert &lt;span style="color:#e6db74">${&lt;/span>fic&lt;span style="color:#e6db74">}&lt;/span> &lt;span style="color:#ae81ff">\(&lt;/span> -clone &lt;span style="color:#ae81ff">0&lt;/span> -blur 0x9 -resize &lt;span style="color:#e6db74">${&lt;/span>xcible&lt;span style="color:#e6db74">}&lt;/span>x&lt;span style="color:#e6db74">${&lt;/span>ycible&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#ae81ff">\!&lt;/span> &lt;span style="color:#ae81ff">\)&lt;/span> &lt;span style="color:#ae81ff">\(&lt;/span> -clone &lt;span style="color:#ae81ff">0&lt;/span> -resize &lt;span style="color:#e6db74">${&lt;/span>xcible&lt;span style="color:#e6db74">}&lt;/span>x&lt;span style="color:#e6db74">${&lt;/span>ycible&lt;span style="color:#e6db74">}&lt;/span> &lt;span style="color:#ae81ff">\)&lt;/span> -delete &lt;span style="color:#ae81ff">0&lt;/span> -gravity center -compose over -composite res/&lt;span style="color:#e6db74">${&lt;/span>ficsource&lt;span style="color:#e6db74">}&lt;/span>.mode3.jpg
+&lt;span style="color:#66d9ef">done&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Il n&amp;rsquo;y a plus qu&amp;rsquo;à mettre une image dans le répertoire &lt;em>&amp;ldquo;a_traiter/&amp;quot;&lt;/em> et lancer le script :&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">cd gen_thumb_sparse_voronoi/
+./gen_thumb_sparse_voronoi.sh
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Le résultat sera produit dans &lt;em>&amp;ldquo;res/&amp;quot;&lt;/em>.&lt;/p>
+&lt;blockquote>
+&lt;p>Note : Pour modifier les dimensions cible, il suffit de changer les xcible=800 et ycible=300.&lt;/p>
+&lt;/blockquote></description></item><item><title>Mémo des modifications du thème hugo-clarity</title><link>https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/</link><pubDate>Sun, 02 May 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/</guid><description>&lt;p>Ce site est construit en combinant &lt;em>Hugo&lt;/em> + &lt;em>Github Pages&lt;/em>.
+J&amp;rsquo;utilise le thème &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-clarity&lt;/a>. Ce &lt;em>post&lt;/em> récapitule les configurations et modifications que j&amp;rsquo;y ai apporté.&lt;/p>
+&lt;p>Le thème &lt;em>hugo-clarity&lt;/em> demande pas mal de conf. Plutôt que partir de zéro j&amp;rsquo;ai suivi le conseil que donne sa doc d&amp;rsquo;install et je suis parti du &lt;em>examplesite/&lt;/em> fourni dans le thème, que j&amp;rsquo;ai ensuite modifié.&lt;/p>
+&lt;h2 id="documents-non-utilisés" >documents non-utilisés
+&lt;span>
+&lt;a href="#documents-non-utilis%c3%a9s">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;h3 id="suppression-des-exemples-en-portugais" >Suppression des exemples en portugais
+&lt;span>
+&lt;a href="#suppression-des-exemples-en-portugais">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">rm ./config/_default/menus/menu.pt.toml
+rm ./content/about.pt.md
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="suppression-des-pages-exemples-dans-_content_" >Suppression des pages exemples dans &lt;em>./content&lt;/em>
+&lt;span>
+&lt;a href="#suppression-des-pages-exemples-dans-_content_">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">rm ./content/archives.md
+rm ./content/homepage/about.md
+rm ./content/homepage/work.md
+rm ./content/post/* &lt;span style="color:#75715e"># exemples de pages&lt;/span>
+rm ./static/images/* &lt;span style="color:#75715e"># images non utilisées&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="modification-des-fichiers-de-conf" >Modification des fichiers de conf
+&lt;span>
+&lt;a href="#modification-des-fichiers-de-conf">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;h3 id="modification-de-_config_defaultconfigtoml_" >Modification de _./config/&lt;em>default/config.toml&lt;/em>
+&lt;span>
+&lt;a href="#modification-de-_config_defaultconfigtoml_">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>Modifié :&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-toml" data-lang="toml">&lt;span style="color:#a6e22e">baseurl&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;https://loboto51.github.io/&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">title&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Lobotourisme&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">author&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Loboto&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">paginate&lt;/span> = &lt;span style="color:#ae81ff">10&lt;/span>
+&lt;span style="color:#a6e22e">theme&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;hugo-clarity&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">DefaultContentLanguage&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;fr&amp;#34;&lt;/span>
+[&lt;span style="color:#a6e22e">taxonomies&lt;/span>]
+&lt;span style="color:#a6e22e">category&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;categories&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">tag&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;tags&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">series&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;series&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="modification-de-_config_defaultlanguagestoml_" >Modification de _./config/&lt;em>default/languages.toml&lt;/em>
+&lt;span>
+&lt;a href="#modification-de-_config_defaultlanguagestoml_">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>Modifié :&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-toml" data-lang="toml">
+[&lt;span style="color:#a6e22e">fr&lt;/span>]
+&lt;span style="color:#a6e22e">title&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Lobotourisme&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">LanguageName&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;French&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">weight&lt;/span> = &lt;span style="color:#ae81ff">1&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="modification-de-_config_defaultparamstoml_" >Modification de _./config/&lt;em>default/params.toml&lt;/em>
+&lt;span>
+&lt;a href="#modification-de-_config_defaultparamstoml_">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>Très long fichier, principales modifs :&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-toml" data-lang="toml">&lt;span style="color:#a6e22e">author&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Loboto&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">introDescription&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;(...)&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">enforceDarkMode&lt;/span> = &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;span style="color:#a6e22e">dateFormat&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;02/01/2006&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">since&lt;/span> = &lt;span style="color:#ae81ff">2021&lt;/span>
+&lt;span style="color:#a6e22e">footerLogo&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;logos/logo.png&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="création-dun-_menufrtoml_-à-partir-de-_menuentoml_" >Création d&amp;rsquo;un &lt;em>menu.fr.toml&lt;/em> à partir de &lt;em>menu.en.toml&lt;/em>
+&lt;span>
+&lt;a href="#cr%c3%a9ation-dun-_menufrtoml_-%c3%a0-partir-de-_menuentoml_">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">mv ./config/_default/menus/menu.en.toml ./config/_default/menus/menu.fr.toml
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Modifié pour le restreindre à 2 blocs :&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-toml" data-lang="toml">[[&lt;span style="color:#a6e22e">main&lt;/span>]]
+&lt;span style="color:#a6e22e">name&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;A propos&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">url&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;about/&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">weight&lt;/span> = &lt;span style="color:#ae81ff">-107&lt;/span>
+&lt;span style="color:#75715e"># social menu links&lt;/span>
+[[&lt;span style="color:#a6e22e">social&lt;/span>]]
+&lt;span style="color:#a6e22e">name&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;rss&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">weight&lt;/span> = &lt;span style="color:#ae81ff">4&lt;/span>
+&lt;span style="color:#a6e22e">url&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;index.xml&amp;#34;&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="modification-des-pages-principales" >Modification des pages principales
+&lt;span>
+&lt;a href="#modification-des-pages-principales">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;h3 id="modification-de-_contentaboutmd_" >Modification de &lt;em>./content/about.md&lt;/em>
+&lt;span>
+&lt;a href="#modification-de-_contentaboutmd_">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>Il s&amp;rsquo;agit juste d&amp;rsquo;une page normale, affichée lorsqu&amp;rsquo;on clique sur &amp;ldquo;à propos&amp;rdquo;.&lt;/p>
+&lt;h3 id="modification-de-_content_indexmd_" >Modification de _./content/&lt;em>index.md&lt;/em>
+&lt;span>
+&lt;a href="#modification-de-_content_indexmd_">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-toml" data-lang="toml">&lt;span style="color:#960050;background-color:#1e0010">+++&lt;/span>
+&lt;span style="color:#a6e22e">author&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Loboto&amp;#34;&lt;/span>
+&lt;span style="color:#a6e22e">description&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;Lobotourisme&amp;#34;&lt;/span>
+&lt;span style="color:#960050;background-color:#1e0010">+++&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="modification-des-templates" >Modification des templates
+&lt;span>
+&lt;a href="#modification-des-templates">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>Point important :
+&lt;em>Hugo&lt;/em> permet de passer outre n&amp;rsquo;importe quel élément du thème en mettant une version locale dans l&amp;rsquo;arborescence du site.&lt;/p>
+&lt;p>Exemple :
+_./layouts/&lt;em>default/single.html&lt;/em> sera pris en priorité sur _./themes/hugo-clarity/layouts/&lt;em>default/single.html&lt;/em>&lt;/p>
+&lt;p>Cela permet de modifier son site tout en ne touchant pas aux sources du thème. On peut donc toujours se référer à l&amp;rsquo;original ou revenir en arrière.&lt;/p>
+&lt;h3 id="template-des-articles-_singlehtml_" >Template des articles &lt;em>single.html&lt;/em>
+&lt;span>
+&lt;a href="#template-des-articles-_singlehtml_">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;hr>
+&lt;p>Edit du 10/05/2021 : Finalement je suis revenu au template initial, et je marque les éditions comme ici, pour pouvoir les contextualiser.&lt;/p>
+&lt;hr>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">mkdir -p ./layouts/_default
+cp ./themes/hugo-clarity/layouts/_default/single.html ./layouts/_default/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>J&amp;rsquo;ai ajouté la date de dernière mise à jour si le paramètre &lt;em>lastmod&lt;/em> existe :&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html"> {{ if $p.lastmod }}
+&amp;lt;&lt;span style="color:#f92672">blockquote&lt;/span>&amp;gt;&amp;lt;&lt;span style="color:#f92672">p&lt;/span>&amp;gt;Dernière mise à jour : &amp;lt;&lt;span style="color:#f92672">time&lt;/span> &lt;span style="color:#a6e22e">datetime&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;{{ $p.lastmod.Format &amp;#34;&lt;/span>&lt;span style="color:#a6e22e">Mon&lt;/span> &lt;span style="color:#a6e22e">Jan&lt;/span> &lt;span style="color:#a6e22e">10&lt;/span> &lt;span style="color:#a6e22e">17:13:38&lt;/span> &lt;span style="color:#a6e22e">2020&lt;/span> &lt;span style="color:#a6e22e">-0700&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">&amp;#34;&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">}}&amp;#34;&lt;/span>&amp;gt;{{ $p.lastmod.Format (default &amp;#34;Jan 2, 2006&amp;#34; $.Site.Params.dateFormat) }}&amp;lt;/&lt;span style="color:#f92672">time&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#f92672">p&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#f92672">blockquote&lt;/span>&amp;gt;
+{{ end }}
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="template-de-lentête-des-billets-_post-metahtml_" >Template de l&amp;rsquo;entête des billets &lt;em>post-meta.html&lt;/em>
+&lt;span>
+&lt;a href="#template-de-lent%c3%aate-des-billets-_post-metahtml_">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">mkdir -p ./layouts/partials
+cp ./themes/hugo-clarity/layouts/partials/post-meta.html ./layouts/partials/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>J&amp;rsquo;ai ajouté les catégories, avec un bouton plus imposant, avant les tags :&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">(...)
+&amp;lt;&lt;span style="color:#f92672">span&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;post_time&amp;#34;&lt;/span>&amp;gt; · {{ T &amp;#34;reading_time&amp;#34; . }}&amp;amp;nbsp;&amp;lt;/&lt;span style="color:#f92672">span&lt;/span>&amp;gt;
+{{ end }}
+{{- with .Params.categories -}}
+&amp;lt;&lt;span style="color:#f92672">span&lt;/span>&amp;gt;
+{{- range . }}
+{{- $category := urlize . }} ·
+&amp;lt;&lt;span style="color:#f92672">a&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#39;{{ absLangURL (printf &amp;#34;categories/%s&amp;#34; $category) }}&amp;#39;&lt;/span> &lt;span style="color:#a6e22e">title&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;{{ . }}&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;button button_translucent&amp;#34;&lt;/span>&amp;gt;
+{{- . }}
+&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;
+{{- end }}
+&amp;lt;/&lt;span style="color:#f92672">span&lt;/span>&amp;gt;
+{{- end }}
+{{- with .Params.tags -}}
+(...)
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="modification-de-_excerpthtml_-pour-afficher-les-miniatures-prises-dans-les-ressources-de-larticle--en-priorité-limage-nommée-cover-puis-en-second-choix-la-première-image-du-doc" >Modification de &lt;em>excerpt.html&lt;/em> pour afficher les miniatures prises dans les ressources de l&amp;rsquo;article : En priorité l&amp;rsquo;image nommée cover.*, puis en second choix la première image du doc
+&lt;span>
+&lt;a href="#modification-de-_excerpthtml_-pour-afficher-les-miniatures-prises-dans-les-ressources-de-larticle--en-priorit%c3%a9-limage-nomm%c3%a9e-cover-puis-en-second-choix-la-premi%c3%a8re-image-du-doc">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">mkdir -p ./layouts/partials
+cp ./themes/hugo-clarity/layouts/partials/excerpt.html ./layouts/partials/
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>J&amp;rsquo;ai remplacé toute la section thumbnails par l&amp;rsquo;algorithme suivant :&lt;/p>
+&lt;ul>
+&lt;li>Si il existe des ressources &amp;ldquo;image&amp;rdquo; du billet :
+&lt;ul>
+&lt;li>On prend la première image nommée cover.* et on l&amp;rsquo;affiche telle-quelle ;&lt;/li>
+&lt;li>Sinon on prend la première image trouvée, on la redimensionne en 300x300 et on l&amp;rsquo;affiche ;&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Sinon on n&amp;rsquo;affiche rien.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">(...)
+{{- with .Resources.ByType &amp;#34;image&amp;#34; }}
+&amp;lt;&lt;span style="color:#f92672">div&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;excerpt_footer partition&amp;#34;&lt;/span>&amp;gt;
+&amp;lt;&lt;span style="color:#f92672">div&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;excerpt_thumbnail&amp;#34;&lt;/span>&amp;gt;
+{{ with .GetMatch &amp;#34;{cover.*}&amp;#34; }}
+&amp;lt;&lt;span style="color:#f92672">img&lt;/span> &lt;span style="color:#a6e22e">src&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;{{ .Permalink }}&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">alt&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;{{ $.Title }}&amp;#34;&lt;/span>/&amp;gt;
+{{ else}}
+{{ with .GetMatch &amp;#34;{cover.*,*.jpg,*.png,*.jpeg}&amp;#34; }}
+{{ $cover := .Fit &amp;#34;300x300&amp;#34; }}
+{{ with $cover }}
+&amp;lt;&lt;span style="color:#f92672">img&lt;/span> &lt;span style="color:#a6e22e">src&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;{{ .Permalink }}&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">alt&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;{{ $.Title }}&amp;#34;&lt;/span>/&amp;gt;
+{{ end }}
+{{ end }}
+{{ end }}
+&amp;lt;/&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
+{{ else }}
+&amp;lt;&lt;span style="color:#f92672">div&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;excerpt_footer&amp;#34;&lt;/span>&amp;gt;
+{{- end }}
+(...)
+&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h3 id="mises-à-jour" >Mises à jour
+&lt;span>
+&lt;a href="#mises-%c3%a0-jour">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;em>10/05/2021 :&lt;/em> Modification du template &lt;em>single.html&lt;/em>.&lt;/li>
+&lt;li>&lt;em>14/05/2021 :&lt;/em> Depuis la rédaction de ce document, je suis passé au thème &lt;a href="https://github.com/statnmap/hugo-future-imperfect">hugo-future-imperfect&lt;/a> qui présente quelques fonctions supplémentaires et que je trouve plus élégant.&lt;/li>
+&lt;li>&lt;em>15/05/2021 :&lt;/em> Déplacement de la gestion des icônes dans une page dédiée : &lt;a href="https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/">Fabrication des favicons en masse avec Imagemagick&lt;/a>.&lt;/li>
+&lt;/ul></description></item></channel></rss>

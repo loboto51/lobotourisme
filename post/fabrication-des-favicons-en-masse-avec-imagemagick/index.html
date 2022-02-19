@@ -1,10 +1,13 @@
-<!doctype html><html>
+<!doctype html><html lang=fr-fr data-theme>
 <head>
-<title>Fabrication des favicons en masse avec Imagemagick</title>
 <meta charset=utf-8>
+<meta name=HandheldFriendly content="True">
 <meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=generator content="Hugo 0.92.2">
-<link rel=icon href=https://loboto51.github.io/lobotourisme/favicon.ico>
+<meta name=referrer content="no-referrer-when-downgrade">
+<title>Mémo : Fabrication des favicons en masse avec Imagemagick + fichiers de conf pour les navigateurs - Lobotourisme</title>
+<meta name=description content="Ci-dessous je liste une série de commandes Imagemagick permettant de générer toutes les variantes de favicons qu&rsquo;un site web peut proposer aux navigateurs, à partir d&rsquo;un original de bonne qualité.
+J&rsquo;indique en fin d&rsquo;article les 2 fichiers de conf à mettre à jour, ainsi qu&rsquo;une modif du thème Hugo, qui seront utiles pour que tous les navigateurs y retrouvent leurs petits.">
+<link rel=icon type=image/x-icon href=https://loboto51.github.io/lobotourisme/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://loboto51.github.io/lobotourisme/favicons/favicon-16x16.png>
 <link rel=icon type=image/png sizes=32x32 href=https://loboto51.github.io/lobotourisme/favicons/favicon-32x32.png>
 <link rel=icon type=image/png sizes=128x128 href=https://loboto51.github.io/lobotourisme/favicons/favicon-128x128.png>
@@ -16,247 +19,87 @@
 <link rel=apple-touch-icon-precomposed href=https://loboto51.github.io/lobotourisme/favicons/favicon-180x180.png>
 <link rel="shortcut icon" sizes=196x196 href=https://loboto51.github.io/lobotourisme/favicons/favicon-196x196.png>
 <meta name=msapplication-TileColor content="#FFFFFF">
-<meta name=msapplication-TileImage content="/favicons/favicon-144x144.png">
+<meta name=msapplication-TileImage content="https://loboto51.github.io/lobotourisme/favicons/favicon-144x144.png">
 <meta name=application-name content="Lobotourisme">
 <meta name=msapplication-tooltip content="Tooltip">
-<meta name=msapplication-config content="/ieconfig.xml">
-<meta name=description content="Lobotourisme - Mes notes sur diverses choses que je souhaite conserver ou partager, sur les protections moto, des petites docs linux, etc. Site statique Hugo">
-<meta name=twitter:card content="summary_large_image">
-<meta name=twitter:image content="https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/cover.jpg">
-<meta name=twitter:title content="Fabrication des favicons en masse avec Imagemagick">
-<meta name=twitter:description content="J&rsquo;ai fabriqué toutes les variantes d&rsquo;images de ce site avec des lignes de commande.
-Image originale J&rsquo;ai acheté une belle icône sur le très bon site The Noun Project : Space dessinée par Adrien Coquet.
-Je l&rsquo;ai modifiée dans Inkscape pour ajouter un peu de couleur, puis j&rsquo;ai généré une version PNG de 1024x1024 &ldquo;logo_large.png&rdquo; que j&rsquo;ai mise dans ./static/logos/.
-Génération des variantes J&rsquo;ai généré avec ImageMagick toutes les variantes recommandées par The 2020 Guide to FavIcons for Nearly Everyone and Every Browser ainsi que favicon-cheat-sheet:">
-<meta property="og:title" content="Fabrication des favicons en masse avec Imagemagick">
-<meta property="og:description" content="J&rsquo;ai fabriqué toutes les variantes d&rsquo;images de ce site avec des lignes de commande.
-Image originale J&rsquo;ai acheté une belle icône sur le très bon site The Noun Project : Space dessinée par Adrien Coquet.
-Je l&rsquo;ai modifiée dans Inkscape pour ajouter un peu de couleur, puis j&rsquo;ai généré une version PNG de 1024x1024 &ldquo;logo_large.png&rdquo; que j&rsquo;ai mise dans ./static/logos/.
-Génération des variantes J&rsquo;ai généré avec ImageMagick toutes les variantes recommandées par The 2020 Guide to FavIcons for Nearly Everyone and Every Browser ainsi que favicon-cheat-sheet:">
+<meta name=msapplication-config content="/lobotourisme/ieconfig.xml">
+<style>body{visibility:hidden;opacity:0}</style>
+<noscript>
+<style>body{visibility:visible;opacity:1}</style>
+</noscript>
+<link rel=stylesheet href=https://loboto51.github.io/lobotourisme/css/style.min.cff15ae98f02d073d218fa54a2ec573c41bfd9ae3161060330c0e49225089424.css integrity="sha256-z/Fa6Y8C0HPSGPpUouxXPEG/2a4xYQYDMMDkkiUIlCQ=">
+<script src=https://loboto51.github.io/lobotourisme/js/script.min.510c781c39dbb21b4c76d85c82e2bdf4689220adbb7cd61e49e9d293e442fb42.js type=text/javascript integrity="sha256-UQx4HDnbshtMdthcguK99GiSIK27fNYeSenSk+RC+0I="></script>
+<meta property="og:title" content="Mémo : Fabrication des favicons en masse avec Imagemagick + fichiers de conf pour les navigateurs">
+<meta property="og:description" content="Ci-dessous je liste une série de commandes Imagemagick permettant de générer toutes les variantes de favicons qu&rsquo;un site web peut proposer aux navigateurs, à partir d&rsquo;un original de bonne qualité.
+J&rsquo;indique en fin d&rsquo;article les 2 fichiers de conf à mettre à jour, ainsi qu&rsquo;une modif du thème Hugo, qui seront utiles pour que tous les navigateurs y retrouvent leurs petits.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/"><meta property="og:image" content="https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/cover.jpg"><meta property="article:section" content="post">
+<meta property="og:url" content="https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/"><meta property="article:section" content="post">
 <meta property="article:published_time" content="2021-05-15T00:00:00+00:00">
 <meta property="article:modified_time" content="2021-05-15T00:00:00+00:00">
-<meta property="og:image" content="/favicons/favicon-128x128.png">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="128">
-<meta property="og:image:height" content="128">
-<meta itemprop=name content="Fabrication des favicons en masse avec Imagemagick">
-<meta itemprop=description content="J&rsquo;ai fabriqué toutes les variantes d&rsquo;images de ce site avec des lignes de commande.
-Image originale J&rsquo;ai acheté une belle icône sur le très bon site The Noun Project : Space dessinée par Adrien Coquet.
-Je l&rsquo;ai modifiée dans Inkscape pour ajouter un peu de couleur, puis j&rsquo;ai généré une version PNG de 1024x1024 &ldquo;logo_large.png&rdquo; que j&rsquo;ai mise dans ./static/logos/.
-Génération des variantes J&rsquo;ai généré avec ImageMagick toutes les variantes recommandées par The 2020 Guide to FavIcons for Nearly Everyone and Every Browser ainsi que favicon-cheat-sheet:"><meta itemprop=datePublished content="2021-05-15T00:00:00+00:00">
-<meta itemprop=dateModified content="2021-05-15T00:00:00+00:00">
-<meta itemprop=wordCount content="428"><meta itemprop=image content="https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/cover.jpg">
-<meta itemprop=keywords content="hugo,imagemagick,">
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css>
-<link rel=stylesheet href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
-<link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css>
-<link rel=stylesheet href=https://loboto51.github.io/lobotourisme/css/main.css>
-<link rel=stylesheet href=https://loboto51.github.io/lobotourisme/css/add-on.css>
-<link rel=stylesheet href=https://loboto51.github.io/lobotourisme/css/academicons.min.css>
-<link href=//cdn.bootcss.com/highlight.js/9.11.0/styles/github.min.css rel=stylesheet type=text/css>
-<script src=//code.jquery.com/jquery-3.3.1.min.js integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=anonymous></script>
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content="Mémo : Fabrication des favicons en masse avec Imagemagick + fichiers de conf pour les navigateurs">
+<meta name=twitter:description content="Ci-dessous je liste une série de commandes Imagemagick permettant de générer toutes les variantes de favicons qu&rsquo;un site web peut proposer aux navigateurs, à partir d&rsquo;un original de bonne qualité.
+J&rsquo;indique en fin d&rsquo;article les 2 fichiers de conf à mettre à jour, ainsi qu&rsquo;une modif du thème Hugo, qui seront utiles pour que tous les navigateurs y retrouvent leurs petits.">
+<link rel=webmention href=https://webmention.io/hugo-theme-anubis/webmention>
+<link rel=pingback href=https://webmention.io/hugo-theme-anubis/xmlrpc>
+<link rel=webmention href=https://yourdomain.com/webemntions/receive>
 </head>
 <body>
-<div id=wrapper>
-<header id=header>
-<h1><a href=https://loboto51.github.io/lobotourisme/>post</a></h1>
-<nav class=links>
-<ul>
+<a class=skip-main href=#main>Aller au contenu</a>
+<div class=container>
+<header class=common-header>
+<div class=header-top>
+<h1 class=site-title>
+<a href=/lobotourisme><img src=https://loboto51.github.io/lobotourisme/favicons/favicon-16x16.png> Lobotourisme</a>
+</h1>
+<ul class=social-icons>
 <li>
-<a href=https://loboto51.github.io/lobotourisme/>
-<i class="fa fa-home">&nbsp;</i>Accueil
+<a href=https://github.com/loboto51/ title=Github rel=me>
+<span class=inline-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentcolor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6.0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6.0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3.0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1.0-6.2-.3-40.4-.3-61.4.0.0-70 15-84.7-29.8.0.0-11.4-29.1-27.8-36.6.0.0-22.9-15.7 1.6-15.4.0.0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5.0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9.0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4.0 33.7-.3 75.4-.3 83.6.0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6.0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9.0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span>
 </a>
 </li>
 <li>
-<a href=https://loboto51.github.io/lobotourisme/categories/moto/>
-<i class="fa fa-moto">&nbsp;</i>Moto
-</a>
-</li>
-<li>
-<a href=https://loboto51.github.io/lobotourisme/categories/dev/>
-<i class="fa fa-dev">&nbsp;</i>Dev
-</a>
-</li>
-<li>
-<a href=https://loboto51.github.io/lobotourisme/categories/photo/>
-<i class="fa fa-ecologie">&nbsp;</i>Photo
-</a>
-</li>
-<li>
-<a href=https://loboto51.github.io/lobotourisme/contact/>
-<i class="fa fa-envelope-o">&nbsp;</i>Contact
+<a href=https://loboto51.github.io/lobotourisme/index.xml title=RSS rel=me>
+<span class=inline-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentcolor" d="M128.081 415.959c0 35.369-28.672 64.041-64.041 64.041S0 451.328.0 415.959s28.672-64.041 64.041-64.041 64.04 28.673 64.04 64.041zm175.66 47.25c-8.354-154.6-132.185-278.587-286.95-286.95C7.656 175.765.0 183.105.0 192.253v48.069c0 8.415 6.49 15.472 14.887 16.018 111.832 7.284 201.473 96.702 208.772 208.772.547 8.397 7.604 14.887 16.018 14.887h48.069c9.149.001 16.489-7.655 15.995-16.79zm144.249.288C439.596 229.677 251.465 40.445 16.503 32.01 7.473 31.686.0 38.981.0 48.016v48.068c0 8.625 6.835 15.645 15.453 15.999 191.179 7.839 344.627 161.316 352.465 352.465.353 8.618 7.373 15.453 15.999 15.453h48.068c9.034-.001 16.329-7.474 16.005-16.504z"/></svg>
+</span>
 </a>
 </li>
 </ul>
-</nav>
-<nav class=main>
-<ul>
-<li id=share-nav class=share-menu style=display:none>
-<a class=fa-share-alt href=#share-menu>Share</a>
-</li>
-<li class=search>
-<a class=fa-search href=#search>Search</a>
-<form id=search method=get action=//google.com/search>
-<input type=text name=q placeholder=Search>
-<input type=hidden name=as_sitesearch value=https://loboto51.github.io/lobotourisme/>
-</form>
-</li>
-<li class=menu>
-<a class=fa-bars href=#menu>Menu</a>
-</li>
-</ul>
+</div>
+<nav>
+<a href=https://loboto51.github.io/lobotourisme/tags/ title=Tags>Tags</a>
+<a href=https://loboto51.github.io/lobotourisme/categories/photo/ title=Photo>Photo</a>
+<a href=https://loboto51.github.io/lobotourisme/categories/dev/ title=Dev>Dev</a>
+<a href=https://loboto51.github.io/lobotourisme/categories/%C3%A9cologie/ title=Ecologie>Ecologie</a>
+<a href=https://loboto51.github.io/lobotourisme/categories/moto/ title=Moto>Moto</a>
+<a href=https://loboto51.github.io/lobotourisme/about/ title="A propos">A propos</a>
 </nav>
 </header>
-<section id=menu>
-<section>
-<form class=search method=get action=//google.com/search>
-<input type=text name=q placeholder=Search>
-<input type=hidden name=as_sitesearch value=https://loboto51.github.io/lobotourisme/>
-</form>
-</section>
-<section>
-<ul class=links>
-<li>
-<a href=https://loboto51.github.io/lobotourisme/>
-<h3>
-<i class="fa fa-home">&nbsp;</i>Accueil
-</h3>
-</a>
-</li>
-<li>
-<a href=https://loboto51.github.io/lobotourisme/categories/moto/>
-<h3>
-<i class="fa fa-moto">&nbsp;</i>Moto
-</h3>
-</a>
-</li>
-<li>
-<a href=https://loboto51.github.io/lobotourisme/categories/dev/>
-<h3>
-<i class="fa fa-dev">&nbsp;</i>Dev
-</h3>
-</a>
-</li>
-<li>
-<a href=https://loboto51.github.io/lobotourisme/categories/photo/>
-<h3>
-<i class="fa fa-ecologie">&nbsp;</i>Photo
-</h3>
-</a>
-</li>
-<li>
-<a href=https://loboto51.github.io/lobotourisme/contact/>
-<h3>
-<i class="fa fa-envelope-o">&nbsp;</i>Contact
-</h3>
-</a>
-</li>
-</ul>
-</section>
-<section class=recent-posts>
-<div class=mini-posts>
+<main id=main tabindex=-1>
+<article class="post h-entry">
+<div class=post-header>
 <header>
-<h3>Posts récents</h3>
+<h1 class="p-name post-title">Mémo : Fabrication des favicons en masse avec Imagemagick + fichiers de conf pour les navigateurs</h1>
 </header>
-<article class=mini-post>
-<header>
-<h3><a href=https://loboto51.github.io/lobotourisme/post/back-button-focus-sur-lolympus-om-d-em-5-ii/>Back button focus sur l'Olympus OM-D EM-5 II</a></h3>
-<time class=published datetime=2022-02-16>
-16/02/2022</time>
-</header>
-</article>
-<article class=mini-post>
-<header>
-<h3><a href=https://loboto51.github.io/lobotourisme/post/>Post</a></h3>
-<time class=published datetime=2022-02-16>
-16/02/2022</time>
-</header>
-</article>
-<article class=mini-post>
-<header>
-<h3><a href=https://loboto51.github.io/lobotourisme/post/petit-inventaire-des-casques-ece-22.06-%C3%A0-moins-de-400e-d%C3%A9but-2022/>Petit inventaire des casques ECE 22.06 à moins de 400e début 2022</a></h3>
-<time class=published datetime=2022-02-05>
-05/02/2022</time>
-</header>
-<a href=https://loboto51.github.io/lobotourisme/post/petit-inventaire-des-casques-ece-22.06-%C3%A0-moins-de-400e-d%C3%A9but-2022/ class="image featured">
-<img src=https://loboto51.github.io/lobotourisme/post/petit-inventaire-des-casques-ece-22.06-%C3%A0-moins-de-400e-d%C3%A9but-2022/cover.jpg alt="Petit inventaire des casques ECE 22.06 à moins de 400e début 2022">
-</a>
-</article>
-<article class=mini-post>
-<header>
-<h3><a href=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/>Bottes moto Stylmartin Rocket</a></h3>
-<time class=published datetime=2021-05-17>
-17/05/2021</time>
-</header>
-<a href=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/ class="image featured">
-<img src=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/cover.jpg alt="Bottes moto Stylmartin Rocket">
-</a>
-</article>
-<article class=mini-post>
-<header>
-<h3><a href=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/>Fabrication des favicons en masse avec Imagemagick</a></h3>
-<time class=published datetime=2021-05-15>
-15/05/2021</time>
-</header>
-<a href=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/ class="image featured">
-<img src=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/cover.jpg alt="Fabrication des favicons en masse avec Imagemagick">
-</a>
-</article>
-<a href=/blog/ class=button>Voir plus</a>
 </div>
-</section>
-</section>
-<section id=share-menu>
-<section id=social-share-nav>
-<ul class=links>
-<header>
-<h3>Partager ce post <i class="fa fa-smile-o"></i></h3>
-</header>
-<li>
-<a href="mailto:?subject=Check out this post by &body=https%3a%2f%2floboto51.github.io%2flobotourisme%2fpost%2ffabrication-des-favicons-en-masse-avec-imagemagick%2f" target=_blank class="share-btn email">
-<i class="fa fa-envelope"></i>
-<p>Email</p>
+<div class="content e-content">
+<p>Ci-dessous je liste une série de commandes Imagemagick permettant de générer toutes les variantes de favicons qu&rsquo;un site web peut proposer aux navigateurs, à partir d&rsquo;un original de bonne qualité.</p>
+<p>J&rsquo;indique en fin d&rsquo;article les 2 fichiers de conf à mettre à jour, ainsi qu&rsquo;une modif du thème Hugo, qui seront utiles pour que tous les navigateurs y retrouvent leurs petits.</p>
+<h2 id=image-originale>Image originale
+<span>
+<a href=#image-originale><svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
 </a>
-</li>
-</ul>
-</section>
-</section>
-<div id=main>
-<article class=post>
-<header>
-<div class=title>
-<h1><a href=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/>Fabrication des favicons en masse avec Imagemagick</a></h1>
-</div>
-<div class=meta>
-<time class=published datetime="2021-05-15 00:00:00 +0000 UTC">
-15/05/2021</time>
-<span class=author></span>
-<p>3 minutes</p>
-</div>
-</header>
-<div>
-<div id=go-to-folding-div style=display:inline-block;vertical-align:top;height:1px;margin-top:-4em></div>
-<div id=code-folding-buttons class="btn-group pull-right">
-<button type=button class="btn btn-default btn-xs dropdown-toggle" data-toggle=dropdown aria-haspopup=true aria-expanded=true data-_extension-text-contrast>
-<span>Afficher/Masquer codes</span>
-<span class=caret></span>
-</button>
-<ul class=dropdown-menu style=min-width:50px>
-<li><a id=rmd-show-all-code href=#go-to-folding-div>Afficher tous codes</a>
-</li><li><a id=rmd-hide-all-code href=#go-to-folding-div>Masquer tous codes</a></li>
-</ul>
-</div>
-<br>
-<div id=content class=article-entry>
-<p>J&rsquo;ai fabriqué toutes les variantes d&rsquo;images de ce site avec des lignes de commande.</p>
-<h2 id=image-originale>Image originale</h2>
-<p>J&rsquo;ai acheté une belle icône sur le très bon site <a href=https://thenounproject.com/>The Noun Project</a> : <a href=https://thenounproject.com/term/space/2217279/>Space dessinée par Adrien Coquet</a>.</p>
-<p>Je l&rsquo;ai modifiée dans <em>Inkscape</em> pour ajouter un peu de couleur, puis j&rsquo;ai généré une version PNG de 1024x1024 &ldquo;<em>logo_large.png</em>&rdquo; que j&rsquo;ai mise dans <em>./static/logos/</em>.</p>
-<h3 id=génération-des-variantes>Génération des variantes</h3>
-<p>J&rsquo;ai généré avec ImageMagick toutes les variantes recommandées par <a href=https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/>The 2020 Guide to FavIcons for Nearly Everyone and Every Browser</a> ainsi que <a href=https://github.com/audreyfeldroy/favicon-cheat-sheet>favicon-cheat-sheet</a>:</p>
+</span>
+</h2><p>J&rsquo;ai acheté une belle icône sur le très bon site <a href=https://thenounproject.com/>The Noun Project</a> : <a href=https://thenounproject.com/term/space/2217279/>Space dessinée par Adrien Coquet</a>.</p>
+<p>Je l&rsquo;ai modifiée dans <em>Inkscape</em> pour ajouter un bord, puis j&rsquo;ai généré une version PNG de 1024x1024 &ldquo;<em>logo_large.png</em>&rdquo; que j&rsquo;ai mise dans <em>./static/logos/</em> :</p>
+<p><img src=logo_large.png alt=logo_large.png></p>
+<h3 id=génération-des-variantes>Génération des variantes
+<span>
+<a href=#g%c3%a9n%c3%a9ration-des-variantes><svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+</a>
+</span>
+</h3><p>Variantes recommandées par <a href=https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/>The 2020 Guide to FavIcons for Nearly Everyone and Every Browser</a> ainsi que <a href=https://github.com/audreyfeldroy/favicon-cheat-sheet>favicon-cheat-sheet</a>:</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>mkdir -p ./static/favicons/
 
 <span style=color:#75715e>#favicon-16x16.png</span>
@@ -279,10 +122,11 @@ convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x1 ./static/favi
 convert ./static/logos/logo_large.png -resize 196x196 -unsharp 0x1 ./static/favicons/favicon-196x196.png
 <span style=color:#75715e>#favicon-256x256.png</span>
 convert ./static/logos/logo_large.png -resize 256x256 -unsharp 0x1 ./static/favicons/favicon-256x256.png
-</code></pre></div><p>Fabriquons le .ico :</p>
+</code></pre></div><p><img src=favicon-16x16.png alt=favicon-16x16.png><img src=favicon-32x32.png alt=favicon-32x32.png><img src=favicon-48x48.png alt=favicon-48x48.png><img src=favicon-128x128.png alt=favicon-128x128.png><img src=favicon-152x152.png alt=favicon-152x152.png><img src=favicon-167x167.png alt=favicon-167x167.png><img src=favicon-180x180.png alt=favicon-180x180.png><img src=favicon-192x192.png alt=favicon-192x192.png><img src=favicon-196x196.png alt=favicon-196x196.png><img src=favicon-256x256.png alt=favicon-256x256.png></p>
+<p>La favicon au format &ldquo;<em>.ico</em>&rdquo; combine 3 formats, 16x16, 32x32 et 48x48 en un seul conteneur :</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=color:#75715e>#favicon.ico</span>
-convert ./static/favicons/favicon-16x16.png ./static/favicons/favicon-32x32.png ./static/favicons/favicon-48x48.png ./favicon.ico
-</code></pre></div><p>Spécifiques à un navigateur :</p>
+convert ./static/favicons/favicon-16x16.png ./static/favicons/favicon-32x32.png ./static/favicons/favicon-48x48.png ./static/favicon.ico
+</code></pre></div><p>Les favicons spécifiques à un navigateur :</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=color:#75715e>#mstiles 70x70</span>
 convert ./static/logos/logo_large.png -resize 70x70 -unsharp 0x1 ./static/favicons/mstiles-70x70.png
 <span style=color:#75715e>#mstiles 144x144</span>
@@ -291,8 +135,16 @@ convert ./static/logos/logo_large.png -resize 144x144 -unsharp 0x1 ./static/favi
 convert ./static/logos/logo_large.png -resize 150x150 -unsharp 0x1  -background transparent -gravity center -extent 310x150 ./static/favicons/mstiles-310x150.png
 <span style=color:#75715e>#mstiles 310x310</span>
 convert ./static/logos/logo_large.png -resize 310x310 -unsharp 0x1 ./static/favicons/mstiles-310x310.png
-</code></pre></div><h3 id=fichier-ieconfigxml>Fichier ieconfig.xml</h3>
-<p>Je l&rsquo;ai mis à la racine.</p>
+</code></pre></div><p><img src=mstiles-70x70.png alt=mstiles-70x70.png>
+<img src=mstiles-144x144.png alt=mstiles-144x144.png>
+<img src=mstiles-310x150.png alt=mstiles-310x150.png>
+<img src=mstiles-310x310.png alt=mstiles-310x310.png></p>
+<h3 id=fichier-ieconfigxml>Fichier ieconfig.xml
+<span>
+<a href=#fichier-ieconfigxml><svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+</a>
+</span>
+</h3><p>Je l&rsquo;ai mis à la racine.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-xml data-lang=xml><span style=color:#75715e>&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;</span>
     <span style=color:#f92672>&lt;browserconfig&gt;</span>
       <span style=color:#f92672>&lt;msapplication&gt;</span>
@@ -305,8 +157,12 @@ convert ./static/logos/logo_large.png -resize 310x310 -unsharp 0x1 ./static/favi
         <span style=color:#f92672>&lt;/tile&gt;</span>
       <span style=color:#f92672>&lt;/msapplication&gt;</span>
     <span style=color:#f92672>&lt;/browserconfig&gt;</span>
-</code></pre></div><h3 id=fichier-webmanifest>Fichier webmanifest</h3>
-<p>Je l&rsquo;ai mis à la racine.</p>
+</code></pre></div><h3 id=fichier-webmanifest>Fichier webmanifest
+<span>
+<a href=#fichier-webmanifest><svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+</a>
+</span>
+</h3><p>Je l&rsquo;ai mis à la racine.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-json data-lang=json>{
     <span style=color:#f92672>&#34;name&#34;</span>: <span style=color:#e6db74>&#34;Lobotourisme&#34;</span>,
     <span style=color:#f92672>&#34;short_name&#34;</span>: <span style=color:#e6db74>&#34;Lobotourisme&#34;</span>,
@@ -327,8 +183,12 @@ convert ./static/logos/logo_large.png -resize 310x310 -unsharp 0x1 ./static/favi
     <span style=color:#f92672>&#34;display&#34;</span>: <span style=color:#e6db74>&#34;standalone&#34;</span>
 }
 
-</code></pre></div><h3 id=modification-du-thème>Modification du thème</h3>
-<p>Trouver le <em>layout</em> qui liste les favicons et y ajouter :</p>
+</code></pre></div><h3 id=modification-du-thème-hugo-pour-quil-exploite-toutes-nos-variantes-de-favicons>Modification du thème Hugo pour qu&rsquo;il exploite toutes nos variantes de favicons
+<span>
+<a href=#modification-du-th%c3%a8me-hugo-pour-quil-exploite-toutes-nos-variantes-de-favicons><svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
+</a>
+</span>
+</h3><p>Trouver le <em>layout</em> qui liste les favicons et y ajouter :</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html>  &lt;<span style=color:#f92672>link</span> <span style=color:#a6e22e>rel</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;icon&#34;</span> <span style=color:#a6e22e>href</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#39;{{ &#34;favicon/favicon.png&#34; | relURL }}&#39;</span>&gt;
   &lt;<span style=color:#f92672>link</span> <span style=color:#a6e22e>rel</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;icon&#34;</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;image/png&#34;</span> <span style=color:#a6e22e>sizes</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;16x16&#34;</span> <span style=color:#a6e22e>href</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#39;{{ &#34;favicon/favicon-16x16.png&#34; | relURL }}&#39;</span>&gt;
   &lt;<span style=color:#f92672>link</span> <span style=color:#a6e22e>rel</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;icon&#34;</span> <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;image/png&#34;</span> <span style=color:#a6e22e>sizes</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;32x32&#34;</span> <span style=color:#a6e22e>href</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#39;{{ &#34;favicon/favicon-32x32.png&#34; | relURL }}&#39;</span>&gt;
@@ -348,275 +208,61 @@ convert ./static/logos/logo_large.png -resize 310x310 -unsharp 0x1 ./static/favi
   &lt;<span style=color:#f92672>meta</span> <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;msapplication-config&#34;</span> <span style=color:#a6e22e>content</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#39;{{ &#34;ieconfig.xml&#34; | relURL }}&#39;</span>&gt;
 </code></pre></div>
 </div>
-</div>
-<footer>
-<ul class=stats>
-<li class=categories>
-<ul>
-<i class="fa fa-folder"></i>
-<li><a class=article-category-link href=https://loboto51.github.io/lobotourisme/categories/dev>dev</a></li>
+<div class=post-info>
+<div class="post-date dt-published">15/05/2021</div>
+<a class="post-hidden-url u-url" href=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/>https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/</a>
+<a href=https://loboto51.github.io/lobotourisme/ class="p-name p-author post-hidden-author h-card" rel=me>Loboto</a>
+<div class=post-taxonomies>
+<ul class=post-categories>
+<li><a href=https://loboto51.github.io/lobotourisme/categories/dev/>dev</a></li>
 </ul>
-</li>
-<li class=tags>
-<ul>
-<i class="fa fa-tags"></i>
-<li><a class=article-category-link href=https://loboto51.github.io/lobotourisme/tags/hugo>hugo</a></li>
-<li><a class=article-category-link href=https://loboto51.github.io/lobotourisme/tags/imagemagick>imagemagick</a></li>
-</ul>
-</li>
-</ul>
-<script>$(document).ready(function(){window.initializeCodeFolding("show"==="hide")})</script>
-<script>window.initializeCodeFolding=function(a){var b,c;$("#rmd-show-all-code").click(function(){$('div.r-code-collapse').each(function(){$(this).collapse('show')})}),$("#rmd-hide-all-code").click(function(){$('div.r-code-collapse').each(function(){$(this).collapse('hide')})}),b=1,c=$('pre.sourceCode, pre.r, pre.python, pre.bash, pre.sql, pre.cpp, pre.stan, pre.js, pre.css, pre.html, pre.yaml'),c.each(function(){var c=$('<div class="collapse r-code-collapse"></div>'),d,e,f,g,h;a&&c.addClass('in'),d='rcode-643E0F36'+b++,c.attr('id',d),$(this).before(c),$(this).detach().appendTo(c),e=$('<span>'+(a?'Masquer':'Code')+'</span>'),f=$('<button type="button" class="btn btn-default btn-xs code-folding-btn pull-right"></button>'),f.append(e),f.attr('data-toggle','collapse').attr('data-target','#'+d).attr('aria-expanded',a).attr('aria-controls',d),g=$('<div class="row"></div>'),h=$('<div class="col-md-12"></div>'),h.append(f),g.append(h),c.before(g),c.on('hidden.bs.collapse',function(){e.text('Code')}),c.on('show.bs.collapse',function(){e.text('Masquer')})})}</script>
-</footer>
-<div class=related-articles>
-<h3>Articles similaires</h3>
-<ul>
-<li>
-<ul>
-<article class=mini-post>
-<header>
-<h3>
-<a href=https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/>Fabrication de miniatures avec extrapolation des bords avec Imagemagick</a>
-</h3>
-<time class=published datetime="2021-05-07 00:00:00 +0000 UTC">
-07/05/2021</time>
-</header>
-<a href=https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/ class="image featured">
-<img src=https://loboto51.github.io/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/cover.jpg alt="Fabrication de miniatures avec extrapolation des bords avec Imagemagick">
-</a>
-</article>
-</ul>
-<ul>
-<article class=mini-post>
-<header>
-<h3>
-<a href=https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/>Mémo des modifications du thème hugo-clarity</a>
-</h3>
-<time class=published datetime="2021-05-02 00:00:00 +0000 UTC">
-02/05/2021</time>
-</header>
-<a href=https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/ class="image featured">
-<img src=https://loboto51.github.io/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/cover.jpg alt="Mémo des modifications du thème hugo-clarity">
-</a>
-</article>
-</ul>
-<ul>
-<article class=mini-post>
-<header>
-<h3>
-<a href=https://loboto51.github.io/lobotourisme/post/solutions-pour-g%C3%A9rer-des-commentaires-sur-hugo-+-github-pages/>Solutions pour gérer des commentaires sur Hugo + Github Pages</a>
-</h3>
-<time class=published datetime="2021-05-10 00:00:00 +0000 UTC">
-10/05/2021</time>
-</header>
-<a href=https://loboto51.github.io/lobotourisme/post/solutions-pour-g%C3%A9rer-des-commentaires-sur-hugo-+-github-pages/ class="image featured">
-<img src=https://loboto51.github.io/lobotourisme/post/solutions-pour-g%C3%A9rer-des-commentaires-sur-hugo-+-github-pages/cover.jpg alt="Solutions pour gérer des commentaires sur Hugo + Github Pages">
-</a>
-</article>
-</ul>
-</li>
+<ul class=post-tags>
+<li><a href=https://loboto51.github.io/lobotourisme/tags/hugo/>#hugo</a></li>
+<li><a href=https://loboto51.github.io/lobotourisme/tags/imagemagick/>#imagemagick</a></li>
 </ul>
 </div>
+</div>
 </article>
+<h3 class=read-next-title>Lire la suite</h3>
+<ul class=read-next-posts>
+<li><a href=/lobotourisme/post/m%C3%A9mo-des-modifications-du-th%C3%A8me-hugo-clarity/>Mémo des modifications du thème hugo-clarity</a></li>
+<li><a href=/lobotourisme/post/solutions-pour-g%C3%A9rer-des-commentaires-sur-hugo-+-github-pages/>Solutions pour gérer des commentaires sur Hugo + Github Pages</a></li>
+<li><a href=/lobotourisme/post/fabrication-de-miniatures-avec-extrapolation-des-bords-avec-imagemagick/>3 méthodes Imagemagick pour remplir les zones vides d'une image recadrée</a></li>
+<li><a href=/lobotourisme/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/>Déployer un site web statique Hugo sur Github Pages</a></li>
+</ul>
+<div class="pagination post-pagination">
+<div class="left pagination-item">
+<a href=/lobotourisme/post/bottes-moto-stylmartin-rocket/>Bottes moto Stylmartin Rocket</a>
+</div>
+<div class="right pagination-item">
+<a href=/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/>Protections moto SAS-TEC SC-1-06EVO</a>
+</div>
+</div>
+<script src=https://utteranc.es/client.js repo=loboto51/lobotourisme theme=github-light label issue-term=url crossorigin=anonymous async></script>
 <article class=post>
-<p>Si ce contenu vous a intéressé, vous pouvez me laisser un commentaire en utilisant votre compte Github ci-dessous, ou en m'envoyant un mail via <a href=https://loboto51.github.io/lobotourisme/contact/>le formulaire de contact</a>.</p>
-<script src=https://utteranc.es/client.js repo=loboto51/lobotourisme issue-term=pathname theme=github-light crossorigin=anonymous async></script>
-</article>
-<ul class="actions pagination">
-<li><a href=https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/ class="button big previous">Protections moto SAS-TEC SC-1-06EVO</a></li>
-<li><a href=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/ class="button big next">Bottes moto Stylmartin Rocket</a></li>
-</ul>
+<script data-isso=https://comments.example.com/ data-isso-id=thread-id data-isso-css=true data-isso-lang=de data-isso-reply-to-self=true data-isso-require-author=true data-isso-require-email=true data-isso-avatar=true data-isso-avatar-bg=#f0f0f0 src=https://comments.example.com/js/embed.min.js></script>
+<noscript>Please enable JavaScript to view the comments powered by <a href=https://posativ.org/isso/>Isso</a>.</noscript>
+<div>
+<section id=isso-thread></section>
 </div>
-<section id=sidebar>
-<section id=intro>
-<a href=https://loboto51.github.io/lobotourisme/><img src=https://loboto51.github.io/lobotourisme/favicons/favicon-128x128.png width=128 alt=Lobotourisme></a>
-<header>
-<h2>Lobotourisme</h2>
-<p>Bloc-note de l'espaaace</p>
-</header>
-<ul class=icons>
-<li><a href=//github.com/loboto51 target=_blank title=GitHub class="fa fa-github"></a></li>
-</ul>
-</section>
-<section class=recent-posts>
-<div class=mini-posts>
-<header>
-<h3>Posts récents</h3>
-</header>
-<div class=posts-container>
-<article class=mini-post>
-<header>
-<h3>
-<a href=https://loboto51.github.io/lobotourisme/post/back-button-focus-sur-lolympus-om-d-em-5-ii/>Back button focus sur l'Olympus OM-D EM-5 II</a>
-</h3>
-<time class=published datetime="2022-02-16 00:00:00 +0000 UTC">
-16/02/2022</time>
-</header>
 </article>
-<article class=mini-post>
-<header>
-<h3>
-<a href=https://loboto51.github.io/lobotourisme/post/petit-inventaire-des-casques-ece-22.06-%C3%A0-moins-de-400e-d%C3%A9but-2022/>Petit inventaire des casques ECE 22.06 à moins de 400e début 2022</a>
-</h3>
-<time class=published datetime="2022-02-05 00:00:00 +0000 UTC">
-05/02/2022</time>
-</header>
-<a href=https://loboto51.github.io/lobotourisme/post/petit-inventaire-des-casques-ece-22.06-%C3%A0-moins-de-400e-d%C3%A9but-2022/ class="image featured">
-<img src=https://loboto51.github.io/lobotourisme/post/petit-inventaire-des-casques-ece-22.06-%C3%A0-moins-de-400e-d%C3%A9but-2022/cover.jpg alt="Petit inventaire des casques ECE 22.06 à moins de 400e début 2022">
-</a>
-</article>
-<article class=mini-post>
-<header>
-<h3>
-<a href=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/>Bottes moto Stylmartin Rocket</a>
-</h3>
-<time class=published datetime="2021-05-17 00:00:00 +0000 UTC">
-17/05/2021</time>
-</header>
-<a href=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/ class="image featured">
-<img src=https://loboto51.github.io/lobotourisme/post/bottes-moto-stylmartin-rocket/cover.jpg alt="Bottes moto Stylmartin Rocket">
-</a>
-</article>
-<article class=mini-post>
-<header>
-<h3>
-<a href=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/>Fabrication des favicons en masse avec Imagemagick</a>
-</h3>
-<time class=published datetime="2021-05-15 00:00:00 +0000 UTC">
-15/05/2021</time>
-</header>
-<a href=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/ class="image featured">
-<img src=https://loboto51.github.io/lobotourisme/post/fabrication-des-favicons-en-masse-avec-imagemagick/cover.jpg alt="Fabrication des favicons en masse avec Imagemagick">
-</a>
-</article>
-<article class=mini-post>
-<header>
-<h3>
-<a href=https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/>Protections moto SAS-TEC SC-1-06EVO</a>
-</h3>
-<time class=published datetime="2021-05-15 00:00:00 +0000 UTC">
-15/05/2021</time>
-</header>
-<a href=https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/ class="image featured">
-<img src=https://loboto51.github.io/lobotourisme/post/protections-moto-sas-tec-sc-1-06-evo/cover.jpg alt="Protections moto SAS-TEC SC-1-06EVO">
-</a>
-</article>
+</main>
+<footer class=common-footer>
+<div class=common-footer-bottom>
+<div class=copyright>
+<p>© Loboto, 2022<br>
+Propulsé par <a target=_blank rel="noopener noreferrer" href=https://gohugo.io/>Hugo</a>, thème <a target=_blank rel="noopener noreferrer" href=https://github.com/mitrichius/hugo-theme-anubis>Anubis</a>.<br>
+</p>
 </div>
-<a href=/blog/ class=button>Voir plus</a>
+<script>const STORAGE_KEY='user-color-scheme',defaultTheme="light-without-switcher";let currentTheme,switchButton,autoDefinedScheme=window.matchMedia('(prefers-color-scheme: dark)');const autoChangeScheme=a=>{currentTheme=a.matches?'dark':'light',document.documentElement.setAttribute('data-theme',currentTheme),changeButtonText()};document.addEventListener('DOMContentLoaded',function(){switchButton=document.querySelector('.theme-switcher'),currentTheme=detectCurrentScheme(),currentTheme=='dark'&&document.documentElement.setAttribute('data-theme','dark'),currentTheme=='auto'&&(autoChangeScheme(autoDefinedScheme),autoDefinedScheme.addListener(autoChangeScheme)),switchButton&&(changeButtonText(),switchButton.addEventListener('click',switchTheme,!1)),showContent()});function detectCurrentScheme(){return localStorage.getItem(STORAGE_KEY)?localStorage.getItem(STORAGE_KEY):defaultTheme?defaultTheme:window.matchMedia?window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light':'light'}function changeButtonText(a){a&&(a.textContent=currentTheme=='dark'?"Thème clair":"Thème sombre")}function switchTheme(a){currentTheme=='dark'?(localStorage.setItem(STORAGE_KEY,'light'),document.documentElement.setAttribute('data-theme','light'),currentTheme='light'):(localStorage.setItem(STORAGE_KEY,'dark'),document.documentElement.setAttribute('data-theme','dark'),currentTheme='dark'),changeButtonText()}function showContent(){document.body.style.visibility='visible',document.body.style.opacity=1}</script>
 </div>
-</section>
-<section id=categories>
-<header>
-<h3>
-<a href=https://loboto51.github.io/lobotourisme/fr/categories/>Catégories</a>
-</h3>
-</header>
-<p>
-<article>
-<header>
-<a href=https://loboto51.github.io/lobotourisme/categories/moto/>moto</a>
-<span style=float:right>11</span>
-</header>
-</article>
+<p class="h-card vcard">
+<a href=https://loboto51.github.io/lobotourisme/ class="p-name u-url url fn" rel=me>Loboto</a>
+/
+<a class="p-email u-email email" rel=me href=mailto:mail@example.org>mail@example.org</a>
+<img class=u-photo src=/images/me.png>
 </p>
-<p>
-<article>
-<header>
-<a href=https://loboto51.github.io/lobotourisme/categories/protections-moto/>protections-moto</a>
-<span style=float:right>8</span>
-</header>
-</article>
-</p>
-<p>
-<article>
-<header>
-<a href=https://loboto51.github.io/lobotourisme/categories/dev/>dev</a>
-<span style=float:right>5</span>
-</header>
-</article>
-</p>
-<p>
-<article>
-<header>
-<a href=https://loboto51.github.io/lobotourisme/categories/maison/>maison</a>
-<span style=float:right>2</span>
-</header>
-</article>
-</p>
-<p>
-<article>
-<header>
-<a href=https://loboto51.github.io/lobotourisme/categories/%C3%A9cologie/>écologie</a>
-<span style=float:right>2</span>
-</header>
-</article>
-</p>
-<p>
-<article>
-<header>
-<a href=https://loboto51.github.io/lobotourisme/categories/bottes-moto/>bottes-moto</a>
-<span style=float:right>1</span>
-</header>
-</article>
-</p>
-<p>
-<article>
-<header>
-<a href=https://loboto51.github.io/lobotourisme/categories/casques/>casques</a>
-<span style=float:right>1</span>
-</header>
-</article>
-</p>
-<p>
-<article>
-<header>
-<a href=https://loboto51.github.io/lobotourisme/categories/pantalons-moto/>pantalons-moto</a>
-<span style=float:right>1</span>
-</header>
-</article>
-</p>
-<p>
-<article>
-<header>
-<a href=https://loboto51.github.io/lobotourisme/categories/photo/>photo</a>
-<span style=float:right>1</span>
-</header>
-</article>
-</p>
-</section>
-<section id=mini-bio>
-<h3>à propos</h3>
-<p>Ce site me sert de bloc-note pour diverses choses que je souhaite conserver ou partager. Essentiellement mes recherches sur le net sur les protections moto, et des petites docs linux.</p>
-<a href=https://loboto51.github.io/lobotourisme/about class=button>En savoir plus</a>
-</section>
-<section id=footer>
-<ul class=icons>
-<li><a href=//github.com/loboto51 target=_blank title=GitHub class="fa fa-github"></a></li>
-</ul>
-<p class=copyright>
-&copy; 2022
-Lobotourisme
-.
-Powered by <a href=//gohugo.io target=_blank>Hugo</a>
-</p>
-</section>
-</section>
-<a id=back-to-top href=# class="fa fa-arrow-up fa-border fa-2x"></a>
-<script src=//cdn.bootcss.com/highlight.js/9.11.0/highlight.min.js></script>
-<script src=//cdn.bootcss.com/highlight.js/9.11.0/languages/r.min.js></script>
-<script src=//cdn.bootcss.com/highlight.js/9.11.0/languages/yaml.min.js></script>
-<script src=//cdn.bootcss.com/highlight.js/9.11.0/languages/css.min.js></script>
-<script>hljs.configure({languages:[]}),hljs.initHighlightingOnLoad()</script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js></script>
-<script src=https://loboto51.github.io/lobotourisme/js/util.js></script>
-<script src=https://loboto51.github.io/lobotourisme/js/main.js></script>
-<script src=https://loboto51.github.io/lobotourisme/js/backToTop.js></script>
-<script>hljs.initHighlightingOnLoad()</script>
-<script src=https://loboto51.github.io/lobotourisme/js/math-code.js></script>
-<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<script src=https://loboto51.github.io/lobotourisme/js/collapse.js></script>
-<script src=https://loboto51.github.io/lobotourisme/js/dropdown.js></script>
-<script src=https://loboto51.github.io/lobotourisme/js/transition.js></script>
+</footer>
+</div>
 </body>
 </html>
