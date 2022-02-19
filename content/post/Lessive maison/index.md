@@ -8,13 +8,15 @@ tags:
 - lessive
 ---
 
-![lessive_maison](lessive_maison.jpg)
 
 J'ai longtemps utilisé des lessives bio (Nature&Progrès etc.) et puis j'ai trouvé cette lessive de recette maison qui coche toutes les cases :
 
 Elle lave très bien, produit très peu de déchets (les emballages des poudres, et la bouteille de vinaigre c'est tout) et son coût est absolument négligeable.
 
 Tous les ingrédients peuvent être achetés en version bio.
+
+![lessive_maison](lessive_maison.jpg)
+
 
 **Ingrédients pour environ 3L de lessive :**
 

@@ -11,9 +11,12 @@ tags:
 
 ---
 
+Un court billet pour donner les caractéristiques des bottes Rocket de chez Stylmartin car je me suis rendu compte qu'elles étaient très difficiles à trouver sur internet.
+
+<!--more-->
+
 ![Photo de mes bottes stylmartin rocket](bottes_stylmartin_rocket.jpg)
 
-Un court billet pour donner les caractéristiques des bottes Rocket de chez Stylmartin car je me suis rendu compte qu'elles étaient très difficiles à trouver sur internet :
 
 Pictogramme :
 

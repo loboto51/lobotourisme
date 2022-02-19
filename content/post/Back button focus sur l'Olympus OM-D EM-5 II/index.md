@@ -13,7 +13,7 @@ tags:
 ![](/lobotourisme/post/back-button-focus-sur-lolympus-om-d-em-5-ii/back_button_focus.png)
 
 
-La mise au point automatique (autofocus) est habituellement réalisée par l'enfoncement à mi-course du déclencheur : Je mets au point, je garde le déclencheur enfoncé pour composer ma scène,  puis je l'enfonce pour prendre la photo.
+La mise au point automatique (autofocus) est habituellement réalisée par l'enfoncement à mi-course du déclencheur : Je mets au point, je garde le déclencheur enfoncé pour composer ma scène,  puis je l'enfonce complètement pour prendre la photo.
 
 La technique du _"back button focus"_ consiste à affecter la fonction de mise au point à un autre bouton du boîtier (en général à l'arrière, piloté par le pouce droit, d'où le _"back button"_).
 Ainsi je peux mettre au point et composer librement, sans avoir à maintenir le déclencheur enfoncé.

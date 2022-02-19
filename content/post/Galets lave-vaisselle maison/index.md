@@ -8,11 +8,12 @@ tags:
 - lave-vaisselle
 ---
 
-![galets_lave_vaisselle_1](galets_lave_vaisselle_1.jpg)
-
 Depuis peu je fabrique moi-même mes galets de lave-vaisselle.
 
 Les proportions viennent de l'article [lilycraftblog - Tablettes pour le lave-vaisselle fait maison, éco et naturel!](https://lilycraftblog.com/faire-des-tablettes-lave-vaisselle-maison/), ce mélange fonctionne très bien, les verres sont bien transparents et la vaisselle est bien propre.
+
+![galets_lave_vaisselle_1](galets_lave_vaisselle_1.jpg)
+
 
 **Ingrédients pour environ 20 tablettes :**
 
