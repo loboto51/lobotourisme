@@ -25,31 +25,33 @@ Je l'ai modifiée dans _Inkscape_ pour ajouter un bord, puis j'ai généré une 
 
 ### Génération des variantes
 
-Variantes recommandées par [The 2020 Guide to FavIcons for Nearly Everyone and Every Browser](https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/) ainsi que [favicon-cheat-sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet):
+Variantes recommandées par [The 2020 Guide to FavIcons for Nearly Everyone and Every Browser](https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/) ainsi que [favicon-cheat-sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet.
+
+La configuration de la commande unsharp vient de la doc [Imagemagick Resize or Scaling](https://legacy.imagemagick.org/Usage/resize/), c'est celle qu'applique le logiciel GIMP.
 
 ```sh
 mkdir -p ./static/favicons/
 
 #favicon-16x16.png
-convert ./static/logos/logo_large.png -resize 16x16 -unsharp 0x1 ./static/favicons/favicon-16x16.png
+convert ./static/logos/logo_large.png -resize 16x16 -unsharp 0x6+0.5+0 ./static/favicons/favicon-16x16.png
 #favicon-32x32.png
-convert ./static/logos/logo_large.png -resize 32x32 -unsharp 0x1 ./static/favicons/favicon-32x32.png
+convert ./static/logos/logo_large.png -resize 32x32 -unsharp 0x6+0.5+0 ./static/favicons/favicon-32x32.png
 #favicon-48x48.png
-convert ./static/logos/logo_large.png -resize 48x48 -unsharp 0x1 ./static/favicons/favicon-48x48.png
+convert ./static/logos/logo_large.png -resize 48x48 -unsharp 0x6+0.5+0 ./static/favicons/favicon-48x48.png
 #favicon-128x128.png
-convert ./static/logos/logo_large.png -resize 128x128 -unsharp 0x1 ./static/favicons/favicon-128x128.png
+convert ./static/logos/logo_large.png -resize 128x128 -unsharp 0x6+0.5+0 ./static/favicons/favicon-128x128.png
 #favicon-152x152.png
-convert ./static/logos/logo_large.png -resize 152x152 -unsharp 0x1 ./static/favicons/favicon-152x152.png
+convert ./static/logos/logo_large.png -resize 152x152 -unsharp 0x6+0.5+0 ./static/favicons/favicon-152x152.png
 #favicon-167x167.png
-convert ./static/logos/logo_large.png -resize 167x167 -unsharp 0x1 ./static/favicons/favicon-167x167.png
+convert ./static/logos/logo_large.png -resize 167x167 -unsharp 0x6+0.5+0 ./static/favicons/favicon-167x167.png
 #favicon-180x180.png
-convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/favicons/favicon-180x180.png
+convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x6+0.5+0 ./static/favicons/favicon-180x180.png
 #favicon-192x192.png
-convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x1 ./static/favicons/favicon-192x192.png
+convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x6+0.5+0 ./static/favicons/favicon-192x192.png
 #favicon-196x196.png
-convert ./static/logos/logo_large.png -resize 196x196 -unsharp 0x1 ./static/favicons/favicon-196x196.png
+convert ./static/logos/logo_large.png -resize 196x196 -unsharp 0x6+0.5+0 ./static/favicons/favicon-196x196.png
 #favicon-256x256.png
-convert ./static/logos/logo_large.png -resize 256x256 -unsharp 0x1 ./static/favicons/favicon-256x256.png
+convert ./static/logos/logo_large.png -resize 256x256 -unsharp 0x6+0.5+0 ./static/favicons/favicon-256x256.png
 ```
 
 ![favicon-16x16.png](favicon-16x16.png)![favicon-32x32.png](favicon-32x32.png)![favicon-48x48.png](favicon-48x48.png)![favicon-128x128.png](favicon-128x128.png)![favicon-152x152.png](favicon-152x152.png)![favicon-167x167.png](favicon-167x167.png)![favicon-180x180.png](favicon-180x180.png)![favicon-192x192.png](favicon-192x192.png)![favicon-196x196.png](favicon-196x196.png)![favicon-256x256.png](favicon-256x256.png)
@@ -66,13 +68,13 @@ Les favicons spécifiques à un navigateur :
 
 ```sh
 #mstiles 70x70
-convert ./static/logos/logo_large.png -resize 70x70 -unsharp 0x1 ./static/favicons/mstiles-70x70.png
+convert ./static/logos/logo_large.png -resize 70x70 -unsharp 0x6+0.5+0 ./static/favicons/mstiles-70x70.png
 #mstiles 144x144
-convert ./static/logos/logo_large.png -resize 144x144 -unsharp 0x1 ./static/favicons/mstiles-144x144.png
+convert ./static/logos/logo_large.png -resize 144x144 -unsharp 0x6+0.5+0 ./static/favicons/mstiles-144x144.png
 #mstiles 310x150
-convert ./static/logos/logo_large.png -resize 150x150 -unsharp 0x1  -background transparent -gravity center -extent 310x150 ./static/favicons/mstiles-310x150.png
+convert ./static/logos/logo_large.png -resize 150x150 -unsharp 0x6+0.5+0  -background transparent -gravity center -extent 310x150 ./static/favicons/mstiles-310x150.png
 #mstiles 310x310
-convert ./static/logos/logo_large.png -resize 310x310 -unsharp 0x1 ./static/favicons/mstiles-310x310.png
+convert ./static/logos/logo_large.png -resize 310x310 -unsharp 0x6+0.5+0 ./static/favicons/mstiles-310x310.png
 ```
 
 ![mstiles-70x70.png](mstiles-70x70.png)
