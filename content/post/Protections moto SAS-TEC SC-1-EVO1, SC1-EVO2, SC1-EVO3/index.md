@@ -13,12 +13,6 @@ tags:
 
 ---
 
----
-
-Edit du 15/05/2021 : Ajout d'un revendeur français.
-
----
-
 
 ![:right](sastec-sc1-evo2-new__EB-KA-SA_niv2__source_sastec.jpg)
 

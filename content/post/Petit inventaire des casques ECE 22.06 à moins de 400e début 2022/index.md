@@ -20,10 +20,11 @@ Pour les curieux, au sujet des normes d'homologations des casques :
 
 
 
-
+---
 
 # Les casques ECE 22.06 disponibles pour moins de 400e, début 2022
 
+---
 
 ## Scorpion Exo 491 *(139,99 €)*
 
@@ -41,7 +42,7 @@ Caractéristiques :
 
 Dispo sur : iCasque, ChampionHelmets
 
-
+---
 
 ## NOLAN N60-6 *(169,99 €)*
 
@@ -58,6 +59,7 @@ Caractéristiques :
 
 Dispo sur : Motoblouz, ChampionHelmets
 
+---
 
 ## NOLAN N80-8 *(249,99 €)*
 
@@ -74,19 +76,18 @@ Caractéristiques :
 
 Dispo sur : Motoblouz, ChampionHelmets
 
----
 
-_Infos complémentaires :_
+Infos complémentaires :
 
-Les modèles N87 et N87 PLUS qu'il remplace ont été testés par [ChampionHelmets (Youtube)](https://www.youtube.com/watch?v=NLx_NERjmS0) :
+> Les modèles N87 et N87 PLUS qu'il remplace ont été testés par [ChampionHelmets (Youtube)](https://www.youtube.com/watch?v=NLx_NERjmS0) :
 
-- Insonorisation : "dans la moyenne des casques intégraux" avec 102 db entre 105 et 130 km/h
-- Aération : "plutôt satisfaisante"
+> - Insonorisation : "dans la moyenne des casques intégraux" avec 102 db entre 105 et 130 km/h
+> - Aération : "plutôt satisfaisante"
 
----
 
 Dispo sur : Motoblouz, ChampionHelmets
 
+---
 
 ## SHARK SPARTAN RS *(319 €)*
 
