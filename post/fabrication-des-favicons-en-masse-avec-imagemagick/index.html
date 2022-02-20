@@ -99,42 +99,43 @@ J&rsquo;indique en fin d&rsquo;article les 2 fichiers de conf à mettre à jour,
 <a href=#g%c3%a9n%c3%a9ration-des-variantes><svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/></svg>
 </a>
 </span>
-</h3><p>Variantes recommandées par <a href=https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/>The 2020 Guide to FavIcons for Nearly Everyone and Every Browser</a> ainsi que <a href=https://github.com/audreyfeldroy/favicon-cheat-sheet>favicon-cheat-sheet</a>:</p>
+</h3><p>Variantes recommandées par <a href=https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/>The 2020 Guide to FavIcons for Nearly Everyone and Every Browser</a> ainsi que [favicon-cheat-sheet](<a href=https://github.com/audreyfeldroy/favicon-cheat-sheet>https://github.com/audreyfeldroy/favicon-cheat-sheet</a>.</p>
+<p>La configuration de la commande unsharp vient de la doc <a href=https://legacy.imagemagick.org/Usage/resize/>Imagemagick Resize or Scaling</a>, c&rsquo;est celle qu&rsquo;applique le logiciel GIMP.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>mkdir -p ./static/favicons/
 
 <span style=color:#75715e>#favicon-16x16.png</span>
-convert ./static/logos/logo_large.png -resize 16x16 -unsharp 0x1 ./static/favicons/favicon-16x16.png
+convert ./static/logos/logo_large.png -resize 16x16 -unsharp 0x6+0.5+0 ./static/favicons/favicon-16x16.png
 <span style=color:#75715e>#favicon-32x32.png</span>
-convert ./static/logos/logo_large.png -resize 32x32 -unsharp 0x1 ./static/favicons/favicon-32x32.png
+convert ./static/logos/logo_large.png -resize 32x32 -unsharp 0x6+0.5+0 ./static/favicons/favicon-32x32.png
 <span style=color:#75715e>#favicon-48x48.png</span>
-convert ./static/logos/logo_large.png -resize 48x48 -unsharp 0x1 ./static/favicons/favicon-48x48.png
+convert ./static/logos/logo_large.png -resize 48x48 -unsharp 0x6+0.5+0 ./static/favicons/favicon-48x48.png
 <span style=color:#75715e>#favicon-128x128.png</span>
-convert ./static/logos/logo_large.png -resize 128x128 -unsharp 0x1 ./static/favicons/favicon-128x128.png
+convert ./static/logos/logo_large.png -resize 128x128 -unsharp 0x6+0.5+0 ./static/favicons/favicon-128x128.png
 <span style=color:#75715e>#favicon-152x152.png</span>
-convert ./static/logos/logo_large.png -resize 152x152 -unsharp 0x1 ./static/favicons/favicon-152x152.png
+convert ./static/logos/logo_large.png -resize 152x152 -unsharp 0x6+0.5+0 ./static/favicons/favicon-152x152.png
 <span style=color:#75715e>#favicon-167x167.png</span>
-convert ./static/logos/logo_large.png -resize 167x167 -unsharp 0x1 ./static/favicons/favicon-167x167.png
+convert ./static/logos/logo_large.png -resize 167x167 -unsharp 0x6+0.5+0 ./static/favicons/favicon-167x167.png
 <span style=color:#75715e>#favicon-180x180.png</span>
-convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x1 ./static/favicons/favicon-180x180.png
+convert ./static/logos/logo_large.png -resize 180x180 -unsharp 0x6+0.5+0 ./static/favicons/favicon-180x180.png
 <span style=color:#75715e>#favicon-192x192.png</span>
-convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x1 ./static/favicons/favicon-192x192.png
+convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x6+0.5+0 ./static/favicons/favicon-192x192.png
 <span style=color:#75715e>#favicon-196x196.png</span>
-convert ./static/logos/logo_large.png -resize 196x196 -unsharp 0x1 ./static/favicons/favicon-196x196.png
+convert ./static/logos/logo_large.png -resize 196x196 -unsharp 0x6+0.5+0 ./static/favicons/favicon-196x196.png
 <span style=color:#75715e>#favicon-256x256.png</span>
-convert ./static/logos/logo_large.png -resize 256x256 -unsharp 0x1 ./static/favicons/favicon-256x256.png
+convert ./static/logos/logo_large.png -resize 256x256 -unsharp 0x6+0.5+0 ./static/favicons/favicon-256x256.png
 </code></pre></div><p><img src=favicon-16x16.png alt=favicon-16x16.png><img src=favicon-32x32.png alt=favicon-32x32.png><img src=favicon-48x48.png alt=favicon-48x48.png><img src=favicon-128x128.png alt=favicon-128x128.png><img src=favicon-152x152.png alt=favicon-152x152.png><img src=favicon-167x167.png alt=favicon-167x167.png><img src=favicon-180x180.png alt=favicon-180x180.png><img src=favicon-192x192.png alt=favicon-192x192.png><img src=favicon-196x196.png alt=favicon-196x196.png><img src=favicon-256x256.png alt=favicon-256x256.png></p>
 <p>La favicon au format &ldquo;<em>.ico</em>&rdquo; combine 3 formats, 16x16, 32x32 et 48x48 en un seul conteneur :</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=color:#75715e>#favicon.ico</span>
 convert ./static/favicons/favicon-16x16.png ./static/favicons/favicon-32x32.png ./static/favicons/favicon-48x48.png ./static/favicon.ico
 </code></pre></div><p>Les favicons spécifiques à un navigateur :</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=color:#75715e>#mstiles 70x70</span>
-convert ./static/logos/logo_large.png -resize 70x70 -unsharp 0x1 ./static/favicons/mstiles-70x70.png
+convert ./static/logos/logo_large.png -resize 70x70 -unsharp 0x6+0.5+0 ./static/favicons/mstiles-70x70.png
 <span style=color:#75715e>#mstiles 144x144</span>
-convert ./static/logos/logo_large.png -resize 144x144 -unsharp 0x1 ./static/favicons/mstiles-144x144.png
+convert ./static/logos/logo_large.png -resize 144x144 -unsharp 0x6+0.5+0 ./static/favicons/mstiles-144x144.png
 <span style=color:#75715e>#mstiles 310x150</span>
-convert ./static/logos/logo_large.png -resize 150x150 -unsharp 0x1  -background transparent -gravity center -extent 310x150 ./static/favicons/mstiles-310x150.png
+convert ./static/logos/logo_large.png -resize 150x150 -unsharp 0x6+0.5+0  -background transparent -gravity center -extent 310x150 ./static/favicons/mstiles-310x150.png
 <span style=color:#75715e>#mstiles 310x310</span>
-convert ./static/logos/logo_large.png -resize 310x310 -unsharp 0x1 ./static/favicons/mstiles-310x310.png
+convert ./static/logos/logo_large.png -resize 310x310 -unsharp 0x6+0.5+0 ./static/favicons/mstiles-310x310.png
 </code></pre></div><p><img src=mstiles-70x70.png alt=mstiles-70x70.png>
 <img src=mstiles-144x144.png alt=mstiles-144x144.png>
 <img src=mstiles-310x150.png alt=mstiles-310x150.png>
