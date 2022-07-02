@@ -31,7 +31,7 @@ Fonctionnement par défaut : le déclencheur à mi-course verrouille l&amp;rsquo
 &lt;/a>
 &lt;/span>
 &lt;/h3>&lt;p>Votre appareil est en mode &lt;strong>S-AF&lt;/strong> par défaut, mais pour ceux qui veulent vérifier :&lt;/p>
-&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL)&amp;quot;&lt;/strong> :&lt;/p>
+&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL)&amp;rdquo;&lt;/strong> :&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Mode AF&lt;/strong> : &lt;strong>S-AF&lt;/strong> (autofocus) ou &lt;strong>S-AF+MF&lt;/strong> (autofocus + focus manuel)&lt;/li>
 &lt;/ul>
@@ -40,7 +40,7 @@ Fonctionnement par défaut : le déclencheur à mi-course verrouille l&amp;rsquo
 &lt;li>&lt;strong>Full-time AF&lt;/strong> : &lt;strong>Off&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;p>Pour passer en &lt;strong>&amp;ldquo;mode 3&amp;rdquo;&lt;/strong> :&lt;/p>
-&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL)&amp;quot;&lt;/strong> :&lt;/p>
+&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL)&amp;rdquo;&lt;/strong> :&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>AEL/AFL&lt;/strong> :
 &lt;ul>
@@ -64,7 +64,7 @@ Fonctionnement par défaut : le déclencheur à mi-course verrouille l&amp;rsquo
 &lt;/a>
 &lt;/span>
 &lt;/h3>&lt;p>Aucun bouton arrière n&amp;rsquo;étant très accessible, j&amp;rsquo;ai opté pour la touche avant, près de l&amp;rsquo;objectif, dont le logo ressemble à un diaphragme.&lt;/p>
-&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> -&amp;gt; &lt;strong>&amp;ldquo;B (touche/cadran/levier)&amp;quot;&lt;/strong>&lt;/p>
+&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> -&amp;gt; &lt;strong>&amp;ldquo;B (touche/cadran/levier)&amp;rdquo;&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>&amp;ldquo;Fonction&amp;rdquo;&lt;/strong>
 &lt;ul>
@@ -95,8 +95,8 @@ La touche &lt;strong>&amp;ldquo;AEL/AFL&amp;rdquo;&lt;/strong> ne fera plus que 
 &lt;p>La configuration ci-dessous vise à pouvoir basculer facilement d&amp;rsquo;un mode à l&amp;rsquo;autre, en utilisant le levier du boîtier.&lt;/p>
 &lt;p>On va utiliser une astuce :&lt;/p>
 &lt;ol>
-&lt;li>Le levier peut être configuré pour associer un type d'&lt;em>AF&lt;/em> à chacune de ses 2 positions (&lt;strong>&amp;ldquo;mode 5&amp;rdquo;&lt;/strong>) : &lt;strong>MF&lt;/strong>, &lt;strong>S-AF&lt;/strong>, &lt;strong>C-AF&lt;/strong>, ou &lt;strong>S-AF+MF&lt;/strong> ;&lt;/li>
-&lt;li>On peut associer un &amp;ldquo;mode&amp;rdquo; de déclenchement différent à chaque type d'&lt;em>AF&lt;/em> (plus haut on a affecté le &amp;ldquo;mode 3&amp;rdquo; au &lt;strong>S-AF&lt;/strong> uniquement) ;&lt;/li>
+&lt;li>Le levier peut être configuré pour associer un type d&amp;rsquo;&lt;em>AF&lt;/em> à chacune de ses 2 positions (&lt;strong>&amp;ldquo;mode 5&amp;rdquo;&lt;/strong>) : &lt;strong>MF&lt;/strong>, &lt;strong>S-AF&lt;/strong>, &lt;strong>C-AF&lt;/strong>, ou &lt;strong>S-AF+MF&lt;/strong> ;&lt;/li>
+&lt;li>On peut associer un &amp;ldquo;mode&amp;rdquo; de déclenchement différent à chaque type d&amp;rsquo;&lt;em>AF&lt;/em> (plus haut on a affecté le &amp;ldquo;mode 3&amp;rdquo; au &lt;strong>S-AF&lt;/strong> uniquement) ;&lt;/li>
 &lt;li>Astuce : En &lt;strong>&amp;ldquo;mode 3&amp;rdquo;&lt;/strong> La/les touches &lt;strong>AEL/AFL&lt;/strong> déclenchent un autofocus même en mode manuel &lt;strong>&amp;ldquo;MF&amp;rdquo;&lt;/strong> !&lt;/li>
 &lt;/ol>
 &lt;p>On va donc affecter le focus manuel (&lt;strong>MF&lt;/strong>) à une position du levier, en &lt;strong>&amp;ldquo;mode 3&amp;rdquo;&lt;/strong>, et le &lt;strong>S-AF&lt;/strong> (ou &lt;strong>S-AF+MF&lt;/strong>) à l&amp;rsquo;autre position, en &lt;strong>&amp;ldquo;mode 1&amp;rdquo;&lt;/strong> (comportement standard).&lt;/p>
@@ -107,18 +107,18 @@ La touche &lt;strong>&amp;ldquo;AEL/AFL&amp;rdquo;&lt;/strong> ne fera plus que 
 &lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
 &lt;/a>
 &lt;/span>
-&lt;/h3>&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;B (touche/cadran/levier)&amp;quot;&lt;/strong>&lt;/p>
+&lt;/h3>&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;B (touche/cadran/levier)&amp;rdquo;&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>&amp;ldquo;Fonction du levier&amp;rdquo;&lt;/strong> : &lt;strong>&amp;ldquo;Mode 5&amp;rdquo;&lt;/strong> = &amp;ldquo;Modifie le mode AF parmi les réglages AF personnalisés 1 et 2&amp;rdquo;&lt;/li>
 &lt;/ul>
 &lt;p>Reste à mettre le levier en position 1, configurer un mode AF, puis en position 2, en configurer un autre.&lt;/p>
 &lt;p>Levier en position 1 :&lt;/p>
-&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL)&amp;quot;&lt;/strong> :&lt;/p>
+&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL)&amp;rdquo;&lt;/strong> :&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Mode AF&lt;/strong> : &lt;strong>S-AF+MF&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;p>Levier en position 2 :&lt;/p>
-&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL)&amp;quot;&lt;/strong> :&lt;/p>
+&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL)&amp;rdquo;&lt;/strong> :&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Mode AF&lt;/strong> : &lt;strong>MF&lt;/strong>&lt;/li>
 &lt;/ul>
@@ -132,7 +132,7 @@ La touche &lt;strong>&amp;ldquo;AEL/AFL&amp;rdquo;&lt;/strong> ne fera plus que 
 &lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
 &lt;/a>
 &lt;/span>
-&lt;/h3>&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL)&amp;quot;&lt;/strong> :&lt;/p>
+&lt;/h3>&lt;p>Bouton &lt;strong>&amp;ldquo;Menu&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL)&amp;rdquo;&lt;/strong> :&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>&amp;ldquo;AEL/AFL&amp;rdquo;&lt;/strong> :
 &lt;ul>
