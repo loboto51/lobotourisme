@@ -12,10 +12,11 @@ tags:
 - épaules
 ---
 
-![:right](alpinestars-bio-armor-air_EB-KA_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face.jpg)
-
-
 Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection _Alpinestars Bio Air_ de niveau 2.
+
+<!--more-->
+
+![Kit taille B - face](alpinestars-bio-armor-air_EB-KA_niv2_face__vs__alpinestars-bio-armor-air_SB_niv2_face.jpg)
 
 _Synthèse :_ Protection très bonne (25% au dessus de la norme), aération très bonne, et tarif raisonnable.
 

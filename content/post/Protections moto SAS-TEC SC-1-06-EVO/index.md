@@ -12,9 +12,15 @@ tags:
 
 ---
 
-![sastec-sc1-06evo](sastec-sc1-06evo-new__EB-KB_niv2__adaptation_coudes_blouson.jpg)
+Cette fiche décrit les coques de protection _SAS-TEC SC1/06EVO_ de niveau 2, qui sont sans doute les plus couvrantes et protectrices du marché.
 
-Cette fiche récapitule les informations disponibles sur le net sur les coques de protection _SAS-TEC SC1/06EVO_ de niveau 2, je possède ce modèle que j'utilise en protections genoux et coudes, les photos de l'article sont de moi.
+En fin d'article j'indique la manière dont je les ai intégrées à un jean moto générique comme protections de genoux, et à mon blouson hiver en guise de protections coudes.
+
+Les photos de l'article sont de moi.
+
+<!--more-->
+
+![Comparaison des SC-1/EVO1, SC-1/EVO2 et SC-1/06EVO, vues de face](sastec-sc1-evo1-new__EA-KA-SB_niv2_face__vs__sastec-sc1-evo2-new__EB-KA-SA_niv2_face__vs__sastec-sc1-06evo-new__EB-KB_niv2_face.jpg)
 
 _Synthèse :_ Protection excellente (40% au dessus de la norme) et énorme couverture des articulations (voir dimensions et photos plus bas), poids faible, aération correcte, et tarif raisonnable.
 
@@ -73,9 +79,6 @@ Mes recherches n'ont pas trouvé beaucoup de protections comparables :
 **Genoux :**
 
 A l'époque où j'ai acheté ces coques, je cherchais à disposer d'un jean un peu rassurant pour mes trajets occasionnels sur voie rapide.
-
-Les jeans moto du marché me conviennent rarement (1m71, 85kg) : Soit c'est la coupe qui ne ressemble à rien (jambes parachute, taille haute, etc.), soit ce sont les coques qui sont mal placées/trop petites pour s'interposer en cas de vraie chute.
-Globalement la plupart de ces jeans n'ont pas des protections très couvrantes.
 
 J'ai donc pris un _DXR Howell City CE_ de chez Motoblouz [^2], dont la coupe générale me convenait, j'ai cherché les coques les plus couvrantes disponibles, et j'ai cousu de nouvelles poches.
 

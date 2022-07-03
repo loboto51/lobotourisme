@@ -10,9 +10,11 @@ tags:
 - hanches
 ---
 
-![:right](sas-tec-sc2-07_HB_niv2_face_dos_dimensions.jpg)
-
 Cette fiche récapitule les informations disponibles sur le net sur les coques de protection de hanches _SAS-TEC SC-2/07_ de niveau 2, je possède ce modèle, les photos de l'article sont de moi.
+
+<!--more-->
+
+![sas-tec-sc2-07_HB_niv2_face_dos_dimensions.jpg](sas-tec-sc2-07_HB_niv2_face_dos_dimensions.jpg)
 
 _Synthèse :_ Protection excellente (50% au dessus de la norme), grande couverture, poids faible, aération correcte, et tarif raisonnable.
 

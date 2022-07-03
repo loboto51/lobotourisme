@@ -15,9 +15,11 @@ tags:
 ---
 
 
-![photo des rv13 et rv10](revit-seeflex-rv13-l2_SB_niv2_face__vs__revit-seeflex-rv10-l2_EB-KB_niv2_face.jpg)
-
 Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection _Rev'It Seeflex_ de niveau 2.
+
+<!--more-->
+
+![photo des rv13 et rv10](revit-seeflex-rv13-l2_SB_niv2_face__vs__revit-seeflex-rv10-l2_EB-KB_niv2_face.jpg)
 
 _Synthèse :_ Grande couverture, excellente aération, tarif élevé, protection tout juste à la norme.
 

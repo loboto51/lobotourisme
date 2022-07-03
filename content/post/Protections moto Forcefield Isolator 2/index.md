@@ -15,9 +15,11 @@ tags:
 thumbnail: "thumbnails/moto_epi_EHKLS.png"
 ---
 
-![:right](forcefield-isolator-2_EB-KB_niv2_face__source_advrider.jpg)
-
 Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection _Forcefield Isolator 2_ de niveau 2.
+
+<!--more-->
+
+![forcefield-isolator-2_EB-KB_niv2](forcefield-isolator-2_EB-KB_niv2_face__source_advrider.jpg)
 
 _Synthèse :_ Protection très bonne (25% au dessus de la norme), aération correcte, tarif élevé.
 

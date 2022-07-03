@@ -12,9 +12,10 @@ tags:
 
 ---
 
-![:right](alpinestars-nucleon-racing-hr-kr_HB_niv2_face__source_revzilla.jpg)
-
 Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection de hanches _Alpinestars Nucleon Racing KR-HR et Nucleon KR-H_ de niveau 1 et 2.
+
+<!--more-->
+![alpinestars-nucleon-racing-hr-kr_HB_niv2_face__source_revzilla.jpg](alpinestars-nucleon-racing-hr-kr_HB_niv2_face__source_revzilla.jpg)
 
 _Synthèse :_ Grande couverture, aération correcte, tarif élevé.
 

@@ -11,21 +11,21 @@ tags:
 
 ---
 
-![:right](Course-rocker_jean_aramide_AA.jpg)
-
 Cette fiche décrit mon essai des jeans renforcés en Aramide/Kevlar _Course Rocker_ vendus par le site _XLMoto_ à des tarifs assez bas (60 à 80€).
 
---- 
+<!--more-->
 
-_NB :_ En jeans "normaux", je porte essentiellement des _Grim Tim_ de _Nudie Jeans_ et des _Levi's 511_ en taille 36, longueur 32.
+![photo en pied du Course Rocker taille 36](Course-rocker_jean_aramide_AA.jpg)
 
-_NB2 :_ J'ai eu le _DXR Howell City CE_ de _Motoblouz_ (environ 90€) qui présente moyennement bien et dont la protection n'est pas énorme : Niveau urbain selon l'ancienne norme EN 13595. Dans la norme actuelle EN 17092 cela doit correspondre au niveau A, qui est le plus bas (Pour ceux que ça intéresse, j'avais fait un peu de couture à l'époque pour pouvoir y intégrer les protections de genoux très couvrantes SC-1/06EVO de Sas-Tec [description et photos ici]({{< ref "/post/Protections moto SAS-TEC SC-1-06-EVO/index.md">}}))
+> _NB :_ En jeans "normaux", je porte essentiellement des _Grim Tim_ de _Nudie Jeans_ et des _Levi's 511_ en taille 36, longueur 32.
 
----
+> _NB2 :_ J'ai eu le _DXR Howell City CE_ de _Motoblouz_ (environ 90€) qui présente moyennement bien et dont la protection n'est pas énorme : Niveau urbain selon l'ancienne norme EN 13595. Dans la norme actuelle EN 17092 cela doit correspondre au niveau A, qui est le plus bas (Pour ceux que ça intéresse, j'avais fait un peu de couture à l'époque pour pouvoir y intégrer les protections de genoux très couvrantes SC-1/06EVO de Sas-Tec [description et photos ici]({{< ref "/post/Protections moto SAS-TEC SC-1-06-EVO/index.md">}}))
+
 
 La grille du site indique que les pantalons taillent petit, mais c'est plutôt le contraire :  
-J'ai essayé un 36 (photos) et un 38, le 38 était beaucoup trop grand, le 36 est ample.  
-_Note : J'ai essayé plus tard un 34 et c'est la bonne taille pour moi, donc une taille en dessous de ma taille habituelle._
+J'ai essayé un 36 (photos) et un 38, le 38 était beaucoup trop grand, le 36 est ample.
+
+_(Note : J'ai essayé plus tard un 34 et c'est la bonne taille pour moi, donc une taille en dessous de ma taille habituelle)_
 
 **Infos générales :**
 
@@ -50,16 +50,15 @@ J'en suis très content.
 
 J'ai retiré les coques de hanche que je trouve trop encombrantes.
 Je l'ai porté au bureau plusieurs fois en gardant les coques de genoux d'origine, sans ressentir de gêne. 
-Par la suite j'ai remplacé ces coques par des [_SAS-TEC SC-1/KB2_](https://www.sas-tec.de/en/products/sc-1-kb2-new/), fines (1 cm) et beaucoup plus protectrices (niveau 2 , <18 kN).  
-Elles tiennent légèrement plus chaud, mais sont beaucoup moins encombrantes.
+Par la suite j'ai remplacé ces coques par des [_SAS-TEC SC-1/KB2_](https://www.sas-tec.de/en/products/sc-1-kb2-new/), fines (1 cm) et beaucoup plus protectrices (niveau 2 , <18 kN).
 
 Je porte les coques dans la position la plus haute (3e velcro en partant du bas).
 
 J'ai désactivé les velcros de genou inutilisés, car ils avaient tendance à se refermer en journée et à bloquer les coques dans une mauvaise position : J'ai simplement découpé des morceaux de velcro côté poilu que j'ai fixé dessus.
 
-Seul bémol : Il y a quelques coutures mal finies dans la doublure. Je croise les doigts pour que les coutures extérieures tiennent mieux. _Note : De nombreux ports plus tard, rien à signaler._
+Seul bémol : Il y a quelques coutures mal finies dans la doublure. Je croise les doigts pour que les coutures extérieures tiennent mieux. _(Note : De nombreux ports plus tard, rien à signaler)_
 
-_Note : J'ai depuis acheté le même jean en taille 34, il est plus conforme à ma morphologie et présente mieux, mais il tient plus chaud. L'été la taille au dessus est plus agréable._
+_(Note : J'ai depuis acheté le même jean en taille 34, il est plus conforme à ma morphologie et présente mieux, mais il tient plus chaud. L'été la taille au dessus est plus agréable)_
 
 ---
 #### Photos diverses :

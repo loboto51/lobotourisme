@@ -13,10 +13,11 @@ tags:
 
 ---
 
-
-![:right](sastec-sc1-evo2-new__EB-KA-SA_niv2__source_sastec.jpg)
-
 Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection _SAS-TEC SC1/EVO_ 1, 2 et 3 de niveau 2.
+
+<!--more-->
+
+![sastec-sc1-evo2-new__EB-KA-SA_niv2](sastec-sc1-evo2-new__EB-KA-SA_niv2__source_sastec.jpg)
 
 _Synthèse :_ Protection excellente (50% au dessus de la norme), grande couverture des articulations, poids faible, aération correcte, et tarif raisonnable.
 

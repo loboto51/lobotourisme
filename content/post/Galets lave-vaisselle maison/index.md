@@ -8,9 +8,10 @@ tags:
 - lave-vaisselle
 ---
 
-Depuis peu je fabrique moi-même mes galets de lave-vaisselle.
+Je fabrique mes galets de lave-vaisselle avec la recette de l'article [lilycraftblog - Faire des tablettes lave-vaisselle maison](https://lilycraftblog.com/faire-des-tablettes-lave-vaisselle-maison/).
+Ce mélange fonctionne bien, les verres restent bien transparents et la vaisselle est propre.
 
-Les proportions viennent de l'article [lilycraftblog - Tablettes pour le lave-vaisselle fait maison, éco et naturel!](https://lilycraftblog.com/faire-des-tablettes-lave-vaisselle-maison/), ce mélange fonctionne très bien, les verres sont bien transparents et la vaisselle est bien propre.
+<!--more-->
 
 ![galets_lave_vaisselle_1](galets_lave_vaisselle_1.jpg)
 
