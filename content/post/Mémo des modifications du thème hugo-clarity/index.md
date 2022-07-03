@@ -3,11 +3,11 @@ title: "Mémo des modifications du thème hugo-clarity"
 date: "2021-05-02"
 lastmod : "2021-05-10"
 categories:
-- dev
+- Dev
 tags:
-- hugo
-- hugo clarity
-- github pages
+- Hugo
+- Hugo clarity
+- Github pages
 - imagemagick
 toc: true
 ---

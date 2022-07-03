@@ -2,11 +2,11 @@
 title: "Solutions pour gérer des commentaires sur Hugo + Github Pages"
 date: "2021-05-10"
 categories: 
-- dev
+- Dev
 tags: 
-- hugo
-- github pages
-- hugo clarity
+- Hugo
+- Github pages
+- Hugo clarity
 ---
 
 Veille sur les systèmes de commentaire intégrables à _Hugo_ + _Github Pages_.

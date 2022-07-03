@@ -3,14 +3,13 @@ title: "Protections moto Forcefield Isolator 2"
 date: "2021-04-24"
 categories:
 - moto
-- protections moto
 tags:
 - Forcefield
 - Forcefield Isolator 2
-- genoux
-- coudes
-- hanches
-- épaules
+- Protections moto genoux
+- Protections moto coudes
+- Protections moto hanches
+- Protections moto épaules
 
 thumbnail: "thumbnails/moto_epi_EHKLS.png"
 ---

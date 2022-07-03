@@ -2,9 +2,9 @@
 title: "3 méthodes Imagemagick pour remplir les zones vides d'une image recadrée"
 date: 2021-05-07
 categories:
-- dev
+- Dev
 tags:
-- imagemagick
+- Imagemagick
 ---
 
 Je décris dans cet article 3 méthodes permettant de combler les zones vides d'une image lorsqu'on l'agrandit, une technique basique, et 2 s'appuyant sur l'image initiale, pour un remplissage plus naturel.

@@ -3,14 +3,13 @@ title: "Protections moto Rev'it Seeflex"
 date: "2021-04-26"
 categories:
 - moto
-- protections moto
 tags:
 - Rev'It
 - Rev'It Seeflex
-- genoux
-- coudes
-- épaules
-- jambes
+- Protections moto genoux
+- Protections moto coudes
+- Protections moto épaules
+- Protections moto jambes
 
 ---
 

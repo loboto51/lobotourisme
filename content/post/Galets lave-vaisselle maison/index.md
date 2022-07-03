@@ -2,10 +2,9 @@
 title: "Galets lave-vaisselle maison"
 date: "2021-05-10"
 categories: 
-- écologie
-- maison
+- Ecologie
 tags: 
-- lave-vaisselle
+- Lave-vaisselle
 ---
 
 Je fabrique mes galets de lave-vaisselle avec la recette de l'article [lilycraftblog - Faire des tablettes lave-vaisselle maison](https://lilycraftblog.com/faire-des-tablettes-lave-vaisselle-maison/).

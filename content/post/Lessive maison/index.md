@@ -2,10 +2,9 @@
 title: "Lessive maison"
 date: "2021-05-06"
 categories: 
-- écologie
-- maison
+- Ecologie
 tags: 
-- lessive
+- Lessive
 ---
 
 

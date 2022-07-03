@@ -3,11 +3,10 @@ title: "Jean moto Course Rocker"
 date: "2021-05-06"
 categories:
 - moto
-- pantalons moto
 tags: 
 - Course
-- jean Course Rocker
-- jean
+- Course Rocker
+- Pantalon moto
 
 ---
 

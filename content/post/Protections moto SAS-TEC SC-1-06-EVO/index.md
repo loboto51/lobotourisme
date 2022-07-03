@@ -3,12 +3,11 @@ title: "Protections moto SAS-TEC SC-1-06EVO"
 date: "2021-05-15"
 categories:
 - moto
-- protections moto
 tags: 
 - SAS-TEC
 - SAS-TEC SC-1/06EVO
-- genoux
-- coudes
+- Protections moto genoux
+- Protections moto coudes
 
 ---
 

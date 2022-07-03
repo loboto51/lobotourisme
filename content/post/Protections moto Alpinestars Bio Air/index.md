@@ -3,13 +3,12 @@ title: "Protections moto Alpinestars Bio Air"
 date: "2021-04-26"
 categories: 
 - moto
-- protections moto
 tags:
 - Alpinestars
 - Alpinestars Bio Air
-- genoux
-- coudes
-- épaules
+- Protections moto genoux
+- Protections moto coudes
+- Protections moto épaules
 ---
 
 Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection _Alpinestars Bio Air_ de niveau 2.

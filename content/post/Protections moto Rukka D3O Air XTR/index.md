@@ -3,17 +3,16 @@ title: "Protections moto Rukka D3O Air XTR"
 date: "2021-04-28"
 categories:
 - moto
-- protections moto
 tags:
 - Rukka
 - D3O
 - Rukka D3O Air XTR
-- genoux
-- coudes
-- épaules
-- hanches
-- jambes
-- thorax
+- Protections moto genoux
+- Protections moto coudes
+- Protections moto épaules
+- Protections moto hanches
+- Protections moto jambes
+- Protections moto thorax
 
 thumbnail: "thumbnails/moto_epi_EHKLS.png"
 ---

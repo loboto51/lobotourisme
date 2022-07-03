@@ -2,8 +2,9 @@
 title: "Inventaire des bottes courtes, chaussures et demi-bottes moto les plus protectrices (1 2 2 2) en juillet 2022"
 date: "2022-07-02"
 categories:
-- moto
-- bottes
+- Moto
+tags: 
+- Bottes moto
 
 ---
 

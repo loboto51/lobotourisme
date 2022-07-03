@@ -2,12 +2,11 @@
 title: "Bottes moto Stylmartin Rocket"
 date: "2021-05-17"
 categories:
-- moto
-- bottes moto
+- Moto
 tags: 
 - Stylmartin
-- bottes Stylmartin Rocket
-- bottes
+- Stylmartin Rocket
+- Bottes moto
 
 ---
 

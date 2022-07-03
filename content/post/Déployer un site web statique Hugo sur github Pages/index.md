@@ -4,11 +4,11 @@ date: "2021-04-22"
 lastmod: "2021-05-05"
 description: "Réalisation d'un site web statique avec Github Pages et Hugo."
 categories: 
-- dev
+- Dev
 tags: 
-- hugo
-- github pages
-- hugo clarity
+- Hugo
+- Github pages
+- Hugo clarity
 toc: true
 ---
 

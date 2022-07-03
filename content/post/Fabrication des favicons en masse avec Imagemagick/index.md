@@ -2,10 +2,10 @@
 title: "Mémo : Fabrication des favicons en masse avec Imagemagick + fichiers de conf pour les navigateurs"
 date: "2021-05-15"
 categories:
-- dev
+- Dev
 tags:
 - hugo
-- imagemagick
+- Imagemagick
 ---
 
 Ci-dessous je liste une série de commandes Imagemagick permettant de générer toutes les variantes de favicons qu'un site web peut proposer aux navigateurs, à partir d'un original de bonne qualité.

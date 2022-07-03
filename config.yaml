@@ -31,7 +31,7 @@ menu:
   - identifier: ecologie
     name: Ecologie
     title: Ecologie
-    url: /categories/écologie/
+    url: /categories/ecologie/
     weight: 5
 
   - identifier: moto
