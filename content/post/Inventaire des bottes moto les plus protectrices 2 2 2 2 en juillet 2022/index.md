@@ -1,5 +1,5 @@
 ---
-title: "Inventaire des bottes moto de niveau 2 2 2 2 en juillet 2022"
+title: "Inventaire des bottes moto les plus protectrices (2 2 2 2) en juillet 2022"
 date: "2022-07-02"
 categories:
 - moto
@@ -7,14 +7,14 @@ categories:
 
 ---
 
-Cette page inventorie les bottes moto dont le fabricant affiche le niveau de protection sur son site internet, et qui atteignent le niveau le plus élevé de la norme actuelle :  
-EN 13634:2017 : 2 2 2 2 [^1].
+Cette page inventorie les bottes (hautes), dont les caractéristiques sont disponibles sur internet, et qui atteignent le niveau de protection le plus élevé de la norme actuelle :  
+EN 13634:2017 : 2 (haute) 2 2 2 [^1].
 
-Les prix et images ont été extraits automatiquement.
+J'ai mis une idée du prix lorsque c'était possible.
 
 <!--more-->
 
-Je couvre les demi-bottes et chaussures les plus protectrices (1 2 2 2) dans un autre article.
+Je couvre les bottes courtes (chaussures et demi-bottes) les plus protectrices (1 2 2 2) dans un autre article.
 
 
 > _Note sur la norme :_
@@ -32,7 +32,7 @@ Les fabricants qui ont été pris en compte car ils publient leurs données, son
 - OJ ([site officiel](https://ojworld.it/))
 - REV'IT ([site officiel](https://www.revitsport.com/fr/))
 
-Une liste de fabricants analysés mais exclus car ils ne publient pas leur niveau de protection se trouve en fin de document.
+La liste des autres fabricants que j'ai parcourus mais dont les sites ne publient pas les niveaux de protection se trouve en fin de document.  
 Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à me prévenir en commentaire, et je les ajouterai à la prochaine version de ce document.
 
 
