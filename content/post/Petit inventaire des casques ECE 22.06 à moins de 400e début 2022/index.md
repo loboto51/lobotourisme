@@ -2,8 +2,9 @@
 title: "Petit inventaire des casques ECE 22.06 à moins de 400e début 2022"
 date: "2022-02-05"
 categories:
-- moto
-- casques
+- Moto
+tags:
+- Casques moto
 
 ---
 

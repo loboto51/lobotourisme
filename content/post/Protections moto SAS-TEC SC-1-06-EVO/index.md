@@ -8,6 +8,7 @@ tags:
 - SAS-TEC SC-1/06EVO
 - Protections moto genoux
 - Protections moto coudes
+- Protections moto jambes
 
 ---
 
