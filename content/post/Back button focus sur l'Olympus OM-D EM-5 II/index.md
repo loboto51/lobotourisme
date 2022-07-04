@@ -2,7 +2,7 @@
 title: "Back button focus sur l'Olympus OM-D EM-5 II"
 date: "2022-02-16"
 categories:
-- photo
+- Photo
 tags:
 - OM-D E M5 II
 - Olympus
