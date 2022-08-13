@@ -37,31 +37,34 @@ La liste des autres fabricants que j'ai parcourus mais dont les sites ne publien
 Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à me prévenir en commentaire, et je les ajouterai à la prochaine version de ce document.
 
 
+## DXR :
 
+ | Modèle | Photos |
+|---|---|
+| **[DXR - OLLIE](https://www.motoblouz.com/vente-baskets-dxr-ollie-197451.html?color=Black)**</br>EN-13634-2017-1 2 2 2 IPA</br>59,40 € ([Motoblouz](https://www.motoblouz.com/recherche/DXR%20OLLIE.html)) | ![DXR OLLIE - niveau de sécurité EN-13634-2017-1 2 2 2 IPA](EN-13634-2017-1_2_2_2_IPA_-_DXR_-_OLLIE_-_0.jpg) |
 
 
 ## FORMA :
 
  | Modèle | Photos |
 |---|---|
-| **FORMA - BOLT**</br>EN-13634-2017-1 2 2 2 WR</br>176,60 € ([Motoblouz](https://www.motoblouz.com/recherche/FORMA%20BOLT.html)) | ![FORMA BOLT - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_-_FORMA_-_BOLT_-_0.jpg) |
-| **FORMA - CREED**</br>EN-13634-2017-1 2 2 2 WR</br> | ![FORMA CREED - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_CREED_-_0.jpg) |
-| **FORMA - ELITE**</br>EN-13634-2017-1 2 2 2 WR</br>167,39 € ([Dafy Moto](https://www.dafy-moto.com/recherche?string=FORMA%20ELITE)) | ![FORMA ELITE - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_ELITE_-_0.jpg)![FORMA ELITE - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_ELITE_-_1.jpg) |
-| **FORMA - ONE DRY**</br>EN-13634-2017-1 2 2 2 WR</br>176,60 € ([Motoblouz](https://www.motoblouz.com/recherche/FORMA%20ONE%20DRY.html)) | ![FORMA ONE DRY - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_ONE_DRY_-_0.jpg) |
-| **FORMA - SWIFT DRY**</br>EN-13634-2017-1 2 2 2 WR</br>139,40 € ([Motoblouz](https://www.motoblouz.com/recherche/FORMA%20SWIFT%20DRY.html)) | ![FORMA SWIFT DRY - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_SWIFT_DRY_-_0.jpg)![FORMA SWIFT DRY - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_SWIFT_DRY_-_1.jpg)![FORMA SWIFT DRY - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_SWIFT_DRY_-_2.jpg)![FORMA SWIFT DRY - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_SWIFT_DRY_-_3.jpg) |
-| **FORMA - SWIFT DRY LADY**</br>EN-13634-2017-1 2 2 2 WR</br>139,49 € ([Dafy Moto](https://www.dafy-moto.com/recherche?string=FORMA%20SWIFT%20DRY%20LADY)) | ![FORMA SWIFT DRY LADY - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_SWIFT_DRY_LADY_-_0.jpg) |
-| **FORMA - SWIFT FLOW**</br>EN-13634-2017-1 2 2 2 WR</br>139,40 € ([Motoblouz](https://www.motoblouz.com/recherche/FORMA%20SWIFT%20FLOW.html)) | ![FORMA SWIFT FLOW - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_-_FORMA_-_SWIFT_FLOW_-_0.jpg)![FORMA SWIFT FLOW - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_-_FORMA_-_SWIFT_FLOW_-_1.jpg) |
+| **[FORMA - BOLT](https://www.formabootsusa.com/collections/ride-urban/products/bolt)**</br>EN-13634-2017-1 2 2 2</br>176,60 € ([Motoblouz](https://www.motoblouz.com/recherche/FORMA%20BOLT.html)) | ![FORMA BOLT - niveau de sécurité EN-13634-2017-1 2 2 2](EN-13634-2017-1_2_2_2_-_FORMA_-_BOLT_-_0.jpg) |
+| **[FORMA - CREED](https://www.formabootsusa.com/collections/ride-urban/products/creed)**</br>EN-13634-2017-1 2 2 2 WR</br> | ![FORMA CREED - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_CREED_-_0.jpg) |
+| **[FORMA - ELITE](https://www.formabootsusa.com/collections/ride-urban/products/elite-black)**</br>EN-13634-2017-1 2 2 2 WR</br>167,39 € ([Dafy Moto](https://www.dafy-moto.com/recherche?string=FORMA%20ELITE)) | ![FORMA ELITE - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_ELITE_-_0.jpg)![FORMA ELITE - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_ELITE_-_1.jpg) |
+| **[FORMA - ONE DRY]()**</br>EN-13634-2017-1 2 2 2 WR</br>176,60 € ([Motoblouz](https://www.motoblouz.com/recherche/FORMA%20ONE%20DRY.html)) | ![FORMA ONE DRY - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_ONE_DRY_-_0.jpg) |
+| **[FORMA - SWIFT DRY](https://www.formabootsusa.com/collections/ride-urban/products/swift-dry-black)**</br>EN-13634-2017-1 2 2 2 WR</br>118,40 € ([Motoblouz](https://www.motoblouz.com/recherche/FORMA%20SWIFT%20DRY.html)) | ![FORMA SWIFT DRY - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_SWIFT_DRY_-_0.jpg)![FORMA SWIFT DRY - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_SWIFT_DRY_-_1.jpg)![FORMA SWIFT DRY - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_SWIFT_DRY_-_2.jpg)![FORMA SWIFT DRY - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_SWIFT_DRY_-_3.jpg) |
+| **[FORMA - SWIFT DRY LADY](https://www.formabootsusa.com/collections/womens/products/swift-dry-lady-black-white)**</br>EN-13634-2017-1 2 2 2 WR</br>119,90 € ([Motoblouz](https://www.motoblouz.com/recherche/FORMA%20SWIFT%20DRY%20LADY.html)) | ![FORMA SWIFT DRY LADY - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_FORMA_-_SWIFT_DRY_LADY_-_0.jpg) |
+| **[FORMA - SWIFT FLOW](https://www.formabootsusa.com/collections/ride-urban/products/swift-flow-black-white)**</br>EN-13634-2017-1 2 2 2</br>118,40 € ([Motoblouz](https://www.motoblouz.com/recherche/FORMA%20SWIFT%20FLOW.html)) | ![FORMA SWIFT FLOW - niveau de sécurité EN-13634-2017-1 2 2 2](EN-13634-2017-1_2_2_2_-_FORMA_-_SWIFT_FLOW_-_0.jpg)![FORMA SWIFT FLOW - niveau de sécurité EN-13634-2017-1 2 2 2](EN-13634-2017-1_2_2_2_-_FORMA_-_SWIFT_FLOW_-_1.jpg) |
+
 
 
 ## OJ :
 
-   |   Modèle   |   Photos |
+ | Modèle | Photos |
 |---|---|
-| **OJ - MISSION**</br>WR</br>120.99 € ([Motardinn](https://www.tradeinn.com/motardinn/fr?products_search%5Bquery%5D=oj%20mission))  |   ![OJ MISSION - niveau de sécurité WR](EN-13634-2017-1_2_2_2_-_OJ_-_MISSION_-_0.jpg) |
-| **OJ - RUSH**</br>WR</br>104.99 €  ([Motardinn](https://www.tradeinn.com/motardinn/fr?products_search%5Bquery%5D=oj%20rush))  |   ![OJ RUSH - niveau de sécurité WR](EN-13634-2017-1_2_2_2_WR_-_OJ_-_RUSH_-_0.jpg) |
-| **OJ - TRIGGER**</br>WR</br>119.99 € ([Motardinn](https://www.tradeinn.com/motardinn/fr?products_search%5Bquery%5D=oj%20trigger))  |   ![OJ TRIGGER - niveau de sécurité WR](EN-13634-2017-1_2_2_2_-_OJ_-_TRIGGER_-_0.jpg) |
-
-
+| **[OJ - MISSION](https://ojworld.it/scarpe-e-stivali/mission.html)**</br>EN-13634-2017-1 2 2 2</br>120.99 € ([Motardinn](https://www.tradeinn.com/motardinn/fr?products_search%5Bquery%5D=OJ%20MISSION)) | ![OJ MISSION - niveau de sécurité EN-13634-2017-1 2 2 2](EN-13634-2017-1_2_2_2_-_OJ_-_MISSION_-_0.jpg) |
+| **[OJ - RUSH](https://ojworld.it/scarpe-e-stivali/rush.html)**</br>EN-13634-2017-1 2 2 2 WR</br>104.99 € ([Motardinn](https://www.tradeinn.com/motardinn/fr?products_search%5Bquery%5D=OJ%20RUSH)) | ![OJ RUSH - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_WR_-_OJ_-_RUSH_-_0.jpg) |
+| **[OJ - TRIGGER](https://ojworld.it/scarpe-e-stivali/trigger.html)**</br>EN-13634-2017-1 2 2 2</br>119.99 € ([Motardinn](https://www.tradeinn.com/motardinn/fr?products_search%5Bquery%5D=OJ%20TRIGGER)) | ![OJ TRIGGER - niveau de sécurité EN-13634-2017-1 2 2 2](EN-13634-2017-1_2_2_2_-_OJ_-_TRIGGER_-_0.jpg) |
 
 
 
@@ -69,8 +72,8 @@ Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à
 
  | Modèle | Photos |
 |---|---|
-| **REVIT - GINZA 3**</br>EN-13634-2017-1 2 2 2 WR</br>158,90 € ([Motoblouz](https://www.motoblouz.com/recherche/REVIT%20GINZA%203.html)) | ![REVIT GINZA 3 - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_-_REVIT_-_GINZA_3_-_0.jpg)![REVIT GINZA 3 - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_-_REVIT_-_GINZA_3_-_1.jpg) |
-| **REVIT - PATROL**</br>EN-13634-2017-1 2 2 2 WR</br>289,99 € ([Motoblouz](https://www.motoblouz.com/recherche/REVIT%20PATROL.html)) | ![REVIT PATROL - niveau de sécurité EN-13634-2017-1 2 2 2 WR](EN-13634-2017-1_2_2_2_-_REVIT_-_PATROL_-_0.jpg) |
+| **[REVIT - GINZA 3](https://www.revitsport.com/fr/chaussures-moto-ginza-3-marron-blanc)**</br>EN-13634-2017-1 2 2 2</br>219,99 € ([Motoblouz](https://www.motoblouz.com/recherche/REVIT%20GINZA%203.html)) | ![REVIT GINZA 3 - niveau de sécurité EN-13634-2017-1 2 2 2](EN-13634-2017-1_2_2_2_-_REVIT_-_GINZA_3_-_0.jpg)![REVIT GINZA 3 - niveau de sécurité EN-13634-2017-1 2 2 2](EN-13634-2017-1_2_2_2_-_REVIT_-_GINZA_3_-_1.jpg) |
+| **[REVIT - PATROL](https://www.revitsport.com/fr/chaussures-moto-patrol-verte-olive-noir)**</br>EN-13634-2017-1 2 2 2</br>289,99 € ([Motoblouz](https://www.motoblouz.com/recherche/REVIT%20PATROL.html)) | ![REVIT PATROL - niveau de sécurité EN-13634-2017-1 2 2 2](EN-13634-2017-1_2_2_2_-_REVIT_-_PATROL_-_0.jpg) |
 
 
 
