@@ -18,13 +18,11 @@ Cette fiche décrit mon essai des jeans renforcés en Aramide/Kevlar _Course Roc
 
 > _NB :_ En jeans "normaux", je porte essentiellement des _Grim Tim_ de _Nudie Jeans_ et des _Levi's 511_ en taille 36, longueur 32.
 
-> _NB2 :_ J'ai eu le _DXR Howell City CE_ de _Motoblouz_ (environ 90€) qui présente moyennement bien et dont la protection n'est pas énorme : Niveau urbain selon l'ancienne norme EN 13595. Dans la norme actuelle EN 17092 cela doit correspondre au niveau A, qui est le plus bas (Pour ceux que ça intéresse, j'avais fait un peu de couture à l'époque pour pouvoir y intégrer les protections de genoux très couvrantes SC-1/06EVO de Sas-Tec [description et photos ici]({{< ref "/post/Protections moto SAS-TEC SC-1-06-EVO/index.md">}}))
-
 
 La grille du site indique que les pantalons taillent petit, mais c'est plutôt le contraire :  
 J'ai essayé un 36 (photos) et un 38, le 38 était beaucoup trop grand, le 36 est ample.
 
-_(Note : J'ai essayé plus tard un 34 et c'est la bonne taille pour moi, donc une taille en dessous de ma taille habituelle)_
+_(Note : Quelques mois après avoir rédigé cet article, j'ai acheté le même jean en taille 34 et c'est la bonne taille pour moi, donc une taille en dessous de ma taille habituelle)_
 
 **Infos générales :**
 
@@ -34,8 +32,8 @@ _(Note : J'ai essayé plus tard un 34 et c'est la bonne taille pour moi, donc un
 - Il est fourni avec des coques de genou de niveau 1 imposantes et des coques de hanche niveau 2, imposantes aussi ;
 - Le positionnement des coques de genoux se fait par des velcros nombreux et régulièrement espacés ;
 - La couverture aramide est conforme aux photos sur le site (siège + genoux + une bande de 10 cm de large le long de chaque jambe ;
-- Il est très passe-partout, on devine à peine les coques malgré leur épaisseur  (voir photos plus bas) ;
-- Il taille un peu large, mais pas au point que cela soit choquant. _Note : j'ai depuis testé le 34 et c'est la taille qu'il me fallait._
+- Il est très passe-partout, on devine à peine les coques malgré leur épaisseur  (voir photos) ;
+- Il taille un peu large, mais pas au point que cela soit choquant.
 
 Dimensions des poches pour protections :
 
@@ -57,7 +55,7 @@ J'ai désactivé les velcros de genou inutilisés, car ils avaient tendance à s
 
 Seul bémol : Il y a quelques coutures mal finies dans la doublure. Je croise les doigts pour que les coutures extérieures tiennent mieux. _(Note : De nombreux ports plus tard, rien à signaler)_
 
-_(Note : J'ai depuis acheté le même jean en taille 34, il est plus conforme à ma morphologie et présente mieux, mais il tient plus chaud. L'été la taille au dessus est plus agréable)_
+> _Lecture annexe : Pour ceux que ce type de modification intéresse, j'ai fait un peu de couture par le passé pour intégrer les énormes protections de genoux SC-1/06EVO_ de _Sas-Tec_ dans un jean moto _DXR Howell City CE_, à voir dans mon article consacré à ces protections : [Protections moto SAS-TEC SC-1-06-EVO]({{< ref "/post/Protections moto SAS-TEC SC-1-06-EVO/index.md">}}).
 
 ---
 #### Photos diverses :
