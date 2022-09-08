@@ -1,3 +1,5 @@
 <h1 class="site-title">
-    <a href="{{ .Site.BaseURL | relLangURL }}"><img src='{{ "favicons/favicon-16x16.png" | absURL }}' /> {{ .Site.Title }}</a>
+    <a href="{{ .Site.BaseURL | relLangURL }}">
+        {{ partial "font-awesome.html" (dict "iconName" "logo" "custom" true) }}{{ .Site.Title }}
+    </a>
 </h1>

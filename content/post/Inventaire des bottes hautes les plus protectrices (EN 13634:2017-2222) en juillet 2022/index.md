@@ -13,7 +13,9 @@ EN 13634:2017/2222.
 
 <!--more-->
 
-J’ai mis une idée du prix lorsque c’était possible (je n'ai pas de lien avec les sites de vente, j'ai listé en priorité les 2 français qui ont le plus de références, Motoblouz et Dafy, et j'ai ajouté l'espagnol MotardInn pour les OJ qui sont peu distribuées en France).
+J’ai mis une idée du prix lorsque c’était possible (j'ai listé en priorité les 2 français qui ont le plus de références, Motoblouz et Dafy, et j'ai ajouté l'espagnol MotardInn pour les OJ qui sont peu distribuées en France).
+
+_(Note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur Motoblouz)_
 
 Je couvre les chaussures/bottes courtes les plus protectrices (1222) dans un autre article.
 
@@ -80,7 +82,7 @@ Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à
 
  | Modèle | Photos |
 |---|---|
-| **[DXR - SILVRETTA](https://www.motoblouz.com/vente-bottes-dxr-silvretta-200519.html?color=Brown)**</br>EN-13634-2017-2 2 2 2 IPA</br>84,90 € ([Motoblouz](https://www.motoblouz.com/recherche/DXR%20SILVRETTA.html)) | ![DXR SILVRETTA - niveau de sécurité EN-13634-2017-2 2 2 2 IPA](EN-13634-2017-2_2_2_2_IPA_-_DXR_-_SILVRETTA_-_0.jpg) |
+| **[DXR - SILVRETTA](https://www.motoblouz.com/vente-bottes-dxr-silvretta-200519.html?color=Brown)**</br>EN-13634-2017-2 2 2 2 IPA</br>84,90 € ([Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FDXR%2520SILVRETTA.html)) | ![DXR SILVRETTA - niveau de sécurité EN-13634-2017-2 2 2 2 IPA](EN-13634-2017-2_2_2_2_IPA_-_DXR_-_SILVRETTA_-_0.jpg) |
 
 
 
@@ -88,7 +90,7 @@ Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à
 
  | Modèle | Photos |
 |---|---|
-| **[FORMA - ADV TOURER](https://www.formabootsusa.com/collections/road-boots/products/adv-tourer-black)**</br>EN-13634-2017-2 2 2 2 WR</br>169,90 € ([Motoblouz](https://www.motoblouz.com/recherche/FORMA%20ADV%20TOURER.html)) | ![FORMA ADV TOURER - niveau de sécurité EN-13634-2017-2 2 2 2 WR](EN-13634-2017-2_2_2_2_WR_-_FORMA_-_ADV_TOURER_-_0.jpg)![FORMA ADV TOURER - niveau de sécurité EN-13634-2017-2 2 2 2 WR](EN-13634-2017-2_2_2_2_WR_-_FORMA_-_ADV_TOURER_-_1.jpg) |
+| **[FORMA - ADV TOURER](https://www.formabootsusa.com/collections/road-boots/products/adv-tourer-black)**</br>EN-13634-2017-2 2 2 2 WR</br>169,90 € ([Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FFORMA%2520ADV%2520TOURER.html)) | ![FORMA ADV TOURER - niveau de sécurité EN-13634-2017-2 2 2 2 WR](EN-13634-2017-2_2_2_2_WR_-_FORMA_-_ADV_TOURER_-_0.jpg)![FORMA ADV TOURER - niveau de sécurité EN-13634-2017-2 2 2 2 WR](EN-13634-2017-2_2_2_2_WR_-_FORMA_-_ADV_TOURER_-_1.jpg) |
 | **[FORMA - ADV TOURER LADY](https://www.formabootsusa.com/collections/womens/products/adv-tourer-lady)**</br>EN-13634-2017-2 2 2 2 WR</br>169,90 € ([Motoblouz](https://www.motoblouz.com/recherche/FORMA%20ADV%20TOURER%20LADY.html)) | ![FORMA ADV TOURER LADY - niveau de sécurité EN-13634-2017-2 2 2 2 WR](EN-13634-2017-2_2_2_2_WR_-_FORMA_-_ADV_TOURER_LADY_-_0.jpg) |
 | **[FORMA - ADVENTURE](https://www.formabootsusa.com/collections/dual-sport-adv-boots/products/adventure-brown)**</br>EN-13634-2017-2 2 2 2 WR</br>158,00 € ([Motoblouz](https://www.motoblouz.com/recherche/FORMA%20ADVENTURE.html)) | ![FORMA ADVENTURE - niveau de sécurité EN-13634-2017-2 2 2 2 WR](EN-13634-2017-2_2_2_2_WR_-_FORMA_-_ADVENTURE_-_0.jpg)![FORMA ADVENTURE - niveau de sécurité EN-13634-2017-2 2 2 2 WR](EN-13634-2017-2_2_2_2_WR_-_FORMA_-_ADVENTURE_-_1.jpg) |
 | **[FORMA - ADVENTURE LOW](https://www.formabootsusa.com/collections/dual-sport-adv-boots/products/adventure-low-brown)**</br>EN-13634-2017-2 2 2 2 WR</br>158,00 € ([Motoblouz](https://www.motoblouz.com/recherche/FORMA%20ADVENTURE%20LOW.html)) | ![FORMA ADVENTURE LOW - niveau de sécurité EN-13634-2017-2 2 2 2 WR](EN-13634-2017-2_2_2_2_WR_-_FORMA_-_ADVENTURE_LOW_-_0.jpg)![FORMA ADVENTURE LOW - niveau de sécurité EN-13634-2017-2 2 2 2 WR](EN-13634-2017-2_2_2_2_WR_-_FORMA_-_ADVENTURE_LOW_-_1.jpg) |
