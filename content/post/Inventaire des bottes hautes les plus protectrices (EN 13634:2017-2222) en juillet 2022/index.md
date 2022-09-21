@@ -24,7 +24,7 @@ Je couvre les chaussures/bottes courtes les plus protectrices (1222) dans un aut
 
 La norme européenne EN 13634:2017 impose d'afficher sur les étiquettes des chaussures/bottes moto des infos précises sur leur niveau de protection :
 
-![Exemple d'étiquette de botte à la norme EN13634:2017 Niveau 2222](EN13634-2017-2222.png)
+![Exemple d'étiquette de botte à la norme EN 13634:2017 Niveau 2222](EN13634-2017-2222.png)
 
 
 - Le premier chiffre indique la hauteur du chaussant[^1] (1 : basse, 2 : haute), il est surtout intéressant en complément des 3 suivants qui évaluent le niveau de protection de la chaussure pour un danger spécifique ;
@@ -52,27 +52,18 @@ Si vous tombez sur une botte portant cette certification avec une année inféri
 
 # Note sur les fabricants et la transparence
 
-Peu de fabricants jouent le jeu de la transparence sur internet, l'info est souvent absente, partielle, et même chez ceux qui la fournissent elle est généralement cachée dans un fichier pdf ou une image.
+Peu de fabricants sont transparents sur leurs sites en ce qui concerne la certification obtenue par leurs bottes. L'information est souvent absente ou partielle, et même chez ceux qui la fournissent elle est souvent perdue dans un fichier PDF ou une image.
 
-Ceux pris en compte ici sont :
+Ceux chez qui j'ai trouvé ces infos sont :
 
-- Les plus transparents, la conformité est dans le texte de la page :
-    - REV'IT ([site officiel](https://www.revitsport.com/fr/)) ;
-    - OJ ([site officiel](https://ojworld.it/)) ;
-- Image de l'étiquette facile à trouver :
-    - IXON ([site officiel](https://www.ixon.com/fra-fr/)) _(note : Pas de modèles 2222)_ ;
-    - FORMA ([site américain](https://www.formabootsusa.com/)) : le site européen ne donne aucune infos, mais elles sont sur le site US ;
-- Certification dans un pdf joint :
-    - DXR ([Motoblouz](https://www.motoblouz.com)) : Onglet "certificat de conformité" ;
-    - FURYGAN ([site officiel](https://www.furygan.com/)) : Lien "fiche technique" _(note : Pas de modèles 2222)_.
+- DXR ([Motoblouz](https://www.motoblouz.com)) : Le PDF "certificat de conformité" contient en général le niveau de certification ;
+- FORMA ([site américain](https://www.formabootsusa.com/)) : Le site européen ne donne aucune infos, mais les certifications sont visibles sur le site US - dommage car FORMA a beaucoup de modèles très protecteurs ;
+- FURYGAN ([site officiel](https://www.furygan.com/)) : Le PDF "fiche technique" contient parfois le niveau de certification _(note : Pas de modèles 2222)_ ;
+- IXON ([site officiel](https://www.ixon.com/fra-fr/)) : La certification est présente sous forme d'image _(note : Pas de modèles 2222)_ ;
+- REV'IT ([site officiel](https://www.revitsport.com/fr/)) : La certification est clairement indiquée dans le texte de la page ;
+- OJ ([site officiel](https://ojworld.it/)) : La certification est clairement indiquée dans le texte de la page.
 
-
-
-
-
-
-
-La liste (pléthorique) des autres fabricants que j'ai parcourus mais dont les sites ne publient pas les niveaux de protection se trouve en annexe en fin de document.  
+La liste (pléthorique) des autres fabricants que j'ai parcourus mais dont les sites ne publient pas les niveaux de certification de leurs bottes se trouve en annexe en fin de document.  
 Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à me prévenir en commentaire, et je les ajouterai à la prochaine version de ce document.
 
 # Inventaire des bottes hautes EN 13634:2017/2222
