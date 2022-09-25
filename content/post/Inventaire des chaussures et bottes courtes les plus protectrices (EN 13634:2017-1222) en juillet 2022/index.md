@@ -8,15 +8,15 @@ tags:
 
 ---
 
-Cet article inventorie les chaussures et bottes courtes de moto dont le niveau de protection annoncé sur internet est au maximum de la norme actuelle :
-EN 13634:2017/1222.
+Cet article inventorie les chaussures et bottes courtes de moto que j'ai repérées sur les sites des fabricants, et dont le niveau de protection est au maximum de la norme actuelle : 1222.
+
+La plupart des modèles disponibles sont unisexe, à l'exception d'un modèle femme chez FORMA (je ne sais pas s'il diffère réellement du modèle unisexe si on excepte la couleur).
+Il y a une bonne variété de formes Les premiers prix sont autour de 70 euros.
 
 
 <!--more-->
 
-J’ai mis une idée du prix lorsque c’était possible (j'ai listé en priorité les 2 français qui ont le plus de références, Motoblouz et Dafy, et j'ai ajouté l'espagnol MotardInn pour les OJ qui sont peu distribuées en France).
-
-_(Note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur Motoblouz)_
+J’ai mis le lien Motoblouz/Dafy/MotardInn et une idée des prix lorsque c’était possible _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur le site)_.
 
 Je couvre les chaussures/bottes hautes les plus protectrices (2222) dans un autre article.
 

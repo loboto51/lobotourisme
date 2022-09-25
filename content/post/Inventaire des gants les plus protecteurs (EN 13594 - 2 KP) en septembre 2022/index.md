@@ -8,10 +8,9 @@ tags :
 
 ---
 
-Cet article inventorie les gants de moto dont le niveau de protection annoncé par le fabricant sur internet est au maximum de la norme actuelle :
-EN 13594:20xx - 2 KP.
-
-Spoiler : Il y en a très peu, mais ils ne sont pas tous hors de prix !
+Lorsque la norme EN 13594 est entrée en vigueur en 2015/2016, les journaux moto prédisaient que les gants au niveau 2 KP seraient sûrement rares et limités à de l'équipement pour circuit.
+6 ans plus tard force est de constater que les modèles se multiplient et ne sont pas nécessairement réservés à cet usage :  
+J'ai identifié une quinzaine de modèles, de formes et styles différents, et pas nécessairement hors de prix (le premier prix est autour de 170 euros).
 
 <!--more-->
 
@@ -65,6 +64,7 @@ Ceux chez qui j'ai trouvé ces infos :
     - FURYGAN ([site officiel](https://www.furygan.com/)) : Le PDF "fiche technique" contient parfois le niveau de certification ;
     - IXON ([site officiel](https://www.ixon.com/fra-fr/)) : La certification est **toujours** présente sous forme d'image ;
     - REV'IT ([site officiel](https://www.revitsport.com/fr/)) : La certification est **toujours** indiquée dans le texte de la page ;
+    - RST ([site officiel](https://www.rst-moto.com/fr/)) : La certification est souvent indiquée dans le texte de la page ;
     - COURSE ([XLMoto](https://www.xlmoto.com/)) : La certification est souvent indiquée dans le texte de la page ;
     - KLIM ([site officiel](https://www.klim.com/)) : La certification est souvent indiquée dans le texte de la page.
 
@@ -80,13 +80,11 @@ Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à
 
  | Modèle | Photos |
 |---|---|
-| **[ALPINESTARS - AMT-10 AIR HDRY](https://www.alpinestars.com/products/amt-10-air-hdry-glove)**</br>EN-13594-20xx-2 KP</br> | ![ALPINESTARS AMT-10 AIR HDRY - niveau de sécurité EN-13594-20xx-2 KP](EN-13594-20xx-2_KP_-_ALPINESTARS_-_AMT-10_AIR_HDRY_-_0.jpg) |
-| **[ALPINESTARS - GP PRO R3](https://www.alpinestars.com/products/gp-pro-r3-gloves)**</br>EN-13594-2015-2 KP</br>255,70 € ([Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FALPINESTARS%2520GP%2520PRO%2520R3.html)) | ![ALPINESTARS GP PRO R3 - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_ALPINESTARS_-_GP_PRO_R3_-_0.jpg) |
-| **[ALPINESTARS - GP PRO RS3](https://www.alpinestars.com/products/gp-pro-rs3-gloves)**</br>EN-13594-2015-2 KP</br> | ![ALPINESTARS GP PRO RS3 - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_ALPINESTARS_-_GP_PRO_RS3_-_0.jpg) |
-| **[ALPINESTARS - GP TECH V2](https://www.alpinestars.com/products/gp-tech-v2-gloves)**</br>EN-13594-20xx-2 KP</br>322,00 € ([Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FALPINESTARS%2520GP%2520TECH%2520V2.html)) | ![ALPINESTARS GP TECH V2 - niveau de sécurité EN-13594-20xx-2 KP](EN-13594-20xx-2_KP_-_ALPINESTARS_-_GP_TECH_V2_-_0.jpg) |
-| **[ALPINESTARS - GP TECH V2 S](https://www.alpinestars.com/products/gp-tech-v2-s-gloves)**</br>EN-13594-20xx-2 KP</br> | ![ALPINESTARS GP TECH V2 S - niveau de sécurité EN-13594-20xx-2 KP](EN-13594-20xx-2_KP_-_ALPINESTARS_-_GP_TECH_V2_S_-_0.jpg) |
-
-
+|            **[ALPINESTARS - AMT-10 AIR HDRY](https://www.alpinestars.com/products/amt-10-air-hdry-glove)**            </br>EN-13594-20xx-2 KP</br>           180,45 € ([Dafy Moto](https://www.dafy-moto.com/recherche?string=ALPINESTARS%20AMT-10%20AIR%20HDRY))            | ![ALPINESTARS AMT-10 AIR HDRY - niveau de sécurité EN-13594-20xx-2 KP](EN-13594-20xx-2_KP_-_ALPINESTARS_-_AMT-10_AIR_HDRY_-_0.jpg) |
+|            **[ALPINESTARS - GP PRO R3](https://www.alpinestars.com/products/gp-pro-r3-gloves)**            </br>EN-13594-2015-2 KP</br>           212,90 € ([Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FALPINESTARS%2520GP%2520PRO%2520R3.html))| ![ALPINESTARS GP PRO R3 - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_ALPINESTARS_-_GP_PRO_R3_-_0.jpg)![ALPINESTARS GP PRO R3 - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_ALPINESTARS_-_GP_PRO_R3_-_1.jpg)![ALPINESTARS GP PRO R3 - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_ALPINESTARS_-_GP_PRO_R3_-_2.jpg)![ALPINESTARS GP PRO R3 - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_ALPINESTARS_-_GP_PRO_R3_-_3.jpg)![ALPINESTARS GP PRO R3 - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_ALPINESTARS_-_GP_PRO_R3_-_4.jpg)![ALPINESTARS GP PRO R3 - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_ALPINESTARS_-_GP_PRO_R3_-_5.jpg) |
+|            **[ALPINESTARS - GP PRO RS3](https://www.alpinestars.com/products/gp-pro-rs3-gloves)**            </br>EN-13594-2015-2 KP</br>         | ![ALPINESTARS GP PRO RS3 - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_ALPINESTARS_-_GP_PRO_RS3_-_0.jpg)![ALPINESTARS GP PRO RS3 - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_ALPINESTARS_-_GP_PRO_RS3_-_1.jpg)![ALPINESTARS GP PRO RS3 - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_ALPINESTARS_-_GP_PRO_RS3_-_2.jpg) |
+|            **[ALPINESTARS - GP TECH V2](https://www.alpinestars.com/products/gp-tech-v2-gloves)**            </br>EN-13594-20xx-2 KP</br>           268,20 € ([Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FALPINESTARS%2520GP%2520TECH%2520V2.html))| ![ALPINESTARS GP TECH V2 - niveau de sécurité EN-13594-20xx-2 KP](EN-13594-20xx-2_KP_-_ALPINESTARS_-_GP_TECH_V2_-_0.jpg)![ALPINESTARS GP TECH V2 - niveau de sécurité EN-13594-20xx-2 KP](EN-13594-20xx-2_KP_-_ALPINESTARS_-_GP_TECH_V2_-_1.jpg)![ALPINESTARS GP TECH V2 - niveau de sécurité EN-13594-20xx-2 KP](EN-13594-20xx-2_KP_-_ALPINESTARS_-_GP_TECH_V2_-_2.jpg) |
+|            **[ALPINESTARS - GP TECH V2 S](https://www.alpinestars.com/products/gp-tech-v2-s-gloves)**            </br>EN-13594-20xx-2 KP</br>                      | ![ALPINESTARS GP TECH V2 S - niveau de sécurité EN-13594-20xx-2 KP](EN-13594-20xx-2_KP_-_ALPINESTARS_-_GP_TECH_V2_S_-_0.jpg)![ALPINESTARS GP TECH V2 S - niveau de sécurité EN-13594-20xx-2 KP](EN-13594-20xx-2_KP_-_ALPINESTARS_-_GP_TECH_V2_S_-_1.jpg)![ALPINESTARS GP TECH V2 S - niveau de sécurité EN-13594-20xx-2 KP](EN-13594-20xx-2_KP_-_ALPINESTARS_-_GP_TECH_V2_S_-_2.jpg) |
 
 
 ## FIVE :
