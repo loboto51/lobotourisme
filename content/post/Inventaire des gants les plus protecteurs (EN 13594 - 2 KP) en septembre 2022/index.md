@@ -14,7 +14,7 @@ J'ai identifié une quinzaine de modèles, de formes et styles différents, et p
 
 <!--more-->
 
-J’ai mis le lien Motoblouz et une idée des prix lorsque c’était possible _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur le site)_.
+J’ai mis le lien Motoblouz/Dafy et une idée des prix lorsque c’était possible _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur le site)_.
 
 # La norme EN 13594:20xx
 
