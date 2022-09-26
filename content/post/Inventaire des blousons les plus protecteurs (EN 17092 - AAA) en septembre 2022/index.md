@@ -15,7 +15,7 @@ J'ai identifié une cinquantaine de modèles, hommes comme femmes, les premiers 
 
 <!--more-->
 
-J’ai mis le lien Motoblouz/Dafy et une idée des prix lorsque c’était possible _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur le site)_.
+J’ai mis le lien Motoblouz/Dafy/autre et une idée des prix lorsque c’était possible _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur le site Motoblouz)_.
 
 # La norme EN 17092:2019/2020/2021
 
@@ -58,7 +58,9 @@ Ceux chez qui j'ai trouvé ces infos :
     - RST ([site officiel](https://www.rst-moto.com/fr/)) : La certification est souvent indiquée dans le texte de la page ;
     - FURYGAN ([site officiel](https://www.furygan.com/)) : Le PDF "fiche technique" contient souvent le niveau de certification ;
     - IXON ([site officiel](https://www.ixon.com/fra-fr/)) : La certification est souvent présente sous forme d'image ;
+    - IXS ([site officiel](https://ixs.com/)) : La certification est souvent indiquée dans le texte de la page ;
     - KLIM ([site officiel](https://www.klim.com/)) : La certification est souvent indiquée dans le texte de la page ;
+    - MERLIN ([site officiel](https://www.merlinbikegear.com/)) : La certification est souvent indiquée dans le texte de la page ;
     - REV'IT ([site officiel](https://www.revitsport.com/fr/)) : La certification est **toujours** indiquée dans le texte de la page ;
     - RST ([site officiel](https://www.rst-moto.com/fr/)) : La certification est souvent indiquée dans le texte de la page ;
     - SEGURA ([site officiel](https://segura-moto.fr/)) : La certification est souvent indiquée dans le texte de la page ;
@@ -131,6 +133,15 @@ Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à
 |            **[IXON - VENDETTA JKT EVO](https://www.ixon.com/fra-fr/vendetta-jkt-evo)**            </br>EN-17092-2020 AAA</br>           352,70 € ([Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FIXON%2520VENDETTA%2520JKT%2520EVO.html))            | ![IXON VENDETTA JKT EVO - niveau de sécurité EN-17092-2020 AAA](EN-17092-2020_AAA_-_IXON_-_VENDETTA_JKT_EVO_-_0.png)![IXON VENDETTA JKT EVO - niveau de sécurité EN-17092-2020 AAA](EN-17092-2020_AAA_-_IXON_-_VENDETTA_JKT_EVO_-_1.png)![IXON VENDETTA JKT EVO - niveau de sécurité EN-17092-2020 AAA](EN-17092-2020_AAA_-_IXON_-_VENDETTA_JKT_EVO_-_2.png) |
 
 
+## IXS :
+
+ | Modèle | Photos |
+|---|---|
+|            **[IXS - CLASSIC LD ANDY](https://ixs.com/en/moto/motorcycle-garment/jackets/leather-jackets/2258/classic-ld-jacket-andy-black)**            </br>EN-17092-2020-AAA</br>           337,20 € ([Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FIXS%2520CLASSIC%2520LD%2520ANDY.html))            | ![IXS CLASSIC LD ANDY BLACK - niveau de sécurité EN-17092-2020-AAA](EN-17092-2020-AAA_-_IXS_-_CLASSIC_LD_ANDY_BLACK_-_0.jpg)![IXS CLASSIC LD ANDY BROWN - niveau de sécurité EN-17092-2020-AAA](EN-17092-2020-AAA_-_IXS_-_CLASSIC_LD_ANDY_BROWN_-_0.jpg) |
+|            **[IXS - CLASSIC LD STRIPE](https://ixs.com/en/moto/motorcycle-garment/jackets/leather-jackets/2257/classic-ld-jacket-stripe-black)**            </br>EN-17092-2020-AAA</br>           263,90 € ([Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FIXS%2520CLASSIC%2520LD%2520STRIPE.html))            | ![IXS CLASSIC LD STRIPE BLACK - niveau de sécurité EN-17092-2020-AAA](EN-17092-2020-AAA_-_IXS_-_CLASSIC_LD_STRIPE_BLACK_-_0.jpg) |
+|            **[IXS - CLASSIC LD WOMEN'S STRIPE](https://ixs.com/en/moto/motorcycle-garment/jackets/leather-jackets/2681/classic-ld-women-s-jacket-stripe-black)**            </br>EN-17092-2020-AAA</br>           263,90 € ([Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FIXS%2520CLASSIC%2520LD%2520STRIPE.html))              | ![IXS CLASSIC LD WOMEN-S STRIPE BLACK - niveau de sécurité EN-17092-2020-AAA](EN-17092-2020-AAA_-_IXS_-_CLASSIC_LD_WOMEN-S_STRIPE_BLACK_-_0.jpg) |
+|            **[IXS - SPORTS LD RS-600 2.0](https://ixs.com/en/moto/motorcycle-garment/jackets/leather-jackets/2682/sports-ld-jacket-rs-600-2.0-black)**            </br>EN-17092-2020-AAA</br>           374,70 € ([Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FIXS%2520SPORTS%2520LD%2520RS-600%25202-0%2520BLACK.html))            | ![IXS SPORTS LD RS-600 2-0 BLACK - niveau de sécurité EN-17092-2020-AAA](EN-17092-2020-AAA_-_IXS_-_SPORTS_LD_RS-600_2-0_BLACK_-_0.jpg) |
+|            **[IXS - SPORTS LD WOMEN-S RS-600 1.0](https://ixs.com/en/moto/motorcycle-garment/jackets/leather-jackets/2256/sports-ld-women-s-jacket-rs-600-1.0-black-grey-white)**            </br>EN-17092-2020-AAA</br>           299,80 € ([Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FIXS%2520SPORTS%2520LD%2520RS-600%25201-0-.html))            | ![IXS SPORTS LD WOMEN-S RS-600 1-0- - niveau de sécurité EN-17092-2020-AAA](EN-17092-2020-AAA_-_IXS_-_SPORTS_LD_WOMEN-S_RS-600_1-0-_-_0.jpg)![IXS SPORTS LD WOMEN-S RS-600 1-0- - niveau de sécurité EN-17092-2020-AAA](EN-17092-2020-AAA_-_IXS_-_SPORTS_LD_WOMEN-S_RS-600_1-0-_-_1.jpg) |
 
 
 ## KLIM :
@@ -138,6 +149,13 @@ Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à
  | Modèle | Photos |
 |---|---|
 |            **[KLIM - BADLANDS PRO A3](https://www.klim.com/Badlands-Pro-A3-Jacket-4101-000)**            </br>EN-17092-20xx-AAA</br>           1 640,00 € ([Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FKLIM%2520BADLANDS%2520PRO%2520A3.html))| ![KLIM BADLANDS PRO A3 - niveau de sécurité EN-17092-20xx-AAA](EN-17092-20xx-AAA_-_KLIM_-_BADLANDS_PRO_A3_-_0.jpg) |
+
+
+## MERLIN :
+
+ | Modèle | Photos |
+|---|---|
+|            **[MERLIN - GABLE WATERPROOF](https://www.merlinbikegear.com/product/gable-waterproof-jacket/)**            </br>EN-17092-20xx-AAA</br>           549,00 € ([FC-Moto](https://www.fc-moto.de/fr/Merlin-Gable-Veste-en-cuir-de-moto))            | ![MERLIN GABLE WATERPROOF - niveau de sécurité EN-17092-20xx-AAA](EN-17092-20xx-AAA_-_MERLIN_-_GABLE_WATERPROOF_-_0.jpg)![MERLIN GABLE WATERPROOF - niveau de sécurité EN-17092-20xx-AAA](EN-17092-20xx-AAA_-_MERLIN_-_GABLE_WATERPROOF_-_1.jpg) |
 
 
 
@@ -196,7 +214,6 @@ Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à
 - [Difi](https://www.motoport.eu/en/Difi)
 - [Fox](https://foxracing.fr/)
 - [Helstons](https://www.helstons.net/)
-- [IXS](https://ixs.com/en/moto/)
 - [Icon](https://rideicon.com/)
 - [Overlap](https://overlap-denim.com/)
 - [Richa](https://www.richa.eu/en-us/)
