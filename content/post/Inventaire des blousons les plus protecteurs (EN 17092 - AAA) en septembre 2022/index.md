@@ -8,10 +8,10 @@ tags :
 
 ---
 
-Lorsque la norme EN 17092 est entrée en vigueur en 2015/2016, les journaux moto prédisaient que les blousons/pantalons au niveau AAA seraient sûrement rares et limités à de l'équipement pour circuit.
-6 ans plus tard force est de constater que les modèles se multiplient et ne sont pas spécifiquement typés circuit.
+Lorsque la norme EN 17092 est entrée en vigueur en 2019/2020, les journaux moto prédisaient que les blousons/pantalons au niveau AAA seraient plutôt dédiés à un usage piste.
+2 ans plus tard force est de constater que les modèles se multiplient et ne sont pas spécifiquement typés circuit.
 
-J'ai identifié une cinquantaine de modèles, hommes comme femmes, les premiers prix sont autour de 250 euros.
+J'ai identifié une quarantaine de modèles, hommes comme femmes, les premiers prix sont autour de 250 euros.
 
 <!--more-->
 
