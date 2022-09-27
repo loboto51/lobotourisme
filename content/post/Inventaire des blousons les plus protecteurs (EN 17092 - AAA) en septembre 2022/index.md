@@ -69,8 +69,6 @@ Ceux chez qui j'ai trouvé ces infos :
     - DXR ([Motoblouz](https://www.motoblouz.com)) : La certification est souvent indiquée dans le texte de la page, sinon elle se trouve dans le PDF "certificat de conformité" ;
     - HIGHWAY 1/FASTWAY/REKURV/VANUCCI/DETLEV LOUIS/PROBIKER ([Louis moto](https://www.louis-moto.fr)) : La certification est souvent indiquée dans le texte de la page ;
     - HELSTONS ([site officiel](https://www.helstons.net/)) : La certification est parfois indiquée dans le texte de la page ;
-    - IXS ([site officiel](https://ixs.com/en/moto/)) : La certification est **toujours** indiquée dans le texte de la page ;
-    - MERLIN ([site officiel](https://www.merlinbikegear.com/)) : La certification est **toujours** indiquée dans le texte de la page ;
     - O'NEAL ([site officiel](https://www.oneal.eu/)) : La certification est **toujours** indiquée dans le texte de la page ;
     - RUSTY STITCHES ([site officiel](https://www.rustystitches.com/)) : La certification est **toujours** indiquée dans le texte de la page ;
     - SEVENTY DEGREES ([site officiel](https://seventy-70.com/en/)) : La certification est souvent indiquée dans le texte de la page.
