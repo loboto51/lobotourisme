@@ -11,13 +11,14 @@ tags :
 Lorsque la norme EN 17092 est entrée en vigueur en 2019/2020, les journaux moto prédisaient que les blousons/pantalons au niveau AAA seraient plutôt dédiés à un usage piste.
 2 ans plus tard force est de constater que les modèles se multiplient et ne sont pas spécifiquement typés circuit.
 
-J'ai identifié une quarantaine de modèles, hommes comme femmes, les premiers prix sont autour de 300 euros (250 en promotion).
+J'ai identifié une quarantaine de modèles, hommes comme femmes, les premiers prix sont autour de 250 euros (210-220 en promotion).
 
 <!--more-->
 
 J’ai mis le lien Motoblouz/Dafy/autre et une idée des prix lorsque c’était possible _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur le site Motoblouz)_.
 
-> _Edit du 01/10/2022 : Ajout des liens Vinted et Leboncoin._
+> _Edit du 01/10/2022 : Ajout des liens Vinted et Leboncoin._  
+> _Edit du 12/10/2022 : Ajout des marques Rokker et PMJ._
 
 # La norme EN 17092:2019/2020/2021
 
@@ -55,25 +56,28 @@ Peu de fabricants sont transparents sur leurs sites en ce qui concerne la certif
 Ceux chez qui j'ai trouvé ces infos :
 
 - Avec des modèles AAA :
-    - ALPINESTARS ([site officiel](https://www.alpinestars.com/)) : La certification est souvent (pas toujours) indiquée dans le texte de la page ;
-    - BERING : La certification est souvent indiquée dans le texte de la page ;
-    - RST ([site officiel](https://www.rst-moto.com/fr/)) : La certification est souvent indiquée dans le texte de la page ;
-    - FURYGAN ([site officiel](https://www.furygan.com/)) : Le PDF "fiche technique" contient souvent le niveau de certification ;
-    - IXON ([site officiel](https://www.ixon.com/fra-fr/)) : La certification est souvent présente sous forme d'image ;
-    - IXS ([site officiel](https://ixs.com/)) : La certification est souvent indiquée dans le texte de la page ;
-    - KLIM ([site officiel](https://www.klim.com/)) : La certification est souvent indiquée dans le texte de la page ;
-    - MERLIN ([site officiel](https://www.merlinbikegear.com/)) : La certification est souvent indiquée dans le texte de la page ;
-    - REV'IT ([site officiel](https://www.revitsport.com/fr/)) : La certification est **toujours** indiquée dans le texte de la page ;
-    - RST ([site officiel](https://www.rst-moto.com/fr/)) : La certification est souvent indiquée dans le texte de la page ;
-    - SEGURA ([site officiel](https://segura-moto.fr/)) : La certification est souvent indiquée dans le texte de la page ;
+    - [ALPINESTARS](https://www.alpinestars.com/) : La certification est souvent (pas toujours) indiquée dans le texte de la page ;
+    - [BERING](https://bering.fr/) : La certification est souvent indiquée dans le texte de la page ;
+    - [ROKKER](https://www.therokkercompany.com/) : La certification est souvent indiquée dans le texte de la page ;
+    - [RST](https://www.rst-moto.com/fr/)) : La certification est souvent indiquée dans le texte de la page ;
+    - [FURYGAN](https://www.furygan.com/) : Le PDF "fiche technique" contient souvent le niveau de certification ;
+    - [IXON](https://www.ixon.com/fra-fr/) : La certification est souvent présente sous forme d'image ;
+    - [IXS](https://ixs.com/)) : La certification est souvent indiquée dans le texte de la page ;
+    - [KLIM](https://www.klim.com/) : La certification est souvent indiquée dans le texte de la page ;
+    - [MERLIN](https://www.merlinbikegear.com/) : La certification est souvent indiquée dans le texte de la page ;
+    - [PMJ](https://www.pmj.it/) : La certification est **toujours** indiquée dans le texte de la page ;
+    - [REV'IT](https://www.revitsport.com/fr/) : La certification est **toujours** indiquée dans le texte de la page ;
+    - [RST](https://www.rst-moto.com/fr/) : La certification est souvent indiquée dans le texte de la page ;
+    - [SEGURA](https://segura-moto.fr/) : La certification est souvent indiquée dans le texte de la page ;
 - Sans modèles AAA (mais plusieurs modèles AA) :
-     - COURSE ([XLMoto](https://www.xlmoto.com/)) : La certification est souvent indiquée dans le texte de la page ;
-    - DXR ([Motoblouz](https://www.motoblouz.com)) : La certification est souvent indiquée dans le texte de la page, sinon elle se trouve dans le PDF "certificat de conformité" ;
-    - HIGHWAY 1/FASTWAY/REKURV/VANUCCI/DETLEV LOUIS/PROBIKER ([Louis moto](https://www.louis-moto.fr)) : La certification est souvent indiquée dans le texte de la page ;
-    - HELSTONS ([site officiel](https://www.helstons.net/)) : La certification est parfois indiquée dans le texte de la page ;
-    - O'NEAL ([site officiel](https://www.oneal.eu/)) : La certification est **toujours** indiquée dans le texte de la page ;
-    - RUSTY STITCHES ([site officiel](https://www.rustystitches.com/)) : La certification est **toujours** indiquée dans le texte de la page ;
-    - SEVENTY DEGREES ([site officiel](https://seventy-70.com/en/)) : La certification est souvent indiquée dans le texte de la page.
+     - [BOGOTTO (FC-Moto)](https://www.fc-moto.de/Marken/B/Bogotto/) : La certification est souvent indiquée dans le texte de la page ;
+     - [COURSE (XLMoto)](https://www.xlmoto.com/) : La certification est souvent indiquée dans le texte de la page ;
+    - [DXR (Motoblouz)](https://www.motoblouz.com) : La certification est souvent indiquée dans le texte de la page, sinon elle se trouve dans le PDF "certificat de conformité" ;
+    - [HIGHWAY 1, FASTWAY, REKURV, VANUCCI, DETLEV LOUIS, PROBIKER (Louis moto)](https://www.louis-moto.fr) : La certification est souvent indiquée dans le texte de la page ;
+    - [HELSTONS](https://www.helstons.net/) : La certification est parfois indiquée dans le texte de la page ;
+    - [O'NEAL](https://www.oneal.eu/) : La certification est **toujours** indiquée dans le texte de la page ;
+    - [RUSTY STITCHES](https://www.rustystitches.com/) : La certification est **toujours** indiquée dans le texte de la page ;
+    - [SEVENTY DEGREES](https://seventy-70.com/en/) : La certification est souvent indiquée dans le texte de la page.
 
 La liste des autres fabricants que j'ai parcourus mais dont les sites ne publient pas les niveaux de certification de leurs blousons se trouve en annexe en fin de document.  
 Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à me prévenir en commentaire, et je les ajouterai à la prochaine version de ce document.
@@ -159,6 +163,14 @@ Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à
 
 
 
+## PMJ :
+
+ | Modèle | Photos |
+|---|---|
+|            **[PMJ - LUCY](https://www.pmj.it/en/prodotti/lucy/)**            </br>EN-17092-20xx-AAA</br>           </br>Sites de vente :</br> - [Rechercher sur Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FPMJ%2520LUCY.html) </br> - Dafy : [259,00 €](https://www.dafy-moto.com/recherche?string=PMJ%20LUCY)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=PMJ+LUCY&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=PMJ+LUCY)            | ![PMJ LUCY - niveau de sécurité EN-17092-20xx-AAA](EN-17092-20xx-AAA_-_PMJ_-_LUCY_-_0.jpg) |
+|            **[PMJ - MIAMI](https://www.pmj.it/en/prodotti/miami/)**            </br>EN-17092-20xx-AAA</br>           </br>Sites de vente :</br> - [Rechercher sur Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FPMJ%2520MIAMI.html) </br> - Dafy : [239,00 €](https://www.dafy-moto.com/recherche?string=PMJ%20MIAMI)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=PMJ+MIAMI&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=PMJ+MIAMI)            | ![PMJ MIAMI - niveau de sécurité EN-17092-20xx-AAA](EN-17092-20xx-AAA_-_PMJ_-_MIAMI_-_0.jpg) |
+|            **[PMJ - WEST](https://www.pmj.it/en/prodotti/west/)**            </br>EN-17092-20xx-AAA</br>           </br>Sites de vente :</br> - [Rechercher sur Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FPMJ%2520WEST.html) </br> - Dafy : [259,00 €](https://www.dafy-moto.com/recherche?string=PMJ%20WEST)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=PMJ+WEST&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=PMJ+WEST)            | ![PMJ WEST - niveau de sécurité EN-17092-20xx-AAA](EN-17092-20xx-AAA_-_PMJ_-_WEST_-_0.jpg) |
+
 
 ## REVIT :
 
@@ -167,6 +179,15 @@ Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à
 |            **[REVIT - APEX](https://www.revitsport.com/en/motorcycle-jacket-apex-black-neon-red)**            </br>EN-17092-2020-AAA</br>           Sites de vente :</br> - Motoblouz : [559,99 €](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FREVIT%2520APEX.html) </br> - Dafy : [559,99 €](https://www.dafy-moto.com/recherche?string=REVIT%20APEX)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=REVIT+APEX&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=REVIT+APEX)            | ![REVIT APEX - niveau de sécurité EN-17092-2020-AAA](EN-17092-2020-AAA_-_REVIT_-_APEX_-_0.jpg)![REVIT APEX - niveau de sécurité EN-17092-2020-AAA](EN-17092-2020-AAA_-_REVIT_-_APEX_-_1.jpg)![REVIT APEX - niveau de sécurité EN-17092-2020-AAA](EN-17092-2020-AAA_-_REVIT_-_APEX_-_2.jpg) |
 |            **[REVIT - QUANTUM 2 PRO AIR](https://www.revitsport.com/en/motorcycle-jacket-quantum-2-pro-air-white-blue)**            </br>EN-17092-2020-AAA</br>           Sites de vente :</br> - Motoblouz : [649,99 €](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FREVIT%2520QUANTUM%25202%2520PRO%2520AIR.html) </br> - Dafy : [649,99 €](https://www.dafy-moto.com/recherche?string=REVIT%20QUANTUM%202%20PRO%20AIR)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=REVIT+QUANTUM+2+PRO+AIR&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=REVIT+QUANTUM+2+PRO+AIR)            | ![REVIT QUANTUM 2 PRO AIR - niveau de sécurité EN-17092-2020-AAA](EN-17092-2020-AAA_-_REVIT_-_QUANTUM_2_PRO_AIR_-_0.jpg) |
 
+
+## ROKKER :
+
+ | Modèle | Photos |
+|---|---|
+|            **[ROKKER - BONNY](https://www.therokkercompany.com/collections/all-jackets/products/bonny-leather-jacket)**            </br>EN-17092-20xx-AAA</br>           </br>Sites de vente :</br> - FC-Moto : [1399,00 €](https://www.fc-moto.de/epages/fcm.sf/fr_FR/?ObjectID=2587584&ViewAction=FacetedSearchProducts&SearchString=rokker+bonny)</br> - [Rechercher sur Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FROKKER%2520BONNY.html) </br> - [Rechercher sur Dafy](https://www.dafy-moto.com/recherche?string=ROKKER%20BONNY)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=ROKKER+BONNY&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=ROKKER+BONNY)            | ![ROKKER BONNY - niveau de sécurité EN-17092-20xx-AAA](EN-17092-20xx-AAA_-_ROKKER_-_BONNY_-_0.jpg) |
+|            **[ROKKER - COMMANDER](https://www.therokkercompany.com/collections/all-jackets/products/commander-leather-jacket)**            </br>EN-17092-20xx-AAA</br>           </br>Sites de vente :</br> - FC-Moto : [1399,00 €](https://www.fc-moto.de/epages/fcm.sf/fr_FR/?ObjectID=2587584&ViewAction=FacetedSearchProducts&SearchString=rokker+commander)</br> - [Rechercher sur Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FROKKER%2520COMMANDER.html) </br> - [Rechercher sur Dafy](https://www.dafy-moto.com/recherche?string=ROKKER%20COMMANDER)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=ROKKER+COMMANDER&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=ROKKER+COMMANDER)            | ![ROKKER COMMANDER - niveau de sécurité EN-17092-20xx-AAA](EN-17092-20xx-AAA_-_ROKKER_-_COMMANDER_-_0.jpg)![ROKKER COMMANDER - niveau de sécurité EN-17092-20xx-AAA](EN-17092-20xx-AAA_-_ROKKER_-_COMMANDER_-_1.jpg) |
+|            **[ROKKER - GINGER](https://www.therokkercompany.com/collections/all-jackets/products/ginger-leather-jacket)**            </br>EN-17092-20xx-AAA</br>           </br>Sites de vente :</br> - FC-Moto : [1299,00 €](https://www.fc-moto.de/epages/fcm.sf/fr_FR/?ObjectID=2587584&ViewAction=FacetedSearchProducts&SearchString=rokker+ginger)</br> - [Rechercher sur Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FROKKER%2520GINGER.html) </br> - [Rechercher sur Dafy](https://www.dafy-moto.com/recherche?string=ROKKER%20GINGER)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=ROKKER+GINGER&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=ROKKER+GINGER)            | ![ROKKER GINGER - niveau de sécurité EN-17092-20xx-AAA](EN-17092-20xx-AAA_-_ROKKER_-_GINGER_-_0.jpg) |
+|            **[ROKKER - GOODWOOD](https://www.therokkercompany.com/collections/all-jackets/products/goodwood-leather-jacket-brown)**            </br>EN-17092-20xx-AAA</br>           </br>Sites de vente :</br> - FC-Moto : [1499,00 €](https://www.fc-moto.de/epages/fcm.sf/fr_FR/?ObjectID=2587584&ViewAction=FacetedSearchProducts&SearchString=rokker+goodwood)</br> - [Rechercher sur Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FROKKER%2520GOODWOOD.html) </br> - [Rechercher sur Dafy](https://www.dafy-moto.com/recherche?string=ROKKER%20GOODWOOD)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=ROKKER+GOODWOOD&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=ROKKER+GOODWOOD)            | ![ROKKER GOODWOOD - niveau de sécurité EN-17092-20xx-AAA](EN-17092-20xx-AAA_-_ROKKER_-_GOODWOOD_-_0.jpg)![ROKKER GOODWOOD - niveau de sécurité EN-17092-20xx-AAA](EN-17092-20xx-AAA_-_ROKKER_-_GOODWOOD_-_1.jpg) |
 
 
 ## RST :
@@ -215,6 +236,7 @@ Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à
 - [Difi](https://www.motoport.eu/en/Difi)
 - [Fox](https://foxracing.fr/)
 - [Helstons](https://www.helstons.net/)
+- [HolyFreedom](https://www.holyfreedom.com/fr/)
 - [Icon](https://rideicon.com/)
 - [Overlap](https://overlap-denim.com/)
 - [Richa](https://www.richa.eu/en-us/)

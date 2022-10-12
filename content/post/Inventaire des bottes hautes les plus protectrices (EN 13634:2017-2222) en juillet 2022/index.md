@@ -73,7 +73,8 @@ Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à
 
  | Modèle | Photos |
 |---|---|
-|            **[DXR - SILVRETTA](https://www.motoblouz.com/vente-bottes-dxr-silvretta-200519.html?color=Brown)**            </br>EN-13634-2017-2 2 2 2 IPA</br>           </br>Sites de vente :</br> - Motoblouz : [99,90 €](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FDXR%2520SILVRETTA.html) </br> - [Rechercher sur Dafy](https://www.dafy-moto.com/recherche?string=DXR%20SILVRETTA)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=DXR+SILVRETTA&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=DXR+SILVRETTA)            | ![DXR SILVRETTA - niveau de sécurité EN-13634-2017-2 2 2 2 IPA](EN-13634-2017-2_2_2_2_IPA_-_DXR_-_SILVRETTA_-_0.jpg) |
+|            **[DXR - SILVRETTA](https://www.motoblouz.com/vente-bottes-dxr-silvretta-200519.html?color=Brown)**            </br>EN-13634-2017-2 2 2 2 IPA</br>           </br>Sites de vente :</br> - Motoblouz : [99,90 €](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FDXR%2520SILVRETTA.html) </br> - [Rechercher sur Dafy](https://www.dafy-moto.com/recherche?string=DXR%20SILVRETTA)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=DXR+SILVRETTA&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=DXR+SILVRETTA)            | ![DXR SILVRETTA - niveau de sécurité EN-13634-2017-2 2 2 2 IPA](EN-13634-2017-2_2_2_2_IPA_-_DXR_-_SILVRETTA_-_0.jpg)![DXR SILVRETTA - niveau de sécurité EN-13634-2017-2 2 2 2 IPA](EN-13634-2017-2_2_2_2_IPA_-_DXR_-_SILVRETTA_-_1.jpg) |
+
 
 
 
