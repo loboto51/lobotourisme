@@ -10,13 +10,14 @@ tags :
 
 Lorsque la norme EN 13594 est entrée en vigueur en 2015/2016, les journaux moto prédisaient que les gants au niveau 2 KP seraient sûrement rares et limités à de l'équipement pour circuit.
 6 ans plus tard force est de constater que les modèles se multiplient et ne sont pas nécessairement réservés à cet usage :  
-J'ai identifié une quinzaine de modèles, de formes et styles différents, et pas nécessairement hors de prix (le premier prix est autour de 170 euros).
+J'ai identifié une quinzaine de modèles, de formes et styles différents, et pas nécessairement hors de prix (le premier prix est autour de 170 euros _[Mise à jour : 60 euros pour les SWIFT de LS2]_).
 
 <!--more-->
 
 J’ai mis le lien Motoblouz/Dafy et une idée des prix lorsque c’était possible _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur le site)_.
 
-> _Edit du 01/10/2022 : Ajout des liens Vinted et Leboncoin._
+> _Mise à jour du 01/10/2022 : Ajout des liens Vinted et Leboncoin._  
+> _Mise à jour du 16/10/2022 : Ajout du modèle SWIFT de la marque LS2._
 
 # La norme EN 13594:20xx
 
@@ -57,18 +58,19 @@ Peu de fabricants sont transparents sur leurs sites en ce qui concerne la certif
 Ceux chez qui j'ai trouvé ces infos :
 
 - Avec des modèles 2 KP :
-    - ALPINESTARS ([site officiel](https://www.alpinestars.com/)) : La certification est souvent (pas toujours) indiquée dans le texte de la page ;
-    - FIVE ([site officiel](https://www.five-gloves.com/)) : La certification est particulièrement difficile à trouver, il faut aller la chercher [dans le catalogue de la collection 2022](https://www.five-gloves.com/catalogue-collection/). C'est dommage car Five est de loin le fabricant qui propose le plus de modèles ;
+    - [ALPINESTARS](https://www.alpinestars.com/) : La certification est souvent (pas toujours) indiquée dans le texte de la page ;
+    - [FIVE](https://www.five-gloves.com/) : La certification est particulièrement difficile à trouver, il faut aller la chercher [dans le catalogue de la collection 2022](https://www.five-gloves.com/catalogue-collection/). C'est dommage car Five est de loin le fabricant qui propose le plus de modèles ;
+    - [LS2](https://ls2helmets.com): La certification est cachée dans le catalogue sur le site principal, elle est plus clairement indiquée sur le site du distributeur américain ([https://www.ls2usa.com/products](https://www.ls2usa.com/products)) ;
 - Sans modèles 2 KP :
-    - ACERBIS ([site officiel](https://www.acerbis.com/en)) : La certification est **toujours** indiquée dans le texte de la page ;
-    - ALL ONE ([Dafy-Moto](https://www.dafy-moto.com)) : La certification est **toujours** indiquée dans le texte de la page (mais tous sont indiqués comme niveau 1) ;
-    - DXR ([Motoblouz](https://www.motoblouz.com)) : Le PDF "certificat de conformité" contient en général le niveau de certification ;
-    - FURYGAN ([site officiel](https://www.furygan.com/)) : Le PDF "fiche technique" contient parfois le niveau de certification ;
-    - IXON ([site officiel](https://www.ixon.com/fra-fr/)) : La certification est **toujours** présente sous forme d'image ;
-    - REV'IT ([site officiel](https://www.revitsport.com/fr/)) : La certification est **toujours** indiquée dans le texte de la page ;
-    - RST ([site officiel](https://www.rst-moto.com/fr/)) : La certification est souvent indiquée dans le texte de la page ;
-    - COURSE ([XLMoto](https://www.xlmoto.com/)) : La certification est souvent indiquée dans le texte de la page ;
-    - KLIM ([site officiel](https://www.klim.com/)) : La certification est souvent indiquée dans le texte de la page.
+    - [ACERBIS](https://www.acerbis.com/en) : La certification est **toujours** indiquée dans le texte de la page ;
+    - [ALL ONE (Dafy-Moto)](https://www.dafy-moto.com) : La certification est **toujours** indiquée dans le texte de la page (mais tous sont indiqués comme niveau 1) ;
+    - [DXR (Motoblouz)](https://www.motoblouz.com) : Le PDF "certificat de conformité" contient en général le niveau de certification ;
+    - [FURYGAN](https://www.furygan.com/) : Le PDF "fiche technique" contient parfois le niveau de certification ;
+    - [IXON](https://www.ixon.com/fra-fr/) : La certification est **toujours** présente sous forme d'image ;
+    - [REV'IT](https://www.revitsport.com/fr/) : La certification est **toujours** indiquée dans le texte de la page ;
+    - [RST](https://www.rst-moto.com/fr/) : La certification est souvent indiquée dans le texte de la page ;
+    - [COURSE (XLMoto)](https://www.xlmoto.com/) : La certification est souvent indiquée dans le texte de la page ;
+    - [KLIM](https://www.klim.com/) : La certification est souvent indiquée dans le texte de la page.
 
 
 
@@ -103,6 +105,12 @@ Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à
 |            **[FIVE - RFX2 AIRFLOW](https://www.five-gloves.com/glove/rfx2-airflow/)**            </br>EN-13594-2015-2 KP</br>           </br>Sites de vente :</br> - Motoblouz : [169,90 €](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FFIVE%2520RFX2%2520AIRFLOW.html) </br> - Dafy : [149,00 €](https://www.dafy-moto.com/recherche?string=FIVE%20RFX2%20AIRFLOW)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=FIVE+RFX2+AIRFLOW&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=FIVE+RFX2+AIRFLOW)            | ![FIVE RFX2 AIRFLOW - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_FIVE_-_RFX2_AIRFLOW_-_0.jpg)![FIVE RFX2 AIRFLOW - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_FIVE_-_RFX2_AIRFLOW_-_1.jpg) |
 |            **[FIVE - SF1](https://www.five-gloves.com/glove/sf1-5/)**            </br>EN-13594-2015-2 KP</br>           </br>Sites de vente :</br> - Motoblouz : [189,90 €](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FFIVE%2520SF1.html) </br> - Dafy : [189,90 €](https://www.dafy-moto.com/recherche?string=FIVE%20SF1)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=FIVE+SF1&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=FIVE+SF1)            | ![FIVE SF1 - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_FIVE_-_SF1_-_0.jpg)![FIVE SF1 - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_FIVE_-_SF1_-_1.jpg) |
 |            **[FIVE - TFX1 GTX](https://www.five-gloves.com/glove/tfx1-gtx/)**            </br>EN-13594-2015-2 KP</br>           </br>Sites de vente :</br> - Motoblouz : [219,90 €](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FFIVE%2520TFX1%2520GTX.html) </br> - Dafy : [219,90 €](https://www.dafy-moto.com/recherche?string=FIVE%20TFX1%20GTX)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=FIVE+TFX1&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=FIVE+TFX1)            | ![FIVE TFX1 GTX - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_FIVE_-_TFX1_GTX_-_0.jpg)![FIVE TFX1 GTX - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_FIVE_-_TFX1_GTX_-_1.jpg)![FIVE TFX1 GTX - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_FIVE_-_TFX1_GTX_-_2.jpg) |
+
+## LS2 :
+
+ | Modèle | Photos |
+|---|---|
+|            **[LS2 - SWIFT](https://www.ls2usa.com/swiftgloves)**            </br>EN-13594-2015-2 KP</br>           </br>Sites de vente :</br>- Motardinn : [59,99 €](https://www.tradeinn.com/motardinn/fr/ls2-gants-swift-racing/137388008/p?products_search%5Bquery%5D=LS2%20SWIFT)</br> - [Rechercher sur Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FLS2%2520SWIFT.html) </br> - [Rechercher sur Dafy](https://www.dafy-moto.com/recherche?string=LS2%20SWIFT)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=LS2+SWIFT&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=LS2+SWIFT)            | ![LS2 SWIFT - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_LS2_-_SWIFT_-_0.png)![LS2 SWIFT - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_LS2_-_SWIFT_-_1.png)![LS2 SWIFT - niveau de sécurité EN-13594-2015-2 KP](EN-13594-2015-2_KP_-_LS2_-_SWIFT_-_2.png) |
 
 ---
 
