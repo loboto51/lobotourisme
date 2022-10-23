@@ -19,7 +19,8 @@ J’ai mis le lien Motoblouz/Dafy/autre et une idée des prix lorsque c’était
 
 > _Edit du 01/10/2022 : Ajout des liens Vinted et Leboncoin._  
 > _Edit du 12/10/2022 : Ajout des marques Rokker et PMJ._  
-> _Edit du 16/10/2022 : Ajout des marques Goldtop et BMW._
+> _Edit du 16/10/2022 : Ajout des marques Goldtop et BMW._  
+> _Edit du 23/10/2022 : Ajout de la marque Halvarssons._
 
 # La norme EN 17092:2019/2020/2021
 
@@ -52,7 +53,7 @@ _A première vue la norme existe au moins en 3 versions, 2019, 2020 et 2021, mai
 
 # Note sur les fabricants et la transparence
 
-Peu de fabricants sont transparents sur leurs sites en ce qui concerne la certification obtenue par leurs blousons, mais l'info est tout de même plus souvent présente que pour les bottes et les gants. 
+Les fabricants sont moyennement transparents sur leurs sites en ce qui concerne la certification obtenue par leurs blousons, mais l'info est tout de même plus souvent présente que pour les bottes et les gants. 
 
 Ceux chez qui j'ai trouvé ces infos :
 
@@ -64,6 +65,7 @@ Ceux chez qui j'ai trouvé ces infos :
     - [RST](https://www.rst-moto.com/fr/)) : La certification est souvent indiquée dans le texte de la page ;
     - [FURYGAN](https://www.furygan.com/) : Le PDF "fiche technique" contient souvent le niveau de certification ;
     - [GOLDTOP](https://goldtop.co.uk) : La certification est souvent indiquée dans le texte de la page ;
+    - [HALVARSSONS](https://halvarssonsmc.com/) : La certification est **toujours** indiquée dans le texte de la page ;
     - [IXON](https://www.ixon.com/fra-fr/) : La certification est souvent présente sous forme d'image ;
     - [IXS](https://ixs.com/) : La certification est souvent indiquée dans le texte de la page ;
     - [KLIM](https://www.klim.com/) : La certification est souvent indiquée dans le texte de la page ;
@@ -154,7 +156,12 @@ Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à
 |            **[GOLDTOP - THE PATROL](https://goldtop.co.uk/collections/jackets/products/the-patrol?variant=37995077992619)**            </br>EN-17092-2020-AAA</br>           </br>Sites de vente :</br> - Goldtop : [390,00 €](https://goldtop.co.uk/collections/jackets/products/the-patrol?variant=37995077992619)</br> - [Rechercher sur Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FGOLDTOP%2520THE%2520PATROL.html) </br> - [Rechercher sur Dafy](https://www.dafy-moto.com/recherche?string=GOLDTOP%20THE%20PATROL)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=GOLDTOP+THE+PATROL&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=GOLDTOP+THE+PATROL)            | ![GOLDTOP THE PATROL - niveau de sécurité EN-17092-2020-AAA](EN-17092-2020-AAA_-_GOLDTOP_-_THE_PATROL_-_0.png)![GOLDTOP THE PATROL - niveau de sécurité EN-17092-2020-AAA](EN-17092-2020-AAA_-_GOLDTOP_-_THE_PATROL_-_1.png) |
 
 
+## HALVARSSONS :
 
+ | Modèle | Photos |
+|---|---|
+|            **[HALVARSSONS - RACKEN](https://halvarssonsmc.com/product/racken/)**            </br>EN-17092-20xx-AAA</br>           </br>Sites de vente :</br> - Halvarssons : [749.00 €](https://halvarssonsmc.com/product/racken/)</br> - FC-Moto : [699,00 €](https://www.fc-moto.de/en/Halvarssons-Racken-Waterproof-Motorcycle-Leather-Jacket)</br> - [Rechercher sur Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FHALVARSSONS%2520RACKEN.html) </br> - [Rechercher sur Dafy](https://www.dafy-moto.com/recherche?string=HALVARSSONS%20RACKEN)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=HALVARSSONS+RACKEN&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=HALVARSSONS+RACKEN)            | ![HALVARSSONS RACKEN - niveau de sécurité EN-17092-20xx-AAA](EN-17092-20xx-AAA_-_HALVARSSONS_-_RACKEN_-_0.jpg) |
+|            **[HALVARSSONS - VITSAND](https://halvarssonsmc.com/product/vitsand/)**            </br>EN-17092-20xx-AAA</br>           </br>Sites de vente :</br> - Halvarssons : [749.00 €](https://halvarssonsmc.com/product/vitsand/)</br> - FC-Moto : [699,00 €](https://www.fc-moto.de/en/Halvarssons-Vitsand-Waterproof-Ladies-Motorcycle-Leather-Jacket)</br> - [Rechercher sur Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FHALVARSSONS%2520VITSAND.html) </br> - [Rechercher sur Dafy](https://www.dafy-moto.com/recherche?string=HALVARSSONS%20VITSAND)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=HALVARSSONS+VITSAND&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=HALVARSSONS+VITSAND)            | ![HALVARSSONS VITSAND - niveau de sécurité EN-17092-20xx-AAA](EN-17092-20xx-AAA_-_HALVARSSONS_-_VITSAND_-_0.jpg) |
 
 
 ## IXON :
