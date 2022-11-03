@@ -14,11 +14,12 @@ Il existe une grande variété de styles, la plupart des modèles sont unisexe m
 
 <!--more-->
 
-J’ai mis le lien Motoblouz/Dafy/MotardInn et une idée des prix lorsque c’était possible _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur le site)_.
+J’ai mis le lien Motoblouz/Dafy/MotardInn et une idée des prix lorsque c’était possible _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur le site Motoblouz)_.
 
 Je couvre les chaussures/bottes courtes les plus protectrices (1222) dans un autre article.
 
-> _Edit du 01/10/2022 : Ajout des liens Vinted et Leboncoin._
+> _Edit du 01/10/2022 : Ajout des liens Vinted et Leboncoin._  
+> _Edit du 03/11/2022 : Ajout de la marque Oxford._
 
 # La norme EN 13634:2017
 
@@ -56,12 +57,13 @@ Peu de fabricants sont transparents sur leurs sites en ce qui concerne la certif
 
 Ceux chez qui j'ai trouvé ces infos sont :
 
-- DXR ([Motoblouz](https://www.motoblouz.com)) : Le PDF "certificat de conformité" contient en général le niveau de certification ;
-- FORMA ([site américain](https://www.formabootsusa.com/)) : Le site européen ne donne aucune infos, mais les certifications sont visibles sur le site US - dommage car FORMA a beaucoup de modèles très protecteurs ;
-- FURYGAN ([site officiel](https://www.furygan.com/)) : Le PDF "fiche technique" contient parfois le niveau de certification _(note : Pas de modèles 2222)_ ;
-- IXON ([site officiel](https://www.ixon.com/fra-fr/)) : La certification est présente sous forme d'image _(note : Pas de modèles 2222)_ ;
-- REV'IT ([site officiel](https://www.revitsport.com/fr/)) : La certification est clairement indiquée dans le texte de la page ;
-- OJ ([site officiel](https://ojworld.it/)) : La certification est clairement indiquée dans le texte de la page.
+- [DXR (Motoblouz)](https://www.motoblouz.com) : Le PDF "certificat de conformité" contient en général le niveau de certification ;
+- [FORMA (site américain)](https://www.formabootsusa.com/) : Le site européen ne donne aucune infos, mais les certifications sont visibles sur le site US - dommage car FORMA a beaucoup de modèles très protecteurs ;
+- [FURYGAN](https://www.furygan.com/) : Le PDF "fiche technique" contient parfois le niveau de certification _(note : Pas de modèles 2222)_ ;
+- [IXON](https://www.ixon.com/fra-fr/) : La certification est présente sous forme d'image _(note : Pas de modèles 2222)_ ;
+- [REV'IT](https://www.revitsport.com/fr/) : La certification est clairement indiquée dans le texte de la page ;
+- [OJ](https://ojworld.it/) : La certification est clairement indiquée dans le texte de la page ;
+- [OXFORD](https://www.oxfordproducts.com) : La certification est parfois indiquée dans le texte de la page.
 
 La liste (pléthorique) des autres fabricants que j'ai parcourus mais dont les sites ne publient pas les niveaux de certification de leurs bottes se trouve en annexe en fin de document.  
 Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à me prévenir en commentaire, et je les ajouterai à la prochaine version de ce document.
@@ -110,6 +112,16 @@ Si l'un d'entre eux évolue ou si vous en connaissez d'autres, n'hésitez pas à
 |            **[OJ - MASSIVE](https://ojworld.it/scarpe-e-stivali/massive.html)**            </br>EN-13634-2017-2 2 2 2 WR</br>           </br>Sites de vente :</br>- Motardinn : [113.99 €](https://www.tradeinn.com/motardinn/fr?products_search%5Bquery%5D=OJ%20MASSIVE)</br> - [Rechercher sur Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FOJ%2520MASSIVE.html) </br> - [Rechercher sur Dafy](https://www.dafy-moto.com/recherche?string=OJ%20MASSIVE)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=OJ+MASSIVE&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=OJ+MASSIVE)            | ![OJ MASSIVE - niveau de sécurité EN-13634-2017-2 2 2 2 WR](EN-13634-2017-2_2_2_2_WR_-_OJ_-_MASSIVE_-_0.jpg) |
 |            **[OJ - MIDDLE](https://ojworld.it/scarpe-e-stivali/middle.html)**            </br>EN-13634-2017-2 2 2 2 WR</br>           </br>Sites de vente :</br>- Motardinn : [106,99 €](https://www.tradeinn.com/motardinn/fr?products_search%5Bquery%5D=OJ%20MIDDLE)</br> - [Rechercher sur Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FOJ%2520MIDDLE.html) </br> - [Rechercher sur Dafy](https://www.dafy-moto.com/recherche?string=OJ%20MIDDLE)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=OJ+MIDDLE&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=OJ+MIDDLE)            | ![OJ MIDDLE - niveau de sécurité EN-13634-2017-2 2 2 2 WR](EN-13634-2017-2_2_2_2_WR_-_OJ_-_MIDDLE_-_0.jpg) |
 |            **[OJ - TURN](https://ojworld.it/scarpe-e-stivali/turn.html)**            </br>EN-13634-2017-2 2 2 2 WR</br>           </br>Sites de vente :</br>- Motardinn : [106.99 €](https://www.tradeinn.com/motardinn/fr?products_search%5Bquery%5D=OJ%20TURN)</br> - [Rechercher sur Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FOJ%2520TURN.html) </br> - [Rechercher sur Dafy](https://www.dafy-moto.com/recherche?string=OJ%20TURN)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=OJ+TURN&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=OJ+TURN)            | ![OJ TURN - niveau de sécurité EN-13634-2017-2 2 2 2 WR](EN-13634-2017-2_2_2_2_WR_-_OJ_-_TURN_-_0.jpg) |
+
+
+## OXFORD :
+
+ | Modèle | Photos |
+|---|---|
+|            **[OXFORD - VALENTINA WS](https://www.oxfordproducts.com/motorcycle/product_type/rider_wear/oxford/boots/oxford_valentina_ws_boots_black/)**            </br>EN-13634-2017-2 2 2 2</br>           </br>Sites de vente :</br> - Oxford : [119,00 £](https://www.oxfordproducts.com/motorcycle/product_type/rider_wear/oxford/boots/oxford_valentina_ws_boots_black/)</br> - [Rechercher sur Motoblouz](https://pkw.motoblouz.com/?P4122157BDFF171&redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FOXFORD%2520VALENTINA%2520WS.html) </br> - [Rechercher sur Dafy](https://www.dafy-moto.com/recherche?string=OXFORD%20VALENTINA%20WS)</br> </br> Occasion : </br> - [Rechercher sur Leboncoin](https://www.leboncoin.fr/recherche?text=OXFORD+VALENTINA+WS&shippable=1&sort=price&order=asc) <br/> - [Rechercher sur Vinted](https://www.vinted.fr/catalog?search_text=OXFORD+VALENTINA+WS)            | ![OXFORD VALENTINA WS - niveau de sécurité EN-13634-2017-2 2 2 2](EN-13634-2017-2_2_2_2_-_OXFORD_-_VALENTINA_WS_-_0.jpg) |
+
+
+
 
 ## REVIT :
 
