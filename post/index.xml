@@ -7,19 +7,24 @@
 &lt;em>Edit du 12/10/2022 : Ajout des marques Rokker et PMJ.&lt;/em>&lt;br>
 &lt;em>Edit du 16/10/2022 : Ajout des marques Goldtop et BMW.&lt;/em>&lt;br>
 &lt;em>Edit du 23/10/2022 : Ajout de la marque Halvarssons.&lt;/em>&lt;br>
-&lt;em>Edit du 02/11/2022 : Ajout de la marque John Doe.&lt;/em>&lt;/p>
+&lt;em>Edit du 03/11/2022 : Ajout des marques John Doe et Knox.&lt;/em>&lt;br>
+&lt;em>Edit du 07/11/2022 : Ajout des marques Resurgence Gear et Spidi et complément sur la protection des matériaux (cuir VS tissus techniques) et l&amp;rsquo;ancienne norme EN 13595.&lt;/em>&lt;/p>
 &lt;/blockquote>
-&lt;h1 id="la-norme-en-17092201920202021" >La norme EN 17092:2019/2020/2021
+&lt;h1 id="explications-sur-la-norme-en-1709220xx" >Explications sur la norme EN 17092:20xx
 &lt;span>
-&lt;a href="#la-norme-en-17092201920202021">
+&lt;a href="#explications-sur-la-norme-en-1709220xx">
 &lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
 &lt;/a>
 &lt;/span>
 &lt;/h1>&lt;p>La norme européenne EN 17092 impose d&amp;rsquo;afficher sur les étiquettes des blousons et pantalons moto une mesure précise sur leur niveau de protection, matérialisée par une étiquette comme celle-ci :&lt;/p>
 &lt;p>&lt;img src="EN_17092-20xx_C_B_A_AA_AAA.png" alt="Représentation des étiquettes EN 17092-20xx C, B, A, AA et AAA">&lt;/p>
-&lt;p>Une explication très complète de la norme, avec le détail des différentes mesures est disponible sur le site &amp;ldquo;Demonerosso&amp;rdquo; de Dainese ici : &lt;a href="https://demonerosso.dainese.com/fr/comment-fonctionnent-les-certifications-des-vestes-et-pantalons-de-moto">comment fonctionnent les certifications des vestes et pantalons moto&lt;/a>.&lt;/p>
-&lt;p>(paradoxalement, Dainese ne publie pas le niveau de protection de ses blousons et pantalons&amp;hellip;)&lt;/p>
-&lt;p>Il faut essentiellement retenir que le corps est divisé en 3 zones, qui doivent résister à des niveaux d&amp;rsquo;abrasion différents, en raison de leur exposition :&lt;/p>
+&lt;p>Une explication sur le site &amp;ldquo;Demonerosso&amp;rdquo; de Dainese ici : &lt;a href="https://demonerosso.dainese.com/fr/comment-fonctionnent-les-certifications-des-vestes-et-pantalons-de-moto">comment fonctionnent les certifications des vestes et pantalons moto&lt;/a>
+(paradoxalement, Dainese ne publie pas le niveau de protection de ses blousons et pantalons&amp;hellip;).&lt;/p>
+&lt;p>Une autre sur le site de VQuattro ici :&lt;a href="https://vquattro.com/conseils/normes-ce/normes-ce-pantalons-blousons-moto/">NORMES CE DES BLOUSONS MOTO&lt;/a>&lt;/p>
+&lt;p>Il faut essentiellement retenir que le corps est divisé en 3 zones, qui doivent résister à des tests d&amp;rsquo;abrasion, de déchirure et d&amp;rsquo;éclatement des coutures différents en fonction de leur exposition.&lt;/p>
+&lt;p>L&amp;rsquo;abrasion n&amp;rsquo;est pas le seul critère mais elle donne une bonne idée des différences entres niveaux A, AA, et AAA :&lt;br>
+L&amp;rsquo;échantillon de tissu est soumis à une chute simulée à une vitesse donnée, avec frottement jusqu&amp;rsquo;à immobilisation, il ne doit pas comporter de trou de plus de 5 mm pour être certifié.&lt;br>
+Les vitesses de chute par niveau :&lt;/p>
 &lt;ul>
 &lt;li>AAA :
 &lt;ul>
@@ -43,8 +48,26 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>Les niveaux B et C sont très faibles et à éviter absolument à mon avis : On trouve maintenant du AA dans toutes les gammes de prix.&lt;/p>
-&lt;p>&lt;em>A première vue la norme existe au moins en 3 versions, 2019, 2020 et 2021, mais il ne semble pas y avoir de différence entre elles dans les niveaux de protection.&lt;/em>&lt;/p>
+&lt;p>(&lt;em>A garder en tête :&lt;/em> Le revêtement sur lequel les tests sont effectués est en ciment, c&amp;rsquo;est beaucoup moins abrasif que le bitume de nos routes)&lt;/p>
+&lt;p>Les 2 autres niveaux, B et C, sont sans grand intérêt : Le B est un A sans coques, et le C propose une protection vraiment très faible.&lt;/p>
+&lt;blockquote>
+&lt;p>Notes du 07/11/2022 :&lt;/p>
+&lt;ol>
+&lt;li>Cuir VS fibres de la NASA ?&lt;br>
+La norme EN 17092 permet de s&amp;rsquo;assurer que le vêtement dépasse un seuil de résistance donné pour des types d&amp;rsquo;agressions précis. Rien ne permet de savoir si ce vêtement le dépasse tout juste ou très largement.&lt;br>
+A niveau de certification égal, les différents comparatifs semblent toujours mettre le cuir en premier, suivi des tissus techniques multi-couches et enfin des tissus techniques mono-couche.&lt;br>
+Quelques sources :&lt;br>
+Discussions argumentées tournant autour des pantalons multi ou mono-couche &lt;a href="https://www.advrider.com/f/threads/single-layer-vs-double-layer-jeans-test-video.1550527/">ici (advrider)&lt;/a>, &lt;a href="https://www.advrider.com/f/threads/single-layer-jeans-a-few-models-compared.1551669/">ici (advrider)&lt;/a>, &lt;a href="https://www.hoodjeans.co.uk/single-layer-motorcycle-jeans/">ici (Hood Jeans)&lt;/a>.&lt;br>
+On y trouve une très intéressante interview vidéo de Chris Hurren, un des chercheurs derrière le site australien &lt;a href="https://www.motocap.com.au/">Motocap&lt;/a> qui effectue des tests indépendants selon des critères assez proches de l&amp;rsquo;ancienne norme EN 13595.&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;ol start="2">
+&lt;li>Quid de l&amp;rsquo;ancienne norme EN 13595 de 2002, ou la variante française de 2012 ?&lt;br>
+Plusieurs commentateurs indiquent que ces 2 anciennes normes étaient plus exigeantes dès leur niveau 1, que l&amp;rsquo;EN 17092 niveau AAA. En contrepartie elles n&amp;rsquo;étaient ni obligatoires, ni (apparemment) appliquées à la lettre.
+Difficile de dire si on y a gagné ou perdu (sûrement un peu des deux), en attendant nos avons à présent l&amp;rsquo;EN 17092, autant essayer d&amp;rsquo;en tirer le maximum !&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
 &lt;h1 id="note-sur-les-fabricants-et-la-transparence" >Note sur les fabricants et la transparence
 &lt;span>
 &lt;a href="#note-sur-les-fabricants-et-la-transparence">
@@ -68,11 +91,14 @@
 &lt;li>&lt;a href="https://ixs.com/">IXS&lt;/a> : La certification est souvent indiquée dans le texte de la page ;&lt;/li>
 &lt;li>&lt;a href="https://www.ridejohndoe.com">JOHN DOE&lt;/a> : La certification est &lt;strong>toujours&lt;/strong> indiquée dans le texte de la page ;&lt;/li>
 &lt;li>&lt;a href="https://www.klim.com/">KLIM&lt;/a> : La certification est souvent indiquée dans le texte de la page ;&lt;/li>
+&lt;li>&lt;a href="https://www.planet-knox.com">KNOX&lt;/a> : La certification est souvent indiquée dans le texte de la page ;&lt;/li>
 &lt;li>&lt;a href="https://www.merlinbikegear.com/">MERLIN&lt;/a> : La certification est souvent indiquée dans le texte de la page ;&lt;/li>
 &lt;li>&lt;a href="https://www.pmj.it/">PMJ&lt;/a> : La certification est &lt;strong>toujours&lt;/strong> indiquée dans le texte de la page ;&lt;/li>
+&lt;li>&lt;a href="https://resurgencegear.net/">RESURGENCE GEAR&lt;/a> : La certification est &lt;strong>toujours&lt;/strong> indiquée dans le texte de la page ;&lt;/li>
 &lt;li>&lt;a href="https://www.revitsport.com/fr/">REV&amp;rsquo;IT&lt;/a> : La certification est &lt;strong>toujours&lt;/strong> indiquée dans le texte de la page ;&lt;/li>
 &lt;li>&lt;a href="https://www.rst-moto.com/fr/">RST&lt;/a> : La certification est souvent indiquée dans le texte de la page ;&lt;/li>
 &lt;li>&lt;a href="https://segura-moto.fr/">SEGURA&lt;/a> : La certification est souvent indiquée dans le texte de la page ;&lt;/li>
+&lt;li>&lt;a href="https://www.spidi.com/">SPIDI&lt;/a> : La certification est souvent indiquée dans le texte de la page ;&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Sans modèles AAA (mais plusieurs modèles AA) :
@@ -437,6 +463,30 @@ Si l&amp;rsquo;un d&amp;rsquo;entre eux évolue ou si vous en connaissez d&amp;r
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
+&lt;h2 id="knox-" >KNOX :
+&lt;span>
+&lt;a href="#knox-">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Modèle&lt;/th>
+&lt;th>Photos&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>&lt;a href="https://www.planet-knox.com/product/mens-honister-jacket/">KNOX - HONISTER&lt;/a>&lt;/strong> &lt;/br>EN-17092-2020-AAA&lt;/br> &lt;/br>Sites de vente :&lt;/br> - iCasque : &lt;a href="https://www.icasque.com/search/knox%20honister">459,99 €&lt;/a>&lt;/br> - &lt;a href="https://pkw.motoblouz.com/?P4122157BDFF171&amp;amp;redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FKNOX%2520HONISTER.html">Rechercher sur Motoblouz&lt;/a> &lt;/br> - &lt;a href="https://www.dafy-moto.com/recherche?string=KNOX%20HONISTER">Rechercher sur Dafy&lt;/a>&lt;/br> &lt;/br> Occasion : &lt;/br> - &lt;a href="https://www.leboncoin.fr/recherche?text=KNOX+HONISTER&amp;amp;shippable=1&amp;amp;sort=price&amp;amp;order=asc">Rechercher sur Leboncoin&lt;/a> &lt;br/> - &lt;a href="https://www.vinted.fr/catalog?search_text=KNOX+HONISTER">Rechercher sur Vinted&lt;/a>&lt;/td>
+&lt;td>&lt;img src="EN-17092-2020-AAA_-_KNOX_-_HONISTER_-_0.jpg" alt="KNOX HONISTER - niveau de sécurité EN-17092-2020-AAA">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>&lt;a href="https://www.planet-knox.com/product/womens-honister-jacket/">KNOX - WOMEN HONISTER&lt;/a>&lt;/strong> &lt;/br>EN-17092-2014-AAA&lt;/br> &lt;/br>Sites de vente :&lt;/br> - iCasque : &lt;a href="https://www.icasque.com/search/knox%20honister">459,99 €&lt;/a>&lt;/br> - &lt;a href="https://pkw.motoblouz.com/?P4122157BDFF171&amp;amp;redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FKNOX%2520WOMEN%2520HONISTER.html">Rechercher sur Motoblouz&lt;/a> &lt;/br> - &lt;a href="https://www.dafy-moto.com/recherche?string=KNOX%20WOMEN%20HONISTER">Rechercher sur Dafy&lt;/a>&lt;/br> &lt;/br> Occasion : &lt;/br> - &lt;a href="https://www.leboncoin.fr/recherche?text=KNOX+WOMEN+HONISTER&amp;amp;shippable=1&amp;amp;sort=price&amp;amp;order=asc">Rechercher sur Leboncoin&lt;/a> &lt;br/> - &lt;a href="https://www.vinted.fr/catalog?search_text=KNOX+WOMEN+HONISTER">Rechercher sur Vinted&lt;/a>&lt;/td>
+&lt;td>&lt;img src="EN-17092-2014-AAA_-_KNOX_-_WOMEN_HONISTER_-_0.jpg" alt="KNOX WOMEN HONISTER - niveau de sécurité EN-17092-2014-AAA">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
 &lt;h2 id="merlin-" >MERLIN :
 &lt;span>
 &lt;a href="#merlin-">
@@ -482,6 +532,42 @@ Si l&amp;rsquo;un d&amp;rsquo;entre eux évolue ou si vous en connaissez d&amp;r
 &lt;tr>
 &lt;td>&lt;strong>&lt;a href="https://www.pmj.it/en/prodotti/west/">PMJ - WEST&lt;/a>&lt;/strong> &lt;/br>EN-17092-20xx-AAA&lt;/br> &lt;/br>Sites de vente :&lt;/br> - &lt;a href="https://pkw.motoblouz.com/?P4122157BDFF171&amp;amp;redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FPMJ%2520WEST.html">Rechercher sur Motoblouz&lt;/a> &lt;/br> - Dafy : &lt;a href="https://www.dafy-moto.com/recherche?string=PMJ%20WEST">259,00 €&lt;/a>&lt;/br> &lt;/br> Occasion : &lt;/br> - &lt;a href="https://www.leboncoin.fr/recherche?text=PMJ+WEST&amp;amp;shippable=1&amp;amp;sort=price&amp;amp;order=asc">Rechercher sur Leboncoin&lt;/a> &lt;br/> - &lt;a href="https://www.vinted.fr/catalog?search_text=PMJ+WEST">Rechercher sur Vinted&lt;/a>&lt;/td>
 &lt;td>&lt;img src="EN-17092-20xx-AAA_-_PMJ_-_WEST_-_0.jpg" alt="PMJ WEST - niveau de sécurité EN-17092-20xx-AAA">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="resurgence-gear-" >RESURGENCE-GEAR :
+&lt;span>
+&lt;a href="#resurgence-gear-">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Modèle&lt;/th>
+&lt;th>Photos&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>&lt;a href="https://resurgencegear.net/collections/mens-jackets/products/resurgence-gear-r-2020-n1-deck-pekev-motorcycle-jacket-sand">RESURGENCE-GEAR - N1 DECK PEKEV&lt;/a>&lt;/strong> &lt;/br>EN-17092-20xx-AAA&lt;/br> &lt;/br>Sites de vente :&lt;/br> - Resurgence Gear : &lt;a href="https://resurgencegear.net/collections/mens-jackets/products/resurgence-gear-r-2020-n1-deck-pekev-motorcycle-jacket-sand">345,00 £&lt;/a>&lt;/br> - &lt;a href="https://pkw.motoblouz.com/?P4122157BDFF171&amp;amp;redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FRESURGENCE%2520GEAR%2520N1%2520DECK%2520PEKEV.html">Rechercher sur Motoblouz&lt;/a> &lt;/br> - &lt;a href="https://www.dafy-moto.com/recherche?string=RESURGENCE%20GEAR%20N1%20DECK%20PEKEV">Rechercher sur Dafy&lt;/a>&lt;/br> &lt;/br> Occasion : &lt;/br> - &lt;a href="https://www.leboncoin.fr/recherche?text=RESURGENCE-GEAR+N1+DECK+PEKEV&amp;amp;shippable=1&amp;amp;sort=price&amp;amp;order=asc">Rechercher sur Leboncoin&lt;/a> &lt;br/> - &lt;a href="https://www.vinted.fr/catalog?search_text=RESURGENCE-GEAR+N1+DECK+PEKEV">Rechercher sur Vinted&lt;/a>&lt;/td>
+&lt;td>&lt;img src="EN-17092-20xx-AAA_-_RESURGENCE-GEAR_-_N1_DECK_PEKEV_-_0.jpg" alt="RESURGENCE-GEAR N1 DECK PEKEV - niveau de sécurité EN-17092-20xx-AAA">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>&lt;a href="https://resurgencegear.net/collections/mens-jackets/products/resurgence-gear-pekev-trucker-ce-denim-jacket">RESURGENCE-GEAR - PEKEV TRUCKER CE&lt;/a>&lt;/strong> &lt;/br>EN-17092-20xx-AAA&lt;/br> &lt;/br>Sites de vente :&lt;/br> - Resurgence Gear : &lt;a href="https://resurgencegear.net/collections/mens-jackets/products/resurgence-gear-pekev-trucker-ce-denim-jacket">249,00 £&lt;/a>&lt;/br> - &lt;a href="https://pkw.motoblouz.com/?P4122157BDFF171&amp;amp;redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FRESURGENCE%2520GEAR%2520PEKEV%2520TRUCKER%2520CE.html">Rechercher sur Motoblouz&lt;/a> &lt;/br> - &lt;a href="https://www.dafy-moto.com/recherche?string=RESURGENCE%20GEAR%20PEKEV%20TRUCKER%20CE">Rechercher sur Dafy&lt;/a>&lt;/br> &lt;/br> Occasion : &lt;/br> - &lt;a href="https://www.leboncoin.fr/recherche?text=RESURGENCE-GEAR+PEKEV+TRUCKER+CE&amp;amp;shippable=1&amp;amp;sort=price&amp;amp;order=asc">Rechercher sur Leboncoin&lt;/a> &lt;br/> - &lt;a href="https://www.vinted.fr/catalog?search_text=RESURGENCE-GEAR+PEKEV+TRUCKER+CE">Rechercher sur Vinted&lt;/a>&lt;/td>
+&lt;td>&lt;img src="EN-17092-20xx-AAA_-_RESURGENCE-GEAR_-_PEKEV_TRUCKER_CE_-_0.jpg" alt="RESURGENCE-GEAR PEKEV TRUCKER CE - niveau de sécurité EN-17092-20xx-AAA">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>&lt;a href="https://resurgencegear.net/collections/riding-shirts/products/resurgence-gear-r-2020-riding-shirt-pekev-motorcycle-riding-shirt-grey-check">RESURGENCE-GEAR - RIDING SHIRT PEKEV RIDING SHIRT&lt;/a>&lt;/strong> &lt;/br>EN-17092-20xx-AAA&lt;/br> &lt;/br>Sites de vente :&lt;/br> - Resurgence Gear : &lt;a href="https://resurgencegear.net/collections/riding-shirts/products/resurgence-gear-r-2020-riding-shirt-pekev-motorcycle-riding-shirt-grey-check">245,00 £&lt;/a>&lt;/br> - &lt;a href="https://pkw.motoblouz.com/?P4122157BDFF171&amp;amp;redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FRESURGENCE%2520GEAR%2520RIDING%2520SHIRT%2520PEKEV%2520RIDING%2520SHIRT.html">Rechercher sur Motoblouz&lt;/a> &lt;/br> - &lt;a href="https://www.dafy-moto.com/recherche?string=RESURGENCE%20GEAR%20RIDING%20SHIRT%20PEKEV%20RIDING%20SHIRT">Rechercher sur Dafy&lt;/a>&lt;/br> &lt;/br> Occasion : &lt;/br> - &lt;a href="https://www.leboncoin.fr/recherche?text=RESURGENCE-GEAR+RIDING+SHIRT+PEKEV+RIDING+SHIRT&amp;amp;shippable=1&amp;amp;sort=price&amp;amp;order=asc">Rechercher sur Leboncoin&lt;/a> &lt;br/> - &lt;a href="https://www.vinted.fr/catalog?search_text=RESURGENCE-GEAR+RIDING+SHIRT+PEKEV+RIDING+SHIRT">Rechercher sur Vinted&lt;/a>&lt;/td>
+&lt;td>&lt;img src="EN-17092-20xx-AAA_-_RESURGENCE-GEAR_-_RIDING_SHIRT_PEKEV_RIDING_SHIRT_-_0.jpg" alt="RESURGENCE-GEAR RIDING SHIRT PEKEV RIDING SHIRT - niveau de sécurité EN-17092-20xx-AAA">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>&lt;a href="https://resurgencegear.net/collections/mens-jackets/products/resurgence-gear-r-2020-sherpa-pekev-motorcycle-jacket-raw">RESURGENCE-GEAR - SHERPA PEKEV&lt;/a>&lt;/strong> &lt;/br>EN-17092-20xx-AAA&lt;/br> &lt;/br>Sites de vente :&lt;/br> - Resurgence Gear : &lt;a href="https://resurgencegear.net/collections/mens-jackets/products/resurgence-gear-r-2020-sherpa-pekev-motorcycle-jacket-raw">315,00 £&lt;/a>&lt;/br> - &lt;a href="https://pkw.motoblouz.com/?P4122157BDFF171&amp;amp;redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FRESURGENCE%2520GEAR%2520SHERPA%2520PEKEV.html">Rechercher sur Motoblouz&lt;/a> &lt;/br> - &lt;a href="https://www.dafy-moto.com/recherche?string=RESURGENCE%20GEAR%20SHERPA%20PEKEV">Rechercher sur Dafy&lt;/a>&lt;/br> &lt;/br> Occasion : &lt;/br> - &lt;a href="https://www.leboncoin.fr/recherche?text=RESURGENCE-GEAR+SHERPA+PEKEV&amp;amp;shippable=1&amp;amp;sort=price&amp;amp;order=asc">Rechercher sur Leboncoin&lt;/a> &lt;br/> - &lt;a href="https://www.vinted.fr/catalog?search_text=RESURGENCE-GEAR+SHERPA+PEKEV">Rechercher sur Vinted&lt;/a>&lt;/td>
+&lt;td>&lt;img src="EN-17092-20xx-AAA_-_RESURGENCE-GEAR_-_SHERPA_PEKEV_-_0.jpg" alt="RESURGENCE-GEAR SHERPA PEKEV - niveau de sécurité EN-17092-20xx-AAA">&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>&lt;a href="https://resurgencegear.net/collections/riding-shirts/products/resurgence-gear-mens-ultra-ce-riding-shirt-green">RESURGENCE-GEAR - ULTRA CE RIDING SHIRT&lt;/a>&lt;/strong> &lt;/br>EN-17092-20xx-AAA&lt;/br> &lt;/br>Sites de vente :&lt;/br> - Resurgence Gear : &lt;a href="https://resurgencegear.net/collections/riding-shirts/products/resurgence-gear-mens-ultra-ce-riding-shirt-green">299,00 £&lt;/a>&lt;/br> - &lt;a href="https://pkw.motoblouz.com/?P4122157BDFF171&amp;amp;redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FRESURGENCE%2520GEAR%2520ULTRA%2520CE%2520RIDING%2520SHIRT.html">Rechercher sur Motoblouz&lt;/a> &lt;/br> - &lt;a href="https://www.dafy-moto.com/recherche?string=RESURGENCE%20GEAR%20ULTRA%20CE%20RIDING%20SHIRT">Rechercher sur Dafy&lt;/a>&lt;/br> &lt;/br> Occasion : &lt;/br> - &lt;a href="https://www.leboncoin.fr/recherche?text=RESURGENCE-GEAR+ULTRA+CE+RIDING+SHIRT&amp;amp;shippable=1&amp;amp;sort=price&amp;amp;order=asc">Rechercher sur Leboncoin&lt;/a> &lt;br/> - &lt;a href="https://www.vinted.fr/catalog?search_text=RESURGENCE-GEAR+ULTRA+CE+RIDING+SHIRT">Rechercher sur Vinted&lt;/a>&lt;/td>
+&lt;td>&lt;img src="EN-17092-20xx-AAA_-_RESURGENCE-GEAR_-_ULTRA_CE_RIDING_SHIRT_-_0.png" alt="RESURGENCE-GEAR ULTRA CE RIDING SHIRT - niveau de sécurité EN-17092-20xx-AAA">&lt;img src="EN-17092-20xx-AAA_-_RESURGENCE-GEAR_-_ULTRA_CE_RIDING_SHIRT_-_1.png" alt="RESURGENCE-GEAR ULTRA CE RIDING SHIRT - niveau de sécurité EN-17092-20xx-AAA">&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -650,6 +736,26 @@ Si l&amp;rsquo;un d&amp;rsquo;entre eux évolue ou si vous en connaissez d&amp;r
 &lt;tr>
 &lt;td>&lt;strong>&lt;a href="https://segura-moto.fr/homme/blouson/zarek.html">SEGURA - ZAREK&lt;/a>&lt;/strong> &lt;/br>EN-17092-20xx-AAA&lt;/br>&lt;/br> Sites de vente :&lt;/br> - Motoblouz : &lt;a href="https://pkw.motoblouz.com/?P4122157BDFF171&amp;amp;redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FSEGURA%2520ZAREK.html">436,90 €&lt;/a> &lt;/br> - Dafy : &lt;a href="https://www.dafy-moto.com/recherche?string=SEGURA%20ZAREK">436,99 €&lt;/a>&lt;/br> &lt;/br> Occasion : &lt;/br> - &lt;a href="https://www.leboncoin.fr/recherche?text=SEGURA+ZAREK&amp;amp;shippable=1&amp;amp;sort=price&amp;amp;order=asc">Rechercher sur Leboncoin&lt;/a> &lt;br/> - &lt;a href="https://www.vinted.fr/catalog?search_text=SEGURA+ZAREK">Rechercher sur Vinted&lt;/a>&lt;/td>
 &lt;td>&lt;img src="EN-17092-20xx-AAA_-_SEGURA_-_ZAREK_-_0.jpg" alt="SEGURA ZAREK - niveau de sécurité EN-17092-20xx-AAA">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="spidi-" >SPIDI :
+&lt;span>
+&lt;a href="#spidi-">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Modèle&lt;/th>
+&lt;th>Photos&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;strong>&lt;a href="https://www.spidi.com/eu_en/bolide-leather-jacket-p200">SPIDI - BOLIDE&lt;/a>&lt;/strong> &lt;/br>EN-17092-2017-AAA&lt;/br> &lt;/br>Sites de vente :&lt;/br> - Motardinn : &lt;a href="https://www.tradeinn.com/motardinn/fr/spidi-veste-perforee-bolide-leather/136922749/p">299,00 €&lt;/a>&lt;/br> - &lt;a href="https://pkw.motoblouz.com/?P4122157BDFF171&amp;amp;redir=https%3A%2F%2Fwww.motoblouz.com%2Frecherche%2FSPIDI%2520BOLIDE.html">Rechercher sur Motoblouz&lt;/a> &lt;/br> - &lt;a href="https://www.dafy-moto.com/recherche?string=SPIDI%20BOLIDE">Rechercher sur Dafy&lt;/a>&lt;/br> &lt;/br> Occasion : &lt;/br> - &lt;a href="https://www.leboncoin.fr/recherche?text=SPIDI+BOLIDE&amp;amp;shippable=1&amp;amp;sort=price&amp;amp;order=asc">Rechercher sur Leboncoin&lt;/a> &lt;br/> - &lt;a href="https://www.vinted.fr/catalog?search_text=SPIDI+BOLIDE">Rechercher sur Vinted&lt;/a>&lt;/td>
+&lt;td>&lt;img src="EN-17092-2017-AAA_-_SPIDI_-_BOLIDE_-_0.png" alt="SPIDI BOLIDE - niveau de sécurité EN-17092-2017-AAA">&lt;img src="EN-17092-2017-AAA_-_SPIDI_-_BOLIDE_-_1.png" alt="SPIDI BOLIDE - niveau de sécurité EN-17092-2017-AAA">&lt;img src="EN-17092-2017-AAA_-_SPIDI_-_BOLIDE_-_2.png" alt="SPIDI BOLIDE - niveau de sécurité EN-17092-2017-AAA">&lt;img src="EN-17092-2017-AAA_-_SPIDI_-_BOLIDE_-_3.png" alt="SPIDI BOLIDE - niveau de sécurité EN-17092-2017-AAA">&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
