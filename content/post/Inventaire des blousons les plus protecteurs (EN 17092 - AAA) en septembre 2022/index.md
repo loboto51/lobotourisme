@@ -22,7 +22,7 @@ J’ai mis le lien Motoblouz/Dafy/autre et une idée des prix lorsque c’était
 > _Edit du 16/10/2022 : Ajout des marques Goldtop et BMW._  
 > _Edit du 23/10/2022 : Ajout de la marque Halvarssons._  
 > _Edit du 03/11/2022 : Ajout des marques John Doe et Knox._  
-> _Edit du 07/11/2022 : Ajout des marques Resurgence Gear et Spidi et complément sur la protection des matériaux (cuir VS tissus techniques) et l'ancienne norme EN 13595._  
+> _Edit du 07/11/2022 : Ajout des marques Resurgence Gear et Spidi et complément sur la protection des matériaux (cuir VS tissus techniques), l'ancienne norme EN 13595 et les évaluations Motocap._  
 > 
 
 # Explications sur la norme EN 17092:20xx
@@ -72,6 +72,12 @@ Les 2 autres niveaux, B et C, sont sans grand intérêt : Le B est un A sans coq
 > 2) Quid de l'ancienne norme EN 13595 de 2002, ou la variante française de 2012 ?  
 > Plusieurs commentateurs indiquent que ces 2 anciennes normes étaient plus exigeantes dès leur niveau 1, que l'EN 17092 niveau AAA. En contrepartie elles n'étaient ni obligatoires, ni (apparemment) appliquées à la lettre.
 > Difficile de dire si on y a gagné ou perdu (sûrement un peu des deux), en attendant nos avons à présent l'EN 17092, autant essayer d'en tirer le maximum !
+
+> 3) Existe-t-il d'autres types d'évaluation ?  
+> L'organisme australien [Motocap](https://www.motocap.com.au/) (composé d'associations, universitaires, acteurs publics et privés) réalise ses propres tests de vêtements selon des principes différents :
+> Leurs tests d'abrasion sont par exemple plus exigeants en raison des revêtements australiens et néo-zélandais qui sont plus abrasifs que l'asphalt ("chip-seal"). Ils réalisent un test de "breathability" (évacuation de l'humidité) qui a tout son sens pour les chaleurs australiennes, et sera très utile à ceux qui vivent sous les tropiques ou cherchent un blouson pour les étés caniculaires.
+> Malheureusement peu de blousons de cette liste y sont testés pour le moment :  
+> Je n'ai trouvé que le SABRE CE de RST [ici](https://www.motocap.com.au/product/sabre-ce) (pensez à ouvrir le pdf "test report>technical report" pour le bilan détaillé).  
 
 
 # Note sur les fabricants et la transparence
