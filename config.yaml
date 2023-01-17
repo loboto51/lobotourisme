@@ -9,43 +9,84 @@ googleAnalytics: ""
 enableRobotsTXT: true
 enableGitInfo: true
 
-menu:
-  main:
-  - identifier: tags
-    name: Tags
-    title: Tags
-    url: /tags/
-    weight: 2
+languages:
+  fr:
+    languageName: "Français"
+    params:
+      locale: "fr-FR"
+    menu:
+      main:
+      - identifier: tags
+        name: Tags
+        title: Tags
+        url: /tags/
+        weight: 2
 
-  - identifier: photo
-    name: Photo
-    title: Photo
-    url: /categories/photo/
-    weight: 3
+      - identifier: photo
+        name: Photo
+        title: Photo
+        url: /categories/photo/
+        weight: 3
 
-  - identifier: dev
-    name: Dev
-    title: Dev
-    url: /categories/dev/
-    weight: 4
-    
-  - identifier: ecologie
-    name: Ecologie
-    title: Ecologie
-    url: /categories/ecologie/
-    weight: 5
+      - identifier: dev
+        name: Dev
+        title: Dev
+        url: /categories/dev/
+        weight: 4
 
-  - identifier: moto
-    name: Moto
-    title: Moto
-    url: /categories/moto/
-    weight: 6
+      - identifier: ecologie
+        name: Ecologie
+        title: Ecologie
+        url: /categories/ecologie/
+        weight: 5
 
-  - identifier: apropos
-    name: A propos
-    title: A propos
-    url: /about/
-    weight: 7
+      - identifier: moto
+        name: Moto
+        title: Moto
+        url: /categories/moto/
+        weight: 6
+
+      - identifier: apropos
+        name: A propos
+        title: A propos
+        url: /about/
+        weight: 7
+
+  en:
+    languageName: "English"
+    params:
+      locale: "en-us"
+    menu:
+      main:
+      - identifier: tags
+        name: Tags
+        title: Tags
+        url: en/tags/
+        weight: 2
+
+      - identifier: photo
+        name: Photo
+        title: Photo
+        url: en/categories/photo/
+        weight: 3
+
+      - identifier: ecology
+        name: Ecology
+        title: Ecology
+        url: en/categories/ecology/
+        weight: 5
+
+      - identifier: motorcycle
+        name: Motorcycle
+        title: Motorcycle
+        url: en/categories/motorcycle/
+        weight: 6
+
+      - identifier: about
+        name: About
+        title: About
+        url: en/about/
+        weight: 7
 
 params:
   author: "Loboto"
@@ -67,6 +108,7 @@ params:
   disableSummary: false
   copyCodeButton: true # true by default
   rssAsSocialIcon: true
+  locale: "fr-FR"
   # utteranc.es support
   utterancesRepo: "loboto51/lobotourisme"  # mandatory
   utterancesTheme: "boxy-light" # optional
