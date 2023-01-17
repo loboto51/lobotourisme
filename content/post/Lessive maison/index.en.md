@@ -8,7 +8,7 @@ tags:
 - Laundry
 ---
 
-_(This post was automatically translated with [www.DeepL.com/Translator](www.DeepL.com/Translator))_
+_(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_
 
 I've been using organic detergents for a long time (Nature&Progrès etc.) and then I found this homemade detergent recipe that ticks all the boxes:
 

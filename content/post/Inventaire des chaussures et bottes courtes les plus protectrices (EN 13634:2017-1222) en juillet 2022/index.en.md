@@ -8,7 +8,7 @@ tags:
 
 ---
 
-_(This post was automatically translated with [www.DeepL.com/Translator](www.DeepL.com/Translator))_
+_(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_
 
 This article lists the short motorcycle boots and shoes I found on the manufacturers' websites, and whose protection level is at the maximum of the current standard: 1222.
 

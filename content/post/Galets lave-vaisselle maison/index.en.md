@@ -7,7 +7,7 @@ tags:
 - Dishwashers
 ---
 
-_(This post was automatically translated with [www.DeepL.com/Translator](www.DeepL.com/Translator))_
+_(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_
 
 I make my dishwasher tablets with the recipe from the article [lilycraftblog - Making homemade dishwasher tablets](https://lilycraftblog.com/faire-des-tablettes-lave-vaisselle-maison/).
 This mixture works well, the glasses stay clear and the dishes are clean.
