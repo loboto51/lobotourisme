@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Back button focus on Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/en/tags/back-button-focus/</link><description>Lobotourisme (Back button focus)</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><lastBuildDate>Wed, 16 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/en/tags/back-button-focus/index.xml" rel="self" type="application/rss+xml"/><item><title>Back button focus on the Olympus OM-D EM-5 II</title><link>https://loboto51.github.io/lobotourisme/en/post/back-button-focus-sur-lolympus-om-d-em-5-ii/</link><pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/en/post/back-button-focus-sur-lolympus-om-d-em-5-ii/</guid><description>&lt;p>&lt;em>(This post was automatically translated with &lt;a href="www.DeepL.com/Translator">www.DeepL.com/Translator&lt;/a>)&lt;/em>&lt;/p>
+&lt;p>&lt;img src="https://loboto51.github.io/lobotourisme/lobotourisme/post/back-button-focus-sur-lolympus-om-d-em-5-ii/back_button_focus.png" alt="">&lt;/p>
+&lt;p>Autofocus is usually done by pressing the shutter button halfway down: I focus, I keep the shutter button down to compose my scene, then I press it all the way down to take the picture.&lt;/p>
+&lt;p>The &lt;em>&amp;ldquo;back button focus&amp;rdquo;&lt;/em> technique consists in assigning the focus function to another button on the camera (usually at the back, controlled by the right thumb, hence the &lt;em>&amp;ldquo;back button&amp;rdquo;&lt;/em>).
+This way I can focus and compose freely, without having to hold down the shutter button.&lt;/p>
+&lt;p>Its various advantages are well summarized in this video by &lt;a href="https://www.youtube.com/watch?v=mNk8b36KCl4">Pierre T. Lambert (Youtube)&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;h1 id="i-test-the-back-button-focus" >I. Test the back-button focus
+&lt;span>
+&lt;a href="#i-test-the-back-button-focus">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>The EM-5 II allows :&lt;/p>
+&lt;ol>
+&lt;li>Juggle between 2 function configurations between the shutter release and the button to which the &lt;strong>AEL/AFL&lt;/strong> (&lt;em>Auto Exposure Lock&lt;/em>/&lt;em>Auto Focus Lock&lt;/em>) function has been assigned:
+&lt;ul>
+&lt;li>mode1&amp;quot; = &lt;em>&amp;ldquo;Shutter halfway=AEL/S-AF, shutter full=exposure, AEL/AFL button=AEL&amp;rdquo;&lt;/em>&lt;br>
+Default operation: half-press shutter locks the exposure (&lt;strong>AEL&lt;/strong>) and makes the autofocus single (&lt;strong>S-AF&lt;/strong>), the &lt;strong>AEL/AFL&lt;/strong> button locks the exposure (&lt;strong>AEL&lt;/strong>)&lt;/li>
+&lt;li>&amp;ldquo;mode 3&amp;rdquo;: &lt;em>&amp;ldquo;Half-press shutter=AEL, full-press shutter=expo, AEL/AFL button=S-AF&amp;rdquo;&lt;/em>&lt;br>
+Back button focus_ : the half-press shutter locks the exposure (&lt;strong>AEL&lt;/strong>), the &lt;strong>AEL/AFL&lt;/strong> button performs the single autofocus (&lt;strong>S-AF&lt;/strong>)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>To assign this &lt;strong>AEL/AFL&lt;/strong> function to almost all the buttons on the camera.&lt;/li>
+&lt;/ol>
+&lt;p>Actions to perform:&lt;/p>
+&lt;hr>
+&lt;h3 id="i1-switch-the-autofocus-to-mode-3" >I.1. Switch the autofocus to &lt;strong>&amp;ldquo;mode 3&amp;rdquo;&lt;/strong>.
+&lt;span>
+&lt;a href="#i1-switch-the-autofocus-to-mode-3">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>Your camera is in &lt;strong>S-AF&lt;/strong> mode by default, but for those who want to check:&lt;/p>
+&lt;p>Menu &amp;ldquo;** button &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL) &amp;ldquo;&lt;/strong> :&lt;/p>
+&lt;ul>
+&lt;li>AF mode** : &lt;strong>S-AF&lt;/strong> (autofocus) or &lt;strong>S-AF+MF&lt;/strong> (autofocus + manual focus)&lt;/li>
+&lt;/ul>
+&lt;p>NB: Also check that you have:&lt;/p>
+&lt;ul>
+&lt;li>Full-time AF** : &lt;strong>Off&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>To switch to &lt;strong>&amp;ldquo;mode 3&amp;rdquo;&lt;/strong> :&lt;/p>
+&lt;p>Menu &amp;ldquo;** button &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL) &amp;ldquo;&lt;/strong> :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>AEL/AFL&lt;/strong> :
+&lt;ul>
+&lt;li>MF&lt;/li>
+&lt;li>C-AF&lt;/li>
+&lt;li>S-AF** :
+&lt;ul>
+&lt;li>mode1&amp;rdquo; = &lt;em>&amp;ldquo;Half-press shutter=AEL/S-AF, full-press shutter=exposure, AEL/AFL button=AEL&amp;rdquo;&lt;/em>&lt;/li>
+&lt;li>mode3&amp;rdquo;** = &lt;em>&amp;ldquo;Shutter halfway=AEL, full shutter=exposure, AEL/AFL button=S-AF&amp;rdquo;&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Now the shutter release will not focus. You must assign the &lt;strong>AEL/AFL&lt;/strong> function to another button.&lt;/p>
+&lt;hr>
+&lt;h3 id="i2-assign-the-aelafl-function-to-an-easily-accessible-button" >I.2. Assign the &lt;strong>AEL/AFL&lt;/strong> function to an easily accessible button
+&lt;span>
+&lt;a href="#i2-assign-the-aelafl-function-to-an-easily-accessible-button">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>No back button being very accessible, I opted for the front button, near the lens, whose logo looks like an iris.&lt;/p>
+&lt;p>Button &lt;strong>&amp;ldquo;Menu &amp;ldquo;&lt;/strong> -&amp;gt; &lt;strong>&amp;ldquo;B (button/dial/lever) &amp;ldquo;&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Function &amp;ldquo;**
+&lt;ul>
+&lt;li>Iris &amp;ldquo;** : &lt;strong>AEL/AFL &amp;ldquo;&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Once this is done, your button should trigger the autofocus.&lt;/p>
+&lt;hr>
+&lt;h3 id="i3-conclusion" >I.3. Conclusion
+&lt;span>
+&lt;a href="#i3-conclusion">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>To return to the classic release, simply switch AEL/AFL&amp;gt;S-AF back to &amp;ldquo;mode 1&amp;rdquo;.
+The &lt;strong>&amp;ldquo;AEL/AFL &amp;ldquo;&lt;/strong> button will only lock the exposure (&amp;ldquo;AEL/AFL=AEL button&amp;rdquo;).&lt;/p>
+&lt;p>One source among others:&lt;/p>
+&lt;p>&lt;a href="https://thedigitalstory.com/2015/03/set-up-back-button-focus.html">The Digital Story - Setting Up Back Button Focus for Olympus OM-D&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h1 id="ii-the-best-of-both-worlds-switching-between-back-button-focus-and-shutter-release-map-with-the-lever" >II. The best of both worlds: Switching between &amp;ldquo;back button focus&amp;rdquo; and shutter release MAP with the lever
+&lt;span>
+&lt;a href="#ii-the-best-of-both-worlds-switching-between-back-button-focus-and-shutter-release-map-with-the-lever">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>The &lt;em>back button focus&lt;/em> is nice but it&amp;rsquo;s only really useful 10% of the time.&lt;/p>
+&lt;p>The configuration below aims to switch easily from one mode to the other, using the lever of the camera.&lt;/p>
+&lt;p>We will use a trick:&lt;/p>
+&lt;ol>
+&lt;li>The lever can be configured to associate a type of &lt;em>AF&lt;/em> to each of its 2 positions (&lt;strong>&amp;ldquo;mode 5&amp;rdquo;&lt;/strong>): &lt;strong>MF&lt;/strong>, &lt;strong>S-AF&lt;/strong>, &lt;strong>C-AF&lt;/strong>, or &lt;strong>S-AF+MF&lt;/strong> ;&lt;/li>
+&lt;li>A different triggering &amp;ldquo;mode&amp;rdquo; can be assigned to each type of &lt;em>AF&lt;/em> (above we have assigned &amp;ldquo;mode 3&amp;rdquo; to &lt;strong>S-AF&lt;/strong> only);&lt;/li>
+&lt;li>Tip: In &lt;strong>&amp;ldquo;mode 3&amp;rdquo;&lt;/strong> the &lt;strong>AEL/AFL&lt;/strong> key(s) trigger an autofocus even in manual &lt;strong>&amp;ldquo;MF &amp;ldquo;&lt;/strong> mode!&lt;/li>
+&lt;/ol>
+&lt;p>We will therefore assign the manual focus (&lt;strong>MF&lt;/strong>) to one position of the lever, in &lt;strong>&amp;ldquo;mode 3&amp;rdquo;&lt;/strong>, and the &lt;strong>S-AF&lt;/strong> (or &lt;strong>S-AF+MF&lt;/strong>) to the other position, in &lt;strong>&amp;ldquo;mode 1&amp;rdquo;&lt;/strong> (standard behavior).&lt;/p>
+&lt;hr>
+&lt;h3 id="ii1-setting-the-lever-to-switch-between-2-types-of-af" >II.1 Setting the lever to switch between 2 types of AF
+&lt;span>
+&lt;a href="#ii1-setting-the-lever-to-switch-between-2-types-of-af">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>Button &lt;strong>&amp;ldquo;Menu &amp;ldquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;B (key/dial/lever) &amp;ldquo;&lt;/strong> : &lt;strong>&amp;ldquo;Function of the lever &amp;ldquo;&lt;/strong> : **&amp;ldquo;B&amp;rdquo; (key/dial/lever)&lt;/p>
+&lt;ul>
+&lt;li>Lever function &amp;ldquo;** : &lt;strong>Mode 5&amp;rdquo;&lt;/strong> = &amp;ldquo;Change the AF mode between custom AF settings 1 and 2&lt;/li>
+&lt;/ul>
+&lt;p>Now move the lever to position 1, set one AF mode, and then to position 2, set another.&lt;/p>
+&lt;p>Lever in position 1 :&lt;/p>
+&lt;p>Button &lt;strong>&amp;ldquo;Menu &amp;ldquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL) &amp;ldquo;&lt;/strong> :&lt;/p>
+&lt;ul>
+&lt;li>AF mode** : **S-AF+MF&lt;/li>
+&lt;/ul>
+&lt;p>Lever in position 2:&lt;/p>
+&lt;p>Menu &amp;ldquo;** button &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL) &amp;ldquo;&lt;/strong> :&lt;/p>
+&lt;ul>
+&lt;li>AF mode** : &lt;strong>MF&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>Now:&lt;/p>
+&lt;p>When the lever is in position 1, it is in &lt;strong>S-AF+MF&lt;/strong>.&lt;/p>
+&lt;p>When the lever is in position 2, you are in &lt;strong>MF&lt;/strong>.&lt;/p>
+&lt;hr>
+&lt;h3 id="ii2-assigning-mode-1-to-s-af--and-mode-3-to-mf-" >II.2 Assigning &lt;strong>&amp;ldquo;mode 1&amp;rdquo;&lt;/strong> to &lt;strong>&amp;ldquo;S-AF &amp;ldquo;&lt;/strong> and &lt;strong>&amp;ldquo;mode 3&amp;rdquo;&lt;/strong> to &lt;strong>&amp;ldquo;MF &amp;ldquo;&lt;/strong>.
+&lt;span>
+&lt;a href="#ii2-assigning-mode-1-to-s-af--and-mode-3-to-mf-">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>Menu button &amp;ldquo;** &amp;gt; &lt;strong>&amp;ldquo;A (AF/AL) &amp;ldquo;&lt;/strong> :&lt;/p>
+&lt;ul>
+&lt;li>AEL/AFL &amp;ldquo;** :
+&lt;ul>
+&lt;li>MF &amp;ldquo;** : &lt;strong>mode3&amp;rdquo;&lt;/strong> = &lt;em>&amp;ldquo;Shutter button halfway AEL, Shutter button full=exposure, AEL/AFL : S-AF&amp;rdquo;&lt;/em>&lt;/li>
+&lt;li>C-AF&lt;/li>
+&lt;li>S-AF &amp;ldquo;** : &lt;strong>mode1&amp;rdquo;&lt;/strong> = &lt;em>&amp;ldquo;Shutter button halfway AEL/S-AF, Shutter button full=exposure, AEL/AFL button: AEL&amp;rdquo;&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Now:&lt;/p>
+&lt;p>When the camera is in &lt;strong>MF&lt;/strong> (lever in position 1), the shutter button operates normally.&lt;/p>
+&lt;p>When the camera is in &lt;strong>S-AF&lt;/strong> or &lt;strong>S-AF+MF&lt;/strong> (position 2), the camera in &lt;em>back button focus&lt;/em>.&lt;/p>
+&lt;hr>
+&lt;p>Mixing multiple sources:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://www.dpreview.com/forums/thread/4087196">DPreview - Here is how I use the lever on the EM1 and EM5ii to do back button focus&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Gary Ayton&amp;rsquo;s Photography Wiki - optimising autofocus on the Olympus OM-D whilst using Micro Four Thirds lenses](&lt;a href="http://www.ayton.id.au/wiki/doku.php?id=photo:olympusem5_af">http://www.ayton.id.au/wiki/doku.php?id=photo:olympusem5_af&lt;/a>)&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
