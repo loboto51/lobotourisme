@@ -1,10 +1,10 @@
 ---
-title: "Homemade dishwashing tablets"
+title: "Homemade dishwasher tablets"
 date: "2021-05-10"
 categories: 
 - Ecology
 tags: 
-- Dishwashers
+- Dishwasher tablets
 ---
 
 _(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_

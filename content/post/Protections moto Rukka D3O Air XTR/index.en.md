@@ -1,80 +1,81 @@
 ---
-title: "Protections moto Rukka D3O Air XTR"
+title: "Rukka D3O Air XTR motorcycle protectors"
 date: "2021-04-28"
 categories:
-- moto
+- motorcycle
 tags:
 - Rukka
 - D3O
 - Rukka D3O Air XTR
-- Protections moto genoux
-- Protections moto coudes
-- Protections moto épaules
-- Protections moto hanches
-- Protections moto jambes
-- Protections moto thorax
+- Motorcycle knee protectors
+- Motorcycle elbow protectors
+- Motorcycle shoulder protectors
+- Motorcycle hips protectors
+- Motorcycle leg protectors
+- Motorcycle chest protectors
 
 ---
 
+_(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_
 
-Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection _Rukka D3O Air XTR_ de niveau 2 (membres uniquement, je ne me penche pas sur le thorax _D3O CP1/L1_ qui est niveau 1).
+This sheet summarizes the information I was able to glean on the net about the _Rukka D3O Air XTR_ level 2 protective shells (limbs only, I don't look at the _D3O CP1/L1_ thorax which is level 1).
 
 <!--more-->
 
 ![rukka-d3o-air-xtr_EB_niv2_face__vs__rukka-d3o-air-xtr_SB_niv2__source_mcgearhub.jpg](rukka-d3o-air-xtr_EB_niv2_face__vs__rukka-d3o-air-xtr_SB_niv2__source_mcgearhub.jpg)
 
-_Synthèse :_ Souples, grande couverture, très bonne aération, tarif élevé.
+_Synthesis:_ Flexible, great coverage, very good ventilation, high price.
 
 
-Commercialisation :
+Marketing:
 -------------------
 
-4 modèles dans la série (chers : 40 à 50e par paire), tous niveau 2 :
+4 models in the series (expensive: 40 to 50e per pair), all level 2:
 
-- Coude B
+- Elbow B
     - Dimensions : 25 cm x 14 cm
-    - Poids : ? g
-- Hanche B
-    - Dimensions : 20 cm x 17 cm
-    - Poids : ? g
-- Epaule B
-    - Dimensions : 23 cm x 19 cm
-    - Poids : ? g
-- Genou B/jambe B 
-    - Dimensions : 33 cm x 15 cm
-    - Poids : ? g
+    - Weight : ? g
+- Hip B
+    - Dimensions: 20 cm x 17 cm
+    - Weight : ? g
+- Shoulder B
+    - Size : 23 cm x 19 cm
+    - Weight : ? g
+- Knee B/leg B 
+    - Dimensions: 33 cm x 15 cm
+    - Weight : ? g
 
-Trouvables un peu partout sur le net.
+Findable everywhere on the net.
 
-Caractéristiques des coques :
+Characteristics of the shells :
 -----------------------------
 
-- Certification : Niveau 2 T- (non certifiées T+) [^1]
-- Protection réelle : Le fabriquant annonce <16,5 kN (norme : 20 kN en moyenne, maximum 30 kN)
-- Fabrication : Chine
-- Longévité annoncée : ?
-- Type de matériaux : D3O, souple mais ne s'ajuste pas avec la chaleur corporelle
-- Aération : Très bonne
+- Certification : Level 2 T- (not certified T+) [^1]
+- Actual protection: The manufacturer announces <16,5 kN (standard: 20 kN on average, maximum 30 kN)
+- Manufacturing: China
+- Advertised durability: ?
+- Material type: D3O, flexible but does not adjust with body heat
+- Ventilation : Very good
 
 
-Confort et comparaison avec les autres marques : 
+Comfort and comparison with other brands : 
 ------------------------------------------------
 
-Mon avis :
-La couverture est très bonne, la protection aussi, mais le prix est vraiment très élevé. C'est d'autant plus gênant que la production est en Chine alors que beaucoup d'autres équipementiers fabriquent en Europe et pour moins cher.
+My opinion:
+The coverage is very good, the protection too, but the price is really high. It is all the more annoying that the production is in China while many other manufacturers make in Europe and for less money.
 
-Pour des protections moins aérées mais plus protectrices (<12 kN), encore plus couvrantes et 2 à 3 fois moins chères, il est intéressant de regarder du côté de SAS-TEC :
+For less ventilated but more protective protections (<12 kN), even more covering and 2 to 3 times cheaper, it is interesting to look at SAS-TEC :
 
-- Genoux/coudes très grand format : [Mon article sur les SAS-TEC SC1/06EVO]({{< ref "/post/Protections moto SAS-TEC SC-1-06-EVO/index.md">}})
-- Epaules, genoux, coudes grand format : [Mon article sur les SAS-TEC SC1/EVO1, EVO2 et EVO3]({{< ref "/post/Protections moto SAS-TEC SC-1-EVO1, SC1-EVO2, SC1-EVO3/index.md">}})
+- Knees/elbows very large size: [My article on SAS-TEC SC1/06EVO]({{< ref "/post/Protections moto SAS-TEC SC-1-06-EVO/index.md">}})
+- Shoulders, knees, elbows large size : [My article on SAS-TEC SC1/EVO1, EVO2 and EVO3]({{< ref "/post/Protections moto SAS-TEC SC-1-EVO1, SC1-EVO2, SC1-EVO3/index.md">}})
 
 
-### Retours d'expérience : Comparaison du D3O avec les Knox Micro-lock L2 :
+### Feedback: Comparison of the D3O with the Knox Micro-lock L2 :
 
 > The softest high protection (CE2) armor I've found is the Knox MicroLock. It's more pliable then Forcefield, SasTec, or D3O; and has a softer feel when joint pressure is applied. 
 > — <cite>[advrider cblais19](https://advrider.com/f/threads/comfortable-knee-armor.1371777/#post-37833963)</cite>
 
-### Retours d'expérience : Comparaison du D3O avec les Forcefield Isolator 2 :
+### Feedback: Comparison of D3O with Forcefield Isolator 2:
 
 > "Compared to D3O’s [T5 EVO Pro X armor](https://www.mcgearhub.com/motorcycle-armor/d3o-knee-elbow-armor-review-t5-evo-pro-x/) (which is also CE-certified as Level 2), the Forcefield Isolator 2 armor is signicantly more contouring, wrapping and compliant."
 > — <cite>[mcgearhub.com](https://www.mcgearhub.com/motorcycle-armor/forcefield-isolator-2-armor-review-all-pads/)</cite>
@@ -82,47 +83,46 @@ Pour des protections moins aérées mais plus protectrices (<12 kN), encore plus
 > "And Brian Van also said: "Forcefield is better [than D30] for sure. D3O is a nice low profile armor that helps to reduce bulk and increase comfort. You will find the Forcefield to be thicker as compared to the D3O which I feel is necessary to provide a higher level of protection."
 > — <cite>[advrider Valentino](https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/page-4#post-40897652)</cite>
 
-
-Photos :
+Photos:
 --------
 
-Note : La plupart des photos viennent de la conversation [advrider.com : CE2 Replacement Armor Database / Comparison](https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/) ou de [mcgearhub.com - Rukka D3O Air XTR Armor Review (CE Level 2 Protectors)](https://www.mcgearhub.com/motorcycle-armor/rukka-d3o-air-xtr-armor-review-ce-level-2-protectors/).
+Note: Most of the photos are from the [advrider.com: CE2 Replacement Armor Database / Comparison](https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/) conversation or from [mcgearhub.com - Rukka D3O Air XTR Armor Review (CE Level 2 Protectors)](https://www.mcgearhub.com/motorcycle-armor/rukka-d3o-air-xtr-armor-review-ce-level-2-protectors/).
 
 
-### Fiches constructeur :
+### Manufacturer's Data Sheets :
 
 ![rukka-d3o-air-xtr_fiche_collection__source_advrider.jpg](rukka-d3o-air-xtr_fiche_collection__source_advrider.jpg)
 
-### Photos générales :
+### General photos:
 
-Coudes :
+Elbows:
 
 ![rukka-d3o-air-xtr_EB_niv2_dos__source_mcgearhub.jpg](rukka-d3o-air-xtr_EB_niv2_dos__source_mcgearhub.jpg)
 ![rukka-d3o-air-xtr_EB_niv2_face__source_mcgearhub.jpg](rukka-d3o-air-xtr_EB_niv2_face__source_mcgearhub.jpg)
 ![rukka-d3o-air-xtr_EB_niv2_notations__source_mcgearhub.jpg](rukka-d3o-air-xtr_EB_niv2_notations__source_mcgearhub.jpg)
 
-Hanches :
+Hips:
 
 ![rukka-d3o-air-xtr_HB_niv2_notations__source_mcgearhub.jpg](rukka-d3o-air-xtr_HB_niv2_notations__source_mcgearhub.jpg)
 
-Genou/Jambe :
+Knee/Leg:
 
 ![rukka-d3o-air-xtr_KB-LB_niv2_face_dimension__source_advrider.jpg](rukka-d3o-air-xtr_KB-LB_niv2_face_dimension__source_advrider.jpg)
 ![rukka-d3o-air-xtr_KB-LB_niv2_notations__source_mcgearhub.jpg](rukka-d3o-air-xtr_KB-LB_niv2_notations__source_mcgearhub.jpg)
 
-Coude et épaule :
+Elbow and shoulder :
 
 ![rukka-d3o-air-xtr_EB_niv2_face__vs__rukka-d3o-air-xtr_SB_niv2__source_mcgearhub.jpg](rukka-d3o-air-xtr_EB_niv2_face__vs__rukka-d3o-air-xtr_SB_niv2__source_mcgearhub.jpg)
 
-Epaule :
+Shoulder :
 
 ![rukka-d3o-air-xtr_SB_niv2_notations__source_mcgearhub.jpg](rukka-d3o-air-xtr_SB_niv2_notations__source_mcgearhub.jpg)
 
 
 
-### Comparaisons :
+### Comparisons:
 
-#### Knox Micro-lock :
+#### Knox Micro-lock:
 
 ![rukka-d3o-air-xtr_EB_niv2_face__vs__knox_micro-lock-363_EB-KB_niv2_face__source_advrider.jpg](rukka-d3o-air-xtr_EB_niv2_face__vs__knox_micro-lock-363_EB-KB_niv2_face__source_advrider.jpg)
 
@@ -133,16 +133,15 @@ Epaule :
 
 
 
-Lectures :
+Readings:
 ----------
 
 - [advrider.com : CE2 Replacement Armor Database / Comparison](https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/)
 - [Revzilla sur youtube - Rukka D3O Air XTR Replacement Armor Review](https://www.youtube.com/watch?v=UOx3L0t3X0M)
 - [mcgearhub.com - Rukka D3O Air XTR Armor Review (CE Level 2 Protectors)](https://www.mcgearhub.com/motorcycle-armor/rukka-d3o-air-xtr-armor-review-ce-level-2-protectors/)
 
-
-[^1]: Norme CE EN 1621-1 (protections épaules, hanches, membres) : Un poids de 5 kg est lâché avec une force de 50 joules sur la pièce, 9 fois.<br />
-Niveau 1 : Moyenne <35 kN. Aucun choc ne dépasse 50 kN.<br />
-Niveau 2 : Moyenne <20 kN. Aucun choc ne dépasse 30 kN.<br />
-T+ : La protection reste la même jusqu'à 40°C.<br />
-T- : La protection reste la même jusqu'à -10°C.
+[^1]: CE EN 1621-1 standard (shoulder, hip and limb protection) : A 5 kg weight is dropped with a force of 50 joules on the part, 9 times.<br />
+Level 1 : Average <35 kN. No shock exceeds 50 kN.<br />
+Level 2 : Average <20 kN. No shock exceeds 30 kN.<br />
+T+ : The protection remains the same up to 40°C.<br />
+T-: Protection remains the same down to -10°C.

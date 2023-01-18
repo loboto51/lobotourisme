@@ -70,6 +70,12 @@ languages:
         url: en/categories/photo/
         weight: 3
 
+      - identifier: dev
+        name: Dev
+        title: Dev
+        url: en/categories/dev/
+        weight: 4
+
       - identifier: ecology
         name: Ecology
         title: Ecology

@@ -1,15 +1,12 @@
 ---
 title: "Déployer un site web statique Hugo sur Github Pages"
 date: "2021-04-22"
-lastmod: "2021-05-05"
-description: "Réalisation d'un site web statique avec Github Pages et Hugo."
 categories: 
 - Dev
 tags: 
 - Hugo
 - Github pages
 - Hugo clarity
-toc: true
 ---
 
 Le site que vous consultez est constitué d'un site web statique _Hugo_ hébergé sur _Github_ :
@@ -23,6 +20,11 @@ Le code statique de chaque dépôt sera alors accessible à l'url :
 _https://MONLOGINGITHUB.github.io/MONDEPOT/_
 
 [_Hugo_](https://gohugo.io/) quand à lui est un générateur de sites _web_ statiques : On écrit des pages en markdown, on lance Hugo, et il génère tout le html et la structure de site que _Github_ exposera.
+
+<!--more-->
+
+> _Edit du 19/02/2022 : Je suis passé au thème [Anubis](https://github.com/mitrichius/hugo-theme-anubis) plus léger et épuré._  
+> _Edit du 06/02/2022 : Mise à jour du script d'action avec la dernière version disponible sur [Hugo - hosting on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)._
 
 
 Mode opératoire :
@@ -67,14 +69,8 @@ Choisir et télécharger un thème : [Hugo Themes](https://themes.gohugo.io/)
 J'utilise [hugo-clarity](https://themes.gohugo.io/hugo-clarity/) qui est très complet et fonctionne bien sur mobile :
 
 ```sh
-cd MONSITE/themes/
-git checkout https://github.com/chipzoller/hugo-clarity.git
-```
-
-Enlever le suivi git du thème :
-
-```sh
-rm -Rf hugo-clarity/.git*
+cd MONSITE/
+git submodule add https://github.com/chipzoller/hugo-clarity.git themes/hugo-clarity
 ```
 
 Pour créer une page de test et vérifier que ça marche :
@@ -230,14 +226,6 @@ Références Markdown :
 
 - [Quick Markdown Example - page de référence bourrée d'exemple](http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html)
 
-
----
-
-### Mises à jour
-
-> - *19/02/2022 :* Je suis passé au thème [Anubis](https://github.com/mitrichius/hugo-theme-anubis) plus léger et épuré.
-> - *14/05/2021 :* Depuis la rédaction de ce document, je suis passé au thème [hugo-future-imperfect](https://github.com/statnmap/hugo-future-imperfect) qui présente quelques fonctions supplémentaires et que je trouve plus élégant. 
-> - *06/02/2022 :* Mise à jour du script d'action avec la dernière version disponible sur [Hugo - hosting on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 
 
 

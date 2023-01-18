@@ -4,8 +4,7 @@ date: "2021-05-06"
 categories: 
 - Ecology
 tags: 
-- Liquid detergent
-- Laundry
+- Liquid detergent/laundry
 ---
 
 _(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_

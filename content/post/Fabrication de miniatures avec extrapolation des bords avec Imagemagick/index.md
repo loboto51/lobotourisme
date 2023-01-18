@@ -1,6 +1,6 @@
 ---
 title: "3 méthodes Imagemagick pour remplir les zones vides d'une image recadrée"
-date: 2021-05-07
+date: "2021-05-07"
 categories:
 - Dev
 tags:
@@ -35,6 +35,7 @@ Inspiration :
 ```sh
 convert IMAGESOURCE \( -clone 0 -blur 0x9 -resize XxY\! \) \( -clone 0 -resize XxY \) -delete 0 -gravity center -compose over -composite  IMAGECIBLE
 ```
+
 _NB :_ Remplacer XxY par les dimensions souhaitées.
 
 
