@@ -492,6 +492,10 @@ _./layouts/&lt;em>default/single.html&lt;/em> sera pris en priorité sur _./them
 &lt;p>Le code statique de chaque dépôt sera alors accessible à l&amp;rsquo;url :
 &lt;em>&lt;a href="https://MONLOGINGITHUB.github.io/MONDEPOT/">https://MONLOGINGITHUB.github.io/MONDEPOT/&lt;/a>&lt;/em>&lt;/p>
 &lt;p>&lt;a href="https://gohugo.io/">&lt;em>Hugo&lt;/em>&lt;/a> quand à lui est un générateur de sites &lt;em>web&lt;/em> statiques : On écrit des pages en markdown, on lance Hugo, et il génère tout le html et la structure de site que &lt;em>Github&lt;/em> exposera.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>Edit du 19/02/2022 : Je suis passé au thème &lt;a href="https://github.com/mitrichius/hugo-theme-anubis">Anubis&lt;/a> plus léger et épuré.&lt;/em>&lt;br>
+&lt;em>Edit du 06/02/2022 : Mise à jour du script d&amp;rsquo;action avec la dernière version disponible sur &lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hugo - hosting on github&lt;/a>.&lt;/em>&lt;/p>
+&lt;/blockquote>
 &lt;p>Mode opératoire :&lt;/p>
 &lt;h2 id="_hugo_" >&lt;em>Hugo&lt;/em>
 &lt;span>
@@ -523,10 +527,8 @@ _./layouts/&lt;em>default/single.html&lt;/em> sera pris en priorité sur _./them
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>hugo new site .
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Choisir et télécharger un thème : &lt;a href="https://themes.gohugo.io/">Hugo Themes&lt;/a>&lt;/p>
 &lt;p>J&amp;rsquo;utilise &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-clarity&lt;/a> qui est très complet et fonctionne bien sur mobile :&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>cd MONSITE/themes/
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git checkout https://github.com/chipzoller/hugo-clarity.git
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Enlever le suivi git du thème :&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>rm -Rf hugo-clarity/.git*
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>cd MONSITE/
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git submodule add https://github.com/chipzoller/hugo-clarity.git themes/hugo-clarity
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Pour créer une page de test et vérifier que ça marche :&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>hugo new post/testpage.md
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>hugo server -D
@@ -667,18 +669,4 @@ La branche &lt;em>gh-pages&lt;/em> a dû être créée.&lt;/p>
 &lt;p>Références Markdown :&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html">Quick Markdown Example - page de référence bourrée d&amp;rsquo;exemple&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h3 id="mises-à-jour" >Mises à jour
-&lt;span>
-&lt;a href="#mises-%c3%a0-jour">
-&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
-&lt;/a>
-&lt;/span>
-&lt;/h3>&lt;blockquote>
-&lt;ul>
-&lt;li>&lt;em>19/02/2022 :&lt;/em> Je suis passé au thème &lt;a href="https://github.com/mitrichius/hugo-theme-anubis">Anubis&lt;/a> plus léger et épuré.&lt;/li>
-&lt;li>&lt;em>14/05/2021 :&lt;/em> Depuis la rédaction de ce document, je suis passé au thème &lt;a href="https://github.com/statnmap/hugo-future-imperfect">hugo-future-imperfect&lt;/a> qui présente quelques fonctions supplémentaires et que je trouve plus élégant.&lt;/li>
-&lt;li>&lt;em>06/02/2022 :&lt;/em> Mise à jour du script d&amp;rsquo;action avec la dernière version disponible sur &lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hugo - hosting on github&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/blockquote></description></item></channel></rss>
+&lt;/ul></description></item></channel></rss>

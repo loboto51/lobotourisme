@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo clarity on Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/en/tags/hugo-clarity/</link><description>Lobotourisme (Hugo clarity)</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><lastBuildDate>Thu, 22 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/en/tags/hugo-clarity/index.xml" rel="self" type="application/rss+xml"/><item><title>Deploying a static Hugo website on Github Pages</title><link>https://loboto51.github.io/lobotourisme/en/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/</link><pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/en/post/d%C3%A9ployer-un-site-web-statique-hugo-sur-github-pages/</guid><description>&lt;p>&lt;em>(This post was automatically translated with &lt;a href="http://www.DeepL.com/Translator">www.DeepL.com/Translator&lt;/a>)&lt;/em>&lt;/p>
+&lt;p>The site you are viewing consists of a static &lt;em>Hugo&lt;/em> website hosted on &lt;em>Github&lt;/em> :&lt;/p>
+&lt;p>&lt;a href="https://github.com/">&lt;em>Github&lt;/em>&lt;/a> provides the ability to expose a static &lt;em>web&lt;/em> site for each public repository in the account. All that is required is:&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>html+css&lt;/em> in the repository;&lt;/li>
+&lt;li>The &lt;a href="https://pages.github.com/">&lt;em>Github Pages&lt;/em>&lt;/a> feature enabled.&lt;/li>
+&lt;/ul>
+&lt;p>The static code of each repository will then be accessible at the url:
+&lt;em>&lt;a href="https://MONLOGINGITHUB.github.io/MONDEPOT/">https://MONLOGINGITHUB.github.io/MONDEPOT/&lt;/a>&lt;/em>&lt;/p>
+&lt;p>&lt;a href="https://gohugo.io/">&lt;em>Hugo&lt;/em>&lt;/a> is a generator of static &lt;em>web&lt;/em> sites : You write pages in markdown, you launch Hugo, and it generates all the html and the structure of site that &lt;em>Github&lt;/em> will expose.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>Edit of 19/02/2022 : I switched to the &lt;a href="https://github.com/mitrichius/hugo-theme-anubis">Anubis&lt;/a> theme which is lighter and cleaner.&lt;/em>&lt;br>
+&lt;em>Edit of 06/02/2022 : Updated the action script with the latest version available on &lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">Hugo - hosting on github&lt;/a>.&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>How it works:&lt;/p>
+&lt;h2 id="_hugo_" >&lt;em>Hugo&lt;/em>
+&lt;span>
+&lt;a href="#_hugo_">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;h3 id="installation" >Installation
+&lt;span>
+&lt;a href="#installation">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>Under &lt;em>Ubuntu&lt;/em> the version available in the repositories is outdated. The easiest way is to get the last .deb in the &lt;em>releases&lt;/em> &lt;em>Hugo&lt;/em> :&lt;/p>
+&lt;p>&lt;a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases&lt;/a>&lt;/p>
+&lt;p>Then :&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>wget https://github.com/gohugoio/hugo/releases/download/v0.82.1/hugo_extended_0.82.1_Linux-64bit.deb
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo dpkg -i hugo_extended_0.82.1_Linux-64bit.deb
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>if dependency errors :&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>sudo apt-get install -f
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="create-a-site-base" >Create a site base
+&lt;span>
+&lt;a href="#create-a-site-base">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>mkdir MYSITE
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cd MYSITE
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>hugo new site .
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Choose and download a theme : &lt;a href="https://themes.gohugo.io/">Hugo Themes&lt;/a>&lt;/p>
+&lt;p>I use &lt;a href="https://themes.gohugo.io/hugo-clarity/">hugo-clarity&lt;/a> which is very complete and works well on mobile:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>cd MONSITE/
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git submodule add https://github.com/chipzoller/hugo-clarity.git themes/hugo-clarity
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>To create a test page and check that it works:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>hugo new post/testpage.md
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>hugo server -D
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Open:
+&lt;a href="http://localhost:1313/">http://localhost:1313/&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Note:&lt;/strong> The &lt;em>hugo-clarity&lt;/em> theme requires a lot of configuration. Rather than starting from scratch I followed the advice given in its install doc and deployed the sample site, which I then modified:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>cd MYSITE
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cp -R themes/hugo-clarity/exampleSite/* .
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>hugo server -D
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="_github_" >&lt;em>Github&lt;/em>
+&lt;span>
+&lt;a href="#_github_">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;h3 id="create-the-repository" >Create the repository
+&lt;span>
+&lt;a href="#create-the-repository">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;ol>
+&lt;li>&lt;a href="https://github.com/">Create a &lt;em>Github&lt;/em> account&lt;/a> &amp;ldquo;&lt;em>MONLOGINGITHUB&lt;/em>&amp;rdquo; if not already done;&lt;/li>
+&lt;li>Create a public repository (&amp;quot;&lt;em>New repository&lt;/em>&amp;quot;) that will contain our pages.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;em>&lt;em>Github&lt;/em> Tip:&lt;/em>&lt;/p>
+&lt;p>By default repositories are exposed in &lt;a href="https://MONLOGINGITHUB.github.io/NOMDUDEPOT/">https://MONLOGINGITHUB.github.io/NOMDUDEPOT/&lt;/a>.&lt;/p>
+&lt;p>But if you name your repository &amp;ldquo;&lt;em>MONLOGINGITHUB.github.io&lt;/em>&amp;rdquo;, it will be accessible at the root, in &lt;a href="https://MONLOGINGITHUB.github.io/">https://MONLOGINGITHUB.github.io/&lt;/a>.&lt;/p>
+&lt;p>If you want, this allows you to have several &amp;ldquo;project&amp;rdquo; repositories in the subdirectories and a &amp;ldquo;personal page&amp;rdquo; at the root:&lt;/p>
+&lt;pre tabindex="0">&lt;code>Repositories Corresponding sites
+------------ -------------------
+dayofthetentacle.github.io https//dayofthetentacle.github.io/
+├── ifeel ├── https//dayofthetentacle.github.io/ifeel/
+├── likeicould ├── https//dayofthetentacle.github.io/likeicould/
+├── takeovertheworld ├── https//dayofthetentacle.github.io/takeovertheworld/
+&lt;/code>&lt;/pre>&lt;p>If you are creating a &lt;em>Github&lt;/em> account just to host your site, then you can just use the &lt;em>MONLOGINGITHUB.github.io&lt;/em> repository.&lt;/p>
+&lt;h3 id="first-commit-to-activate-_github-pages_" >First commit to activate &lt;em>Github Pages&lt;/em>
+&lt;span>
+&lt;a href="#first-commit-to-activate-_github-pages_">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>Let&amp;rsquo;s put our site &lt;em>Hugo&lt;/em> on the MONSITE repository:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>cd MONSITE
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>echo &lt;span style="color:#e6db74">&amp;#34;# MONSITE&amp;#34;&lt;/span> &amp;gt;&amp;gt; README.md
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git init
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git add .
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git commit -m &lt;span style="color:#e6db74">&amp;#34;first commit
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">git remote add origin https://github.com/MONLOGINGITHUB/MONSITE.git
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">git branch -M main
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">git push -u origin main
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Go to &lt;em>Settings &amp;gt; Pages&lt;/em> and activate &lt;em>Pages&lt;/em> with the following source:&lt;/p>
+&lt;pre>&lt;code>[Branch: gh-pages] [/root]
+&lt;/code>&lt;/pre>
+&lt;h3 id="generate-the-static-_html_-directly-on-the-_github_-side" >Generate the static &lt;em>html&lt;/em> directly on the &lt;em>Github&lt;/em> side
+&lt;span>
+&lt;a href="#generate-the-static-_html_-directly-on-the-_github_-side">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;p>&lt;strong>Note:&lt;/strong> This technique and the script below are taken from the &lt;em>Hugo&lt;/em> doc: &lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">hosting on github&lt;/a>.&lt;/p>
+&lt;p>We could generate the static &lt;em>html&lt;/em> and push it to &lt;em>Github&lt;/em>, but we can also have it done by &lt;em>Github&lt;/em> :&lt;/p>
+&lt;p>By adding an action script to our sources, at each &lt;em>git push&lt;/em> we will make it:&lt;/p>
+&lt;ul>
+&lt;li>Run a &lt;em>Hugo&lt;/em> to generate the html ;&lt;/li>
+&lt;li>Write the generated &lt;em>public/&lt;/em> directory in a dedicated &lt;em>gh-branch&lt;/em> that &lt;em>Github Pages&lt;/em> will read.&lt;/li>
+&lt;/ul>
+&lt;p>Create the conf file :&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>cd MONSITE
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>mkdir -p .github/workflows/
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>touch .github/workflows/gh-pages.yml
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>2 - Put in the conf (I have enabled the &amp;ldquo;&lt;em>extended = true&lt;/em>&amp;rdquo; option with respect to the template, for the purposes of the Clarity theme):&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">github pages&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">on&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">push&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">branches&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">main&lt;/span> &lt;span style="color:#75715e"># Set a branch to deploy&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">pull_request&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">jobs&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">deploy&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">runs-on&lt;/span>: &lt;span style="color:#ae81ff">ubuntu-20.04&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">steps&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">uses&lt;/span>: &lt;span style="color:#ae81ff">actions/checkout@v2&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">with&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">submodules&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span> &lt;span style="color:#75715e"># Fetch Hugo themes (true OR recursive)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">fetch-depth&lt;/span>: &lt;span style="color:#ae81ff">0&lt;/span> &lt;span style="color:#75715e"># Fetch all history for .GitInfo and .Lastmod&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">Setup Hugo&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">uses&lt;/span>: &lt;span style="color:#ae81ff">peaceiris/actions-hugo@v2&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">with&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">hugo-version&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;latest&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">extended&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">Build&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">run&lt;/span>: &lt;span style="color:#ae81ff">hugo --minify&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#f92672">name&lt;/span>: &lt;span style="color:#ae81ff">Deploy&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">uses&lt;/span>: &lt;span style="color:#ae81ff">peaceiris/actions-gh-pages@v3&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">if&lt;/span>: &lt;span style="color:#ae81ff">github.ref == &amp;#39;refs/heads/main&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">with&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">github_token&lt;/span>: &lt;span style="color:#ae81ff">${{ secrets.GITHUB_TOKEN }}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">publish_dir&lt;/span>: &lt;span style="color:#ae81ff">./public&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="we-send-everything-to-_github_-and-normally-it-works" >We send everything to &lt;em>Github&lt;/em> and normally it works
+&lt;span>
+&lt;a href="#we-send-everything-to-_github_-and-normally-it-works">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h3>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>cd MONSITE
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git add .
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git commit -a -m &lt;span style="color:#e6db74">&amp;#34;init
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#e6db74">git push
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In the &lt;em>&amp;ldquo;Action&amp;rdquo;&lt;/em> tab of the repository we can see the processing going on (and possibly crashing if we did something wrong).
+The &lt;em>gh-pages&lt;/em> branch must have been created.&lt;/p>
+&lt;p>Go to the resulting &lt;em>Github Pages&lt;/em> site:
+&lt;a href="MONLOGINGITHUB.github.io/MONSITE">MONLOGINGITHUB.github.io/MONSITE&lt;/a>&lt;/p>
+&lt;p>In theory everything is there.&lt;/p>
+&lt;h2 id="useful-links" >Useful links
+&lt;span>
+&lt;a href="#useful-links">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>Docs about Hugo on github :&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Create a Free Blog Site Using GitHub Pages and Hugo](&lt;a href="https://youngkin.github.io/post/createafreeblogsite/">https://youngkin.github.io/post/createafreeblogsite/&lt;/a>)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Hugo doc : hosting on github](&lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/">https://gohugo.io/hosting-and-deployment/hosting-on-github/&lt;/a>)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>3 possible ways to organize your content &lt;em>Hugo&lt;/em> : &lt;a href="https://discourse.gohugo.io/t/discussion-content-organization-best-practice/6360/9">discourse.gohugo.io - content-organization-best-practice&lt;/a> (I chose organization B : One directory per publication containing the .md and the attachments. This avoids false manipulations, and will be more convenient if one day there are many)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>Markdown references:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html">Quick Markdown Example - reference page stuffed with examples&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
