@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Synchronisation de fichiers on Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/tags/synchronisation-de-fichiers/</link><description>Lobotourisme (Synchronisation de fichiers)</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/tags/synchronisation-de-fichiers/index.xml" rel="self" type="application/rss+xml"/><item><title>Utiliser Syncthing pour synchroniser des fichiers entre son téléphone Android et un PC sous Windows</title><link>https://loboto51.github.io/lobotourisme/post/utiliser-syncthing-pour-synchroniser-des-fichiers-entre-son-t%C3%A9l%C3%A9phone-android-et-un-pc-sous-windows/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/utiliser-syncthing-pour-synchroniser-des-fichiers-entre-son-t%C3%A9l%C3%A9phone-android-et-un-pc-sous-windows/</guid><description>&lt;p>Le tutoriel ci-dessous est une introduction à l&amp;rsquo;utilisation du logiciel libre Syncthing :
+Nous allons synchroniser le répertoire photo de notre téléphone Android avec un PC sous Windows, de manière à disposer en permanence d&amp;rsquo;une copie récente pour le cas où le téléphone cesserait de fonctionner, serait cassé, volé, etc.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>IMPORTANT :&lt;/strong> Il s&amp;rsquo;agit d&amp;rsquo;une synchronisation et non d&amp;rsquo;une simple copie. Si un fichier est supprimé d&amp;rsquo;un coté il disparaît aussi de l&amp;rsquo;autre.
+Pour archiver les photos ailleurs sans les retirer du téléphone, il faudra les copier, et non les déplacer.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;em>Qu&amp;rsquo;est-ce que &lt;a href="https://syncthing.net/">Syncthing&lt;/a> ?&lt;/em>&lt;/p>
+&lt;blockquote>
+&lt;p>Il s&amp;rsquo;agit d&amp;rsquo;un logiciel de synchronisation, qui permet de synchroniser des fichiers entre 2 appareils, à chaque fois que ces 2 appareils parviennent à se voir (par exemple lorsqu&amp;rsquo;ils sont sur le même wifi à la maison).&lt;/p>
+&lt;p>(C&amp;rsquo;est particulièrement utile pour les sauvegardes de téléphone car elles prennent du temps, nécessites en câble usb, les fichiers sont répartis dans plusieurs répertoires&amp;hellip; en gros on ne les fait jamais)&lt;/p>
+&lt;p>Le principe est similaire à celui de Dropbox ou de Google Drive, à la différence près que les fichiers ne sont pas conservés ailleurs que sur vos appareils.&lt;/p>
+&lt;p>Il s&amp;rsquo;agit en outre d&amp;rsquo;un logiciel libre, c&amp;rsquo;est à dire que son code source est auditable et consultable par tous, c&amp;rsquo;est une garantie qu&amp;rsquo;il ne fera jamais rien de problématique avec vos données. Plus d&amp;rsquo;informations sur &lt;a href="https://fr.wikipedia.org/wiki/Logiciel_libre">Wikipedia : Logiciel libre&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;em>Pour aller plus loin :&lt;/em>&lt;/p>
+&lt;blockquote>
+&lt;p>Syncthing peut être utilisé pour beaucoup d&amp;rsquo;autres tâches que ce que propose ce tutoriel :&lt;/p>
+&lt;ul>
+&lt;li>Sauvegarder tous les fichiers importants de son téléphone sur un ordinateur (photos, etc.) à chaque fois que les 2 sont à proximité ;&lt;/li>
+&lt;li>Conserver une copie conforme de documents importants sur 2 ordinateurs :
+&lt;ul>
+&lt;li>Photos souvenir ;&lt;/li>
+&lt;li>Fiches de paie ;&lt;/li>
+&lt;li>etc.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h1 id="1-installation-de-syncthing-sur-le-pc-sous-windows" >1. Installation de Syncthing sur le PC sous Windows
+&lt;span>
+&lt;a href="#1-installation-de-syncthing-sur-le-pc-sous-windows">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>Allez sur le site officiel de Syncthing : &lt;a href="https://syncthing.net/">https://syncthing.net/&lt;/a>&lt;/p>
+&lt;ol>
+&lt;li>Menu &lt;strong>&amp;ldquo;Download&amp;rdquo;&lt;/strong> en haut&lt;/li>
+&lt;li>Cliquez sur &lt;strong>&amp;ldquo;Synctrayzor&amp;rdquo;&lt;/strong> (il s&amp;rsquo;agit de la version Windows de Syncthing)&lt;/li>
+&lt;li>Le lien va vous envoyer sur une page du site Github, celle de la dernière version de Synctrayzor :&lt;br>
+Téléchargez le fichier &lt;strong>&amp;ldquo;SyncTrayzorSetup-x64.exe&amp;rdquo;&lt;/strong> en bas de la page (x86 pour un PC très ancien).&lt;/li>
+&lt;/ol>
+&lt;p>Lancez le &lt;em>.exe&lt;/em> - Windows demandera plusieurs autorisations : Tout autoriser.&lt;/p>
+&lt;p>L&amp;rsquo;application se lance :&lt;/p>
+&lt;p>Pop-up : &lt;strong>&amp;ldquo;Allow anonymous usage reporting?&amp;rdquo;&lt;/strong> (autoriser les rapports anonymes ?)&lt;br>
+Vous pouvez cliquer sur &lt;strong>&amp;ldquo;Yes&amp;rdquo;&lt;/strong> ça ne présente aucun risque et ça les aide à débugger :&lt;/p>
+&lt;p>&lt;img src="syncthing_windows_1ere_ouverture.jpg" alt="Capture d&amp;amp;rsquo;écran du pop-up : &amp;amp;ldquo;Allow anonymous usage reporting?&amp;amp;rdquo; (autoriser les rapports anonymes ?)">&lt;/p>
+&lt;p>Cliquez en haut sur &lt;strong>&amp;ldquo;English&amp;rdquo;&lt;/strong> et choisir &lt;strong>&amp;ldquo;Français&amp;rdquo;&lt;/strong> pour avoir l&amp;rsquo;interface en français :&lt;/p>
+&lt;p>&lt;img src="syncthing_windows_choix_langue.jpg" alt="capture d&amp;amp;rsquo;écran du choix de la langue ">&lt;/p>
+&lt;p>Encart vert demandant : &lt;strong>&amp;ldquo;Voulez-vous créer un login/password ?&amp;rdquo;&lt;/strong>&lt;br>
+C&amp;rsquo;est une fonctionnalité avancée, vous pouvez mettre &lt;strong>&amp;ldquo;Non&amp;rdquo;&lt;/strong>.&lt;/p>
+&lt;p>&lt;img src="syncthing_windows_pret_a_usage.jpg" alt="capture d&amp;amp;rsquo;écran de l&amp;amp;rsquo;application configurée et prête à l&amp;amp;rsquo;usage">&lt;/p>
+&lt;p>&lt;em>Optionnel :&lt;/em>&lt;br>
+Allez dans &lt;strong>&amp;ldquo;Action&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;Configuration&amp;rdquo;&lt;/strong> et donnez un nom plus sympa à l&amp;rsquo;ordi (défaut : user-PC), exemple : &lt;strong>&amp;ldquo;PC_DE_JOJO&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>Tout est prêt, on passe au téléphone.&lt;/p>
+&lt;h1 id="2-installation-sur-un-téléphone-sous-android" >2. Installation sur un téléphone sous Android
+&lt;span>
+&lt;a href="#2-installation-sur-un-t%c3%a9l%c3%a9phone-sous-android">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>L&amp;rsquo;application officielle est disponible sur le &lt;a href="https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid">Play Store de Google&lt;/a> ou sur le store open-source &lt;a href="https://f-droid.org/packages/com.nutomic.syncthingandroid/">F-Droid&lt;/a>.&lt;/p>
+&lt;p>Le store F-Droid garantit que c&amp;rsquo;est un logiciel libre et permet de conserver un tout petit peu de vie privée vis à vis de Google.&lt;br>
+Mais sinon c&amp;rsquo;est le même logiciel qui est installé (perso je passe par F-Droid dès que je peux).&lt;/p>
+&lt;h2 id="21-installation-du-store-f-droid" >2.1. Installation du store F-DROID
+&lt;span>
+&lt;a href="#21-installation-du-store-f-droid">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>Allez via un navigateur sur &lt;a href="f-droid.org/fr/">le site F-DROID : f-droid.org/fr/&lt;/a>.&lt;/p>
+&lt;p>Choisissez &lt;strong>&amp;ldquo;télécharger F-DROID&amp;rdquo;&lt;/strong>, ça va installer le store sur le téléphone :&lt;br>
+Le téléphone va demander l&amp;rsquo;autorisation d&amp;rsquo;installer un paquet non sécurisé, faites &lt;strong>&amp;ldquo;paramètres&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;autoriser&amp;rdquo;&lt;/strong> (l&amp;rsquo;autorisation ne vaut que pour cette fois, elle sera redemandée pour d&amp;rsquo;autres installations).&lt;/p>
+&lt;h2 id="22-installation-du-logiciel-syncthing-depuis-f-droid" >2.2. Installation du logiciel Syncthing depuis F-DROID
+&lt;span>
+&lt;a href="#22-installation-du-logiciel-syncthing-depuis-f-droid">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>Ouvrez l&amp;rsquo;application F-DROID, chercher Syncthing, cliquez sur &lt;strong>&amp;ldquo;Installer&amp;rdquo;&lt;/strong>, le téléphone va redemander l&amp;rsquo;autorisation.&lt;/p>
+&lt;h2 id="23-configuration" >2.3. Configuration
+&lt;span>
+&lt;a href="#23-configuration">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h2>&lt;p>Une fois Syncthing installé, lancer l&amp;rsquo;application :&lt;/p>
+&lt;p>&lt;strong>&amp;ldquo;Permission de stockage&amp;rdquo;&lt;/strong> :&lt;br>
+Cliquez sur &lt;strong>&amp;ldquo;donner la permission&amp;rdquo;&lt;/strong> sur tout.&lt;/p>
+&lt;p>&lt;strong>&amp;ldquo;Permission de géolocalisation&amp;rdquo;&lt;/strong> :&lt;br>
+Fonction avancée, pas la peine de l&amp;rsquo;activer.&lt;/p>
+&lt;p>Pop-up &lt;strong>&amp;ldquo;Syncthing est désactivé - voulez-vous changer les conditions de fonctionnement ?&amp;rdquo;&lt;/strong> :&lt;br>
+Cliquez sur &lt;strong>&amp;ldquo;modifier&amp;rdquo;&lt;/strong> pour entrer dans la configuration.&lt;/p>
+&lt;p>Plusieurs configurations sont possibles, la plus courante est d&amp;rsquo;indiquer à syncthing de ne se lancer que lorsque votre téléphone est sur un réseau wifi, pour économiser de la data :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Exécuter en Wifi&lt;/strong> : oui&lt;/li>
+&lt;li>&lt;strong>Exécuter en données mobiles (3G&amp;hellip;)&lt;/strong> : non&lt;/li>
+&lt;/ul>
+&lt;p>Vous pouvez aussi demander que l&amp;rsquo;exécution ne se fasse que lorsque le téléphone est en charge, pour économiser de la batterie :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&amp;ldquo;Exécuter uniquement lorsque le périphérique est alimenté par :&amp;rdquo;&lt;/strong>
+&lt;ul>
+&lt;li>&lt;strong>&amp;ldquo;Secteur&amp;rdquo;&lt;/strong> : permet que l&amp;rsquo;appli ne se lance qu&amp;rsquo;en charge ;&lt;/li>
+&lt;li>&lt;strong>&amp;ldquo;Secteur et batterie&amp;rdquo;&lt;/strong> : L&amp;rsquo;appli se lance quand elle veut.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>Cas particulier :&lt;/em>&lt;br>
+Si vous avez l&amp;rsquo;habitude de connecter votre ordinateur à internet en utilisant le mode &lt;em>&amp;ldquo;point d&amp;rsquo;accès Wifi&amp;rdquo;&lt;/em> du téléphone, vous pouvez utiliser la configuration suivante, elle fonctionne :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Exécuter en Wifi&lt;/strong> : non&lt;/li>
+&lt;li>&lt;strong>Exécuter en données mobiles (3G&amp;hellip;)&lt;/strong> : oui&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>Optionnel :&lt;/em>&lt;br>
+Allez dans le menu en haut à gauche &lt;strong>&amp;quot;&amp;mdash;&amp;quot;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;Paramètres&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;Options Syncthing&amp;rdquo;&lt;/strong> et donnez un nom plus sympa au téléphone, ex : &lt;strong>&amp;ldquo;TEL_DE_JOJO&amp;rdquo;&lt;/strong>&lt;/p>
+&lt;p>Tout est prêt, il ne reste plus qu&amp;rsquo;à les présenter l&amp;rsquo;un à l&amp;rsquo;autre.&lt;/p>
+&lt;h1 id="3-autoriser-les-2-appareils-à-échanger-entre-eux" >3. Autoriser les 2 appareils à échanger entre eux
+&lt;span>
+&lt;a href="#3-autoriser-les-2-appareils-%c3%a0-%c3%a9changer-entre-eux">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>Dans une synchronisation Syncthing, il faut que chaque appareil autorise l&amp;rsquo;autre à lui adresser la parole, pour qu&amp;rsquo;ils puissent ensuite se proposer des partages de fichiers :&lt;/p>
+&lt;ul>
+&lt;li>Sur le PC, ouvrir &lt;strong>&amp;ldquo;Actions&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;afficher mon ID&amp;rdquo;&lt;/strong> : Un QR Code apparaît ;&lt;/li>
+&lt;li>Sur le téléphone, aller en haut à droit, sur le &lt;strong>&amp;quot;+&amp;quot;&lt;/strong>, ça ouvre le menu &lt;strong>&amp;ldquo;Ajout d&amp;rsquo;un appareil&amp;rdquo;&lt;/strong> :
+&lt;ul>
+&lt;li>Cochez &lt;strong>&amp;ldquo;initiateur&amp;rdquo;&lt;/strong> ;&lt;/li>
+&lt;li>Cliquez sur &lt;strong>&amp;ldquo;Mon ID&amp;rdquo;&lt;/strong> et scanner le QR Code du PC ;&lt;/li>
+&lt;li>cliquez sur &lt;strong>&amp;ldquo;V&amp;rdquo;&lt;/strong> (coche) en haut à droite.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Sur le PC, fermez la fenêtre QR Code, un pop-up apparaît indiquant &lt;strong>&amp;ldquo;Nouvel appareil : XXX demande à se connecter&amp;rdquo;&lt;/strong> -&amp;gt; cochez &lt;strong>&amp;ldquo;Ajouter un appareil&amp;rdquo;&lt;/strong>.&lt;/li>
+&lt;/ul>
+&lt;p>A ce stade de chaque côté on doit voir l&amp;rsquo;autre appareil &amp;ldquo;connecté&amp;rdquo; dans la section &lt;strong>&amp;ldquo;Autres appareils&amp;rdquo;&lt;/strong> (Windows) ou &lt;strong>&amp;ldquo;Appareils&amp;rdquo;&lt;/strong> (Android).&lt;/p>
+&lt;h1 id="2-mise-en-place-de-la-sauvegarde-automatique-des-photos" >2. Mise en place de la sauvegarde automatique des photos
+&lt;span>
+&lt;a href="#2-mise-en-place-de-la-sauvegarde-automatique-des-photos">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;blockquote>
+&lt;p>&lt;strong>ATTENTION :&lt;/strong>
+Comme indiqué plus haut, il s&amp;rsquo;agit d&amp;rsquo;une procédure de synchronisation et pas d&amp;rsquo;archivage , tout fichier supprimé d&amp;rsquo;un côté disparaître de l&amp;rsquo;autre côté à la prochaine synchronisation.&lt;/p>
+&lt;p>Si on veut sauvegarder ses photos ailleurs, dans un répertoire bien rangé, il y a 2 options :&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>SI on veut faire de la place sur le téléphone :&lt;/strong> il suffit de les &lt;strong>déplacer&lt;/strong> dans un autre répertoire du PC : elles vont disparaître du répertoire synchronisé du PC, et donc aussi du téléphone ;&lt;/li>
+&lt;li>&lt;strong>SI on veut les conserver sur le téléphone :&lt;/strong> il faut les &lt;strong>copier&lt;/strong> dans un autre répertoire du PC : elles resteront disponibles dans le répertoire synchronisé du PC, et donc sur le téléphone.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Syncthing pour Android pré-configure le partage du répertoire photos principal :&lt;br>
+Sur le téléphone, vous devez voir dans l&amp;rsquo;onglet &lt;strong>&amp;ldquo;Partage&amp;rdquo;&lt;/strong> une ligne pré-paramétrée sous le nom &lt;strong>&amp;ldquo;Camera&amp;rdquo;&lt;/strong>, elle pointe vers le répertoire &lt;em>DCIM/Camera&lt;/em> de la mémoire interne du téléphone.&lt;/p>
+&lt;p>Nous allons proposer ce partage au PC :&lt;/p>
+&lt;ul>
+&lt;li>Cliquez dessus pour compléter la configuration :
+&lt;ul>
+&lt;li>&lt;strong>&amp;ldquo;Type de partage&amp;rdquo;&lt;/strong> : Vous avez 3 choix :
+&lt;ul>
+&lt;li>&lt;strong>&amp;ldquo;Envoyer et recevoir&amp;rdquo;&lt;/strong> : Comportement par défaut - si un fichier est supprimé sur l&amp;rsquo;ordi ou le tel il sera supprimé de l&amp;rsquo;autre côté ;&lt;/li>
+&lt;li>&lt;strong>&amp;ldquo;Envoyer seulement&amp;rdquo;&lt;/strong> : Un fichier supprimé sur le téléphone disparaît du PC, mais un fichier supprimé sur le PC ne disparaît pas du téléphone ;&lt;/li>
+&lt;li>&lt;strong>&amp;ldquo;Recevoir seulement&amp;rdquo;&lt;/strong> : Un fichier supprimé sur le téléphone ne disparaît pas du PC, mais un fichier supprimé du PC disparaît du téléphone.
+&lt;blockquote>
+&lt;p>Personnellement j&amp;rsquo;opte systématiquement pour &lt;strong>&amp;ldquo;Envoyer et recevoir&amp;rdquo;&lt;/strong> car les principes sont clairs :&lt;br>
+Ça marche comme DROPBOX ou GOOGLE DRIVE, chaque répertoire est une copie conforme de l&amp;rsquo;autre, ça évite de se faire des noeuds au cerveau pour savoir qu&amp;rsquo;est-ce qui est où.&lt;/p>
+&lt;p>Et si on a besoin de sauvegarder/archiver proprement quelque chose, on les copie ou déplace ailleurs.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Les appareils connectés sont listés avec une petite case à cocher à côté :&lt;br>
+Cochez le nom du PC (&lt;strong>&amp;ldquo;PC_DE_JOJO&amp;rdquo;&lt;/strong> dans mon exemple)&lt;/li>
+&lt;li>Revenez en arrière avec la flèche en haut à gauche.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Sur le PC, un pop-up apparaît en haut, indiquant &lt;strong>&amp;ldquo;TEL_&amp;hellip; vous invite au partage &amp;ldquo;Caméra&amp;rdquo;, ajouter ce partage ?&amp;rdquo;&lt;/strong> :&lt;/p>
+&lt;ul>
+&lt;li>Cliquez sur &lt;strong>&amp;ldquo;Ajouter&amp;rdquo;&lt;/strong>&lt;/li>
+&lt;li>Changez &lt;strong>&amp;ldquo;chemin racine du partage&amp;rdquo;&lt;/strong> pour mettre la copie dans le répertoire qui vous arrange, exemple :&lt;br>
+&lt;em>Documents\fichiers_synchronises\TEL_DE_JOJO\Camera&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;p>A présent que tout est en place, vous allez voir les fichiers du téléphone apparaître progressivement dans le répertoire du PC.&lt;/p>
+&lt;p>Les 2 applications ne resteront pas forcément actives en permanence.&lt;br>
+Pensez à ouvrir les 2 à intervalles réguliers de manière à les forcer à se mettre à jour.&lt;/p>
+&lt;h1 id="et-ensuite--synchroniser-dautres-répertoires" >Et ensuite ? Synchroniser d&amp;rsquo;autres répertoires
+&lt;span>
+&lt;a href="#et-ensuite--synchroniser-dautres-r%c3%a9pertoires">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>Il suffit dans l&amp;rsquo;écran &lt;strong>&amp;ldquo;PARTAGES&amp;rdquo;&lt;/strong> du téléphone, de cliquer sur &lt;strong>&amp;quot;+&amp;quot;&lt;/strong> en haut à droite pour indiquer un autre répertoire du téléphone à partager avec l&amp;rsquo;extérieur.&lt;/p>
+&lt;p>Exemple :&lt;/p>
+&lt;ul>
+&lt;li>Choisissez un &lt;strong>&amp;ldquo;Nom local du partage&amp;rdquo;&lt;/strong> (ex : &lt;em>&amp;ldquo;Facebook&amp;rdquo;&lt;/em>) ;&lt;/li>
+&lt;li>Cliquez sur &lt;strong>&amp;ldquo;Répertoire&amp;rdquo;&lt;/strong> :&lt;br>
+(La première fois que vous le faites, il faudra peut-être cliquer en haut à droite sur le bouton &lt;strong>&amp;quot;&amp;hellip;&amp;quot;&lt;/strong> puis &lt;strong>&amp;ldquo;afficher la mémoire interne&amp;rdquo;&lt;/strong> pour voir la mémoire du téléphone)
+&lt;ul>
+&lt;li>Cliquez sur le bouton &lt;strong>&amp;quot;&amp;mdash;&amp;quot;&lt;/strong> en haut à gauche :
+Normalement il y a 2 choix possibles, la mémoire interne et la carte SD ;&lt;/li>
+&lt;li>Trouver le répertoire, accepter le partage, valider.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>Côté PC, le 2e répertoire produira un pop-up comme le 1er.&lt;br>
+Il ne reste plus qu&amp;rsquo;à indiquer le répertoire local dans lequel le synchroniser (exemple : &lt;em>Documents\fichiers_synchronises\TEL_DE_JOJO\Facebook&lt;/em>).&lt;/p>
+&lt;blockquote>
+&lt;p>Les répertoires de photo les plus courants :&lt;/p>
+&lt;ul>
+&lt;li>Photos du téléphone sauvegardées sur la carte SD : &lt;em>Carte SD &amp;gt; DCIM&lt;/em>&lt;/li>
+&lt;li>Images Whatsapp/Facebook/etc. : &lt;em>Mémoire interne &amp;gt; Pictures&lt;/em>&lt;/li>
+&lt;li>Fichiers téléchargés : &lt;em>Mémoire interne &amp;gt; Download&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Exemple d&amp;rsquo;un téléphone très synchronisé :&lt;/p>
+&lt;p>&lt;img src="syncthing_android_plein_de_partages.jpg" alt="capture d&amp;amp;rsquo;écran de Syncthing Android avec plein de partages activés">&lt;/p></description></item></channel></rss>
