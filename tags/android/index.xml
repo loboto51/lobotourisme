@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Android on Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/tags/android/</link><description>Lobotourisme (Android)</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>Utiliser Syncthing pour synchroniser des fichiers entre son téléphone Android et un PC sous Windows</title><link>https://loboto51.github.io/lobotourisme/post/utiliser-syncthing-pour-synchroniser-des-fichiers-entre-son-t%C3%A9l%C3%A9phone-android-et-un-pc-sous-windows/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/utiliser-syncthing-pour-synchroniser-des-fichiers-entre-son-t%C3%A9l%C3%A9phone-android-et-un-pc-sous-windows/</guid><description>&lt;p>Le tutoriel ci-dessous est une introduction à l&amp;rsquo;utilisation du logiciel libre Syncthing :
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Android on Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/tags/android/</link><description>Lobotourisme (Android)</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><lastBuildDate>Thu, 23 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/tags/android/index.xml" rel="self" type="application/rss+xml"/><item><title>Perte ou vol d'un téléphone portable sous Android - les gestes qui sauvent</title><link>https://loboto51.github.io/lobotourisme/post/perte-ou-vol-dun-t%C3%A9l%C3%A9phone-portable-sous-android-les-gestes-qui-sauvent/</link><pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/perte-ou-vol-dun-t%C3%A9l%C3%A9phone-portable-sous-android-les-gestes-qui-sauvent/</guid><description>&lt;p>Cette page liste quelques actions utiles à réaliser avant et après la perte ou le vol d&amp;rsquo;un téléphone portable Android.&lt;/p>
+&lt;h1 id="pré-requis--activer-lapplication-localiser-mon-appareil" >Pré-requis : activer l&amp;rsquo;application &amp;ldquo;Localiser mon appareil&amp;rdquo;
+&lt;span>
+&lt;a href="#pr%c3%a9-requis--activer-lapplication-localiser-mon-appareil">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>Avant de perdre ou de se faire voler son téléphone portable Android, il est important de :&lt;/p>
+&lt;ul>
+&lt;li>Noter son IMEI dans un coin si votre opérateur ne le connaît pas (cela servira à la police pour le bloquer définitivement) ;&lt;/li>
+&lt;li>Activer l&amp;rsquo;application &amp;ldquo;Localiser mon appareil&amp;rdquo; sur le téléphone.&lt;/li>
+&lt;/ul>
+&lt;p>&amp;ldquo;Paramètres&amp;rdquo; &amp;gt; &amp;ldquo;Google&amp;rdquo; &amp;gt; &amp;ldquo;Localiser mon appareil&amp;rdquo; =&amp;gt; activer la localisation&lt;/p>
+&lt;p>OU&lt;/p>
+&lt;p>&amp;ldquo;Paramètres&amp;rdquo; &amp;gt; &amp;ldquo;Google&amp;rdquo; &amp;gt; &amp;ldquo;Sécurité&amp;rdquo; &amp;gt; &amp;ldquo;Application admin. appareil&amp;rdquo; =&amp;gt; idem&lt;/p>
+&lt;p>Cette fonction permet, depuis votre compte Google, de localiser votre téléphone, de le faire sonner à distance, de le verrouiller et même de le remettre à zéro.&lt;/p>
+&lt;h1 id="une-fois-le-téléphone-perdu-ou-volé" >Une fois le téléphone perdu ou volé
+&lt;span>
+&lt;a href="#une-fois-le-t%c3%a9l%c3%a9phone-perdu-ou-vol%c3%a9">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>Se connecter à son compte Google depuis un autre appareil (ordinateur, téléphone d&amp;rsquo;ami, etc.) :&lt;/p>
+&lt;p>&lt;a href="https://www.google.com/">https://www.google.com/&lt;/a> &amp;gt; Comptes, se logger avec adresse gmail et mot de passe.&lt;/p>
+&lt;p>Ensuite rendez-vous sur &lt;a href="https://www.google.com/android/find">https://www.google.com/android/find&lt;/a>.&lt;/p>
+&lt;p>Vous y verrez la position actuelle du téléphone, et vous pourrez :&lt;/p>
+&lt;ul>
+&lt;li>&amp;ldquo;Faire sonner&amp;rdquo; : si votre téléphone est allumé et connecté à Internet, il sonnera pendant cinq minutes, même s&amp;rsquo;il est en mode silencieux ;&lt;/li>
+&lt;li>&amp;ldquo;Sécuriser l&amp;rsquo;appareil&amp;rdquo; : cela va permettre de bloquer l&amp;rsquo;appareil à distance. Vous pourrez aussi afficher un message pour contacter le propriétaire en cas de découverte par un tiers ;&lt;/li>
+&lt;li>&amp;ldquo;Effacer les données de l&amp;rsquo;appareil&amp;rdquo; : drastique, cela va réinitialiser le téléphone.&lt;/li>
+&lt;/ul>
+&lt;h1 id="la-suite--opérateur-et-dépôt-de-plainte" >La suite : opérateur et dépôt de plainte
+&lt;span>
+&lt;a href="#la-suite--op%c3%a9rateur-et-d%c3%a9p%c3%b4t-de-plainte">
+&lt;svg viewBox="0 0 28 23" height="100%" width="19" xmlns="http://www.w3.org/2000/svg">&lt;path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" fill="none" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>&lt;/svg>
+&lt;/a>
+&lt;/span>
+&lt;/h1>&lt;p>Si vous ne le retrouvez toujours pas, il faudra contacter votre opérateur et la police de manière à bloquer définitivement la SIM et le téléphone.&lt;/p>
+&lt;p>Plus d&amp;rsquo;informations ici : &lt;a href="https://www.service-public.fr/particuliers/vosdroits/F34123">Vol d&amp;rsquo;un téléphone portable (https://www.service-public.fr/particuliers/vosdroits/F34123)&lt;/a>.&lt;/p></description></item><item><title>Utiliser Syncthing pour synchroniser des fichiers entre son téléphone Android et un PC sous Windows</title><link>https://loboto51.github.io/lobotourisme/post/utiliser-syncthing-pour-synchroniser-des-fichiers-entre-son-t%C3%A9l%C3%A9phone-android-et-un-pc-sous-windows/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/utiliser-syncthing-pour-synchroniser-des-fichiers-entre-son-t%C3%A9l%C3%A9phone-android-et-un-pc-sous-windows/</guid><description>&lt;p>Le tutoriel ci-dessous est une introduction à l&amp;rsquo;utilisation du logiciel libre Syncthing :
 Nous allons synchroniser le répertoire photo de notre téléphone Android avec un PC sous Windows, de manière à disposer en permanence d&amp;rsquo;une copie récente pour le cas où le téléphone cesserait de fonctionner, serait cassé, volé, etc.&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;strong>IMPORTANT :&lt;/strong> Il s&amp;rsquo;agit d&amp;rsquo;une synchronisation et non d&amp;rsquo;une simple copie. Si un fichier est supprimé d&amp;rsquo;un coté il disparaît aussi de l&amp;rsquo;autre.
