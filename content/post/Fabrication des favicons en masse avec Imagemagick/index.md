@@ -18,20 +18,15 @@ J'indique en fin d'article les 2 fichiers de conf à mettre à jour, ainsi qu'un
 
 J'ai acheté une belle icône sur le très bon site [The Noun Project](https://thenounproject.com/) : [Space dessinée par Adrien Coquet](https://thenounproject.com/term/space/2217279/). 
 
-Je l'ai modifiée dans _Inkscape_ pour ajouter un bord, puis j'ai généré une version PNG de 1024x1024 "_logo_large.png_" que j'ai mise dans _./static/logos/_ :
-
-![logo_large.png](logo_large.png)
-
+Je l'ai modifiée dans _Inkscape_ pour ajouter un bord, puis je l'ai mise dans  _./static/favicons/_, ainsi qu'une version PNG de 1024x1024 "_logo_large.png_".
 
 ### Génération des variantes
 
-Variantes recommandées par [The 2020 Guide to FavIcons for Nearly Everyone and Every Browser](https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/) ainsi que [favicon-cheat-sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet.
+Variantes recommandées par [The 2020 Guide to FavIcons for Nearly Everyone and Every Browser](https://www.emergeinteractive.com/insights/detail/the-essentials-of-favicons/), [favicon-cheat-sheet](https://github.com/audreyfeldroy/favicon-cheat-sheet) ainsi que [https://realfavicongenerator.net](https://realfavicongenerator.net).
 
 La configuration de la commande unsharp vient de la doc [Imagemagick Resize or Scaling](https://legacy.imagemagick.org/Usage/resize/), c'est celle qu'applique le logiciel GIMP.
 
 ```sh
-mkdir -p ./static/favicons/
-
 #favicon-16x16.png
 convert ./static/logos/logo_large.png -resize 16x16 -unsharp 0x6+0.5+0 ./static/favicons/favicon-16x16.png
 #favicon-32x32.png
@@ -71,6 +66,8 @@ Les favicons spécifiques à un navigateur :
 convert ./static/logos/logo_large.png -resize 70x70 -unsharp 0x6+0.5+0 ./static/favicons/mstiles-70x70.png
 #mstiles 144x144
 convert ./static/logos/logo_large.png -resize 144x144 -unsharp 0x6+0.5+0 ./static/favicons/mstiles-144x144.png
+#mstiles 150x150
+convert ./static/logos/logo_large.png -resize 150x150 -unsharp 0x6+0.5+0 ./static/favicons/mstiles-150x150.png
 #mstiles 310x150
 convert ./static/logos/logo_large.png -resize 150x150 -unsharp 0x6+0.5+0  -background transparent -gravity center -extent 310x150 ./static/favicons/mstiles-310x150.png
 #mstiles 310x310
@@ -79,6 +76,7 @@ convert ./static/logos/logo_large.png -resize 310x310 -unsharp 0x6+0.5+0 ./stati
 
 ![mstiles-70x70.png](mstiles-70x70.png)
 ![mstiles-144x144.png](mstiles-144x144.png)
+![mstiles-150x150.png](mstiles-150x150.png)
 ![mstiles-310x150.png](mstiles-310x150.png)
 ![mstiles-310x310.png](mstiles-310x310.png)
 
@@ -92,6 +90,7 @@ Je l'ai mis à la racine.
       <msapplication>
         <tile>
           <square70x70logo src="favicons/mstiles-70x70.png"/>
+          <square144x144logo src="favicons/mstiles-144x144.png"/>
           <square150x150logo src="favicons/mstiles-150x150.png"/>
           <wide310x150logo src="favicons/mstiles-310x150.png"/>
           <square310x310logo src="favicons/mstiles-310x310.png"/>
@@ -144,13 +143,21 @@ Trouver le _layout_ qui liste les favicons et y ajouter :
   <link rel="icon" type="image/png" sizes="196x196" href='{{ "favicon/favicon-196x196.png" | relURL }}'>
   <!--[if IE]><link rel="shortcut icon" href='favicon.ico'><![endif]-->
   <link rel="apple-touch-icon-precomposed" href='{{ "favicon/favicon-180x180.png" | relURL }}'>
+  <link rel="apple-touch-icon" sizes="180x180" href='{{ "favicon/favicon-180x180.png" | relURL }}'>
   <link rel="shortcut icon" sizes="196x196" href='{{ "favicon/favicon-196x196.png" | relURL }}'>
   <meta name="msapplication-TileColor" content="#FFFFFF">
   <meta name="msapplication-TileImage" content='{{ "favicon/favicon-144x144.png" | relURL }}'>
+  <link rel="mask-icon" content='{{ "favicon/logo_large.svg" | relURL }}' color="#000000">
   <meta name="application-name" content="Lobotourisme">
   <meta name="msapplication-tooltip" content="Tooltip">
   <meta name="msapplication-config" content='{{ "ieconfig.xml" | relURL }}'>
 ```
 
 
+
+
+
+### Pour contrôler qu'il y a tout :
+
+Aller sur le site [https://realfavicongenerator.net/favicon_checker](https://realfavicongenerator.net/favicon_checker) pour tester que tout est disponible.
 
