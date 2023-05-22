@@ -3,6 +3,7 @@
       <msapplication>
         <tile>
           <square70x70logo src="favicons/mstiles-70x70.png"/>
+          <square144x144logo src="favicons/mstiles-144x144.png"/>
           <square150x150logo src="favicons/mstiles-150x150.png"/>
           <wide310x150logo src="favicons/mstiles-310x150.png"/>
           <square310x310logo src="favicons/mstiles-310x310.png"/>
