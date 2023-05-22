@@ -47,10 +47,13 @@ convert ./static/logos/logo_large.png -resize 192x192 -unsharp 0x6+0.5+0 ./stati
 convert ./static/logos/logo_large.png -resize 196x196 -unsharp 0x6+0.5+0 ./static/favicons/favicon-196x196.png
 #favicon-256x256.png
 convert ./static/logos/logo_large.png -resize 256x256 -unsharp 0x6+0.5+0 ./static/favicons/favicon-256x256.png
+#favicon-512x512.png
+convert ./static/logos/logo_large.png -resize 512x512 -unsharp 0x6+0.5+0 ./static/favicons/favicon-512x512.png
 ```
 
-![favicon-16x16.png](favicon-16x16.png)![favicon-32x32.png](favicon-32x32.png)![favicon-48x48.png](favicon-48x48.png)![favicon-128x128.png](favicon-128x128.png)![favicon-152x152.png](favicon-152x152.png)![favicon-167x167.png](favicon-167x167.png)![favicon-180x180.png](favicon-180x180.png)![favicon-192x192.png](favicon-192x192.png)![favicon-196x196.png](favicon-196x196.png)![favicon-256x256.png](favicon-256x256.png)
 
+
+![favicon-16x16.png](favicon-16x16.png)![favicon-32x32.png](favicon-32x32.png)![favicon-48x48.png](favicon-48x48.png)![favicon-128x128.png](favicon-128x128.png)![favicon-152x152.png](favicon-152x152.png)![favicon-167x167.png](favicon-167x167.png)![favicon-180x180.png](favicon-180x180.png)![favicon-192x192.png](favicon-192x192.png)![favicon-196x196.png](favicon-196x196.png)![favicon-256x256.png](favicon-256x256.png)![favicon-512x512.png](favicon-512x512.png)
 
 La favicon au format "_.ico_" combine 3 formats, 16x16, 32x32 et 48x48 en un seul conteneur :
 
@@ -147,7 +150,7 @@ Trouver le _layout_ qui liste les favicons et y ajouter :
   <link rel="shortcut icon" sizes="196x196" href='{{ "favicons/favicon-196x196.png" | relURL }}'>
   <meta name="msapplication-TileColor" content="#FFFFFF">
   <meta name="msapplication-TileImage" content='{{ "favicons/favicon-144x144.png" | relURL }}'>
-  <link rel="mask-icon" content='{{ "favicons/logo_large.svg" | relURL }}' color="#000000">
+  <link rel="mask-icon" content='{{ "logos/logo_large.svg" | relURL }}' color="#000000">
   <meta name="application-name" content="Lobotourisme">
   <meta name="msapplication-tooltip" content="Tooltip">
   <meta name="msapplication-config" content='{{ "ieconfig.xml" | relURL }}'>
