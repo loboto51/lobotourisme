@@ -132,22 +132,22 @@ Je l'ai mis à la racine.
 Trouver le _layout_ qui liste les favicons et y ajouter :
 
 ```html
-  <link rel="icon" href='{{ "favicon/favicon.png" | relURL }}'>
-  <link rel="icon" type="image/png" sizes="16x16" href='{{ "favicon/favicon-16x16.png" | relURL }}'>
-  <link rel="icon" type="image/png" sizes="32x32" href='{{ "favicon/favicon-32x32.png" | relURL }}'>
-  <link rel="icon" type="image/png" sizes="128x128" href='{{ "favicon/favicon-128x128.png" | relURL }}'>
-  <link rel="icon" type="image/png" sizes="152x152" href='{{ "favicon/favicon-152x152.png" | relURL }}'>
-  <link rel="icon" type="image/png" sizes="167x167" href='{{ "favicon/favicon-167x167.png" | relURL }}'>
-  <link rel="icon" type="image/png" sizes="180x180" href='{{ "favicon/favicon-180x180.png" | relURL }}'>
-  <link rel="icon" type="image/png" sizes="192x192" href='{{ "favicon/favicon-192x192.png" | relURL }}'>
-  <link rel="icon" type="image/png" sizes="196x196" href='{{ "favicon/favicon-196x196.png" | relURL }}'>
+  <link rel="icon" href='{{ "favicons/favicon.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="16x16" href='{{ "favicons/favicon-16x16.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="32x32" href='{{ "favicons/favicon-32x32.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="128x128" href='{{ "favicons/favicon-128x128.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="152x152" href='{{ "favicons/favicon-152x152.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="167x167" href='{{ "favicons/favicon-167x167.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="180x180" href='{{ "favicons/favicon-180x180.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="192x192" href='{{ "favicons/favicon-192x192.png" | relURL }}'>
+  <link rel="icon" type="image/png" sizes="196x196" href='{{ "favicons/favicon-196x196.png" | relURL }}'>
   <!--[if IE]><link rel="shortcut icon" href='favicon.ico'><![endif]-->
-  <link rel="apple-touch-icon-precomposed" href='{{ "favicon/favicon-180x180.png" | relURL }}'>
-  <link rel="apple-touch-icon" sizes="180x180" href='{{ "favicon/favicon-180x180.png" | relURL }}'>
-  <link rel="shortcut icon" sizes="196x196" href='{{ "favicon/favicon-196x196.png" | relURL }}'>
+  <link rel="apple-touch-icon-precomposed" href='{{ "favicons/favicon-180x180.png" | relURL }}'>
+  <link rel="apple-touch-icon" sizes="180x180" href='{{ "favicons/favicon-180x180.png" | relURL }}'>
+  <link rel="shortcut icon" sizes="196x196" href='{{ "favicons/favicon-196x196.png" | relURL }}'>
   <meta name="msapplication-TileColor" content="#FFFFFF">
-  <meta name="msapplication-TileImage" content='{{ "favicon/favicon-144x144.png" | relURL }}'>
-  <link rel="mask-icon" content='{{ "favicon/logo_large.svg" | relURL }}' color="#000000">
+  <meta name="msapplication-TileImage" content='{{ "favicons/favicon-144x144.png" | relURL }}'>
+  <link rel="mask-icon" content='{{ "favicons/logo_large.svg" | relURL }}' color="#000000">
   <meta name="application-name" content="Lobotourisme">
   <meta name="msapplication-tooltip" content="Tooltip">
   <meta name="msapplication-config" content='{{ "ieconfig.xml" | relURL }}'>
