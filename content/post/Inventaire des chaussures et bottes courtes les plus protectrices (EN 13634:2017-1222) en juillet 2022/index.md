@@ -5,6 +5,9 @@ categories:
 - Moto
 tags: 
 - Bottes moto
+- Bottes moto courtes
+- Chaussures moto
+- Baskets/sneakers moto
 
 ---
 

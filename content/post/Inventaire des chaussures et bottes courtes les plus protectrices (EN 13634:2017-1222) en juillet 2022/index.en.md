@@ -5,6 +5,9 @@ categories:
 - Motorcycle
 tags: 
 - Motorcycle boots
+- Short motorcycle boots
+- Motorcycle shoes
+- Motorcycle sneakers
 
 ---
 

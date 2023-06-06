@@ -1,0 +1,13 @@
+
+article img[src$='#floatleft'] {
+    display: inline;
+    float: left;
+    height: auto;
+    margin: .2em .5em auto .5em;
+}
+article img[src$='#floatright'] {
+    display: inline;
+    float: right;
+    height: auto;
+    margin: .2em .5em auto .5em;
+}
