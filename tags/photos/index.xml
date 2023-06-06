@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Photos on Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/tags/photos/</link><description>Lobotourisme (Photos)</description><generator>Hugo -- gohugo.io</generator><language>fr-FR</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/tags/photos/index.xml" rel="self" type="application/rss+xml"/><item><title>Utiliser Syncthing pour synchroniser des fichiers entre son téléphone Android et un PC sous Windows</title><link>https://loboto51.github.io/lobotourisme/post/utiliser-syncthing-pour-synchroniser-des-fichiers-entre-son-t%C3%A9l%C3%A9phone-android-et-un-pc-sous-windows/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/utiliser-syncthing-pour-synchroniser-des-fichiers-entre-son-t%C3%A9l%C3%A9phone-android-et-un-pc-sous-windows/</guid><description>&lt;p>Le tutoriel ci-dessous est une introduction à l&amp;rsquo;utilisation du logiciel libre Syncthing :
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Photos on Lobotourisme</title><link>https://loboto51.github.io/lobotourisme/tags/photos/</link><description>Lobotourisme (Photos)</description><generator>Hugo -- gohugo.io</generator><language>fr</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://loboto51.github.io/lobotourisme/tags/photos/index.xml" rel="self" type="application/rss+xml"/><item><title>Utiliser Syncthing pour synchroniser des fichiers entre son téléphone Android et un PC sous Windows</title><link>https://loboto51.github.io/lobotourisme/post/utiliser-syncthing-pour-synchroniser-des-fichiers-entre-son-t%C3%A9l%C3%A9phone-android-et-un-pc-sous-windows/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://loboto51.github.io/lobotourisme/post/utiliser-syncthing-pour-synchroniser-des-fichiers-entre-son-t%C3%A9l%C3%A9phone-android-et-un-pc-sous-windows/</guid><description>&lt;p>Le tutoriel ci-dessous est une introduction à l&amp;rsquo;utilisation du logiciel libre Syncthing :
 Nous allons synchroniser le répertoire photo de notre téléphone Android avec un PC sous Windows, de manière à disposer en permanence d&amp;rsquo;une copie récente pour le cas où le téléphone cesserait de fonctionner, serait cassé, volé, etc.&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;strong>IMPORTANT :&lt;/strong> Il s&amp;rsquo;agit d&amp;rsquo;une synchronisation et non d&amp;rsquo;une simple copie. Si un fichier est supprimé d&amp;rsquo;un coté il disparaît aussi de l&amp;rsquo;autre.
@@ -42,12 +42,12 @@ Téléchargez le fichier &lt;strong>&amp;ldquo;SyncTrayzorSetup-x64.exe&amp;rdqu
 &lt;p>L&amp;rsquo;application se lance :&lt;/p>
 &lt;p>Pop-up : &lt;strong>&amp;ldquo;Allow anonymous usage reporting?&amp;rdquo;&lt;/strong> (autoriser les rapports anonymes ?)&lt;br>
 Vous pouvez cliquer sur &lt;strong>&amp;ldquo;Yes&amp;rdquo;&lt;/strong> ça ne présente aucun risque et ça les aide à débugger :&lt;/p>
-&lt;p>&lt;img src="syncthing_windows_1ere_ouverture.jpg" alt="Capture d&amp;amp;rsquo;écran du pop-up : &amp;amp;ldquo;Allow anonymous usage reporting?&amp;amp;rdquo; (autoriser les rapports anonymes ?)">&lt;/p>
+&lt;p>&lt;img src="syncthing_windows_1ere_ouverture.jpg" alt="Capture d&amp;rsquo;écran du pop-up : &amp;ldquo;Allow anonymous usage reporting?&amp;rdquo; (autoriser les rapports anonymes ?)">&lt;/p>
 &lt;p>Cliquez en haut sur &lt;strong>&amp;ldquo;English&amp;rdquo;&lt;/strong> et choisir &lt;strong>&amp;ldquo;Français&amp;rdquo;&lt;/strong> pour avoir l&amp;rsquo;interface en français :&lt;/p>
-&lt;p>&lt;img src="syncthing_windows_choix_langue.jpg" alt="capture d&amp;amp;rsquo;écran du choix de la langue ">&lt;/p>
+&lt;p>&lt;img src="syncthing_windows_choix_langue.jpg" alt="capture d&amp;rsquo;écran du choix de la langue ">&lt;/p>
 &lt;p>Encart vert demandant : &lt;strong>&amp;ldquo;Voulez-vous créer un login/password ?&amp;rdquo;&lt;/strong>&lt;br>
 C&amp;rsquo;est une fonctionnalité avancée, vous pouvez mettre &lt;strong>&amp;ldquo;Non&amp;rdquo;&lt;/strong>.&lt;/p>
-&lt;p>&lt;img src="syncthing_windows_pret_a_usage.jpg" alt="capture d&amp;amp;rsquo;écran de l&amp;amp;rsquo;application configurée et prête à l&amp;amp;rsquo;usage">&lt;/p>
+&lt;p>&lt;img src="syncthing_windows_pret_a_usage.jpg" alt="capture d&amp;rsquo;écran de l&amp;rsquo;application configurée et prête à l&amp;rsquo;usage">&lt;/p>
 &lt;p>&lt;em>Optionnel :&lt;/em>&lt;br>
 Allez dans &lt;strong>&amp;ldquo;Action&amp;rdquo;&lt;/strong> &amp;gt; &lt;strong>&amp;ldquo;Configuration&amp;rdquo;&lt;/strong> et donnez un nom plus sympa à l&amp;rsquo;ordi (défaut : user-PC), exemple : &lt;strong>&amp;ldquo;PC_DE_JOJO&amp;rdquo;&lt;/strong>&lt;/p>
 &lt;p>Tout est prêt, on passe au téléphone.&lt;/p>
@@ -210,4 +210,4 @@ Il ne reste plus qu&amp;rsquo;à indiquer le répertoire local dans lequel le sy
 &lt;/ul>
 &lt;/blockquote>
 &lt;p>Exemple d&amp;rsquo;un téléphone très synchronisé :&lt;/p>
-&lt;p>&lt;img src="syncthing_android_plein_de_partages.jpg" alt="capture d&amp;amp;rsquo;écran de Syncthing Android avec plein de partages activés">&lt;/p></description></item></channel></rss>
+&lt;p>&lt;img src="syncthing_android_plein_de_partages.jpg" alt="capture d&amp;rsquo;écran de Syncthing Android avec plein de partages activés">&lt;/p></description></item></channel></rss>
