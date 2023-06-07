@@ -1,5 +1,5 @@
 ---
-title: "Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 - 1222) en juin 2023"
+title: "Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023"
 date: "2023-06-05"
 categories:
 - Moto
@@ -8,6 +8,7 @@ tags:
 - Bottes moto courtes
 - Chaussures moto
 - Baskets/sneakers moto
+- EN 13634 - 1222
 
 ---
 
@@ -16,6 +17,12 @@ Mise à jour de mon inventaire des baskets/chaussures/bottes courtes de moto qui
 J'ai changé la présentation pour ranger les équipements par prix plutôt que par marque.
 
 J'ai aussi ajouté diverses indications permettant de faire son choix : lieu de fabrication quand connu, imperméabilité, genre annoncé (juste pour info, car pour les bottes pas de coupe particulière).
+
+<!--more-->
+
+J’ai mis le lien Motoblouz/Dafy/Fcmoto lorsque le produit était disponible au moment de la rédaction de l'article _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur Motoblouz)_.
+
+Le même exercice pour les bottes montantes : [Inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en juin 2023]({{< ref "/post/Inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en juin 2023/index.md">}}).
 
 ---
 

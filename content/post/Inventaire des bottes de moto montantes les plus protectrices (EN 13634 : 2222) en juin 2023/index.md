@@ -1,11 +1,12 @@
 ---
-title: "Inventaire des bottes de moto montantes les plus protectrices (EN 13634 - 2222) en juin 2023"
+title: "Inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en juin 2023"
 date: "2023-06-06"
 categories:
 - Moto
 tags: 
 - Bottes moto
 - Bottes moto hautes
+- EN 13634 - 2222
 
 ---
 
@@ -14,6 +15,15 @@ Mise à jour de mon inventaire des bottes de moto montantes qui atteignent le ma
 J'ai changé la présentation pour ranger les équipements par prix plutôt que par marque.
 
 J'ai aussi ajouté diverses indications permettant de faire son choix : lieu de fabrication quand connu, imperméabilité, genre annoncé (juste pour info, car pour les bottes pas de coupe particulière).
+
+<!--more-->
+
+J’ai mis le lien Motoblouz/Dafy/Fcmoto lorsque le produit était disponible au moment de la rédaction de l'article _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur Motoblouz)_.
+
+Quelques bottes légèrement moins protectrices sont listées ici, si le choix n'est pas suffisant : [Inventaire des bottes de moto montantes "presque" les plus protectrices (EN 13634:2122, EN 13634:2212, EN 13634:2221) en juin 2023]({{< ref "/post/Inventaire des bottes de moto montantes \"presque\" les plus protectrices (EN 13634:2122, EN 13634:2212, EN 13634:2221) en juin 2023/index.md">}}).
+
+Le même exercice pour les chaussures, baskets et bottes courtes : [Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023]({{< ref "/post/Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023/index.md">}}).
+
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Inventory of the most protective motorcycle shoes, sneakers and short boots (EN 13634 - 1222) in June 2023"
+title: "Inventory of the most protective motorcycle shoes, sneakers and short boots (EN 13634 : 1222) in June 2023"
 date: "2023-06-05"
 categories:
 - Motorcycle
@@ -8,15 +8,21 @@ tags:
 - Short motorcycle boots
 - Motorcycle shoes
 - Motorcycle sneakers
+- EN 13634 - 1222
 
 ---
 
-Update of my inventory of motorcycle sneakers/shoes/short boots that meet the maximum EN 13634:1222 standard.
+Update of my inventory of motorcycle sneakers/shoes/short boots that meet the maximum EN 13634 : 1222 standard.
 
 I've changed the layout to arrange the equipment by price rather than by brand.
 
 I've also added various indications to help you make your choice: place of manufacture when known, waterproofness, type advertised (just for info, as there's no particular cut for boots).
 
+<!--more-->
+
+I put the Motoblouz/Dafy/Fcmoto link when the product was available at the time of writing _(note: I can get a few cents if you go through one of my links to buy on Motoblouz)_.
+
+The same exercise for high boots: [Inventory of the most protective motorcycle high boots (EN 13634 : 2222) in June 2023]({{< ref "/post/Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023/index.md">}}).
 
 ---
 
