@@ -22,6 +22,8 @@ J'ai aussi ajouté diverses indications permettant de faire son choix : lieu de 
 
 J’ai mis le lien Motoblouz/Dafy/Fcmoto lorsque le produit était disponible au moment de la rédaction de l'article _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur Motoblouz)_.
 
+Quelques bottes légèrement moins protectrices sont listées ici, si le choix n'est pas suffisant : [Inventaire des chaussures, baskets et bottes courtes de moto "presque" les plus protectrices (EN 13634:1122, EN 13634:1212, EN 13634:1221) en juin 2023]({{< ref "/post/Inventaire des chaussures, baskets et bottes courtes de moto \"presque\" les plus protectrices (EN 13634:1122, EN 13634:1212, EN 13634:1221) en juin 2023/index.md">}}).
+
 Le même exercice pour les bottes montantes : [Inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en juin 2023]({{< ref "/post/Inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en juin 2023/index.md">}}).
 
 ---

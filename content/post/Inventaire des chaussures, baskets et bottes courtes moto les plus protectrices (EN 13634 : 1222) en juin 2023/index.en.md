@@ -22,6 +22,8 @@ I've also added various indications to help you make your choice: place of manuf
 
 I put the Motoblouz/Dafy/Fcmoto link when the product was available at the time of writing _(note: I can get a few cents if you go through one of my links to buy on Motoblouz)_.
 
+Some slightly less protective models are listed here, if the choice available isn't to your liking: [Inventory of the "almost" most protective motorcycle shoes, sneakers and short boots (EN 13634:1122, EN 13634:1212, EN 13634:1221) in June 2023]({{< ref "/post/Inventaire des chaussures, baskets et bottes courtes de moto \"presque\" les plus protectrices (EN 13634:1122, EN 13634:1212, EN 13634:1221) en juin 2023/index.md">}}).
+
 The same exercise for high boots: [Inventory of the most protective motorcycle high boots (EN 13634 : 2222) in June 2023]({{< ref "/post/Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023/index.md">}}).
 
 ---
@@ -107,7 +109,7 @@ Common additional certifications :
 > 
 > The following manufacturers have been excluded because they do not display the safety level of their products, or are not marketed in Europe: ARLEN NESS, ARMURE, BELSTAFF, BILT, BOGOTTO, BOLID'STER, DRAGGIN, DRIRIDER, ELEVEIT, FLY MOTO, FOX, GAERNE, HARLEY DAVIDSON, HELD, HOLYFREEDOM, HONDA, ICON, INDIAN, KAWASAKI, KLIM, KTM, LEATT, MACNA, O'NEAL, OVERLAP, REAX, RICHA, RJAYS, RST, RUSTY STITCHES, SAINT, SCOTT, SEDICI, SHOT, SIDI, SOUBIRAC, SPIRIT MOTORS, STADLER, STREET & STEEL, STYLMARTIN, THOR, TRIUMPH, VENDRAMINI, WEX, XPD, YAMAHA
 
-
+---
 
 
 ## Models at 67,92 € :
