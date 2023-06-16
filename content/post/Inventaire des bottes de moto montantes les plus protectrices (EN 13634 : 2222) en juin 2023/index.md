@@ -47,6 +47,8 @@ Certifications complémentaires courantes :
 - WR : Résistance à la pénétration de l'eau
 - FO : Résistance aux hydrocarbures
 
+---
+
 > *Note :* Cette page a été réalisée à partir des données fournies par les fabricants sur leurs sites Web.
 > Sa génération est en grande partie automatisée, il peut donc y avoir quelques erreurs.
 > 
@@ -106,6 +108,7 @@ Certifications complémentaires courantes :
 > 
 > Les fabricants suivants ont été exclus car ils n'affichent pas le niveau de sécurité de leurs produits, ou ne sont pas commercialisés en Europe : ARLEN NESS, ARMURE, BELSTAFF, BILT, BOGOTTO, BOLID'STER, DRAGGIN, DRIRIDER, ELEVEIT, FLY MOTO, FOX, GAERNE, HARLEY DAVIDSON, HELD, HOLYFREEDOM, HONDA, ICON, INDIAN, KAWASAKI, KLIM, KTM, LEATT, MACNA, O'NEAL, OVERLAP, REAX, RICHA, RJAYS, RST, RUSTY STITCHES, SAINT, SCOTT, SEDICI, SHOT, SIDI, SOUBIRAC, SPIRIT MOTORS, STADLER, STREET & STEEL, STYLMARTIN, THOR, TRIUMPH, VENDRAMINI, WEX, XPD, YAMAHA
 
+---
 
 ## Modèles à 76,41 € :
 
