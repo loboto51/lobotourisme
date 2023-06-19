@@ -16,8 +16,6 @@ tags:
 
 This page complements my [Inventory of the most protective motorcycle shoes, sneakers and short boots (EN 13634 : 1222) in June 2023]({{< ref "/post/Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023/index.md">}}), it lists sneakers/shoes/short boots that have all but one level of protection at maximum, so these are EN 13634:1122, EN 13634:1212 and EN 13634:1221.
 
-<!--more-->
-
 I put the Motoblouz/Dafy/Fcmoto link when the product was available at the time of writing _(note: I can get a few cents if you go through one of my links to buy from Motoblouz)_.
 
 ---

@@ -16,8 +16,6 @@ I've changed the layout to arrange the equipment by price rather than by brand.
 
 I've also added various indications to help you make your choice: place of manufacture when known, waterproofness, advertised type (just for info, as for boots no particular cut).
 
-<!--more-->
-
 I put the Motoblouz/Dafy/Fcmoto link when the product was available at the time of writing _(note: I can get a few cents if you go through one of my links to buy on Motoblouz)_.
 
 Some slightly less protective models are listed here, if the choice available isn't to your liking: [Inventory of the "almost" most protective motorcycle high boots (EN 13634 : 2122, EN 13634 : 2212, EN 13634 : 2221) in June 2023]({{< ref "/post/Inventaire des bottes de moto montantes \"presque\" les plus protectrices (EN 13634:2122, EN 13634:2212, EN 13634:2221) en juin 2023/index.md">}}).

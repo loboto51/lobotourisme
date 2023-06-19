@@ -14,8 +14,6 @@ I've changed the layout to arrange the equipment by price rather than by brand.
 
 I've also added various indications to help you make your choice: place of manufacture when known, waterproofness.
 
-<!--more-->
-
 I've put the Motoblouz/Dafy/Fcmoto link when the product was available at the time of writing _(note: I can get a few cents if you go through one of my links to buy on Motoblouz)_.
 
 ---

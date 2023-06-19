@@ -16,8 +16,6 @@ This page lists motorcycle cargo pants that meet the 2 highest levels of the EN 
 
 I've included various indications to help you make your choice: place of manufacture when known, waterproofness, type advertised...
 
-<!--more-->
-
 I've included the Motoblouz/Dafy/Fcmoto link when the product was available at the time of writing _(note: I can earn a few cents if you use one of my links to buy from Motoblouz)_.
 
 ---

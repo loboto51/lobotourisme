@@ -18,8 +18,6 @@ J'ai changé la présentation pour ranger les équipements par prix plutôt que 
 
 J'ai aussi ajouté diverses indications permettant de faire son choix : lieu de fabrication quand connu, imperméabilité, genre annoncé (juste pour info, car pour les bottes pas de coupe particulière).
 
-<!--more-->
-
 J’ai mis le lien Motoblouz/Dafy/Fcmoto lorsque le produit était disponible au moment de la rédaction de l'article _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur Motoblouz)_.
 
 Quelques bottes légèrement moins protectrices sont listées ici, si le choix n'est pas suffisant : [Inventaire des chaussures, baskets et bottes courtes de moto "presque" les plus protectrices (EN 13634:1122, EN 13634:1212, EN 13634:1221) en juin 2023]({{< ref "/post/Inventaire des chaussures, baskets et bottes courtes de moto \"presque\" les plus protectrices (EN 13634:1122, EN 13634:1212, EN 13634:1221) en juin 2023/index.md">}}).

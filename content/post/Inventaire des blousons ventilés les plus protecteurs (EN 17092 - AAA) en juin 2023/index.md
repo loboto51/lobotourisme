@@ -14,8 +14,6 @@ Cette page inventorie les blousons moto été/ventilés (ou décrits comme tels 
 
 J'ai mis diverses indications permettant de faire son choix : lieu de fabrication quand connu, imperméabilité, genre annoncé...
 
-<!--more-->
-
 J’ai mis le lien Motoblouz/Dafy/Fcmoto lorsque le produit était disponible au moment de la rédaction de l'article _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur Motoblouz)_.
 
 ---

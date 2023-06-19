@@ -14,8 +14,6 @@ J'ai changé la présentation pour ranger les équipements par prix plutôt que 
 
 J'ai aussi ajouté diverses indications permettant de faire son choix : lieu de fabrication quand connu, imperméabilité.
 
-<!--more-->
-
 J’ai mis le lien Motoblouz/Dafy/Fcmoto lorsque le produit était disponible au moment de la rédaction de l'article _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur Motoblouz)_.
 
 ---

@@ -16,8 +16,6 @@ tags:
 
 Cette page vient en complément de mon [Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023]({{< ref "/post/Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023/index.md">}}), elle liste des baskets/chaussures/bottes courtes qui ont tous les niveaux de protection au maximum sauf un, il s'agit donc des EN 13634:1122, EN 13634:1212 et EN 13634:1221.
 
-<!--more-->
-
 J’ai mis le lien Motoblouz/Dafy/Fcmoto lorsque le produit était disponible au moment de la rédaction de l'article _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur Motoblouz)_.
 
 ---
