@@ -18,6 +18,10 @@ I've included various indications to help you make your choice: place of manufac
 
 I've included the Motoblouz/Dafy/Fcmoto link when the product was available at the time of writing _(note: I can earn a few cents if you use one of my links to buy from Motoblouz)_.
 
+*Note:* I've written a companion article here: [Inventory of the most beathable AA motorcycle jackets under 200 euros, in June 2023]({{< ref "/post/Inventaire des blousons moto AA les plus aérés à moins de 200 euros, en juin 2023/index.md">}}). 
+It's aimed at those who are primarily looking for the freshness provided by the large mesh panels, at the expense of a little safety (AA instead of AAA).
+I've limited the search to models costing less than 200 euros, because above that, you might as well go for AAA.
+
 ---
 
 # Explanation of the EN 17092:20xx standard 

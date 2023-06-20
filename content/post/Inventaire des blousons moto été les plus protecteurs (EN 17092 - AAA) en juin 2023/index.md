@@ -16,6 +16,10 @@ J'ai mis diverses indications permettant de faire son choix : lieu de fabricatio
 
 J’ai mis le lien Motoblouz/Dafy/Fcmoto lorsque le produit était disponible au moment de la rédaction de l'article _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur Motoblouz)_.
 
+*A noter :* J'ai rédigé un article complémentaire ici : [Inventaire des blousons moto AA les plus aérés à moins de 200 euros, en juin 2023]({{< ref "/post/Inventaire des blousons moto AA les plus aérés à moins de 200 euros, en juin 2023/index.md">}}). 
+Il s'adresse à ceux qui recherchent en priorité la fraîcheur apportée par les grands panneaux en mesh, au détriment d'un peu de sécurité (AA au lieu de AAA).
+J'ai limité la recherche aux modèles à moins de 200 euros car au dessus, autant prendre du AAA.
+
 ---
 
 # Explications sur la norme EN 17092:20xx
