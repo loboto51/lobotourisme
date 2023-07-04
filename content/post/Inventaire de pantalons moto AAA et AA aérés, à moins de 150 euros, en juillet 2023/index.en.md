@@ -58,23 +58,19 @@ Drop speeds by level:
 
 The other 2 levels, B and C, are of little interest: B is an A without shells, and C offers very little protection indeed.
 
-> Complement :  
-> 1) Leather VS NASA fibers?  
-> The EN 17092 standard ensures that a garment exceeds a given resistance threshold for specific types of aggression. There's no way of knowing whether the garment just exceeds it or exceeds it by a wide margin.  
-> For the same level of certification, the various comparisons always seem to put leather first, followed by multi-layer technical fabrics and then single-layer technical fabrics.  
-> Some sources:  
-> Arguments about multi-layer and single-layer pants [here (advrider)](https://www.advrider.com/f/threads/single-layer-vs-double-layer-jeans-test-video.1550527/), [here (advrider)](https://www.advrider.com/f/threads/single-layer-jeans-a-few-models-compared.1551669/), [here (Hood Jeans)](https://www.hoodjeans.co.uk/single-layer-motorcycle-jeans/).  
-> There's a very interesting video interview with Chris Hurren, one of the researchers behind the Australian site [Motocap](https://www.motocap.com.au/), which carries out independent tests using criteria fairly close to the old EN 13595 standard.
-
-> 2) What about the old EN 13595 standard from 2002, or the French variant from 2012?  
-> Several commentators have pointed out that these 2 old standards were more demanding than EN 17092 level AAA, right from level 1. On the other hand, they were neither mandatory nor (apparently) strictly enforced.
-> In the meantime, we now have EN 17092, so we might as well make the most of it!
-
-> 3) Are there any other types of assessment?  
-> The Australian organization [Motocap](https://www.motocap.com.au/) (made up of associations, academics, public and private players) carries out its own clothing tests on different principles:
+> Additional information:  
+> 1) single layer VS multi-layer?   
+> Some sources that discuss it:
+> [Bennetts motorcycle insurers' review: "Best motorcycle riding jeans: Single layer vs lined"](https://www.bennetts.co.uk/bikesocial/reviews/products/textile-jackets-trousers-suits/what-best-motorcycle-riding-jeans-kevlar-pekev-covec), [review published by Hood Jeans (which only makes double-layer)](https://www.hoodjeans.co.uk/single-layer-motorcycle-jeans/), [discussions on the advrider forum](https://www.advrider.com/f/threads/single-layer-jeans-a-few-models-compared.1551669/). The summary conclusion of Bennetts' article: _"it’s not possible to say that all AAA-rated lined jeans are guaranteed to offer better abrasion resistance than all AAA-rated single layer jeans, but the evidence so far points to layering being beneficial. Dr Roderick Woods (the inventor of the Cambridge machine), Dr Chris Hurren (leader of the Motocap scheme) and Paul Varnsverry (an independent motorcycle PPE expert) all agree that the more layers of material that are built into a garment, the more protective it’s likely to be."_
+> 
+> 2) Kevlar VS UHMWPE fibers?
+> There doesn't seem to be much consensus, as each material has very different properties.
+> 
+> 3) Are there other types of evaluation?  
+> The Australian organization [Motocap](https://www.motocap.com.au/) (made up of associations, academics, public and private players) carries out its own clothing tests based on different principles:
 > Their abrasion tests, for example, are more demanding because Australian and New Zealand coatings are more abrasive than asphalt ("chip-seal"). They also carry out a "breathability" (moisture evacuation) test, which makes sense in the heat of Australia, and will be useful for those who live in the tropics or are looking for a jacket for scorching summers.
-> Unfortunately, few of the jackets on this list have been tested there yet:  
-> I only found the SABRE CE from RST [here](https://www.motocap.com.au/product/sabre-ce) (remember to open the pdf "test report>technical report" for the detailed review).
+> Unfortunately, few of the models on this list are currently tested here.
+
 
 ---
 
