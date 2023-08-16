@@ -96,8 +96,8 @@ languages:
 
 params:
   author: "Loboto"
-  email: mail@example.org # used for microformats
-  avatar: "/images/me.png" # used for microformats
+  #email: mail@example.org # used for microformats
+  #avatar: "/images/me.png" # used for microformats
   description: ""
   # Uncomment if you need this
   # images:
@@ -121,12 +121,16 @@ params:
   utterancesIssue: "" # optional
   utterancesLabel: "" # optional
   social:
+  - id: kofi
+    name: Ko-Fi
+    url: "https://ko-fi.com/lobotourisme"
   - id: github
     name: loboto51
     url: "https://github.com/loboto51/"
 #  - id: hugo
 #    url: "https://gohugo.io/"
 #    icon: "hugo"
+
 
 markup:
   goldmark:

@@ -11,3 +11,18 @@ article img[src$='#floatright'] {
     height: auto;
     margin: .2em .5em auto .5em;
 }
+
+.inline-svg {
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    top: 0.15rem;
+    position: relative;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-weight: normal;
+}
