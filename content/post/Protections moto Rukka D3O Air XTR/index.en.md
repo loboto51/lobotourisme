@@ -2,7 +2,7 @@
 title: "Rukka D3O Air XTR motorcycle protectors"
 date: "2021-04-28"
 categories:
-- motorcycle
+- Motorcycle
 tags:
 - Rukka
 - D3O

@@ -10,7 +10,13 @@
     <article class="post h-entry">
         <div class="post-header">
             <header>
-                <h1 class="p-name post-title{{ if .Params.favorite }} favorite{{end}}{{ if .Params.draft }} draft{{end}}">{{ trim .Title  " " }}</h1>
+                <h1 class="p-name post-title{{ if .Params.favorite }} favorite{{end}}{{ if .Params.draft }} draft{{end}}">
+                {{ if .Params.categories }}
+                  {{ range $cat_name := .Params.categories }}
+                    {{ partial "font-awesome.html" (dict "iconName" $cat_name "custom" true) }}
+                  {{ end }}
+                {{ end }}
+                {{ trim .Title  " " }}</h1>
 
                 {{ partial "post-language-switcher.html" . }}
             </header>

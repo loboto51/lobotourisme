@@ -2,7 +2,7 @@
 title: "Protections moto Forcefield Isolator 2"
 date: "2021-04-24"
 categories:
-- moto
+- Moto
 tags:
 - Forcefield
 - Forcefield Isolator 2

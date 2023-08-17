@@ -2,7 +2,7 @@
 title: "Protections moto de hanches SAS-TEC SC-2/07"
 date: "2021-05-03"
 categories:
-- moto
+- Moto
 tags:
 - SAS-TEC
 - SAS-TEC SC-2/07

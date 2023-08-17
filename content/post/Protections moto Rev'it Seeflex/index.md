@@ -2,7 +2,7 @@
 title: "Protections moto Rev'it Seeflex"
 date: "2021-04-26"
 categories:
-- moto
+- Moto
 tags:
 - Rev'It
 - Rev'It Seeflex

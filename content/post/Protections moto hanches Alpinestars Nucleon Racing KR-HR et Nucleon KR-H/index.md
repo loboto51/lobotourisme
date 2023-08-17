@@ -2,7 +2,7 @@
 title: "Protections moto hanches Alpinestars Nucleon Racing KR-HR et Nucleon KR-H"
 date: "2021-05-01"
 categories:
-- moto
+- Moto
 tags: 
 - Alpinestars
 - Alpinestars KR-H

@@ -2,7 +2,7 @@
 title: "Alpinestars Bio Air motorcycle protectors"
 date: "2021-04-26"
 categories: 
-- motorcycle
+- Motorcycle
 tags:
 - Alpinestars
 - Alpinestars Bio Air

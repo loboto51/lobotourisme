@@ -2,7 +2,7 @@
 title: "Protections moto Rukka D3O Air XTR"
 date: "2021-04-28"
 categories:
-- moto
+- Moto
 tags:
 - Rukka
 - D3O

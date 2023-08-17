@@ -2,7 +2,7 @@
 title: "Protections moto Alpinestars Bio Air"
 date: "2021-04-26"
 categories: 
-- moto
+- Moto
 tags:
 - Alpinestars
 - Alpinestars Bio Air

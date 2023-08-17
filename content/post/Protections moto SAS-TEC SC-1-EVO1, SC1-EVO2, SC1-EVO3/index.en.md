@@ -2,7 +2,7 @@
 title: "Motorcycle protections SAS-TEC SC-1/EVO1, SC-1/EVO2, SC-1/EVO3"
 date: "2021-04-26"
 categories:
-- motorcycle
+- Motorcycle
 tags: 
 - SAS-TEC
 - SAS-TEC SC-1/EVO

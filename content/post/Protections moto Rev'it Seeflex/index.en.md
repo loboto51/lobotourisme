@@ -2,7 +2,7 @@
 title: "Rev'it Seeflex motorcycle protectors"
 date: "2021-04-26"
 categories:
-- motorcycle
+- Motorcycle
 tags:
 - Rev'It
 - Rev'It Seeflex

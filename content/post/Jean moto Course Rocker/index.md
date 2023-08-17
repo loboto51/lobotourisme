@@ -2,7 +2,7 @@
 title: "Jean moto Course Rocker"
 date: "2021-05-06"
 categories:
-- moto
+- Moto
 tags: 
 - Course
 - Course Rocker
