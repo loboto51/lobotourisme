@@ -17,6 +17,7 @@ article img[src$='#floatright'] {
     height: 1.7rem;
     width: 1.7rem;
     top: 0.15rem;
+    right: 0.3rem;
     position: relative;
 }
 
