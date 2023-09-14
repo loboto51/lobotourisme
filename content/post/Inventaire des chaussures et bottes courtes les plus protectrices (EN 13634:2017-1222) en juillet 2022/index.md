@@ -11,6 +11,8 @@ tags:
 
 ---
 
+> MISE A JOUR 2023 : [Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023]({{< ref "/post/Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023/index.md">}})
+
 Cet article inventorie les chaussures et bottes courtes de moto que j'ai repérées sur les sites des fabricants, et dont le niveau de protection est au maximum de la norme actuelle : 1222.
 
 La plupart des modèles disponibles sont unisexe, à l'exception d'un modèle femme chez FORMA (je ne sais pas s'il diffère réellement du modèle unisexe si on excepte la couleur).

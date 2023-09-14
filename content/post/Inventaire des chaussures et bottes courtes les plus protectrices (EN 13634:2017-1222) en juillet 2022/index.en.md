@@ -13,6 +13,8 @@ tags:
 
 _(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_
 
+> 2023 UPDATE: [Inventory of the most protective motorcycle shoes, sneakers and short boots (EN 13634: 1222) in June 2023]({{< ref "/post/Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023/index.md">}})
+
 This article lists the short motorcycle boots and shoes I found on the manufacturers' websites, and whose protection level is at the maximum of the current standard: 1222.
 
 Most of the available models are unisex, with the exception of a women's model from FORMA (I don't know if it really differs from the unisex model except for the color).

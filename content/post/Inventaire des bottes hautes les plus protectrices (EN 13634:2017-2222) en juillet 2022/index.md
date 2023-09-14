@@ -8,6 +8,8 @@ tags :
 
 ---
 
+> MISE A JOUR 2023 : [Inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en juin 2023]({{< ref "/post/Inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en juin 2023/index.md">}})
+
 Cet article inventorie les bottes hautes de moto que j'ai repérées sur les sites des fabricants, et dont le niveau de protection est au maximum de la norme actuelle : 2222.
 
 Il existe une grande variété de styles, la plupart des modèles sont unisexe mais il existe au moins 2 modèles très féminins. Les premiers prix sont autour de 100 euros (2 modèles OJ et le seul modèle DXR à ce niveau qui s'avère être un bottine montante femme).

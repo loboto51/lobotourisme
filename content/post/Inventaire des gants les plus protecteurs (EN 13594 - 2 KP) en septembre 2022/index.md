@@ -8,6 +8,8 @@ tags :
 
 ---
 
+> MISE A JOUR 2023 : [Inventaire des gants de moto les plus protecteurs (EN 13594 : 2 KP) en juin 2023]({{< ref "/post/Inventaire des gants de moto les plus protecteurs (EN 13594 : 2 KP) en juin 2023/index.md">}})
+
 Lorsque la norme EN 13594 est entrée en vigueur en 2015/2016, les journaux moto prédisaient que les gants au niveau 2 KP seraient sûrement rares et limités à de l'équipement pour circuit.
 6 ans plus tard force est de constater que les modèles se multiplient et ne sont pas nécessairement réservés à cet usage :  
 J'ai identifié une quinzaine de modèles, de formes et styles différents, et pas nécessairement hors de prix (le premier prix est autour de 170 euros _[Mise à jour : 60 euros pour les SWIFT de LS2]_).

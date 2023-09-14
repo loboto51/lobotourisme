@@ -10,6 +10,8 @@ tags :
 
 _(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_
 
+> 2023 UPDATE: [Inventory of the most protective motorcycle high boots (EN 13634 : 2222) in June 2023]({{< ref "/post/Inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en juin 2023/index.md">}})
+
 This article lists the high motorcycle boots that I found on the manufacturers' websites, and whose level of protection is at the maximum of the current standard: 2222.
 
 There is a wide variety of styles, most models are unisex but there are at least 2 very feminine models. The first prices are around 100 euros (2 OJ models and the only DXR model at this level which happens to be a women's high boot).

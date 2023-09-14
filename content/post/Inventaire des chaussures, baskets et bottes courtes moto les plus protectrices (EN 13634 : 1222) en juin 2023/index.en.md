@@ -23,7 +23,7 @@ I put the Motoblouz/Dafy/Fcmoto link when the product was available at the time 
 
 Some slightly less protective models are listed here, if the choice available isn't to your liking: [Inventory of the "almost" most protective motorcycle shoes, sneakers and short boots (EN 13634:1122, EN 13634:1212, EN 13634:1221) in June 2023]({{< ref "/post/Inventaire des chaussures, baskets et bottes courtes de moto \"presque\" les plus protectrices (EN 13634:1122, EN 13634:1212, EN 13634:1221) en juin 2023/index.md">}}).
 
-The same exercise for high boots: [Inventory of the most protective motorcycle high boots (EN 13634 : 2222) in June 2023]({{< ref "/post/Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023/index.md">}}).
+The same exercise for high boots: [Inventory of the most protective motorcycle high boots (EN 13634 : 2222) in June 2023]({{< ref "/post/Inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en juin 2023/index.md">}}).
 
 > _Edit of 13/09/2023: complete revision of the layout, new links, etc._
 
