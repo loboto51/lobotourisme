@@ -10,6 +10,8 @@ tags:
 
 ---
 
+*# Last update: 13/09/2023 #*
+
 I've updated my inventory of motorcycle high boots that meet the maximum EN 13634:2222 standard.
 
 I've changed the layout to arrange the equipment by price rather than by brand.
@@ -22,7 +24,9 @@ Some slightly less protective models are listed here, if the choice available is
 
 The same exercise for shoes, sneakers and short boots: [Inventory of the most protective motorcycle shoes, sneakers and short boots (EN 13634: 1222) in June 2023]({{< ref "/post/Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023/index.md">}}).
 
-> _Edit of 13/09/2023: complete revision of the layout, new links, etc._
+> _List of updates:_
+> 
+> _- 13/09/2023: complete revision of the layout, new links, etc._
 
 ---
 

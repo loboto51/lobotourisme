@@ -8,6 +8,8 @@ tags :
 
 ---
 
+*# Dernière mise à jour : 14/09/2023 #*
+
 Mise à jour de mon inventaire des gants moto qui atteignent le maximum de la norme EN 13594 : 2 KP.
 
 J'ai changé la présentation pour ranger les équipements par prix plutôt que par marque.
@@ -16,7 +18,9 @@ J'ai aussi ajouté diverses indications permettant de faire son choix : lieu de 
 
 J’ai mis le lien Motoblouz/Dafy/Fcmoto lorsque le produit était disponible au moment de la rédaction de l'article _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur Motoblouz)_.
 
-> _Edit du 14/09/2023 : révision complète de la mise en page, nouveaux liens, etc._
+> _Liste des mises à jour :_
+> 
+> _- 14/09/2023 : révision complète de la mise en page, nouveaux liens, etc._
 
 ---
 

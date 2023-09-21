@@ -10,7 +10,7 @@ tags:
 
 ---
 
-
+*# Dernière mise à jour : 13/09/2023 #*
 
 Mise à jour de mon inventaire des bottes de moto montantes qui atteignent le maximum de la norme EN 13634 : 2222.
 
@@ -24,7 +24,9 @@ Quelques bottes légèrement moins protectrices sont listées ici, si le choix n
 
 Le même exercice pour les chaussures, baskets et bottes courtes : [Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023]({{< ref "/post/Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023/index.md">}}).
 
-> _Edit du 13/09/2023 : révision complète de la mise en page, nouveaux liens, etc._
+> _Liste des mises à jour :_
+> 
+> _- 13/09/2023 : révision complète de la mise en page, nouveaux liens, etc._
 
 ---
 

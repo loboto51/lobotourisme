@@ -8,6 +8,8 @@ tags :
 
 ---
 
+*# Last update: 14/09/2023 #*
+
 I've updated my inventory of motorcycle gloves that meet the maximum EN 13594 standard: 2 KP.
 
 I've changed the layout to arrange the equipment by price rather than by brand.
@@ -16,7 +18,9 @@ I've also added various indications to help you make your choice: place of manuf
 
 I've put the Motoblouz/Dafy/Fcmoto link when the product was available at the time of writing _(note: I can get a few cents if you go through one of my links to buy on Motoblouz)_.
 
-> _Edit of 14/09/2023: complete revision of the layout, new links, etc._
+> _List of updates:_
+> 
+> _- 14/09/2023: complete revision of the layout, new links, etc._
 
 
 ---

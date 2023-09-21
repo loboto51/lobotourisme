@@ -12,11 +12,15 @@ tags:
 
 ---
 
+*# Dernière mise à jour : 14/09/2023 #*
+
 Cette page vient en complément de mon [inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en juin 2023]({{< ref "/post/Inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en juin 2023/index.md">}}), elle liste des bottes montantes qui ont tous les niveaux de protection au maximum sauf un, il s'agit donc des EN 13634:2122, EN 13634:2212 et EN 13634:2221.
 
 J’ai mis le lien Motoblouz/Dafy/Fcmoto lorsque le produit était disponible au moment de la rédaction de l'article _(note : Je peux toucher quelques centimes si vous passez par un de mes liens pour acheter sur Motoblouz)_.
 
-> _Edit du 14/09/2023 : révision complète de la mise en page, nouveaux liens, etc._
+> _Liste des mises à jour :_
+> 
+> _- 14/09/2023 : révision complète de la mise en page, nouveaux liens, etc._
 
 ---
 
