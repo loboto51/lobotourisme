@@ -9,6 +9,8 @@ tags:
 - Hugo clarity
 ---
 
+*# Last updated: 01/11/2023 #*
+
 _(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_
 
 The site you are viewing consists of a static _Hugo_ website hosted on _Github_ :
@@ -24,9 +26,10 @@ _https://MONLOGINGITHUB.github.io/MONDEPOT/_
 [_Hugo_](https://gohugo.io/) is a generator of static _web_ sites : You write pages in markdown, you launch Hugo, and it generates all the html and the structure of site that _Github_ will expose.
 
 <!--more-->
-
-> _Edit of 19/02/2022 : I switched to the [Anubis](https://github.com/mitrichius/hugo-theme-anubis) theme which is lighter and cleaner._  
-> _Edit of 06/02/2022 : Updated the action script with the latest version available on [Hugo - hosting on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)._
+> _List of updates:_  
+> _- 01/11/2023: Updated the action script with the latest version available on [Hugo - hosting on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/).
+> _- 19/02/2022: I switched to the [Anubis](https://github.com/mitrichius/hugo-theme-anubis) theme which is lighter and cleaner._  
+> _- 06/02/2022: Updated the action script with the latest version available on [Hugo - hosting on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)._
 
 
 How it works:
@@ -159,7 +162,7 @@ Create the conf file :
 ```sh
 cd MONSITE
 mkdir -p .github/workflows/
-touch .github/workflows/gh-pages.yml
+touch .github/workflows/hugo.yml
 ```
 
 2 - Put in the conf (I have enabled the "_extended = true_" option with respect to the template, for the purposes of the Clarity theme):

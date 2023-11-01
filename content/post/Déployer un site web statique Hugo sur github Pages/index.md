@@ -9,6 +9,8 @@ tags:
 - Hugo clarity
 ---
 
+*# Dernière mise à jour : 01/11/2023 #*
+
 Le site que vous consultez est constitué d'un site web statique _Hugo_ hébergé sur _Github_ :
 
 [_Github_](https://github.com/) fournit la possibilité d'exposer un site _web_ statique pour chaque dépôt public du compte. Il suffit d'avoir :
@@ -22,9 +24,10 @@ _https://MONLOGINGITHUB.github.io/MONDEPOT/_
 [_Hugo_](https://gohugo.io/) quand à lui est un générateur de sites _web_ statiques : On écrit des pages en markdown, on lance Hugo, et il génère tout le html et la structure de site que _Github_ exposera.
 
 <!--more-->
-
-> _Edit du 19/02/2022 : Je suis passé au thème [Anubis](https://github.com/mitrichius/hugo-theme-anubis) plus léger et épuré._  
-> _Edit du 06/02/2022 : Mise à jour du script d'action avec la dernière version disponible sur [Hugo - hosting on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)._
+> _Liste des mises à jour :_  
+> _- 01/11/2023 : Mise à jour du script d'action avec la dernière version disponible sur [Hugo - hosting on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)._  
+> _- 19/02/2022 : Je suis passé au thème [Anubis](https://github.com/mitrichius/hugo-theme-anubis) plus léger et épuré._  
+> _- 06/02/2022 : Mise à jour du script d'action avec la dernière version disponible sur [Hugo - hosting on github](https://gohugo.io/hosting-and-deployment/hosting-on-github/)._
 
 
 Mode opératoire :
@@ -155,7 +158,7 @@ Créer le fichier de conf :
 ```sh
 cd MONSITE
 mkdir -p .github/workflows/
-touch .github/workflows/gh-pages.yml
+touch .github/workflows/hugo.yml
 ```
 
 2 - Y mettre la conf (j'ai activé l'option "_extended = true_" par rapport au modèle, pour les besoins du thème Clarity) :
