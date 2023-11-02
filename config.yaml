@@ -9,6 +9,11 @@ googleAnalytics: ""
 enableRobotsTXT: true
 enableGitInfo: true
 
+frontmatter:
+  date:
+  - lastmod
+  - date
+
 languages:
   fr:
     languageName: "Français"

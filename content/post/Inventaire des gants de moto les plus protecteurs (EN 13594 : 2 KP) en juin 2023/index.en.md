@@ -1,6 +1,7 @@
 ---
 title: "Inventory of the most protective motorcycle gloves (EN 13594 : 2 KP) in June 2023"
 date: "2023-06-14"
+lastmod: "2023-11-01"
 categories:
 - Motorcycle
 tags :

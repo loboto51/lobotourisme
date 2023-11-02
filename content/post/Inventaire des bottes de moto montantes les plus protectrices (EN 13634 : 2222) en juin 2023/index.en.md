@@ -1,6 +1,7 @@
 ---
 title: "Inventory of the most protective motorcycle high boots (EN 13634 : 2222) in June 2023"
 date: "2023-06-06"
+lastmod: "2023-10-25"
 categories:
 - Motorcycle
 tags: 

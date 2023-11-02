@@ -1,6 +1,7 @@
 ---
 title: "Deploying a static Hugo website on Github Pages"
 date: "2021-04-22"
+lastmod: "2023-11-01"
 categories: 
 - Dev
 tags: 

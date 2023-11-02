@@ -1,6 +1,7 @@
 ---
 title: "Inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en juin 2023"
 date: "2023-06-06"
+lastmod: "2023-10-25"
 categories:
 - Moto
 tags: 

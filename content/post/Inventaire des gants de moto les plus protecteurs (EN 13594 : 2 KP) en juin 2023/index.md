@@ -1,6 +1,7 @@
 ---
 title: "Inventaire des gants de moto les plus protecteurs (EN 13594 : 2 KP) en juin 2023"
 date: "2023-06-14"
+lastmod: "2023-11-01"
 categories:
 - Moto
 tags :
