@@ -8,9 +8,8 @@ tags :
 - Summer/ventilated motorcycle pants
 - Motorcycle jeans
 - Single layer motorcycle jeans
-- EN 17092 - AA
-- EN 17092 - AAA
-
+- Motorcycle pants EN 17092 - AA
+- Motorcycle pants EN 17092 - AAA
 ---
 
 _(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_

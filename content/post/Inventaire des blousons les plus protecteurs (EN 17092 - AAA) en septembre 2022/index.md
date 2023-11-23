@@ -5,6 +5,7 @@ categories:
 - Moto
 tags :
 - Blousons moto
+- Blousons moto EN 17092 - AAA
 
 ---
 

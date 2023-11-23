@@ -6,8 +6,8 @@ categories:
 tags: 
 - Course
 - Course Rocker
-- Pantalon moto
-
+- Pantalons moto
+- Pantalons moto EN 17092 - AA
 ---
 
 Cette fiche décrit mon essai des jeans renforcés en Aramide/Kevlar _Course Rocker_ vendus par le site _XLMoto_ à des tarifs assez bas (60 à 80€).

@@ -9,10 +9,12 @@ tags:
 - Short motorcycle boots
 - Motorcycle shoes
 - Motorcycle sneakers
-- EN 13634 - 1122
-- EN 13634 - 1212
-- EN 13634 - 1221
+- Motorcycle boots EN 13634 - Level 1122
+- Motorcycle boots EN 13634 - Level 1212
+- Motorcycle boots EN 13634 - Level 1221
 ---
+
+_(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_
 
 *# Last update: 12/11/2023 #*
 

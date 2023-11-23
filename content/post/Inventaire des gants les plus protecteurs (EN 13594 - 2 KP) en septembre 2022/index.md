@@ -5,7 +5,7 @@ categories:
 - Moto
 tags :
 - Gants moto
-
+- Gants moto EN 13594 - Niveau 2 KP
 ---
 
 > MISE A JOUR 2023 : [Inventaire des gants de moto les plus protecteurs (EN 13594 : 2 KP) en juin 2023]({{< ref "/post/Inventaire des gants de moto les plus protecteurs (EN 13594 : 2 KP) en juin 2023/index.md">}})

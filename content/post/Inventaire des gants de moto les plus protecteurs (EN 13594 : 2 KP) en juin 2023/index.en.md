@@ -6,7 +6,7 @@ categories:
 - Motorcycle
 tags :
 - Motorcycle gloves
-
+- Motorcycle gloves EN 13594 - Level 2 KP
 ---
 
 *# Last update: 01/11/2023 #*

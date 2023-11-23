@@ -7,10 +7,9 @@ categories:
 tags: 
 - Bottes moto
 - Bottes moto hautes
-- EN 13634 - 2122
-- EN 13634 - 2212
-- EN 13634 - 2221
-
+- Bottes moto EN 13634 - Niveau 2122
+- Bottes moto EN 13634 - Niveau 2212
+- Bottes moto EN 13634 - Niveau 2221
 ---
 
 *# Dernière mise à jour : 12/11/2023 #*

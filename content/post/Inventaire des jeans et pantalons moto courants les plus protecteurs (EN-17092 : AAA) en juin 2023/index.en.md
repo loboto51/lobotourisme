@@ -7,7 +7,7 @@ categories:
 tags :
 - Motorcycle pants
 - Motorcycle jeans
-- EN 17092 - AAA
+- Motorcycle pants EN 17092 - AAA
 ---
 
 *# Last update: 13/11/2023 #*

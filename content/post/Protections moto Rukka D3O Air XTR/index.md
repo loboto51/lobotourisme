@@ -13,6 +13,12 @@ tags:
 - Protections moto hanches
 - Protections moto jambes
 - Protections moto thorax
+- Protections moto coudes EN 1621-1 - Niveau 2
+- Protections moto genoux EN 1621-1 - Niveau 2
+- Protections moto hanches EN 1621-1 - Niveau 2
+- Protections moto jambes EN 1621-1 - Niveau 2
+- Protections moto épaules EN 1621-1 - Niveau 2
+- Protections moto thorax EN 1621-3 - Niveau 1
 
 ---
 

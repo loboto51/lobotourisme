@@ -9,8 +9,7 @@ tags:
 - Bottes moto courtes
 - Chaussures moto
 - Baskets/sneakers moto
-- EN 13634 - 1222
-
+- Bottes moto EN 13634 - Niveau 1222
 ---
 
 *# Dernière mise à jour : 12/11/2023 #*

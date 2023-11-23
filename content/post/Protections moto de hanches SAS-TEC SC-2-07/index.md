@@ -7,6 +7,7 @@ tags:
 - SAS-TEC
 - SAS-TEC SC-2/07
 - Protections moto hanches
+- Protections moto hanches EN 1621-1 - Niveau 2
 ---
 
 Cette fiche récapitule les informations disponibles sur le net sur les coques de protection de hanches _SAS-TEC SC-2/07_ de niveau 2, je possède ce modèle, les photos de l'article sont de moi.

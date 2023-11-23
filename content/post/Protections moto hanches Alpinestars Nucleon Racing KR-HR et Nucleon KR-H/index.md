@@ -9,6 +9,7 @@ tags:
 - Alpinestars KR-HR
 - Protections moto hanches
 - Protections moto thorax
+- Protections moto hanches EN 1621-1 - Niveau 2
 
 ---
 

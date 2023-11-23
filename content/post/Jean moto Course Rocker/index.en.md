@@ -7,7 +7,7 @@ tags:
 - Course
 - Course Rocker
 - Motorcycle pants
-
+- Motorcycle pants EN 17092 - AA
 ---
 
 _(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_

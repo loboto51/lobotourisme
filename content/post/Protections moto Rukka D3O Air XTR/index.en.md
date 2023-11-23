@@ -13,6 +13,12 @@ tags:
 - Motorcycle hips protectors
 - Motorcycle leg protectors
 - Motorcycle chest protectors
+- Motorcycle elbow protectors EN 1621-1 - Level 2
+- Motorcycle knee protectors EN 1621-1 - Level 2
+- Motorcycle hip protectors EN 1621-1 - Level 2
+- Motorcycle leg protectors EN 1621-1 - Level 2
+- Motorcycle shoulder protectors EN 1621-1 - Level 2
+- Motorcycle chest protectors EN 1621-3 - Level 1
 
 ---
 

@@ -8,7 +8,7 @@ tags:
 - Short motorcycle boots
 - Motorcycle shoes
 - Motorcycle sneakers
-
+- Motorcycle boots EN 13634 - Level 1222
 ---
 
 _(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_

@@ -6,7 +6,7 @@ categories:
 tags :
 - Blousons moto
 - Blousons moto été/ventilés
-- EN 17092 - AA
+- Blousons moto EN 17092 - AA
 
 ---
 

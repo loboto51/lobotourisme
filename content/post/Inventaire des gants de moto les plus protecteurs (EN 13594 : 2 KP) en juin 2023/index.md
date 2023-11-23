@@ -6,7 +6,7 @@ categories:
 - Moto
 tags :
 - Gants moto
-
+- Gants moto EN 13594 - Niveau 2 KP
 ---
 
 *# Dernière mise à jour : 01/11/2023 #*

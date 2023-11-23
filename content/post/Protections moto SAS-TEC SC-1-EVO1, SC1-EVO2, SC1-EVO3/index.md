@@ -9,7 +9,9 @@ tags:
 - Protections moto genoux
 - Protections moto coudes
 - Protections moto épaules
-
+- Protections moto coudes EN 1621-1 - Niveau 2
+- Protections moto genoux EN 1621-1 - Niveau 2
+- Protections moto épaules EN 1621-1 - Niveau 2
 ---
 
 Cette fiche récapitule les informations que j'ai pu glaner sur le net sur les coques de protection _SAS-TEC SC1/EVO_ 1, 2 et 3 de niveau 2.

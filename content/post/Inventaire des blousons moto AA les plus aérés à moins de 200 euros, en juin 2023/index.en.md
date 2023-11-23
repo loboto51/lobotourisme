@@ -6,7 +6,7 @@ categories:
 tags :
 - Motorcycle jackets
 - Summer/ventilated motorcycle jackets
-- EN 17092 - AA
+- Motorcycle Jackets EN 17092 - AA
 
 ---
 

@@ -8,8 +8,8 @@ tags :
 - Pantalons moto été/ventilés
 - Jeans moto
 - Jeans moto single layer
-- EN 17092 - AA
-- EN 17092 - AAA
+- Pantalons moto EN 17092 - AA
+- Pantalons moto EN 17092 - AAA
 
 ---
 

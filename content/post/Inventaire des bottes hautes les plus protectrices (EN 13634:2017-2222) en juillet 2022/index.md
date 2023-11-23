@@ -5,7 +5,7 @@ categories:
 - Moto
 tags :
 - Bottes moto
-
+- Bottes moto EN 13634 - Niveau 2222
 ---
 
 > MISE A JOUR 2023 : [Inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en juin 2023]({{< ref "/post/Inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en juin 2023/index.md">}})

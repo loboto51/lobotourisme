@@ -10,7 +10,10 @@ tags:
 - Motorcycle elbow protectors
 - Motorcycle shoulder protectors
 - Motorcycle leg protectors
-
+- Motorcycle elbow protectors EN 1621-1 - Level 2
+- Motorcycle knee protectors EN 1621-1 - Level 2
+- Motorcycle leg protectors EN 1621-1 - Level 2
+- Motorcycle shoulder protectors EN 1621-1 - Level 2
 ---
 
 _(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_

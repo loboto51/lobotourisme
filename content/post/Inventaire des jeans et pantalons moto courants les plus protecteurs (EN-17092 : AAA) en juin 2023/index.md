@@ -7,7 +7,7 @@ categories:
 tags :
 - Pantalons moto
 - Jeans moto
-- EN 17092 - AAA
+- Pantalons moto EN 17092 - AAA
 ---
 
 *# Dernière mise à jour : 13/11/2023 #*

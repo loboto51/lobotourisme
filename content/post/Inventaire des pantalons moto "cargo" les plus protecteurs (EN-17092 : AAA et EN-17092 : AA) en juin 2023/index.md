@@ -6,8 +6,8 @@ categories:
 tags :
 - Pantalons moto
 - Pantalons moto cargo
-- EN 17092 - AAA
-- EN 17092 - AA
+- Pantalons moto EN 17092 - AAA
+- Pantalons moto EN 17092 - AA
 ---
 
 Cette page inventorie les pantalons moto de type "cargo"qui atteignent les 2 niveaux supérieurs de la norme EN 17092 : AAA et AA.

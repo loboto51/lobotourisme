@@ -7,7 +7,7 @@ tags:
 - Stylmartin
 - Stylmartin Rocket
 - Bottes moto
-
+- Bottes moto EN 13634 - Niveau 2211
 ---
 
 Un court billet pour donner les caractéristiques des bottes Rocket de chez Stylmartin car je me suis rendu compte qu'elles étaient très difficiles à trouver sur internet.

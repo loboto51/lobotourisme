@@ -9,6 +9,9 @@ tags:
 - Protections moto genoux
 - Protections moto coudes
 - Protections moto jambes
+- Protections moto coudes EN 1621-1 - Niveau 2
+- Protections moto genoux EN 1621-1 - Niveau 2
+- Protections moto jambes EN 1621-1 - Niveau 2
 
 ---
 

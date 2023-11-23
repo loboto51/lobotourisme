@@ -7,11 +7,12 @@ categories:
 tags: 
 - Motorcycle boots
 - High motorcycle boots
-- EN 13634 - 2122
-- EN 13634 - 2212
-- EN 13634 - 2221
-
+- Motorcycle boots EN 13634 - Level 2122
+- Motorcycle boots EN 13634 - Level 2212
+- Motorcycle boots EN 13634 - Level 2221
 ---
+
+_(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_
 
 *# Last update: 12/11/2023 #*
 

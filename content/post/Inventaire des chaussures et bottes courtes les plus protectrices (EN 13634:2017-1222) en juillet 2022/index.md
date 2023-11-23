@@ -8,7 +8,7 @@ tags:
 - Bottes moto courtes
 - Chaussures moto
 - Baskets/sneakers moto
-
+- Bottes moto EN 13634 - Niveau 1222
 ---
 
 > MISE A JOUR 2023 : [Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023]({{< ref "/post/Inventaire des chaussures, baskets et bottes courtes moto les plus protectrices (EN 13634 : 1222) en juin 2023/index.md">}})
