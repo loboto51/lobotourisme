@@ -45,6 +45,7 @@ tags :
 - Gants moto EN 13594 - Niveau 1
 - Gants moto EN 13594 - Niveau 1 KP
 - Gants moto EN 13594 - Niveau 2 KP
+- Bottes moto
 - Bottes moto EN 13634 - Niveau 1111
 - Bottes moto EN 13634 - Niveau 1112
 - Bottes moto EN 13634 - Niveau 1211
