@@ -14,6 +14,7 @@ tags :
 - Rev'It
 ---
 
+_(This post was automatically translated -with some manual corrections- with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_
 
 There are several options for protecting your back:
 
@@ -231,7 +232,6 @@ The standard BMW back protector :
 
 
 **BMW Ruckenprotektor 2 (6.8 kN) :**
-
 Seems to cover shoulder blades, kidneys and tailbone well.
 
 ![](<BMW ruckenprotektor 2 - Kradblatt.png> "BMW ruckenprotektor 2 - Kradblatt.de")
@@ -240,7 +240,6 @@ Seems to cover shoulder blades, kidneys and tailbone well.
 
 
 **Clover Back-pro 5 (5.5 kN) :**
-
 Seems to cover the shoulder blades and tailbone well, less the kidneys.
 
 ![](<Clover Back-pro 5 - source Amotomio.png> "Clover Back-pro 5 - source Amotomio")
@@ -248,27 +247,23 @@ Seems to cover the shoulder blades and tailbone well, less the kidneys.
 (source image : [Amotomio - Clover Back-Pro 5 - Test](https://www.amotomio.it/le-nostre-prove/1763-clover-back-pro-5-test-amotomioit.html))
 
 **Dainese N-Frame (6.81 kN/6.5 kN) :**
-
 Seems to cover the shoulder blades, kidneys and a little of the tailbone.
 
 ![](<Dainese N-Frame.png> "Dainese N-Frame - source Dainese")
 
 
 **Dainese Wave Air (7.52 kN) :**
-
 Very low coverage beyond the spine.
 
 ![](<Dainese Wave D1 Air.png> "Dainese Wave D1 Air - source Dainese")
 
 
 **Forcefield Pro LK2 Evo (7.17 kN) :**
-
 Seems to cover shoulder blades, kidneys and tailbone well.
 
 ![](<Forcefield pro L2K evo.png> "Forcefield pro L2K evo - source Forcefield")
 
 **Forcefield Pro Sub4K (4,26 kN) :**
-
 Seems to cover shoulder blades, kidneys and tailbone well.
 
 ![](<Forcefield Pro Sub 4K - source Cover.png> "Forcefield Pro Sub 4K - source Corver")
@@ -276,7 +271,6 @@ Seems to cover shoulder blades, kidneys and tailbone well.
 (source image : [Espaldera de moto Forcefield PRO SUB 4K Back protector](https://www.corver.es/productos/espaldera-de-moto-forcefield-pro-sub-4k-back-protector))
 
 **Komperdell cross (4.97 kN/5.13 kN):**
-
 Seems to cover the shoulder blades and tailbone well, less the kidneys.
 Back protector is difficult to find under its original brand, as Komperdell seems to focus mainly on its horse riding jackets and no longer sells motorbike equipment.
 On the other hand, white-label models distributed by many brands are easy to find: Vanucci vest at Louis Moto, Held Recia/Salvo, IXS Carapax, etc.
@@ -303,15 +297,12 @@ On the other hand, white-label models distributed by many brands are easy to fin
 
 
 **Racer Viper d3o (6.06 kN) :**
-
 Seems very covering, except perhaps at the tailbone.
 
 ![](<Racer Viper 2 D3O.png> "Racer Viper 2 D3O")
 
 
 **Spidi back warrior evo (8,1 kN) :**
-
-
 Covers the shoulder blades and tailbone, but not the kidneys.
 
 
@@ -325,8 +316,6 @@ Covers the shoulder blades and tailbone, but not the kidneys.
 
 
 **Tryonic feel 3.7 (5.57 kN) :**
-
-
 Also sold under the name Vanucci Back 1.1.
 Depending on the size the shape changes enormously and so does what it covers, overall the shoulder blades seem exposed at the top, and the kidneys seem poorly protected.
 
@@ -348,7 +337,6 @@ Depending on the size the shape changes enormously and so does what it covers, o
 ![](<Vanucci Back 1.1.png> "Vanucci Back 1.1")
 
 **Zandona shark (6.6 kN/6.5 kN) :**
-
 Special case:
 Zandona produces its models in many sizes (X6, X7, X8, X9...) and the width seems to remain identical with the size, so the smaller models seem to provide more coverage for the shoulder blades and kidneys, while the larger models appear narrow.
 
@@ -365,7 +353,6 @@ There are adult sizes from 1m57 upwards, as well as children's models.
 ![](<Zandona shark X6.png> "Zandona shark X6")
 
 **Zandona spine (6.8 kN) :**
-
 (Same remarks as for the Zandona Shark)
 
 ![](<Zandona spine - source XLMoto.png> "Zandona spine - source XLMoto")
@@ -373,7 +360,6 @@ There are adult sizes from 1m57 upwards, as well as children's models.
 (source image : [XLMoto - Zandonà Spine EVC x8 Back Protector Black (178-187 cm)](https://www.xlmoto.eu/product/zandona-spine-evc-x8-back-protector-black-178-187-cm_pid-PM-3904732))
 
 **Zandona Esatech (5.54 kN/4.6 kN):**
-
 Seems to cover the shoulder blades better than its Zandona siblings, but the kidneys are a little left out.
 
 ![](<Zandona Esatech - source Amotomio.png> "Zandona Esatech - source Amotomio")

@@ -223,53 +223,39 @@ La dorsale BMW standard :
 ## Dorsales à bretelles :
 
 
-**BMW Ruckenprotektor 2 (6,8 kN) :**
-
-Semble bien couvrir omoplates, reins et coccyx.
+**BMW Ruckenprotektor 2 (6,8 kN) :** Semble bien couvrir omoplates, reins et coccyx.
 
 ![](<BMW ruckenprotektor 2 - Kradblatt.png> "BMW ruckenprotektor 2 - Kradblatt.de")
 
 (source image : [Kradblatt.de - BMW Rückenprotektor 2](https://kradblatt.de/bmw-rueckenprotektor-2/))
 
-**Clover Back-pro 5 (5,5 kN) :**
-
-Semble bien couvrir omoplates et coccyx, moins les reins.
+**Clover Back-pro 5 (5,5 kN) :** Semble bien couvrir omoplates et coccyx, moins les reins.
 
 ![](<Clover Back-pro 5 - source Amotomio.png> "Clover Back-pro 5 - source Amotomio")
 
 (source image : [Amotomio - Clover Back-Pro 5 – Test](https://www.amotomio.it/le-nostre-prove/1763-clover-back-pro-5-test-amotomioit.html))
 
-**Dainese N-Frame (6,81 kN/6,5 kN) :**
-
-Semble bien couvrir omoplates, reins et un peu le coccyx.
+**Dainese N-Frame (6,81 kN/6,5 kN) :** Semble bien couvrir omoplates, reins et un peu le coccyx.
 
 ![](<Dainese N-Frame.png> "Dainese N-Frame - source Dainese")
 
 
-**Dainese Wave Air (7,52 kN) :**
-
-Très faible couverture au delà de la colonne vertébrale.
+**Dainese Wave Air (7,52 kN) :** Très faible couverture au delà de la colonne vertébrale.
 
 ![](<Dainese Wave D1 Air.png> "Dainese Wave D1 Air - source Dainese")
 
 
-**Forcefield Pro LK2 Evo (7,17 kN) :**
-
-Semble bien couvrir omoplates, reins et coccyx.
+**Forcefield Pro LK2 Evo (7,17 kN) :** Semble bien couvrir omoplates, reins et coccyx.
 
 ![](<Forcefield pro L2K evo.png> "Forcefield pro L2K evo - source Forcefield")
-
-**Forcefield Pro Sub4K (4,26 kN) :**
-
-Semble bien couvrir omoplates, reins et coccyx.
+ 
+**Forcefield Pro Sub4K (4,26 kN) :** Semble bien couvrir omoplates, reins et coccyx.
 
 ![](<Forcefield Pro Sub 4K - source Cover.png> "Forcefield Pro Sub 4K - source Corver")
 
 (source image : [Espaldera de moto Forcefield PRO SUB 4K Back protector](https://www.corver.es/productos/espaldera-de-moto-forcefield-pro-sub-4k-back-protector))
 
-**Komperdell cross (4,97 kN/5,13 kN):**
-
-Semble bien couvrir les omoplates et le coccyx, moins les reins.
+**Komperdell cross (4,97 kN/5,13 kN):** Semble bien couvrir les omoplates et le coccyx, moins les reins.
 Dorsale difficile à trouver sous sa marque d'origine, Komperdell semble surtout valoriser ses gilets d'équitation et ne plus vendre de matériel moto.
 En revanche, on trouve facilement les modèles distribués en marque blanche par beaucoup de marques : Vanucci vest chez Louis Moto, Held Recia/Salvo, IXS Carapax...
 
@@ -295,13 +281,11 @@ En revanche, on trouve facilement les modèles distribués en marque blanche par
 (source images : [Acidmoto - Dorsale iXS Carapax, le gilet de protection de niveau 2](https://acidmoto.ch/cms/content/news/2012/05/08/dorsale-ixs-carapax-gilet-protection-niveau-2))
 
 
-**Racer Viper d3o (6,06 kN) :**
-Semble très couvrante, sauf peut-être au coccyx.
+**Racer Viper d3o (6,06 kN) :** Semble très couvrante, sauf peut-être au coccyx.
 
 ![](<Racer Viper 2 D3O.png> "Racer Viper 2 D3O")
 
-**Spidi back warrior evo (8,1 kN) :**
-
+**Spidi back warrior evo (8,1 kN) :** 
 Couvre les omoplates et le coccyx, mas pas trop les reins.
 
 ![](<Spidi Back Warrior Evo.png> "Spidi Back Warrior Evo")
@@ -311,7 +295,6 @@ Couvre les omoplates et le coccyx, mas pas trop les reins.
 (source image : [Bikereview.com.au - Gear Review: Spidi Back Warrior EVO Back Protector](https://bikereview.com.au/gear-review-spidi-back-warrior-evo-back-protector/))
 
 **Tryonic feel 3.7 (5,57 kN) :**
-
 Aussi vendue sous le nom Vanucci Back 1.1.
 Suivant la taille la forme change énormément et ce qu'elle couvre aussi, globalement les omoplates semblent découverts en haut, et les reins semblent peu protégés.
 
@@ -332,7 +315,6 @@ Suivant la taille la forme change énormément et ce qu'elle couvre aussi, globa
 ![](<Vanucci Back 1.1.png> "Vanucci Back 1.1")
 
 **Zandona shark (6,6 kN/6,5 kN) :**
-
 Cas particulier :
 Zandona produit ses modèles en beaucoup de tailles (X6, X7, X8, X9...) et la largeur semble rester identique avec la taille, du coup les petits modèles semblent plus couvrants pour les omoplates et les reins, tandis que les grands modèles paraissent étroits.
 
@@ -349,7 +331,6 @@ Il y des tailles pour adulte à partir d'1m57 ainsi que des modèles enfant.
 ![](<Zandona shark X6.png> "Zandona shark X6")
 
 **Zandona spine (6,8 kN) :**
-
 (Mêmes remarques que pour la Zandona Shark)
 
 ![](<Zandona spine - source XLMoto.png> "Zandona spine - source XLMoto")
