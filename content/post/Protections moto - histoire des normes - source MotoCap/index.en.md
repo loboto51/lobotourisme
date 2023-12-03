@@ -42,9 +42,11 @@ tags :
 - Motorcycle pants NF EN 13595 - Niveau 2
 - Motorcycle jackets NF EN 13595 - Niveau 1
 - Motorcycle jackets NF EN 13595 - Niveau 2
+- Motorcycle gloves
 - Motorcycle gloves EN 13594 - Level 1
 - Motorcycle gloves EN 13594 - Level 1 KP
 - Motorcycle gloves EN 13594 - Level 2 KP
+- Motorcycle boots
 - Motorcycle boots EN 13634 - Level 1111
 - Motorcycle boots EN 13634 - Level 1112
 - Motorcycle boots EN 13634 - Level 1211

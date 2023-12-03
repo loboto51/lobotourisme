@@ -42,6 +42,7 @@ tags :
 - Pantalons moto NF EN 13595 - Niveau 2
 - Blousons moto NF EN 13595 - Niveau 1
 - Blousons moto NF EN 13595 - Niveau 2
+- Gants moto
 - Gants moto EN 13594 - Niveau 1
 - Gants moto EN 13594 - Niveau 1 KP
 - Gants moto EN 13594 - Niveau 2 KP
