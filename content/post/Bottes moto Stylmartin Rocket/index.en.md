@@ -10,7 +10,7 @@ tags:
 - Motorcycle boots EN 13634 - Level 2211
 ---
 
-_(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_
+_(This post was automatically translated -with some manual corrections- with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_
 
 A short post to give the features of the Rocket boots from Stylmartin because I realized that they were very hard to find on the internet.
 

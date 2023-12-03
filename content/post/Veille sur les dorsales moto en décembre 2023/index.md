@@ -21,6 +21,8 @@ Il existe plusieurs options pour se protéger le dos :
 2. Dorsale autonomes à bretelles : elles ont la possibilité de couvrir davantage qu'une dorsale intégrée, mais ce n'est pas systématiquement le cas ;
 3. Gilet de protection : Combinera les avantages de la dorsale autonome avec une protection thorax en une ou deux parties, et couvre généralement aussi des zones comme les malléole.
 
+<!--more-->
+
 Tous ces équipements sont soumis à la même norme EN 1621-2:2014 pour la partie dorsale. Cette norme comporte 2 niveaux mais le niveau 1 n'a pas beaucoup de sens : 
 
 - Le niveau 2 absorbe nettement plus les chocs (énergie résiduelle <9 kN vs < 18 kN) ;

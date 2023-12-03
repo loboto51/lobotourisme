@@ -73,6 +73,8 @@ Les auteurs sont :
 - Paul Varnsverry, directeur de l'organisme de certification PVA-PPE [[LinkedIn]](https://uk.linkedin.com/in/paul-varnsverry-54027726) ;
 - Liz de Rome, chercheuse à l'Univ. de Deakin [[ResearchGate]](https://www.researchgate.net/profile/Liz-De-Rome) [[LinkedIn]](https://au.linkedin.com/in/liz-de-rome-8a7b4915).
 
+<!--more-->
+
 Ils s'étendent surtout sur les normes successivement volontaires (EN 13595 et NF EN 13595, à 2 niveaux) puis obligatoires  (EN 17092 à 5 niveaux) pour les pantalons et blousons moto. En 2e partie je reprends leurs principales critiques concernant celle-ci.
 
 Ils n'abordent pratiquement pas les norme pour les gants les bottes moto, EN 13594 et EN 13634. Celle pour les gants est systématiquement présente au moins en France où le port de gants CE est obligatoire. Celle pour les bottes semble moins suivie étant donné le nombre de bottes vendus en magasin sans étiquette "CE".

@@ -22,6 +22,8 @@ There are several options for protecting your back:
 2. Stand-alone back protector with shoulder straps: these can provide more coverage than an integrated back protector, but this is not always the case;
 3. Protective vest: combines the advantages of a stand-alone back protector with one- or two-piece chest protection, and usually also covers areas such as the malleolus.
 
+<!--more-->
+
 All this equipment is subject to the same EN 1621-2:2014 standard for the back protector. This standard has 2 levels, but level 1 doesn't make much sense: 
 
 - Level 2 is significantly more shock-absorbent (residual energy <9 kN vs <18 kN);

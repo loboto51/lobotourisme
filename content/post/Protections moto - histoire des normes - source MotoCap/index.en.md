@@ -75,6 +75,8 @@ The authors are :
 - Paul Varnsverry, dir. of certification body PVA-PPE [[LinkedIn]](https://uk.linkedin.com/in/paul-varnsverry-54027726) ;
 - Liz de Rome, researcher Univ. of Deakin [[ResearchGate]](https://www.researchgate.net/profile/Liz-De-Rome) [[LinkedIn]](https://au.linkedin.com/in/liz-de-rome-8a7b4915).
 
+<!--more-->
+
 They focus on the voluntary (EN 13595 and NF EN 13595, 2 levels) then mandatory (EN 17092, 5 levels) standards for motorcycle pants and jackets. In Part 2, I take up their main criticisms of the latter.
 
 They hardly mention the standards for motorcycle gloves and boots, EN 13594 and EN 13634. The one for gloves is systematically present, at least in France where CE gloves must be worn. The standard for boots seems to be less closely followed, given the number of boots sold in stores without a CE label.
