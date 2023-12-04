@@ -10,7 +10,8 @@ tags:
 - Bottes moto EN 13634 - Niveau 2222
 ---
 
-*# Dernière mise à jour : 25/10/2023 #*
+*# NOUVELLE VERSION DE CET ARTICLE ICI : [Inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en décembre 2023]({{< ref "/post/Inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en décembre 2023/index.md">}}) #*
+
 
 Mise à jour de mon inventaire des bottes de moto montantes qui atteignent le maximum de la norme EN 13634 : 2222.
 

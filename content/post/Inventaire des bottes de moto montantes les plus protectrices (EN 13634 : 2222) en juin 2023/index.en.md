@@ -12,7 +12,8 @@ tags:
 
 _(This post was automatically translated with [www.DeepL.com/Translator](http://www.DeepL.com/Translator))_
 
-*# Last update: 25/10/2023 #*
+*# UPDATED ARTICLE HERE : [Inventory of the most protective motorcycle riding boots (EN 13634 : 2222) in December 2023]({{< ref "/post/Inventaire des bottes de moto montantes les plus protectrices (EN 13634 : 2222) en décembre 2023/index.md">}}) #*
+
 
 I've updated my inventory of motorcycle high boots that meet the maximum EN 13634:2222 standard.
 
