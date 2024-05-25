@@ -1,6 +1,12 @@
  
-kofi:
-  other: "Vous m'offrez un café ?"
+kofi-h1:
+  other: "Vous aimez le contenu du blog et souhaitez le soutenir ?"
+
+kofi-blabla:
+  other: "Pour maintenir ma motivation (et mon sommeil agité) vous pouvez m'offrir l'équivalent d'un café à travers la plateforme Ko-Fi :"
+
+kofi-je-soutiens:
+  other: "Merci !"
 
 readNext:
   other: "Sur des thèmes similaires"

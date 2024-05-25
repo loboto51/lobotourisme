@@ -51,11 +51,17 @@ languages:
         url: /categories/moto/
         weight: 6
 
+      - identifier: culture
+        name: Culture
+        title: Culture
+        url: /categories/culture/
+        weight: 7
+
       - identifier: apropos
         name: A propos
         title: A propos
         url: /about/
-        weight: 7
+        weight: 8
 
   en:
     languageName: "English"
@@ -93,11 +99,17 @@ languages:
         url: en/categories/motorcycle/
         weight: 6
 
+      - identifier: culture
+        name: Culture
+        title: Culture
+        url: en/categories/culture/
+        weight: 7
+
       - identifier: about
         name: About
         title: About
         url: en/about/
-        weight: 7
+        weight: 8
 
 params:
   author: "Loboto"
