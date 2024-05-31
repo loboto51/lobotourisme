@@ -138,9 +138,9 @@ params:
   utterancesIssue: "" # optional
   utterancesLabel: "" # optional
   social:
-  - id: kofi
-    name: Ko-Fi
-    url: "https://ko-fi.com/lobotourisme"
+#  - id: kofi
+#    name: Ko-Fi
+#    url: "https://ko-fi.com/lobotourisme"
   - id: github
     name: loboto51
     url: "https://github.com/loboto51/"
