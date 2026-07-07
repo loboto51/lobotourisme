@@ -9,6 +9,10 @@ googleAnalytics: ""
 enableRobotsTXT: true
 enableGitInfo: true
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 frontmatter:
   date:
   - lastmod
