@@ -25,7 +25,12 @@
         <div class="content e-content">
             {{ .Content }}
         </div>
-        {{ partial "post-info.html" . }}    
+        {{ partial "post-info.html" . }}
+
+<div class="cafe"><h1>{{ i18n "kofi-h1" }}</h1>
+<p>{{ i18n "kofi-blabla" }}
+    <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init({{ i18n "kofi-je-soutiens" }}, '#19b3fa', 'K3K4OAP7F');kofiwidget2.draw();</script></p>
+    </div>        
 
     </article>
 
