@@ -105,7 +105,7 @@ Note : La plupart des photos viennent de la conversation [advrider.com : CE2 Rep
 
 ### Photos générales :
 
-Face, dos et notations (source : [advrider]((https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/))) :
+Face, dos et notations (source : [advrider](https://advrider.com/f/threads/ce2-replacement-armor-database-comparison.1466522/)) :
 
 ![forcefield-isolator-2_EB-KB_niv2_dos__source_advrider.jpg](forcefield-isolator-2_EB-KB_niv2_dos__source_advrider.jpg)
 
